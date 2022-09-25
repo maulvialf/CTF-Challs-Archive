@@ -1,0 +1,3 @@
+title: People
+value: 162
+description: With the new People personal pages, all the members of the EPFL community can have their own page personalize it with Markdown and much more...
