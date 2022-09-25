@@ -1,0 +1,3 @@
+title: NeedToCough
+value: 400
+description: Our important file, flag.jpg, has been encrypted by the totally new ransomware NeedToCough. The group is claiming to be pentesters... but their attack kinda seems like criminal extortion to us. We were able to recover this PCAP from our IDS and it appears to be related to the attack. We nee you to investigate the attached files and recover our flag! Warning: The binary payload was created for CTF purposes but is arguably malware. It should be restricted to files named "flag.jpg" - though this cannot be guarenteed. As always: do your reversing in a VM and ask for help if you need it.

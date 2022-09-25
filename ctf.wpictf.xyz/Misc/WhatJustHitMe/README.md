@@ -1,0 +1,3 @@
+title: WhatJustHitMe
+value: 50
+description: Our WPICTF server was up and running totally fine... and then we got hit with a DoS attack! Thankfully our IDS was running and captured some of the traffic before crashing (hey, it was a lighweight server for the off-season). We need to understand who hit us so that we can prepare for the next attack. Examine the logs, conduct some CTI research, and find out what/who just attacked us (and what other attacks have been linked to them). Note: What-Just-Hit-Me is an OSINT challenge and does NOT involve any scanning or exploitation attempts.
