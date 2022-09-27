@@ -1,0 +1,3 @@
+title: Calculator
+value: 100
+description: nc calculator.ctf.cert.unlp.edu.ar 15002 <br><br><textarea style='height: 300px;' cols='40'>cHJpbnQoJ1xuJy5qb2luKFsnJy5qb2luKFsoJ0NURkNURkNURidbKHgteSklOCBdaWYoKHgqMC4wNSkqKjIrKHkqMC4xKSoqMi0xKSoqMy0oeCowLjA1KSoqMiooeSowLjEpKiozPD0wIGVsc2UnICcpZm9yIHggaW4gcmFuZ2UoLTMwLDMwKV0pIGZvciB5IGluIHJhbmdlKDE1LC0xNSwtMSldKSkK</textarea><br><br> <br><br>Author:<a href="https://twitter.com/jere_pr3">puck</a></strong>

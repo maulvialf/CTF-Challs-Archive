@@ -1,0 +1,3 @@
+title: Middle Earth
+value: 500
+description: You have seen others, but perhaps none like this one. Just in case, I wrote some text on it so now you can understand it:<br><br><i>Three Rings for the Elven-kings under the sky,<br>Seven for the Dwarf-lords in their halls of stone,<br>Nine for Mortal Men doomed to die,<br>One for the Dark Lord on his dark throne<br>[...]<br></i><br><br>Author:<strong>mate</strong>

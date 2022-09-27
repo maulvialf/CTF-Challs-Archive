@@ -1,0 +1,2 @@
+$ lsusb | grep -i keyboard
+Bus 004 Device 005: ID 0951:16d2 Kingston Technology HyperX Alloy FPS Pro Mechanical Gaming Keyboard
