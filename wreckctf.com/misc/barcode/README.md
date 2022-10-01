@@ -1,0 +1,3 @@
+title: barcode
+value: 470
+description: that's a lot of stripes...
