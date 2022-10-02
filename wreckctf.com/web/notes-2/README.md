@@ -1,5 +1,5 @@
 title: notes-2
-value: 443
+value: 437
 description: same as notes-1 but more private!
 
 [notes-2.challs.wreckctf.com](https://notes-2.challs.wreckctf.com/)

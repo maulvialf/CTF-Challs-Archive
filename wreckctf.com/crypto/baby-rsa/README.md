@@ -1,3 +1,3 @@
 title: baby-rsa
-value: 214
+value: 208
 description: there's p, but what's q?
