@@ -1,5 +1,5 @@
 title: Electric Box
-value: 444
+value: 424
 description: Welcome to *Project Sekai Online Judge*!
 
 Author: sahuang

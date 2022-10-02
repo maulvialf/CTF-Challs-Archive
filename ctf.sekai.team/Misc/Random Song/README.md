@@ -1,5 +1,5 @@
 title: Random Song
-value: 494
+value: 491
 description: We created a simple Rhythm Game for you! But you have to play in blind mode this time :o 
 
 Try to achieve <span style="

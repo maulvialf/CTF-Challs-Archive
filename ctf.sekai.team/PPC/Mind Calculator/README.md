@@ -1,5 +1,5 @@
 title: Mind Calculator
-value: 491
+value: 486
 description: Can you keep all the numbers in your brain?
 
 Author: pamLELcu

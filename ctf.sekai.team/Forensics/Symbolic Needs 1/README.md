@@ -1,5 +1,5 @@
 title: Symbolic Needs 1
-value: 475
+value: 467
 description: We recently got hold of a cryptocurrency scammer and confiscated his laptop.
 
 Analyze the memdump. Submit the string you find wrapped with `SEKAI{}`.

@@ -1,5 +1,5 @@
 title: Blind Infection 1
-value: 484
+value: 470
 description: <div style="background:#edc752;border-radius:1rem;padding:1rem">
     <div style="margin:0 -1rem .5rem;background:repeating-linear-gradient(-35deg,transparent,transparent 10px,#444463 10px,#444463 20px);font-weight:700">
         <span style="margin:0 auto;display:block;width:fit-content;padding:0 1rem;background:#edc752">⚠ WARNING ⚠</span>

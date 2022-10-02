@@ -1,5 +1,5 @@
 title: notes-3
-value: 493
+value: 492
 description: now with analytics
 
 [notes-3.challs.wreckctf.com](https://notes-3.challs.wreckctf.com/)

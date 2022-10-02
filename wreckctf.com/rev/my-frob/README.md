@@ -1,5 +1,5 @@
 title: my-frob
-value: 450
+value: 441
 description: frobbers!
 
 `nc challs.wreckctf.com 31618`

@@ -1,5 +1,5 @@
 title: Baby Chicken
-value: 500
+value: 499
 description: A program of `chicken`...
 
 Author: sahuang

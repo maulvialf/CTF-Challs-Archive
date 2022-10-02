@@ -1,5 +1,5 @@
 title: Issues
-value: 410
+value: 356
 description: Can you become an admin and get the flag?
 
 Author: Rik

@@ -1,5 +1,5 @@
 title: token
-value: 466
+value: 464
 description: are you gary?
 
 `nc challs.wreckctf.com 31522`
