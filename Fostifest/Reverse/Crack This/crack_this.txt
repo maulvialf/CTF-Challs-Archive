@@ -1,0 +1,50 @@
+gef➤  disassemble main
+Dump of assembler code for function main:
+   0x0000000000001169 <+0>:     endbr64
+   0x000000000000116d <+4>:     sub    rsp,0x28
+   0x0000000000001171 <+8>:     mov    rax,QWORD PTR fs:0x28
+   0x000000000000117a <+17>:    mov    QWORD PTR [rsp+0x18],rax
+   0x000000000000117f <+22>:    xor    eax,eax
+   0x0000000000001181 <+24>:    mov    rax,QWORD PTR [rsi+0x8]
+   0x0000000000001185 <+28>:    mov    DWORD PTR [rsp],0x66
+   0x000000000000118c <+35>:    mov    DWORD PTR [rsp+0x4],0xd8
+   0x0000000000001194 <+43>:    mov    DWORD PTR [rsp+0x8],0x9c
+   0x000000000000119c <+51>:    mov    DWORD PTR [rsp+0xc],0x19c
+   0x00000000000011a4 <+59>:    movzx  edi,BYTE PTR [rax+0x4]
+   0x00000000000011a8 <+63>:    cmp    BYTE PTR [rax+0x3],dil
+   0x00000000000011ac <+67>:    jne    0x11f3 <main+138>
+   0x00000000000011ae <+69>:    movsx  ecx,BYTE PTR [rax+0x2]
+   0x00000000000011b2 <+73>:    movsx  edx,BYTE PTR [rax+0x7]
+   0x00000000000011b6 <+77>:    sub    edx,ecx
+   0x00000000000011b8 <+79>:    cmp    edx,0x5
+   0x00000000000011bb <+82>:    jne    0x11f3 <main+138>
+   0x00000000000011bd <+84>:    movsx  edx,BYTE PTR [rax+0x5]
+   0x00000000000011c1 <+88>:    add    ecx,edx
+   0x00000000000011c3 <+90>:    cmp    ecx,0x65
+   0x00000000000011c6 <+93>:    jne    0x11f3 <main+138>
+   0x00000000000011c8 <+95>:    mov    edx,0x1
+   0x00000000000011cd <+100>:   mov    rsi,rsp
+   0x00000000000011d0 <+103>:   movsx  ecx,BYTE PTR [rax+rdx*1-0x1]
+   0x00000000000011d5 <+108>:   imul   ecx,edx
+   0x00000000000011d8 <+111>:   cmp    ecx,DWORD PTR [rsi+rdx*4-0x4]
+   0x00000000000011dc <+115>:   jne    0x11f3 <main+138>
+   0x00000000000011de <+117>:   add    rdx,0x1
+   0x00000000000011e2 <+121>:   cmp    rdx,0x5
+   0x00000000000011e6 <+125>:   jne    0x11d0 <main+103>
+   0x00000000000011e8 <+127>:   movzx  eax,BYTE PTR [rax+0x6]
+   0x00000000000011ec <+131>:   sub    eax,0x6e
+   0x00000000000011ef <+134>:   cmp    al,0x1
+   0x00000000000011f1 <+136>:   jbe    0x120d <main+164>
+   0x00000000000011f3 <+138>:   mov    rax,QWORD PTR [rsp+0x18]
+   0x00000000000011f8 <+143>:   xor    rax,QWORD PTR fs:0x28
+   0x0000000000001201 <+152>:   jne    0x1225 <main+188>
+   0x0000000000001203 <+154>:   mov    eax,0x0
+   0x0000000000001208 <+159>:   add    rsp,0x28
+   0x000000000000120c <+163>:   ret
+   0x000000000000120d <+164>:   lea    rsi,[rip+0xdf0]        # 0x2004
+   0x0000000000001214 <+171>:   mov    edi,0x1
+   0x0000000000001219 <+176>:   mov    eax,0x0
+   0x000000000000121e <+181>:   call   0x1070 <__printf_chk@plt>
+   0x0000000000001223 <+186>:   jmp    0x11f3 <main+138>
+   0x0000000000001225 <+188>:   call   0x1060 <__stack_chk_fail@plt>
+End of assembler dump.
