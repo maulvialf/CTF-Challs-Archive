@@ -1,0 +1,635 @@
+{
+    "data": {
+        "Android": [
+            {
+                "category": "Android",
+                "description": "Welcome to your first ever android hack quest challenge!\r\nInstall the `.apk` below and start your journey!\r\n\r\n------------------------------------------------------\r\n\r\n*Problem*: It looks like `.text` from **libintechfest.so** is encrypted! You need to decrypt it so that you can analyze the lib further!\r\nBut the decryption routine should be somewhere in the **libintechfest.so** unecrypted.\r\n\r\n*Task*: Find the *encryption key* (*FLAG*) to decrypt and analyze **libintechfest.so** further.\r\n\r\n------------------------------------------------------\r\n\r\n*It's highly recommended to use mobile devices due to compatibility issues, however if emulator runs fine, then it is okay to use it*\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/c486d89530ed3249f6ea5f359ed93e06/nHVZeGukN75PpvXrhtOe.apk?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEwOX0.YygNyw.HreyRFczpJpH6uJkOrdzBXn450A"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "game #1",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Android",
+                "description": "did u know that bypassing android application signature is easy?\r\n\r\n`Author: aimardcr`\r\n\r\n> Segala bentuk dari static/dynamic-analyzing pada library dalam .apk berikut tidak diperlukan, carilah exploit yang dibutuhkan berdasarkan source yang telah dilampirkan.",
+                "files": [
+                    "/files/d5bab83dcfe89ba186986b5ae4c2b2c4/sign.apk?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjcxfQ.YygNzA.MZAf8Bv5Ly4AnMZYSuUue-_nKhs",
+                    "/files/51a5106caf3689b5bb7ef4f82d9a3688/src.cpp?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjcyfQ.YygNzA.3RxdVlN3jEhFTLWwNDkgX6vgjFQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 39,
+                "name": "sign",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Android",
+                "description": "what's an oat?\r\nbtw the flag is encrypted uwu, maybe u can find the decrypt function :D\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/fe6f896ce322d4802f7a0abcd0a0f4aa/challenge.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjM0fQ.YygNzA.DGNoDhTb-5nP4TLS-Hc56Q_lO8c"
+                ],
+                "hints": [
+                    "IDA Pro has the ability to analyze oat files!",
+                    "Maybe you can convert it back to it's original-uncompiled form?"
+                ],
+                "id": 30,
+                "name": "oat",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Android",
+                "description": "reflection can do so much you know?\r\n\r\n`Author: aimardcr`\r\n\r\n> Segala bentuk dari static/dynamic-analyzing pada library dalam .apk berikut tidak diperlukan, carilah exploit yang dibutuhkan berdasarkan source yang telah dilampirkan.",
+                "files": [
+                    "/files/d56e10edf4281ea5c42cfcf4797929a8/reflection.apk?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjY5fQ.YygNzA.CJtxwfILWyVo3k2ow33VgZAamKA",
+                    "/files/c5081f2e22eb04dd9299c40c912e36dd/src.cpp?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjcwfQ.YygNzA.3hbQT53EnAdNet2YfdfQHyrFcB4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 41,
+                "name": "reflection",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Android",
+                "description": "an introduction to jni!\r\n\r\n`Author: aimardcr`\r\n\r\n> Segala bentuk dari static/dynamic-analyzing pada library dalam .apk berikut tidak diperlukan, carilah exploit yang dibutuhkan berdasarkan source yang telah dilampirkan.",
+                "files": [
+                    "/files/d349df3d19d281492e60b58a11bddb83/jni.apk?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjU0fQ.YygNyw.e40I38ixucWAquRRYBPD0Omc1OY",
+                    "/files/afec65128152f35bb0b530e30ca6c92e/src.cpp?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjc2fQ.YygNyw.OE58W9ErPjU26Pupmz58gK-jVKc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 33,
+                "name": "jni",
+                "points": 490,
+                "solves": 4
+            },
+            {
+                "category": "Android",
+                "description": "The flag is hidden in the `APK` resources, but can you really crack the hash?\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/e26a3ce579b591ec741fa94d61fac0d3/flag.apk?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjU2fQ.YygNyw.HMP_glD24juuP8r03wvtxo-oI8Y"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 34,
+                "name": "flag",
+                "points": 428,
+                "solves": 9
+            }
+        ],
+        "Binary Exploitation": [
+            {
+                "category": "Binary Exploitation",
+                "description": "just exploit it.\r\n\r\n> nc 15.235.143.42 44886\r\n\r\nAttachment: https://drive.google.com/file/d/11B2lS7KJa_zYUdHzDLALYlTQ-hBPKlLV/view?usp=sharing\r\n\r\n`Author: aimardcr`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 22,
+                "name": "ytilibarenluv tamrof gnirts",
+                "points": 499,
+                "solves": 2
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "Some warmup for u! should be easy right?\r\n\r\n> nc 15.235.143.42 47888\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/778ec6531bfcd2563b7d267a970c5b61/challenge?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjk4fQ.YygNyw.a_3lQSr8a71hHcbkLkrj0N4yX00"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "warmup",
+                "points": 136,
+                "solves": 19
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "catttt meeeeeeeeeeeeeeeee\r\n\r\n> nc 15.235.143.42 22686\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/e62048b065b3fe783d972834e49bf6f3/challenge?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEyNH0.YygNyw.gs63JUibDpjb_PUQ9krbcprZ7p4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "cat me",
+                "points": 409,
+                "solves": 10
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "isshouni pwn mashou!\r\n\r\n> nc 15.235.143.42 47213\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/1284d97727f4ed8866e7cb00fbbc5555/challenge?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEzOX0.YygNzA.dmLUwzT-RmvgzNazthCo-OcQ4hg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 60,
+                "name": "con cat",
+                "points": 460,
+                "solves": 7
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "do you like to read?\r\n\r\n> nc 15.235.143.42 10116\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/49c52b4b57d034a666aa4f5caab54137/challenge.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEzNn0.YygNzA.ToVHRUYyq_bi7hT2JcDz_kcXgAI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 61,
+                "name": "read read read",
+                "points": 496,
+                "solves": 3
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "Don't you love your waifu?\r\n\r\n> nc 15.235.143.42 33371\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/eadf850dac58aeb6743459299e6ea3b4/challenge.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEyNX0.YygNzA.UEOAJXk-SoFqCg7d5-sZtXk9DBg"
+                ],
+                "hints": [
+                    "What's the most common way to leak canary?"
+                ],
+                "id": 56,
+                "name": "waifu manager",
+                "points": 496,
+                "solves": 3
+            }
+        ],
+        "Cryptography": [
+            {
+                "category": "Cryptography",
+                "description": "Just basic and classic old RSA\r\n\r\n`Author: merricx`",
+                "files": [
+                    "/files/09c8ff940ff3f37fd9b32864cb064b61/challenge.py?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjExMH0.YygNyw.uuJxnptmniURNh8m5-LzlPjmziE",
+                    "/files/f8dff936791707c695ad71766fce79aa/output.txt?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjExNH0.YygNyw.uvAWqGIVgrELZbQ6ZObmjQ963pc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "regulus",
+                "points": 490,
+                "solves": 4
+            },
+            {
+                "category": "Cryptography",
+                "description": "valo...rand? u mean valorant?!?\r\n\r\n> nc 15.235.143.42 24480\r\n\r\n`Author: lactosilus`",
+                "files": [
+                    "/files/f20384dc12567378d5e90ec9551066de/challenge.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEyM30.YygNzA.Z5-v037pH21-F_2THg3SLo5RdCc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 46,
+                "name": "valorand",
+                "points": 490,
+                "solves": 4
+            },
+            {
+                "category": "Cryptography",
+                "description": "help me to decrypt it please...\r\n\r\n`Author: kyruuu`",
+                "files": [
+                    "/files/3d37280b348cfb43d54fb7221c65b99b/challenge.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEzM30.YygNzA.sFiWxHIGdaHFT7S82g2cKO-NUTI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 64,
+                "name": "encryptor",
+                "points": 409,
+                "solves": 10
+            },
+            {
+                "category": "Cryptography",
+                "description": "i ran this script and got bunch of numbers, can you help me restore it?\r\n\r\n`Author: kyruuu`",
+                "files": [
+                    "/files/18cc6e05ec91e0f76d77f2ce5c50e349/challenge.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjk1fQ.YygNzA.s3G345FZlRW39XYhrLgJrgChvBc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 47,
+                "name": "number",
+                "points": 247,
+                "solves": 16
+            },
+            {
+                "category": "Cryptography",
+                "description": "are you my waifu???\r\n\r\nFree Credential:\r\n`dXNlcm5hbWU6bWlrdQpsZXZlbDp1c2Vy`\r\n\r\n> nc 15.235.143.42 19206\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/620c59abd9318f84d134a45bf56e4752/challenge.py?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjgyfQ.YygNyw.t-9hlDxKHU9wpDteIk1g-MoW760"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 29,
+                "name": "see are see",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Cryptography",
+                "description": "MixColumns is so hard to understand, so I get rid of it and create new method instead\r\n\r\n>nc 15.235.143.42 49119\r\n\r\n`Author: merricx`",
+                "files": [
+                    "/files/fac4c8c09066e5bb635a16c6a1f73493/challenge.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjkzfQ.YygNyw.wTVhbj7nUTR0wtmoi94kUpFipuE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 24,
+                "name": "prospero",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Cryptography",
+                "description": "TTD = Tanda Tangan Digital\r\n\r\n>nc 15.235.143.42 10963\r\n\r\n`Author: merricx`",
+                "files": [
+                    "/files/9f22809bef882b256c17dd0d697c1843/challenge.py?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjI0fQ.YygNyw.-EleCHvwz6T3WcNaosHXCzMdXOc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 23,
+                "name": "astronum",
+                "points": 500,
+                "solves": 1
+            }
+        ],
+        "Forensic": [
+            {
+                "category": "Forensic",
+                "description": "i found this weird math formula on my desk, what do you think is it?\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/5efafb6a8a8148d3a091f13a3bdf2850/not_math.txt?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEzMX0.YygNzA.eADkGjESqmRTHI-9jDrNpPp_39M"
+                ],
+                "hints": [
+                    "Those special characters...they look so familiar right?"
+                ],
+                "id": 63,
+                "name": "weird math",
+                "points": 472,
+                "solves": 6
+            },
+            {
+                "category": "Forensic",
+                "description": "waitt wireshark can monitor my usb traffic!?!?!?\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/a37f1ca6db76680e4de63c9589669452/challenge.pcapng?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjg1fQ.YygNzQ.PYsT5lYuqExM_VTMTd_mCozWhwg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 21,
+                "name": "a certain packets #2",
+                "points": 364,
+                "solves": 12
+            },
+            {
+                "category": "Forensic",
+                "description": "sometimes you cannot just unzip it\r\n\r\n`Author: kyruuu`",
+                "files": [
+                    "/files/df8ddc962b14c29dff899e424976c1bc/chall.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjkwfQ.YygNzQ.qWylg-kLzxRVEzNoE_BYD9kUeaY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 43,
+                "name": "do u know zip",
+                "points": 50,
+                "solves": 35
+            },
+            {
+                "category": "Forensic",
+                "description": "sometimes you cannot just unzip it, because its protected now.\r\n\r\n`Author: kyruuu`",
+                "files": [
+                    "/files/6066caf577cfc6c7c26957377e0a3694/zip.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEyNn0.YygNzQ.aIA5zypmy2zUGkkITGuTEv9em6Q"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 59,
+                "name": "do u know zip again",
+                "points": 50,
+                "solves": 21
+            },
+            {
+                "category": "Forensic",
+                "description": "maybe i shouldn't copy files to usb while wireshark is running...\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/936f94e673e1227b395e46c460b33c86/challenge.pcapng?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjgwfQ.YygNzQ.Xjj17QP6XMEGsRF7AmiCY5iL4cs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "a certain packets #1",
+                "points": 50,
+                "solves": 24
+            },
+            {
+                "category": "Forensic",
+                "description": "just a picture of the best waifu in the world! there's nothing in it i swear\ud83d\udc40\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/2c3e1da6a54ae6861f90947c5844ab63/nino.jpg?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEwMn0.YygNzQ.XSMFRtM774i1vK_30v5DM6BS1Vo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "kawaii #1",
+                "points": 50,
+                "solves": 23
+            },
+            {
+                "category": "Forensic",
+                "description": "looks like a compression, what could go wrong?\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/f73e21947fc133255adc93d6db9af723/dhc?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEwN30.YygNzA.WfEjLq6oRHL1DwGsqpO1WmCiArs"
+                ],
+                "hints": [
+                    "z? broken? lib?\n\nz...lib? ",
+                    "I don't think the zeros should be there..."
+                ],
+                "id": 11,
+                "name": "z broken lib",
+                "points": 496,
+                "solves": 3
+            },
+            {
+                "category": "Forensic",
+                "description": "added so many files so you can't do it manually.\r\n\r\n`Author: kyruuu`",
+                "files": [
+                    "/files/71dc26a792fe2ae47dd2c5fff216391a/zippy.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEzNH0.YygNzA.Rg3QBgkKd2VUPrDTmtgUIJTaock"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 65,
+                "name": "zippy",
+                "points": 499,
+                "solves": 2
+            },
+            {
+                "category": "Forensic",
+                "description": "hari2 presentasi.\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/9c223f33cbef66d05e69327339fb2395/challenge.pptx?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEwNn0.YygNzQ.cgKQ_WnPYeuXdey7faZV09v8S1s"
+                ],
+                "hints": [
+                    "maybe try unzip it?",
+                    "choo choo, here comes the train!"
+                ],
+                "id": 7,
+                "name": "presentation",
+                "points": 388,
+                "solves": 11
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "check out my new file manager!\r\nwho knows what might be embedded in it!\r\n\r\n> nc 15.235.143.42 41309\r\n\r\n`Author: aimardcr`",
+                "files": [],
+                "hints": [
+                    "maybe there's other way to access /proc/self/*?",
+                    "the flag is embedded _in the process_"
+                ],
+                "id": 44,
+                "name": "embedded flag file manager",
+                "points": 472,
+                "solves": 6
+            },
+            {
+                "category": "Misc",
+                "description": "Nahida needs your help, can you help her?\r\n\r\nHelp her by sending direct-message on her discord:\r\n> Nahida#4248\r\n\r\n`Author: Dimas`",
+                "files": [
+                    "/files/8209bd861ddb6d9194380c8973db3bec/src.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjExM30.YygNzQ.84mb0AGm6YtyilN1Bjh6e1zCMIs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 55,
+                "name": "nahida love unicode",
+                "points": 428,
+                "solves": 9
+            }
+        ],
+        "OSINT": [
+            {
+                "category": "OSINT",
+                "description": "I used to play a game back then, the game now has an upcoming REmake.\r\nThere's this one girl in the game who loves to wear Red Gown, she said she was asked on a date by the main character!\r\nBut she said that she's a bit concern because some people said the main character posted something weird on his profile account on a certain bird social media, but unfortunately he already deleted the post.  Can you help her find out that \"something weird\" they've been talking about?\r\n\r\nAnyway, contact her on her secret phone number if you found it:\r\n+1571161997487800324\r\n\r\n```\r\nNever always trust on what you see.\r\n```\r\n\r\n`Author: aimardcr`",
+                "files": [],
+                "hints": [
+                    "https://twitter.com/abcdefg/status/1571327922908307458\n\nLook at this cute shuba shuba fanart!\nSurely there's nothing suspicious about the url right?"
+                ],
+                "id": 62,
+                "name": "help",
+                "points": 212,
+                "solves": 17
+            },
+            {
+                "category": "OSINT",
+                "description": "salah satu admin dari intechfest telah berlibur dan menghilangkan flag dari challenge ini, namun dia bilang bahwa dia meninggalkan flagnya disuatu Review, untung aja bukan Uang dia yang ilang ya guys :'(\r\n\r\n`Author: aimardcr`\r\n\r\nberikut clue tempat dia berlibur:",
+                "files": [
+                    "/files/473269fa65a033b2af246db0466fe99c/paradise.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEyMn0.YygNzQ.64rQIRHYmLfJT491wlFlnW1KSuA"
+                ],
+                "hints": [
+                    "I think the most commonly used search engine has Place Review feature on it..."
+                ],
+                "id": 13,
+                "name": "review",
+                "points": 50,
+                "solves": 26
+            },
+            {
+                "category": "OSINT",
+                "description": "My friend really love to play video-games! Do you wan to check one of his in-game profile? Ofcourse there will be present for you!\r\n\r\nHere is one of his game id: `58876876`\r\n\r\nHe plays this game a lot and he told me one day he would play in MPL!\r\n\r\n`Author: lactosilus`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 51,
+                "name": "gamerz ganteng idaman",
+                "points": 50,
+                "solves": 27
+            }
+        ],
+        "Reverse Engineering": [
+            {
+                "category": "Reverse Engineering",
+                "description": "why would you put your config file unprotected?!?!\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/cfc509c75333a548b034a82f549ee169/challenge.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjQ2fQ.YygNzQ.3LgDM8qC-PaInVCXCeM4U_2PDYU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "exposed",
+                "points": 499,
+                "solves": 2
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "fresh fruit everyone! try out our new fruit!\r\n\r\n> nc 15.235.143.42 18635\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/7412d56ea0e4ad281a8c130540603e2a/challenge?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjc4fQ.YygNzg.BTgsfD8RPxvsHfX2N4mtivewtIA"
+                ],
+                "hints": [
+                    "Try to input something the program wouldn't expect."
+                ],
+                "id": 14,
+                "name": "fr00t",
+                "points": 175,
+                "solves": 18
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "wait seriously lua?!?!\r\n\r\n`Author: aimardcr`",
+                "files": [
+                    "/files/c6b439820c49f04c2b2a1f3e0d264bf8/challenge.luac?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjEwOH0.YygNzQ.zSj8TRTtdF1fGTIZ5wS5lYAhDFE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "lua",
+                "points": 472,
+                "solves": 6
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Reversing in c/c++? nah its too common.\r\nReversing in go? yes yes yes!\r\n\r\n`Author: lactosilus`",
+                "files": [
+                    "/files/8951143f845f3b5d29a6340c3d7780a9/challenge.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjk3fQ.YygNzQ.KV-vIyHQqen_bDwHvsbzFE0xJeM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 48,
+                "name": "go go go!",
+                "points": 499,
+                "solves": 2
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "\ud83e\udeb1\ud83e\udeb1\ud83e\udeb1\ud83e\udeb1\r\n\r\n`Author: lactosilus`",
+                "files": [
+                    "/files/2f74b9fcaa84120894a2eec546f12022/challenge.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjkxfQ.YygNzg.JeFVGi6gehujSgGGM76Y5ZmnTio"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 45,
+                "name": "snake code",
+                "points": 247,
+                "solves": 16
+            }
+        ],
+        "Web": [
+            {
+                "category": "Web",
+                "description": "say hello to the world!\r\n\r\n> http://15.235.143.42:33208/\r\n\r\n`Author: ganezo`",
+                "files": [
+                    "/files/d6937ee8a789058705e373bc0e72ecac/src.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjMyfQ.YygNzg.ogUS4xS4ly3JcoWcpN6lfaBs1sM"
+                ],
+                "hints": [
+                    "Old CVE :)"
+                ],
+                "id": 28,
+                "name": "hello world",
+                "points": 496,
+                "solves": 3
+            },
+            {
+                "category": "Web",
+                "description": "My friend made a website, he want me to hack the website and get the flag he's been hiding somewhere, can you help me to hack his website?\r\n\r\n> http://15.235.143.42:23320/\r\n\r\n`Author: Dimas`",
+                "files": [
+                    "/files/a80a85a609644ea2f68470e9b44ab068/src.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjExMn0.YygNzg.BVbs-ImvHmf6RLhIG4YgMEi_o8A"
+                ],
+                "hints": [
+                    "You can find the flag in localhost."
+                ],
+                "id": 54,
+                "name": "admin's secret",
+                "points": 482,
+                "solves": 5
+            },
+            {
+                "category": "Web",
+                "description": "let's race with nino!\r\n\r\n> http://15.235.143.42:26312/\r\n\r\n`Author: ganezo`",
+                "files": [],
+                "hints": [
+                    "Race Condition + LFI = RCE ><"
+                ],
+                "id": 26,
+                "name": "nino",
+                "points": 460,
+                "solves": 7
+            },
+            {
+                "category": "Web",
+                "description": "it is important to use a very unique key!\r\n\r\nNote: the web developer probably forgot to change the key after copying the code snippet from st*ckoverflow\r\n\r\n> http://15.235.143.42:33657/\r\n\r\n`Author: aimardcr`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 38,
+                "name": "g double you tea",
+                "points": 338,
+                "solves": 13
+            },
+            {
+                "category": "Web",
+                "description": "Hello! I need a web app penetration tester, can you test this web app for me?\r\n\r\n> http://15.235.143.42:22421/\r\n\r\n> http://15.235.143.42:22422/\r\n\r\n`Author: Dimas`",
+                "files": [
+                    "/files/c226fdfd3bf87a9b05a24c723479a852/src.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjExMX0.YygNzg.ADl2oHnGbHKpwB3wGcYWmZXPXvw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 53,
+                "name": "my simple website",
+                "points": 247,
+                "solves": 16
+            },
+            {
+                "category": "Web",
+                "description": "python is fun...right?\r\n\r\n> http://15.235.143.42:18061/\r\n\r\n`Author: ganezo`",
+                "files": [
+                    "/files/bcd2ee259f549c7ffcbc5105cb96488a/src.zip?token=eyJ1c2VyX2lkIjo2NiwidGVhbV9pZCI6MzgsImZpbGVfaWQiOjMxfQ.YygNzg.wFu1UWL4Lvhsbagk7xh8vakfFok"
+                ],
+                "hints": [
+                    "Jinja2 is fun",
+                    "Look at around ^^"
+                ],
+                "id": 27,
+                "name": "secret notes",
+                "points": 490,
+                "solves": 4
+            }
+        ]
+    },
+    "title": "PNBCTF 2022",
+    "url": "https://ctf.intechfest.cc"
+}
