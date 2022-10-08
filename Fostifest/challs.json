@@ -1,0 +1,359 @@
+{
+    "data": {
+        "Bonus": [
+            {
+                "category": "Bonus",
+                "description": "`Flag: Fostifest{Anjazzz_Kelazzzzzzzz}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "Sanity Check",
+                "points": 50,
+                "solves": 21
+            },
+            {
+                "category": "Bonus",
+                "description": "Gunakan password dibawah ini untuk membuka file Zip Fosti Server\r\nPassword: `fostifest_d52f925a44fe265dcf678e8da09aab79`\r\n\r\nFlag chall ini: `Fostifest{%s}` %password",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "Fosti Server Password",
+                "points": 50,
+                "solves": 20
+            },
+            {
+                "category": "Bonus",
+                "description": "Link: https://forms.gle/f7umuTZr4Ue1EnuDA",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 34,
+                "name": "Feedback",
+                "points": 50,
+                "solves": 0
+            }
+        ],
+        "Cryptography": [
+            {
+                "category": "Cryptography",
+                "description": "Be careful, fragile things, handle with care",
+                "files": [
+                    "/files/f4ac48b45fd95604a1b853029108ea8f/challenge.py?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjE2fQ.Y0F32Q.ZcjMx7kaLa6TfHLqMV5NBoTxdPE",
+                    "/files/0d5f100b042470ffc7bc5b3d6541282f/output.txt?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjE3fQ.Y0F32Q.l1NrUF4jOcibPf9khsGuMoMeq8k"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "Helioxis",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Cryptography",
+                "description": "(n, n) threshold encryption v1.0",
+                "files": [
+                    "/files/36b3b8e9dfe04140cc8c09e7b41f2ee7/challenge.py?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjIyfQ.Y0F32g.zFhR7tJn2pPLpffPRta9jDANW1A",
+                    "/files/a666a6c6888bbc7c3c15f7c567d1c845/output.txt?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjIzfQ.Y0F32g.6bU2H408phGIT71IIatWrbZsu8c"
+                ],
+                "hints": [
+                    "n can be factored with ECM"
+                ],
+                "id": 21,
+                "name": "Izanagi",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Cryptography",
+                "description": "(n, n) threshold encryption v2.0",
+                "files": [
+                    "/files/2ed714c9ded26eb49dd7e7e1bc61c480/challenge.sage?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjIwfQ.Y0F32Q.WrAfNCvaWptfM1fB7TGmkPFUdUE",
+                    "/files/9b246af489f5bcb8e9ec9e7f8fb9f345/output.txt?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjIxfQ.Y0F32Q.eVnGyvdizttW_vxK4KK_63hrrVI"
+                ],
+                "hints": [
+                    "n can be factored with ECM"
+                ],
+                "id": 22,
+                "name": "Izanami",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Forensic": [
+            {
+                "category": "Forensic",
+                "description": "Server Fosti yang memiliki beberapa service yang berjalan di dalamnya telah dimasuki oleh hekerz pada sekitar tanggal 20-25 september, diduga kuat hekerz tersebut telah menanamkan banyak backdoor di dalam server. Tugas kalian adalah menyelidiki dan menginvestigasi pada server Fosti agar semua jejak hekerz tersebut terlacak\r\n\r\nPada challenge ini carilah IP dari si Attacker alias Hekerz\r\nFormat Flag: `Fostifest{IP-Attacker}`",
+                "files": [],
+                "hints": [
+                    "Password Zip ada di bonus",
+                    "Reset password untuk masuk ke VM"
+                ],
+                "id": 11,
+                "name": "The Attacker",
+                "points": 50,
+                "solves": 11
+            },
+            {
+                "category": "Forensic",
+                "description": "Full path backdoor for initial access in system \r\nFlag: `Fostifest{%s}`\r\nExample: `Fostifest{/path/path/path/file}`",
+                "files": [],
+                "hints": [
+                    "how is it possible that someone without access can enter our server ?",
+                    "Malware in system path, not public url\nexample: `/home/xxx/xxx/xxx` or `/var/xxx/xxx`",
+                    "from where attacker execute the command ?"
+                ],
+                "id": 12,
+                "name": "Initial Access Backdoor",
+                "points": 50,
+                "solves": 9
+            },
+            {
+                "category": "Forensic",
+                "description": "IP and Port attacker to get interactive shell\r\nFormat Flag: `Fostifest{IP:Port}`\r\n\r\nExample: `Fostifest{x.x.x.x:xxxx}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "Ineractive Shell",
+                "points": 247,
+                "solves": 7
+            },
+            {
+                "category": "Forensic",
+                "description": "CVE and full path file that used by attackers to perform privilege escalation\r\nFormat Flag: `Fostifest{CVE-XXXX-XXXX:/path/path/path/file}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "Privilege Escalation",
+                "points": 325,
+                "solves": 6
+            },
+            {
+                "category": "Forensic",
+                "description": "Original Repository of files used for privilege escalation\r\nFormat Flag: `Fostifest{url}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "Repo of PE File",
+                "points": 325,
+                "solves": 6
+            },
+            {
+                "category": "Forensic",
+                "description": "File used by the attacker to enumerate the local system to perform information gathering full path\r\n\r\nFormat Flag: `Fostifest{/path/path/path/file}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "Local Enumeration",
+                "points": 388,
+                "solves": 4
+            },
+            {
+                "category": "Forensic",
+                "description": "Looks like hackerz keeps one more backdoor to get root access, looks like he can connect to the machine every minute!\r\nFind the full path of this backdoor and the destination IP Port used by the attacker\r\nFormat Flag: `Fostifest{/full/path/file:IP:Port}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 18,
+                "name": "Re-root connect",
+                "points": 437,
+                "solves": 3
+            },
+            {
+                "category": "Forensic",
+                "description": "It looks like the attacker has changed the password from the admin which is used to login to the admin dashboard on web port 80. Look for the password of the admin before changed",
+                "files": [],
+                "hints": [
+                    "Sepertinya hekerz menyerang dari salah satu service web untuk mendapatkan password admin sebelumnya"
+                ],
+                "id": 19,
+                "name": "The Lost Password",
+                "points": 437,
+                "solves": 4
+            },
+            {
+                "category": "Forensic",
+                "description": "Woopzzz! Looks like hackerz has a backdoor that is used to call the root user, look for full path of that file\r\nFormat Flag: `Fostifest{/path/path/path/file}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "The Root",
+                "points": 472,
+                "solves": 1
+            }
+        ],
+        "Pwn": [
+            {
+                "category": "Pwn",
+                "description": "`nc 103.250.10.198 10011`",
+                "files": [
+                    "/files/c9d1863cbe67c14f64dbfd3182c87dc6/fosticrypt.py?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjI0fQ.Y0F32g.YJQ0PJsE0MM5wiSyWSnHqOxLavs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 23,
+                "name": "PyWN",
+                "points": 356,
+                "solves": 7
+            },
+            {
+                "category": "Pwn",
+                "description": "`nc 103.13.206.173 10003`",
+                "files": [
+                    "/files/4405a1f52c6e7412e851599f1cc687a3/leaky.txt?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjI3fQ.Y0F32g.n-WZjOYvzoi5Fax-Os5OU9m6qow"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 26,
+                "name": "Leaky",
+                "points": 484,
+                "solves": 2
+            },
+            {
+                "category": "Pwn",
+                "description": "`nc 103.13.206.173 10002`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "Fostjail",
+                "points": 496,
+                "solves": 2
+            },
+            {
+                "category": "Pwn",
+                "description": "`nc 103.13.206.173 10001`",
+                "files": [
+                    "/files/d3b494f785220ae466c5621db797e259/libc-2.23.so?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjI1fQ.Y0F32g.0YgVOQaDGOjELqlAnfrz2DgOoP8",
+                    "/files/54dff6d13440a9c4c776943480f3dc4e/oldNote?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjI2fQ.Y0F32g.FRiYFZ8kxUD4c0_bVjs57PG3Txs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 24,
+                "name": "oldnote",
+                "points": 500,
+                "solves": 1
+            }
+        ],
+        "Reverse": [
+            {
+                "category": "Reverse",
+                "description": "`nc 103.250.10.198 31337`",
+                "files": [
+                    "/files/8db89de88186c97b0d67bd8ef93480cc/license?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjMwfQ.Y0F32g.cN8-H21Npv_VvRAx-gCrghqebto"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "License",
+                "points": 464,
+                "solves": 4
+            },
+            {
+                "category": "Reverse",
+                "description": "",
+                "files": [
+                    "/files/a301f8edd86bcb63ff5f797848eeeac8/crack_this.txt?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjMxfQ.Y0F32g.tboUDFqAg453OEB9FlXD76zCS5g"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 32,
+                "name": "Crack This",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Reverse",
+                "description": "Attacker telah mengeksekusi kode dan mencuri flag dari sistem, tetapi ia menggunakan cara yang tidak umum untuk membypass deteksi antivirus, dapatkah kamu menganalisa dan mengembalikan kembali flagnya?",
+                "files": [
+                    "/files/528b0b57e2fdf7aeaf21dc18e18c7cf8/challenge.pcapng?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjMyfQ.Y0F32w.4V-I8FrpvLSWYZDZFwqPcHs7N0s",
+                    "/files/a60fc89a5a77d0c2c045eef2472c8fe1/libc.so.6?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjMzfQ.Y0F32w.WhGeQqaF3JYJFk43KLfnW0O8jTI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 33,
+                "name": "Bypassed AV",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Web Hacking": [
+            {
+                "category": "Web Hacking",
+                "description": "Url: http://103.250.10.198:10001/\r\n\r\nFilternya di luar nalar cooyyyy.\r\nTapi tentu saja tidak untuk hacker terbaik putra bangsa yang bahkan bisa mengehek nasa ",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 27,
+                "name": "My Little WAF",
+                "points": 484,
+                "solves": 3
+            },
+            {
+                "category": "Web Hacking",
+                "description": "http://103.13.206.129:8002/",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 30,
+                "name": "ppp",
+                "points": 484,
+                "solves": 3
+            },
+            {
+                "category": "Web Hacking",
+                "description": "http://35.85.47.15:8001/",
+                "files": [
+                    "/files/d2eb5e1532badfc4abf795bf03771f1e/app-peserta.zip?token=eyJ1c2VyX2lkIjo1NiwidGVhbV9pZCI6MjQsImZpbGVfaWQiOjI4fQ.Y0F32w.QYLOA2n3tphpiXOmvJsUBUc3tAQ"
+                ],
+                "hints": [
+                    "```SSRF```",
+                    "elasticbeanstalk"
+                ],
+                "id": 28,
+                "name": "qr-stalk",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Web Hacking",
+                "description": "Only orange can solve this\r\n\r\nhttp://103.13.206.129:8000/index.php",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 29,
+                "name": "Orange",
+                "points": 500,
+                "solves": 0
+            }
+        ]
+    },
+    "title": "Fostifest",
+    "url": "http://fostifest-ctf.fostiums.org"
+}

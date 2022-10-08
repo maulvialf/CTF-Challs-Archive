@@ -1,0 +1,26 @@
+# Build ID offset = 0x380
+# Snippet leaky function
+  mov    %rax,-0x8(%rbp)
+  xor    %eax,%eax
+  lea    -0x210(%rbp),%rax
+  mov    $0x200,%edx
+  mov    $0x0,%esi
+  mov    %rax,%rdi
+  callq  4010f0 <memset@plt>
+  mov    0x2dac(%rip),%rdx        # 404020 <stdin@@GLIBC_2.2.5>
+  lea    -0x210(%rbp),%rax
+  mov    $0x400,%esi
+  mov    %rax,%rdi
+  callq  401100 <fgets@plt>
+  lea    -0x210(%rbp),%rax
+  lea    0xd6e(%rip),%rdx        # 402004 <_IO_stdin_used+0x4>
+  mov    %rdx,%rsi
+  mov    %rax,%rdi
+  callq  401110 <strcmp@plt>     # cmp "exit"
+  test   %eax,%eax
+  je     4012bb <leaky+0x85>
+  lea    -0x210(%rbp),%rax
+  mov    %rax,%rdi
+  mov    $0x0,%eax
+  callq  4010e0 <printf@plt>
+  jmp    40126d <leaky+0x37>

@@ -1,5 +1,5 @@
 title: Notes keeper
-value: 494
+value: 454
 description: > A friend of mine told me that he uses a strong
 > notes keeper to write his diaries there.
 > Can you prove him wrong and pwn it?
