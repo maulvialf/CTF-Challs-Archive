@@ -1,0 +1,591 @@
+{
+    "data": {
+        "crypto": [
+            {
+                "category": "crypto",
+                "description": "> Do you want to meet the exorcist?\n> He recently made a secret machine that rolls up secrets\n\n**Author** : akram09\n",
+                "files": [
+                    "/files/9a9fcabf32261aa1908a66d6541aff05/server.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NDl9.Y0IhCA.RHbqKWn3TzN-H6LzkJ4cVPrz_ms"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 38,
+                "name": "eXORcist",
+                "points": 50,
+                "solves": 92
+            },
+            {
+                "category": "crypto",
+                "description": "> Eddy is a scriptkiddie, he just keeps using others tools to do some hacking stuff\n> He has created a signing server, can you prove that you are an admin and get your flag?!\n\n**Author** : haithem_lamri\n",
+                "files": [
+                    "/files/fd80bc3f294631f25f02877c7915ed0b/server.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NDZ9.Y0IhCA.1ZlzorriU2lOHIANN2LxqqPS-5E",
+                    "/files/e1ceca911ca0c2058c0bd193369935a9/challenge.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NDd9.Y0IhCA.ByFlBbNULVF07FnU-b1i6kZFp8A"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "Eddy",
+                "points": 479,
+                "solves": 12
+            },
+            {
+                "category": "crypto",
+                "description": "> After reading some papers about the DLP, I thought that working with matrices will improve the hardness of the DLP so I made my own cryptosystem.\n**Author** : haithem_lamri\n",
+                "files": [
+                    "/files/f6a4c2d1113a25ed57493669b71fcc48/the_matrix.zip?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NDh9.Y0IhCQ.bJM8OPUBuc-NKR0Y528Kl0yLO2Q"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 28,
+                "name": "The Matrix",
+                "points": 448,
+                "solves": 18
+            },
+            {
+                "category": "crypto",
+                "description": "> A spy was recently caught, he was leaking important data.\n> We could recover the data leaked as well as his machine.\n\n**Author** : akram09\n",
+                "files": [
+                    "/files/49442f7ac7bdd6d2fa5eb935b30e8648/main.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NzN9.Y0IhCQ.lWrs4KqB0RPyISjrKmITV9ICfgA",
+                    "/files/e2e0f416607da12dc78ffb3db2359621/values.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NzR9.Y0IhCQ.sWWSsemk96JvIS7iRI4bvkantp0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 47,
+                "name": "The_Messager",
+                "points": 50,
+                "solves": 77
+            },
+            {
+                "category": "crypto",
+                "description": "> Franklin gave birth to the amazing show blacklist\n> but before he leaves the stage he left us some few words\n> as well as a certain machine that generates encrypted messages\n\n**Author** : akram09\n",
+                "files": [
+                    "/files/9077382cfbac248aa73b51c2043f8c95/main.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6OTd9.Y0IhCQ.I_L3cIkqKjNJONyOfgBwgO7Nl7o",
+                    "/files/5db438838ed34cf433238c861b2ac616/message.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6OTh9.Y0IhCQ.NiDGlwTHLAV6JOEBYPNwiYrCoZ4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 54,
+                "name": "franklin-last-words",
+                "points": 482,
+                "solves": 11
+            },
+            {
+                "category": "crypto",
+                "description": "> Math is math and ring is ring, I have used polynomials to make my own affine encryption oracle\n> and I have chosen a strong combination of parameters to prevent you from getting your flag.\n> Can you recover it?!\n\n**Note**: the server takes some time to load when connecting, so be patient\n\n**Author** : haithem_lamri\n",
+                "files": [
+                    "/files/0fd898f1d5d379f56022a08d57828816/nitro.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NzF9.Y0IhCQ.MChytlhwrj5tguaMyzzwxQnmC70",
+                    "/files/7e5c37700da42687ee1ee2cefae7fbc1/nitro_server.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NzJ9.Y0IhCQ.sCtBtdulkhkjDEYW08LkP63cmXc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "Nitro",
+                "points": 489,
+                "solves": 9
+            }
+        ],
+        "jail": [
+            {
+                "category": "jail",
+                "description": "> Show me what can you type to read me, but this time you'll need fancier payloads\n\n**Author** : Raouf/0x13A0F\n",
+                "files": [
+                    "/files/2073ade2ae45c8e05d7ac39e9c4c2f40/jail.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6OTZ9.Y0IhCA.4ji-rikzui2ra_U2E7iK6XzRIpM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 50,
+                "name": "Type it 2",
+                "points": 489,
+                "solves": 9
+            },
+            {
+                "category": "jail",
+                "description": "> Show me what can you type to read me\n\n**Author** : Raouf/0x13A0F\n",
+                "files": [
+                    "/files/8ecaea2e79d265a599ee876d5088f913/chal.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NzV9.Y0IhCA.WERSqQdChjV71kDwTZAm2y2GLBA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "Type it",
+                "points": 304,
+                "solves": 34
+            },
+            {
+                "category": "jail",
+                "description": "> I'm learning a new language.\n> Not a lot of people really know the power of this language.\n\n**Author** : ouxs\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 39,
+                "name": "Red Diamond",
+                "points": 50,
+                "solves": 276
+            },
+            {
+                "category": "jail",
+                "description": "> Putting a number of twists to the original challenge from `Angstrom CTF 2022` by `Aplet123`!\n> Can you get out of this pickle?\n\n**Author** : chenx3n\n",
+                "files": [
+                    "/files/07cd572eaea42af11bcfe08764b89648/kevin-higgs-the-revenge.zip?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NDN9.Y0IhCA.qxX-XStz4uXlHCeneKp6-yrirEo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "Kevin Higgs The Revenge",
+                "points": 496,
+                "solves": 6
+            },
+            {
+                "category": "jail",
+                "description": "> I made this cool py objects explorer.\n> You are free to change what you like.\n\n**Author** : ouxs\n",
+                "files": [
+                    "/files/91af8314104646f06b9542ac894f1399/chall.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6ODF9.Y0IhCA.kFMJZ7DVXNIEnLTDt4lOtGQ4O98"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "PY explorer",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "jail",
+                "description": "> When I was cleaning the memory I lost the flag.\n> So I called the \"garbage_truck\" and I'm displaying its content but I think its broken.\n> Can you help find the flag?!?\n\n**Author** : yh_0x7\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 29,
+                "name": "Garbage Truck",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "jail",
+                "description": "> Can you do it now?\n\n**Password** : ctf\n\n**Author** : chenx3n\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 51,
+                "name": "venomous 2",
+                "points": 500,
+                "solves": 4
+            },
+            {
+                "category": "jail",
+                "description": "> Printing some text with Python should be just fine, right?\n\n**Password** : ctf\n\n**Author** : chenx3n\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 49,
+                "name": "venomous",
+                "points": 500,
+                "solves": 4
+            }
+        ],
+        "misc": [
+            {
+                "category": "misc",
+                "description": "> We heard a rumor that an intruder is in our GDG club and he's providing our enemies sensitive data to knock us down.\n> We got this image through the network.\n> Your task is to figure out the way he transmitted the data.\n\n**Author** : Cynex\n",
+                "files": [
+                    "/files/f69e256aef358d8066799b5d6b450037/AK.png?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NDR9.Y0IhCQ.bdszIMxpwu23mrI0JeGamjrnKAk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "Intruder",
+                "points": 50,
+                "solves": 54
+            },
+            {
+                "category": "misc",
+                "description": "> Alice liked Bob's pancakes recipe so she asked him about it.  \r\n> First remove the eggshell from the eggs.  \r\n> Add them to the flour.  \r\n> Now add the water. with sugar.  \r\n> After cooking them add the sirup.  \r\n> After that put the secret_flavour, the flag and the previous mixture to the blender (XOR).\r\n> Can you help Alice find the flag to use it in the recipe???\r\n\r\n**Author** : yh_0x7\r\n",
+                "files": [
+                    "/files/9aa3386cd0800dad9248944a97f8cd43/recipe.zip?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6MTA0fQ.Y0IhCQ.Cyu-hhzPJ7lSkU7TjJctvnsQ2IA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 53,
+                "name": "Colorful Recipe",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "misc",
+                "description": "> My Australian friend \"Bob\" wants to send me a secret, but he is scared of attackers.  \n> He told me that he knows some forensics tricks and sent me this image, would you help to reveal his message?  \n\n**Note** : Part of this challenge is inspired from `Going Postal` challenge from `DaVinciCTF 2022`.  \n\n**Author** : Cynex\n",
+                "files": [
+                    "/files/21274838399628bb49d1a4f71d42e6a1/msg.jpg?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6ODJ9.Y0IhCQ.W3qCymRmNXZ8WQuEe4dAQ0VIAZo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 33,
+                "name": "POSTAL",
+                "points": 50,
+                "solves": 54
+            },
+            {
+                "category": "misc",
+                "description": "> We've captured some traffic destined to an AI student, can u analyse it?\n\n**Link** : <https://mega.nz/file/S9JzSRjQ#jFjg_DO93t5xAwp-f5muyCvm_TlcSEkhzJjE6g8qI6I>\n\n**Author** : Aymen\n",
+                "files": [],
+                "hints": [
+                    "> for people looking to know which model it is, take these pieces of information into consideration:   \n\t- do you know what MLM stands for in ai?  \n\t-  the username is your way to the model  \n\t- default config is being used  "
+                ],
+                "id": 32,
+                "name": "MLM",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "misc",
+                "description": "> You can find the description of the challenge in the attached file.  \r\n> **note** : in the login the username is `CyberErudites`\r\n\r\n\r\n**Author** : Aymen\r\n",
+                "files": [
+                    "/files/1661ade846a80550eda7a054e8188459/Description.md?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NjJ9.Y0IhCQ.A8lBESLU2o2BPaVnjK79S21ukds"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "Netflix Prize",
+                "points": 405,
+                "solves": 24
+            },
+            {
+                "category": "misc",
+                "description": "Welcome To GDG Algiers CTF 2022, Have fun!\r\nhttps://discord.gg/3CX2pVtH",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 43,
+                "name": "Sanity Check",
+                "points": 20,
+                "solves": 438
+            },
+            {
+                "category": "misc",
+                "description": "> I'm new to linux and wanted to learn some bash.\n> This is what I have made so far.\n\n**Password** : ctf\n\n**Author** : ouxs\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 37,
+                "name": "Follow",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "misc",
+                "description": "> We all know that quantum computing is the future, so in order to practice my quantum computing skills,\n> I have built my own encoding scheme, then I used it to hide the flag, can you recover it!\n\n**Author** : haithem_lamri\n",
+                "files": [
+                    "/files/9a9f9af74e038582941777f21f330c6e/kvant.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6MTAxfQ.Y0IhCQ.lNgnQbXy3jkDVPdFo84etNY3zVA",
+                    "/files/2f06b2a6ab2d1792198131c980e31c98/enc.txt?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6MTAyfQ.Y0IhCQ.jkxKDzwkwlw9miUiaDtQOx71Wk8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 46,
+                "name": "Kvant",
+                "points": 500,
+                "solves": 2
+            }
+        ],
+        "pwn": [
+            {
+                "category": "pwn",
+                "description": "> Help! This program is playing mind games with me!\n> You need to put an end to this madness.\n\n**Note**: The binary is already patched to use the provided library and linker.\n\n**Author** : chenx3n\n",
+                "files": [
+                    "/files/6619c6ca64b029d9eadb248a58a58dae/mind-games.zip?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6OTl9.Y0IhCg.DbcM1rsty8b3mfyB4T5goOmyV6w"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 19,
+                "name": "Mind games",
+                "points": 499,
+                "solves": 4
+            },
+            {
+                "category": "pwn",
+                "description": "> I heard that adding numbers in C is very tricky,\n> can you prove that to me with this challenge?\n\n**Author** : chenx3n\n",
+                "files": [
+                    "/files/a03c112daa740a838202c1e7a52ae5e0/counter?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NTJ9.Y0IhCQ.WaZNL33givwireY_k2FR_Qrai6c",
+                    "/files/e1ec2b5e12d50a79d97ad419dac38b34/counter.c?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NTN9.Y0IhCQ.sd70ccKo5bpjhCh-spFX8j03Cbs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "Counter",
+                "points": 50,
+                "solves": 225
+            },
+            {
+                "category": "pwn",
+                "description": "> Yet Another Notebook Challenge!\n\n**Note**: The binary is already patched to use the provided library and linker.\n\n**Author**: chenx3n\n",
+                "files": [
+                    "/files/33aa9a462536eb5c519d07fe7248f662/yanc.zip?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NTR9.Y0IhCQ.oh7BqlPII-wGzcoCEuM94j1iKsw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 22,
+                "name": "YANC",
+                "points": 499,
+                "solves": 4
+            },
+            {
+                "category": "pwn",
+                "description": "> I wrote a C extension for my Python application to make it faster.\n> I just hope I did nothing wrong!\n\n**Note**: The Python binary is already patched to use the provided libraries and linker.\n\n**Author**: chenx3n\n",
+                "files": [
+                    "/files/903a20f1b4c887764c952f3917c0200b/faster-python.zip?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6Nzd9.Y0IhCQ.Tq5nxzPElhBVf1zP2IT43b1AowQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 18,
+                "name": "Faster Python",
+                "points": 492,
+                "solves": 8
+            },
+            {
+                "category": "pwn",
+                "description": "> Try Our new fast encryption algorithms implementations!\r\n**Note**: Docker image used for this challenge is docker.io/library/ubuntu:22.04@sha256:20fa2d7bb4de7723f542be5923b06c4d704370f0390e4ae9e1c833c8785644c1  \r\n**Author**: philomath213\r\n",
+                "files": [
+                    "/files/cb0b4fd5b67125a19e44af11c553e437/encryptor.zip?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NTV9.Y0IhCg.HY9Q-TwaVZ5tfKeVHcofbUVmDQc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "encryptor",
+                "points": 1000,
+                "solves": 2
+            },
+            {
+                "category": "pwn",
+                "description": "> A friend of mine told me that he uses a strong\n> notes keeper to write his diaries there.\n> Can you prove him wrong and pwn it?\n\n**Author** : Scorpion197\n",
+                "files": [
+                    "/files/225336dedb7405d883d1315d5f833449/notes_keeper.zip?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NTZ9.Y0IhCQ.Fcte6T8ynwtFQgBK_uGb6B7IKGA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "Notes keeper",
+                "points": 428,
+                "solves": 21
+            },
+            {
+                "category": "pwn",
+                "description": "> I implemented a simple XOR encoder/decoder in C, and I made sure to write the code super clean!\n\n**Note**: The binary is already patched to use the provided library and linker.\n\n**Author**: chenx3n\n",
+                "files": [
+                    "/files/7e9d4ea37a4029d3793aee985b80691a/xor.zip?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NzZ9.Y0IhCg.G-MMofwBb9RkJOjSYD57-YW0iiI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 21,
+                "name": "XOR",
+                "points": 499,
+                "solves": 4
+            }
+        ],
+        "reverse": [
+            {
+                "category": "reverse",
+                "description": "> There is a lot of traditions in CTF, and this is the reverse one.\n\n**Author** : ouxs\n",
+                "files": [
+                    "/files/9d8c2548b808a23779efbf94e875b078/prog?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NjB9.Y0IhCg.rCj4Op9LFkaPLq8dxNTU0OLq5Kk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 42,
+                "name": "traditions",
+                "points": 50,
+                "solves": 126
+            },
+            {
+                "category": "reverse",
+                "description": "> I was browsing the internet and I found this binary, and for some reason, it doesn't want to give me the flag.\n> Can you help me?\n\n**Author** : yalatr3ch3\n",
+                "files": [
+                    "/files/b55aff5c9200a4af442d014a9118ea2f/impossible_challenge?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6MTAwfQ.Y0IhCg.zHEWPmfhZt5iCZZu66Q6FqMGOXc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 52,
+                "name": "impossible_challenge",
+                "points": 454,
+                "solves": 17
+            },
+            {
+                "category": "reverse",
+                "description": "> You'll probably recognize this format just by looking at the size of the binary file.  \n\n**Note** : Wrap what you find between `ctf{}` and submit as flag.  \n\n**Author** : red0xff\n",
+                "files": [
+                    "/files/91f86c197891880adf9f9eecc628fc25/oldschool?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NjV9.Y0IhCg.IWE6-JxER2QxV-n_dBLVuec2paQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 36,
+                "name": "oldschool",
+                "points": 470,
+                "solves": 14
+            },
+            {
+                "category": "reverse",
+                "description": "> \"You must take your opponent into a deep dark forest where 2+2=5\".\n> - Mikhail Tal\n\nThe challenge was made based on \"Tal\" mindset, escape from that forest.\n\n**Author** : 0xc001\n",
+                "files": [
+                    "/files/3539864a242b29ce2b26378e130907c9/mazinrev?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NTB9.Y0IhCg.eVtWFZ3luBiyItGVYIByulhlk5w"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 35,
+                "name": "MazinRev",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "reverse",
+                "description": "> After destroying the earth, Dormammu \"the ruler of the dark dimension\" left only one magic spell that could restore the earth to its original form, and it was hidden in a binary file, and according to the book of the Vishanti, only Dr.Strange can find and use the spell.\n> Can you help Dr. Strange get the code in order to unlock the spell?\n\n**Author** : yalatr3ch3\n",
+                "files": [
+                    "/files/327f900e711440dd23cb4f61f9d72827/dark_dimension.exe?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6Nzl9.Y0IhCg.Qyb-RqWuhbeZG0cngPnaPQQGoZk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 34,
+                "name": "dark_dimension",
+                "points": 500,
+                "solves": 2
+            }
+        ],
+        "web": [
+            {
+                "category": "web",
+                "description": "> Did you miss php?\n> Let's see if you still remember.\n> They say php works in mysterious ways\n\n**Author** : Abderraouf/0x13A0F\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 40,
+                "name": "ezphp",
+                "points": 50,
+                "solves": 292
+            },
+            {
+                "category": "web",
+                "description": "> Get access to the admin page.\n\n**Author** : souad\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 23,
+                "name": "cookauth",
+                "points": 50,
+                "solves": 501
+            },
+            {
+                "category": "web",
+                "description": "> The first challenge has a small oopsie.\n> Let's see if you really remember now.\n\n**Author** : Abderraouf/0x13A0F\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 48,
+                "name": "ezphp (fixed)",
+                "points": 50,
+                "solves": 58
+            },
+            {
+                "category": "web",
+                "description": "> I made a JSON data validator using Flask, make sure to check it out!  \n\n**Author** : chenx3n\n",
+                "files": [
+                    "/files/a88129697dc65a8499cf669aaba74123/validator.zip?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NjZ9.Y0IhCg.0n_X-e_AzHR-8Dft6PHc_5TEDQY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 27,
+                "name": "Validator",
+                "points": 479,
+                "solves": 12
+            },
+            {
+                "category": "web",
+                "description": "> I've heard that we have some of the finest AI players here.\n> Let's test that out. Can you make a perfect model?\n\n**Author** : Aymen\n",
+                "files": [
+                    "/files/69948609a5ea30e98dbf300ba86c6183/public.csv?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6NDJ9.Y0IhCg.FDdAkEKZy6TK9YZCjhS02dwjrPE"
+                ],
+                "hints": [
+                    "> By perect model, I mean 100% accuracy",
+                    "> If it's on the web, it means that part of it includes a web vulnerability.\n"
+                ],
+                "id": 25,
+                "name": "Perfect Model",
+                "points": 499,
+                "solves": 4
+            },
+            {
+                "category": "web",
+                "description": "> I don't want to use OverLeaf anymore, so I implemented my own LaTeX compiler\n> I found a lot of linux latex compilers and I chose an awesome one,\n> it lets me script a lot of thing. I also optimized it so that if you\n> send the same latex text twice it won't take the same amount of time,\n> you can check it out.\n\n**PS** : It's a Flask app.\n\n**Author** : m0kr4n3\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 44,
+                "name": "Lay Low'ah",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "web",
+                "description": "> An awesome reward is waiting for you at the exit.\n\n**Author** : Djallil/djilousp\n",
+                "files": [
+                    "/files/2a2a205ce7419367806a3ce9297e33bd/app.py?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6OTV9.Y0IhCg.fHy0FkL4puKBYbT5egeFjx2C9NI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 26,
+                "name": "Pipe your way",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "web",
+                "description": "> Yet another todo app.\n\nSubmit your URLs to: `nc -v web.chal.ctf.gdgalgiers.com 1608`\n\n**Author** : vvxhid\n",
+                "files": [
+                    "/files/5f6f456fe4935b05a17d0e9a3bc2c269/yatodo.zip?token=eyJ1c2VyX2lkIjo2NTAsInRlYW1faWQiOjc4MywiZmlsZV9pZCI6ODB9.Y0IhCg.QvxDBqOIWhdX5_SdLSqqqno-ZHo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 41,
+                "name": "yatodo",
+                "points": 500,
+                "solves": 1
+            }
+        ]
+    },
+    "title": "GDG Algiers CTF",
+    "url": "https://ctf.gdgalgiers.com"
+}
