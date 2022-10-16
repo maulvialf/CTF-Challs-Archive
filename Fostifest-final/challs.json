@@ -1,0 +1,241 @@
+{
+    "data": {
+        "Bonus": [
+            {
+                "category": "Bonus",
+                "description": "`Flag: Fostifest{Selamat_Begadang_Kawand}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 36,
+                "name": "Sanity Check",
+                "points": 100,
+                "service": [],
+                "solves": 10
+            }
+        ],
+        "Cryptography": [
+            {
+                "category": "Cryptography",
+                "description": "Simply silly yet classic encoder",
+                "files": [
+                    "/files/bfa083a87716c459e12e1e1d845a189f/encoder.py?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6Mzd9.Y0ctvA.5Tl5XNeKJXENSJtWLHvTEASlx84",
+                    "/files/0b454e7b155eebbb820804ef4c51816a/result.txt?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6Mzh9.Y0ctvA.88DOIQw5qVd8DwbRSqkTV9FN-I4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 40,
+                "name": "Based",
+                "points": 356,
+                "service": [],
+                "solves": 4
+            },
+            {
+                "category": "Cryptography",
+                "description": "Baby AES (literaly)\r\n\r\n`nc 103.187.146.217 50001`",
+                "files": [
+                    "/files/b035d566a167bb422ae716c25e01a72a/aes.py?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6Mzl9.Y0ctvA.lSnFnPTUg40fSmqyYIsz2rhx4lw",
+                    "/files/ce1741720de38960b0a9dc7ae15688a2/challenge.py?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6NDB9.Y0ctvA.heFBstHuASmKb5ID_adHwiZ1kq4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 41,
+                "name": "Pandora",
+                "points": 500,
+                "service": [],
+                "solves": 0
+            }
+        ],
+        "Forensic": [
+            {
+                "category": "Forensic",
+                "description": "Our IDS had detected some unusual behavior. Our team said that the casualties occured due to a random person scanned the network repeatedly. There're no loss, but still we have no idea about the attacker's real motive ",
+                "files": [
+                    "/files/9f0eaa9fd2c2877ac20fc35bce812130/intrusion.tar.xz?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6MzR9.Y0ctvA.sJCbldwbSL56w7vJdSb7udC6-7w"
+                ],
+                "hints": [
+                    "You can barely spot some significance tendencies based on `3-way of handshake` terminology"
+                ],
+                "id": 37,
+                "name": "Intrusion",
+                "points": 500,
+                "service": [],
+                "solves": 0
+            },
+            {
+                "category": "Forensic",
+                "description": "I made a literal typography out of font glyph. But, because of my careless it broke before I could finish it",
+                "files": [
+                    "/files/a442528676a031d0ebc648f219c65944/flag.pdf?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6MzV9.Y0ctvA.lezbJ_h5LGQguonuESL4CP8MoAI"
+                ],
+                "hints": [
+                    "IIRC, it made of two kinds of font with different character mapping. That being said, it can still be retrieved manually, even though it was physically destroyed"
+                ],
+                "id": 38,
+                "name": "Typography",
+                "points": 500,
+                "service": [],
+                "solves": 0
+            }
+        ],
+        "Pwn": [
+            {
+                "category": "Pwn",
+                "description": "`nc 103.13.206.201 2022`",
+                "files": [
+                    "/files/2174db2ce346d09ef66cf18abcbda98f/pwn2.zip?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6NDZ9.Y0ctvQ.6Lt-FjX4fpzT1QNa8Y7GAu4fUv0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 46,
+                "name": "Pwn2",
+                "points": 500,
+                "service": [],
+                "solves": 1
+            },
+            {
+                "category": "Pwn",
+                "description": "`nc 103.13.206.201 2024`",
+                "files": [
+                    "/files/9dd4ef556da0ec2293361f51bb0d3180/pwn4.zip?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6NTd9.Y0ctvA.9B5VOXUoJh5MdsOxvC4uZU85ML8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 48,
+                "name": "Pwn4",
+                "points": 500,
+                "service": [],
+                "solves": 0
+            },
+            {
+                "category": "Pwn",
+                "description": "`nc 103.13.206.201 2020`",
+                "files": [
+                    "/files/ad2542a05c767799efa6a3fecc2d0bd2/pwn1.zip?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6NDV9.Y0ctvQ.AgoCqE8pUufldForGIudJaLvLYk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 44,
+                "name": "Pwn1",
+                "points": 436,
+                "service": [],
+                "solves": 3
+            },
+            {
+                "category": "Pwn",
+                "description": "`nc 103.187.146.217 10022`",
+                "files": [
+                    "/files/85eb1f3b9744d9eeb4695838e642865e/pywn.py?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6NTZ9.Y0ctvQ.Ku9CHfBkdqXVpBdeFE1aavqUze4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 52,
+                "name": "PyWN Revenge",
+                "points": 500,
+                "service": [],
+                "solves": 1
+            },
+            {
+                "category": "Pwn",
+                "description": "`nc 103.13.206.201 2021`",
+                "files": [
+                    "/files/52741d3eb0cb1768daeed62467532fc5/pwn3.zip?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6NDd9.Y0ctvA.6eRnswZueh2A-9UDPnJash50zJs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 47,
+                "name": "Pwn3",
+                "points": 484,
+                "service": [],
+                "solves": 1
+            }
+        ],
+        "Reverse": [
+            {
+                "category": "Reverse",
+                "description": "",
+                "files": [
+                    "/files/0adcec8ae7a374a25ff075077cf78c0b/main.zip?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6NDN9.Y0ctvQ.zweeCSsTo1IUemPAq-x3ITrtilQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 42,
+                "name": "Custom 64",
+                "points": 500,
+                "service": [],
+                "solves": 1
+            },
+            {
+                "category": "Reverse",
+                "description": "",
+                "files": [
+                    "/files/35157999cbb10a896a2b7c54b6e7d8b7/main.zip?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6NDJ9.Y0ctvQ.z-tBNFCC7ZxDUjssnQzjrA2WkW4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 43,
+                "name": "VM",
+                "points": 500,
+                "service": [],
+                "solves": 0
+            }
+        ],
+        "Web Hacking": [
+            {
+                "category": "Web Hacking",
+                "description": "http://103.13.206.129:13201\r\n\r\nAttachment:\r\nhttps://drive.google.com/file/d/1ZxumDGX08c_LWT4fUSewrZNZJaxwEZdl/view",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 49,
+                "name": "Laravel",
+                "points": 356,
+                "service": [],
+                "solves": 4
+            },
+            {
+                "category": "Web Hacking",
+                "description": "I made a simple web calculator. It seems to be worked as expected, isn't?",
+                "files": [
+                    "/files/6b0505d2baeb93377e6cefe9fc178736/docker-compose.yml?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6NTJ9.Y0ctvQ.cLEquEI-ZhosaS9v-dM3BjzJZkM",
+                    "/files/d262e7779774d693506e6a3717d98319/Dockerfile?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6NTN9.Y0ctvQ.Cjl8grg1HTPEG8DmhL2aVfST_aM",
+                    "/files/c8da1a1881d89c085750db68726dfb25/nginx.conf?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjoyNCwiZmlsZV9pZCI6NTR9.Y0ctvQ.hgUcx3p9Q2iEbsat8MwmWFeGyfI"
+                ],
+                "hints": [
+                    "```py\nresponse = {\n    'value': float(\n        render_template_string(\n            '{{ %s }}' % ops\n        )\n    )\n}\n```"
+                ],
+                "id": 50,
+                "name": "Calculator",
+                "points": 484,
+                "service": "http://103.13.207.16:10011",
+                "solves": 2
+            },
+            {
+                "category": "Web Hacking",
+                "description": "I guess it's just a normal vault, eh?",
+                "files": [],
+                "hints": [
+                    "```py\nwith zipfile.ZipFile(temp_dir) as z:\n  for spec in z.infolist():\n    filename = spec.filename\n    basename = os.path.basename(filename)\n\n    if basename:\n      with db.engine.connect() as connection:\n        storage_id = str(uuid.uuid4())\n        user_id = session.get('id')\n        pathname = os.urandom(16).hex()\n\n        result = connection.execute(text(\n          f\"\"\"INSERT INTO user_storages (\n              id, filename, pathname, user_id\n            )\n            VALUES (\n              '{storage_id}', '{basename}',\n              '{pathname}', '{user_id}'\n            )\n           \"\"\"\n        ))\n```"
+                ],
+                "id": 51,
+                "name": "Vault",
+                "points": 500,
+                "service": "http://103.13.207.16:10012",
+                "solves": 0
+            }
+        ]
+    },
+    "title": "Fostifest",
+    "url": "http://fostifest-ctf.fostiums.org"
+}
