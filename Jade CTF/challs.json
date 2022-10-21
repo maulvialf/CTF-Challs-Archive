@@ -1,0 +1,261 @@
+{
+    "data": {
+        "Crypto": [
+            {
+                "category": "Crypto",
+                "description": "\u201cThere\u2019s nothing wrong with eating ice cream with a fork!\u201d <br>\r\n\\-  EthosLab <br>\r\n\r\nThe author has nothing to say about the challenge.  <br>\r\n... <br>\r\n... <br>\r\nOkay, okay! *Theorems* maybe? <br>\r\nDo solve in order! <br>\r\nand sniffers are definitely an improvement! <br>",
+                "files": [
+                    "/files/e0a0f6f0f898322baa989c5df70eb200/chall.7z?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6Mjd9.Y1JfnA.QHK_vvwMWrqBrbHq5iiQ1NnnNg8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 62,
+                "name": "Inverse or Not",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Crypto",
+                "description": "Hands, hands, and more hands. Are they trying to convey something?",
+                "files": [
+                    "/files/508425e67db6d737f48ae194cfc3d883/chall.png?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTZ9.Y1JfnA.PFeZpWeUz0oJjqQXoGVKX-trU1k"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 36,
+                "name": "Hands",
+                "points": 103,
+                "solves": 95
+            },
+            {
+                "category": "Crypto",
+                "description": "Nothing much, just a customary baby RSA.\r\n\r\n```\r\nc: 125eade3ceb41b6cf53f5edb012024e2049568540d0b833323bed4946d66487e1f03439592e5bf12430a44be9b8f84fb00f33e62b2e85d5b20e74c276d75cf443a06e2ca37e9907445d9dc03a3f35056b87f0a8eccd2f83f1eccab055c919065\r\n```",
+                "files": [
+                    "/files/21aeaefde0ae6b5eabbb8eb409a755de/key.pem?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjR9.Y1JfnA.WGFXl2Zam0T1TKDhnMq8o510V8Y"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 56,
+                "name": "Baby RSA",
+                "points": 409,
+                "solves": 46
+            }
+        ],
+        "DFIR": [
+            {
+                "category": "DFIR",
+                "description": "You were given the task to design a poster for an event by the organizer. Mid-designing, you took a tea break, and when you came back, you saw that someone has defaced your work. You need to fix it quickly before the organizer finds out about it!\r\n\r\n**Flag Format**: jctf{.\\*}",
+                "files": [
+                    "/files/e292d37818a5efd5d32d3f718b292ebd/poster.png?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTh9.Y1JfnA.EFrc0_8KDmf9tTe3mvxErxQ88E8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 26,
+                "name": "AutoCAD",
+                "points": 486,
+                "solves": 19
+            },
+            {
+                "category": "DFIR",
+                "description": "Pearl is eager to throw a party on her birthday. However, she has no contact with Sandeep (no party in ISM is complete without Sandeep), and thus, she calls her friend Jade and asks him to give Sandeep's number. Jade gives her a code in her mail to contact Sandeep. However, her PC crashed & she lost access to all her information. Help her retrieve all her info and the code to contact Sandeep.\r\n\r\n**Flag Format:** jctf{.\\*}\r\n\r\n**Challenge File:**\r\n\r\n[Link1](https://mega.nz/file/y0YmWbbQ#AAy93p0coFvrl7fJXuecyrEa3O98qe8GzuxVV6Zaw1A)\r\n\r\n[Link2](https://terabox.com/s/1qTVM_8pMhvF93IafQnM-sQ)\r\n\r\n[Link2](https://drive.google.com/file/d/1hs-bat_f9cSQkYz2vzmsowkkW0Q8QFWM/view?usp=sharing)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "Call Sandeep",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "DFIR",
+                "description": "Analyze the captured network traffic and find the flag\r\n\r\n**Flag Format:** jctf{.\\*}",
+                "files": [
+                    "/files/79543fe2afca9efe35e1f5a0e27183fe/find.pcapng?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTB9.Y1JfnA.VqZ8pBAr3DRmbSyBHL1MO0XXUfA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "LM10",
+                "points": 354,
+                "solves": 58
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "It's time to pay attention.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 60,
+                "name": "Read the Rules",
+                "points": 50,
+                "solves": 126
+            },
+            {
+                "category": "Misc",
+                "description": "JadeCTF team welcomes you. Hope you have fun!\r\n\r\n*amFkZUNURnt3M2xjMG0zX3QwX2o0ZGVfY3RmfQo=*",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 68,
+                "name": "Welcome",
+                "points": 50,
+                "solves": 147
+            },
+            {
+                "category": "Misc",
+                "description": "Join our discord server :) <br>\r\nhttps://discord.gg/UNrbpGEsNP",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 67,
+                "name": "Discord",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "OSINT": [
+            {
+                "category": "OSINT",
+                "description": "Some hacK3r-man stole data from Saptang Labs. He hid it somewhere on the internet. Now, being an OSINT expert it's your job to retrieve what was stolen.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "Chori Kar Liya",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "OSINT",
+                "description": "Whenever I look at this picture, three questions come to my mind. <br>\r\n1) What are those protuding like structures? <br>\r\n2) What is this place? <br>\r\n3) How old are they? <br>\r\nCan you help me figure this out? <br>\r\nFlag: jadeCTF{name_place_age} <br>\r\nReplace spaces, if any, in name, place and age with underscore. <br>",
+                "files": [
+                    "/files/aa2c732b9618e64d6070f29b370c3579/IMG_20220105_132500.jpg?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjN9.Y1JfnA.BfEa06ckGt_fbPlykPgUqmE30Wc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 53,
+                "name": "Heritage",
+                "points": 500,
+                "solves": 4
+            },
+            {
+                "category": "OSINT",
+                "description": "\"Picture of a tree?\" Weird! <br><br>\r\n**Note:** Once you logically connect everything, you will know what the answer is. Enclose the answer in jadeCTF{} to get your flag.",
+                "files": [
+                    "/files/f285f5dd232dcea406ebdce70ecca744/jade_sea.jpg?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjJ9.Y1JfnA.SHJNLHmr7d-ZE8bald8cQA3_v1g"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 52,
+                "name": "AES EDAJ",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Pwn": [
+            {
+                "category": "Pwn",
+                "description": "In his DBMS course, Shekhar was learning about CRUD operations. He was taught these operations in SQL, but he wanted to try them out in C. He wrote a program for reading data from input, and then scrambling it so other users can't figure out what is stored.\r\nHe gave me the binary to test it, could you help me out?\r\n",
+                "files": [
+                    "/files/cb6af1428fe79d827b66fce8a2236f13/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjZ9.Y1JfnA.zUSOWyUgxUH9S1iBSad20sJsxRQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 63,
+                "name": "Data Storage",
+                "points": 500,
+                "solves": 3
+            },
+            {
+                "category": "Pwn",
+                "description": "Sourav wanted to calculate his compatibility with this girl he has a huge crush on. He thought of writing an application for this. But his code didn't work. It didn't show any compatibility/love percentage whatsoever.\r\nHis application is provided. Help him understand why his code doesn't work.",
+                "files": [
+                    "/files/229e27a8d0f9cef9232f3f366531d06b/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6Mjh9.Y1JfnQ.9s17V6edIz3IPAMtEnJFPG1kkvg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 65,
+                "name": "Love Calculator",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "Pwn",
+                "description": "Beginner level Binary Exploitation :)",
+                "files": [
+                    "/files/314a98bca8de2e58eccb4d6149405803/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjV9.Y1JfnA.wdUjqhYHtjGF1bRb30BN6opY26Q"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 57,
+                "name": "Baby Pwn",
+                "points": 392,
+                "solves": 50
+            }
+        ],
+        "Rev": [
+            {
+                "category": "Rev",
+                "description": "Nick is a huge anime fan. \r\nRecently, he started watching \u30c1\u30a7\u30f3\u30bd\u30fc\u30de\u30f3 and got really fascinated by it. <br>\r\nHe couldn't wait for the new episodes, and downloaded an application which would \"apparently\" get him all the episodes straight away. <br>\r\nSadly, it turned out to be a malware, and encrypted all the files in his system. <br>\r\nHe needs your help.  Provided is the malware and one of his files.\r\n\r\n**WARNING! THIS CHALLENGE CONTAINS A LIVE MALWARE**",
+                "files": [
+                    "/files/7967fa9e53e2e554a60cd2b2145dddf7/ChainsawMan-Downloader.zip?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTR9.Y1JfnQ.PFuVxCeMm_cyDJIhbPL0GnSGc14",
+                    "/files/0e1a47de1be06b9edb5833a50dcc3cc7/file.fun?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTV9.Y1JfnQ.Im7o5ThXVEsD0Bpdyex71ioA-qw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 34,
+                "name": "Denji ex-makima",
+                "points": 493,
+                "solves": 14
+            }
+        ],
+        "Steg": [
+            {
+                "category": "Steg",
+                "description": "The PowerPUFF girls have found MojoJojo's poison Bomb which he had built to blow up Townsville. However, it's already activated, and to defuse it they need MojoJojo's secret code. Looking for the code the girls found a Phisy video left by MojoJojo.But to analyze it they require some help.\r\n\r\nHelp them to find the secret code and save the people of Townsville.\r\n\r\nFlag Format:jctf{fakeflag} \r\n\r\nFile for this challenge:\r\n\r\n[Link1](https://mega.nz/file/e1pFWS7Q#0UUAr6X-vL5frE5kE76HaNkk1vmJ8bRyor9du4uepVg)\r\n\r\n[Link2](https://terabox.com/s/1qZKlSlzKaTJ8wmWoNEVTfg)\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 28,
+                "name": "MojoJojo",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Steg",
+                "description": "Yash loves playing Jigsaw puzzles. But he is stuck in this one. Can you help him?",
+                "files": [
+                    "/files/f4f98732acaa028343d22495b0feab3d/scrambled.png?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTN9.Y1JfnQ.ygMAhrExZv8krEkYxx_vz_VFpQ0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 33,
+                "name": "Avengers Assemble!",
+                "points": 495,
+                "solves": 12
+            }
+        ]
+    },
+    "title": "Jade CTF",
+    "url": "https://jadectf.concetto.in"
+}
