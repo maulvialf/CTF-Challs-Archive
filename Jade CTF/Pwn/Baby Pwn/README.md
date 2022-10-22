@@ -1,7 +1,7 @@
-# Baby Pwn [392 pts]
+# Baby Pwn [50 pts]
 
 **Category:** Pwn
-**Solves:** 50
+**Solves:** 186
 
 ## Description
 >Beginner level Binary Exploitation :)

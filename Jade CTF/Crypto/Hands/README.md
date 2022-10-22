@@ -1,7 +1,7 @@
-# Hands [103 pts]
+# Hands [50 pts]
 
 **Category:** Crypto
-**Solves:** 95
+**Solves:** 326
 
 ## Description
 >Hands, hands, and more hands. Are they trying to convey something?

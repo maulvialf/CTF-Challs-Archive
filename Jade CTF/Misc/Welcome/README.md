@@ -1,7 +1,7 @@
 # Welcome [50 pts]
 
 **Category:** Misc
-**Solves:** 147
+**Solves:** 479
 
 ## Description
 >JadeCTF team welcomes you. Hope you have fun!\r\n\r\n*amFkZUNURnt3M2xjMG0zX3QwX2o0ZGVfY3RmfQo=*

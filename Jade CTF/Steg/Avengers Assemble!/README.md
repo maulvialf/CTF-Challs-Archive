@@ -1,7 +1,7 @@
-# Avengers Assemble! [495 pts]
+# Avengers Assemble! [50 pts]
 
 **Category:** Steg
-**Solves:** 12
+**Solves:** 133
 
 ## Description
 >Yash loves playing Jigsaw puzzles. But he is stuck in this one. Can you help him?
