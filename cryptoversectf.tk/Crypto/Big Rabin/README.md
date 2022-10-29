@@ -1,3 +1,3 @@
 title: Big Rabin
-value: 433
+value: 424
 description: Rabin cryptosystem, but big.

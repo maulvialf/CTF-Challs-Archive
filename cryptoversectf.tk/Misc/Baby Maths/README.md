@@ -1,5 +1,5 @@
 title: Baby Maths
-value: 466
+value: 465
 description: They claimed "any preschooler can solve this Maths quiz". I doubt so.
 
 Please round the answer you got to 5 decimal places. The flag is `cvctf{answer}`. (e.g. `cvctf{1.00000}`)

@@ -1,3 +1,3 @@
 title: CyberMania
-value: 450
+value: 443
 description: I got this piece of ciphertext from my friend who is a Cyber Mania. It must have hidden something...

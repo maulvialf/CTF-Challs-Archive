@@ -1,5 +1,5 @@
 title: Not Georainbolt
-value: 464
+value: 451
 description: [Georainbolt](https://twitter.com/georainbolt) is able to guess the location on Google Map [in 0.1 seconds](https://www.tiktok.com/@georainbolt/video/7106684902929599786). Can you do it in a second?
 
 Given an IP address or a coordinate, tell me which city it is in. All answers are case-insensitive. You will need a space between words, such as "new york city".

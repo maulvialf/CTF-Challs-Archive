@@ -1,5 +1,5 @@
 title: Cherry Blossom
-value: 484
+value: 480
 description: Sakura no Uta~
 
 Note: Server has 10 random test cases and you need to answer each of them correctly within 5 seconds.

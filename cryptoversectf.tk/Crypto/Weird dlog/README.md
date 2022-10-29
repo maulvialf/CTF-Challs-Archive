@@ -1,3 +1,3 @@
 title: Weird dlog
-value: 490
+value: 484
 description: Can you decrypt this message?

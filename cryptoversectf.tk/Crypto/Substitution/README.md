@@ -1,5 +1,5 @@
 title: Substitution
-value: 130
+value: 129
 description: Substitution is a cryptographic technique where a plaintext is replaced by a ciphertext. The ciphertext is a substitution of the plaintext.
 
 Here is a very simple CTF-related substitution cipher. Find out the flag.

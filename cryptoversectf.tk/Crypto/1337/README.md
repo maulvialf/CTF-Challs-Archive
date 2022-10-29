@@ -1,3 +1,3 @@
 title: 1337
-value: 481
+value: 479
 description: A leet challenge.

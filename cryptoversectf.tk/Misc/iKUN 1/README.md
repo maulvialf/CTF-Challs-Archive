@@ -1,5 +1,5 @@
 title: iKUN 1
-value: 340
+value: 323
 description: [https://www.youtube.com/watch?v=w8bid_bK0PI](https://www.youtube.com/watch?v=w8bid_bK0PI)
 
 Find the flag for `iKUN 1`, already wrapped in flag format.
