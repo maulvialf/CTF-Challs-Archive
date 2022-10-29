@@ -1,0 +1,3 @@
+title: French
+value: 384
+description: Some French is in this binary...

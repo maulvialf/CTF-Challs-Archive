@@ -5,7 +5,7 @@
                 "category": "Crypto",
                 "description": "Hands, hands, and more hands. Are they trying to convey something?",
                 "files": [
-                    "/files/508425e67db6d737f48ae194cfc3d883/chall.png?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTZ9.Y1PqxA.D-CqLDPdAcPB-tsLhMUz21by8Ns"
+                    "/files/508425e67db6d737f48ae194cfc3d883/chall.png?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTZ9.Y1yDwA.xym_5Cor7yxU0yr8bS0pZBXFdYY"
                 ],
                 "hints": [
                     "-"
@@ -13,27 +13,27 @@
                 "id": 36,
                 "name": "Hands",
                 "points": 50,
-                "solves": 326
+                "solves": 349
             },
             {
                 "category": "Crypto",
-                "description": "\u201cThere\u2019s nothing wrong with eating ice cream with a fork!\u201d <br>\r\n\\-  EthosLab <br>\r\n\r\nThe author has nothing to say about the challenge.  <br>\r\n... <br>\r\n... <br>\r\nOkay, okay! *Theorems* maybe? <br>\r\nDo solve in order! <br>\r\nand sniffers are definitely an improvement! <br>",
+                "description": "???: is this in *german*? <br>\r\nOperator: Lord, I don't exactly know. It's.. It.. <br>\r\n*breathes* <br>\r\n*chokes* <br>\r\n... <br>\r\n*mechanical - whirring* <br>\r\n???: You take over. <br>\r\nOperator 2: Yes, my Lord. <br>",
                 "files": [
-                    "/files/e0a0f6f0f898322baa989c5df70eb200/chall.7z?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6Mjd9.Y1Pqww.O6-3FQOuWpCNeg0fRwyEy6znuxw"
+                    "/files/78f2f22f26cc62d136b367baf10bed66/transmission.txt?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6OX0.Y1yDwQ.gEb6452IVbWX2ytnsL97Kz5FJnw"
                 ],
                 "hints": [
                     "-"
                 ],
-                "id": 62,
-                "name": "Inverse or Not",
-                "points": 500,
-                "solves": 1
+                "id": 24,
+                "name": "Ep 39",
+                "points": 454,
+                "solves": 33
             },
             {
                 "category": "Crypto",
                 "description": "Nothing much, just a customary baby RSA.\r\n\r\n```\r\nc: 125eade3ceb41b6cf53f5edb012024e2049568540d0b833323bed4946d66487e1f03439592e5bf12430a44be9b8f84fb00f33e62b2e85d5b20e74c276d75cf443a06e2ca37e9907445d9dc03a3f35056b87f0a8eccd2f83f1eccab055c919065\r\n```",
                 "files": [
-                    "/files/21aeaefde0ae6b5eabbb8eb409a755de/key.pem?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjR9.Y1Pqww.1VkX9cUN14mvMEsY868uZX8htx0"
+                    "/files/21aeaefde0ae6b5eabbb8eb409a755de/key.pem?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjR9.Y1yDwQ.fkPYbJK_zBd4F1A6vwqmhhuCSdA"
                 ],
                 "hints": [
                     "-"
@@ -41,27 +41,27 @@
                 "id": 56,
                 "name": "Baby RSA",
                 "points": 50,
-                "solves": 146
+                "solves": 160
             },
             {
                 "category": "Crypto",
                 "description": "High King Gil Galad wants *Mithril* <br>\r\nHelp Elrond save the Elves of Middle-Earth!!",
                 "files": [
-                    "/files/c82cfa4163bf7a4c15489a360c8bf49a/chall.7z?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6OH0.Y1PqxQ.XWMcIlZS5mB-AOwvcmnBxki3ljs"
+                    "/files/c82cfa4163bf7a4c15489a360c8bf49a/chall.7z?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6OH0.Y1yDwA.wzMg1YHuQP-Iznjpfa7vuNpv1-0"
                 ],
                 "hints": [
                     "-"
                 ],
                 "id": 21,
                 "name": "Cheap Mithril",
-                "points": 500,
-                "solves": 0
+                "points": 499,
+                "solves": 6
             },
             {
                 "category": "Crypto",
-                "description": "*some time ago,*<br>\r\nAlex: Hey, Tom! How's your day?<br>\r\nTom: Nice going. Though, I have a feeling someone's peeping over the fence~<br>\r\nEve (behind the fence): Yes<br>\r\n<br>\r\n*150 years later*<br>\r\nAlex: <br>\\x86\\xb1\\x9e\\x0bg\\xb3\\xafk\\x86\\xad\\xc9\\x97\\x89nH\\x9ep\\x17\\xab92\\xed'Ky\\x13\\x8fN\\x8e8?\\xbb<br>\r\nTom: <br>7\\x82\\x12\\xc5\\xa4\\xf6j\\xd9\\x18\\x13\\xac\\x95\\x9b0\\xa2\\x8fsK\\xbf\\xd8\\xe2\\xa6>\\xf3.\\xef6\\x89\\\\\\x80\\x05\\xe1<br>\r\nEve (in her disheveled room): wtf, are they saying? <br>\r\n<br>\r\n> `msg` doesn't start with the flag!",
+                "description": "*some time ago,*<br>\r\nAlex: Hey, Tom! How's your day?<br>\r\nTom: Nice going. Though, I have a feeling someone's peeping over the fence~<br>\r\nEve (behind the fence): Yes<br>\r\n<br>\r\n*150 years later*<br>\r\nAlex: \\x86\\xb1\\x9e\\x0bg\\xb3\\xafk\\x86\\xad\\xc9\\x97\\x89nH\\x9ep\\x17\\xab92\\xed'Ky\\x13\\x8fN\\x8e8?\\xbb<br>\r\nTom: 7\\x82\\x12\\xc5\\xa4\\xf6j\\xd9\\x18\\x13\\xac\\x95\\x9b0\\xa2\\x8fsK\\xbf\\xd8\\xe2\\xa6>\\xf3.\\xef6\\x89\\\\\\x80\\x05\\xe1<br>\r\nEve (in her disheveled room): wtf, are they saying? <br>\r\n<br>\r\n> `msg` doesn't start with the flag!",
                 "files": [
-                    "/files/b6a0a6470114bbd574ea75ef25208b5b/chall.7z?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MzR9.Y1PqxA.MDF3l80o46ilSjB7QpBcqJyv3V0"
+                    "/files/b6a0a6470114bbd574ea75ef25208b5b/chall.7z?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MzR9.Y1yDwQ.9udNA_TkrJT8s3fdaXZMAxt7d3w"
                 ],
                 "hints": [
                     "-"
@@ -73,39 +73,25 @@
             },
             {
                 "category": "Crypto",
-                "description": "???: is this in *german*? <br>\r\nOperator: Lord, I don't exactly know. It's.. It.. <br>\r\n*breathes* <br>\r\n*chokes* <br>\r\n... <br>\r\n*mechanical - whirring* <br>\r\n???: You take over. <br>\r\nOperator 2: Yes, my Lord. <br>",
+                "description": "\u201cThere\u2019s nothing wrong with eating ice cream with a fork!\u201d <br>\r\n\\-  EthosLab <br>\r\n\r\nThe author has nothing to say about the challenge.  <br>\r\n... <br>\r\n... <br>\r\nOkay, okay! *Theorems* maybe? <br>\r\nDo solve in order! <br>\r\nand sniffers are definitely an improvement! <br>",
                 "files": [
-                    "/files/78f2f22f26cc62d136b367baf10bed66/transmission.txt?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6OX0.Y1PqxA.juNh8F6C24EZKIJrZLWUi6Fx3Dg"
+                    "/files/e0a0f6f0f898322baa989c5df70eb200/chall.7z?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6Mjd9.Y1yDwQ.v2E6p1HbdaYfepQhA_IQu_bOA-A"
                 ],
                 "hints": [
                     "-"
                 ],
-                "id": 24,
-                "name": "Ep 39",
-                "points": 495,
-                "solves": 12
+                "id": 62,
+                "name": "Inverse or Not",
+                "points": 500,
+                "solves": 2
             }
         ],
         "DFIR": [
             {
                 "category": "DFIR",
-                "description": "You were given the task to design a poster for an event by the organizer. Mid-designing, you took a tea break, and when you came back, you saw that someone has defaced your work. You need to fix it quickly before the organizer finds out about it!\r\n\r\n**Flag Format**: jctf{.\\*}",
-                "files": [
-                    "/files/e292d37818a5efd5d32d3f718b292ebd/poster.png?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTh9.Y1PqxA.OY8XutZp9fuDlHj3mKVohT97nHM"
-                ],
-                "hints": [
-                    "-"
-                ],
-                "id": 26,
-                "name": "AutoCAD",
-                "points": 94,
-                "solves": 96
-            },
-            {
-                "category": "DFIR",
                 "description": "Analyze the captured network traffic and find the flag\r\n\r\n**Flag Format:** jctf{.\\*}",
                 "files": [
-                    "/files/79543fe2afca9efe35e1f5a0e27183fe/find.pcapng?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTB9.Y1Pqww.qQ9gLXOeZiMgZ5mTUnqfk472DGg"
+                    "/files/79543fe2afca9efe35e1f5a0e27183fe/find.pcapng?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTB9.Y1yDwQ.dEZTAM4ndSa8t8bkCIMHm_T9RtE"
                 ],
                 "hints": [
                     "-"
@@ -113,19 +99,21 @@
                 "id": 25,
                 "name": "LM10",
                 "points": 50,
-                "solves": 261
+                "solves": 278
             },
             {
                 "category": "DFIR",
-                "description": "Pearl is eager to throw a party on her birthday. However, she has no contact with Sandeep (no party in ISM is complete without Sandeep), and thus, she calls her friend Jade and asks him to give Sandeep's number. Jade gives her a code in her mail to contact Sandeep. However, her PC crashed & she lost access to all her information. Help her retrieve all her info and the code to contact Sandeep.\r\n\r\n**Flag Format:** jctf{.\\*}\r\n\r\n**Challenge File:**\r\n\r\n[Link1](https://mega.nz/file/y0YmWbbQ#AAy93p0coFvrl7fJXuecyrEa3O98qe8GzuxVV6Zaw1A)\r\n\r\n[Link2](https://terabox.com/s/1qTVM_8pMhvF93IafQnM-sQ)\r\n\r\n[Link2](https://drive.google.com/file/d/1hs-bat_f9cSQkYz2vzmsowkkW0Q8QFWM/view?usp=sharing)",
-                "files": [],
+                "description": "You were given the task to design a poster for an event by the organizer. Mid-designing, you took a tea break, and when you came back, you saw that someone has defaced your work. You need to fix it quickly before the organizer finds out about it!\r\n\r\n**Flag Format**: jctf{.\\*}",
+                "files": [
+                    "/files/e292d37818a5efd5d32d3f718b292ebd/poster.png?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTh9.Y1yDwQ.VcbQNLRzMwGdGzX479ihflqnUMA"
+                ],
                 "hints": [
                     "-"
                 ],
-                "id": 15,
-                "name": "Call Sandeep",
-                "points": 479,
-                "solves": 23
+                "id": 26,
+                "name": "AutoCAD",
+                "points": 50,
+                "solves": 106
             },
             {
                 "category": "DFIR",
@@ -136,12 +124,12 @@
                 ],
                 "id": 23,
                 "name": "La Tour",
-                "points": 496,
-                "solves": 11
+                "points": 477,
+                "solves": 24
             },
             {
                 "category": "DFIR",
-                "description": "Jade thinks that his wife is cheating on him. So, in her absence, he looks into her PC and finds an encrypted file.\r\nBeing a noob, he had no idea about it and so he brought the file to you. Help him find the TRUTH about his wife.\r\n\r\n**Flag Format:**jctf{.\\*}\r\n\r\n**Challenge File:**\r\n\r\n[Link1](https://mega.nz/file/vg5WSQoL#4r6GIm00Ogp0TxrFjIavFjMLK3RRlPS17caItVn0IaU)\r\n\r\n[Link2](https://terabox.com/s/15Zo6PE-zzzVJFVMR9zkOhg)",
+                "description": "Jade thinks that his wife is cheating on him. So, in her absence, he looks into her PC and finds an encrypted file.\r\nBeing a noob, he had no idea about it and so he brought the file to you. Help him find the TRUTH about his wife.\r\n\r\n**Additional info **\r\n\r\nHis wife loves to use small passwords so that she dosen't \r\nhave to remember long passwords\r\n\r\n**Flag Format:**jctf{.\\*}\r\n\r\n**Challenge File:**\r\n\r\n[Link1](https://mega.nz/file/vg5WSQoL#4r6GIm00Ogp0TxrFjIavFjMLK3RRlPS17caItVn0IaU)\r\n\r\n[Link2](https://terabox.com/s/15Zo6PE-zzzVJFVMR9zkOhg)",
                 "files": [],
                 "hints": [
                     "-"
@@ -149,34 +137,36 @@
                 "id": 19,
                 "name": "Affair",
                 "points": 500,
-                "solves": 0
-            }
-        ],
-        "Misc": [
-            {
-                "category": "Misc",
-                "description": "Join our discord server :) <br>\r\nhttps://discord.gg/UNrbpGEsNP",
-                "files": [],
-                "hints": [
-                    "-"
-                ],
-                "id": 67,
-                "name": "Discord",
-                "points": 500,
                 "solves": 2
             },
             {
-                "category": "Misc",
-                "description": "JadeCTF team welcomes you. Hope you have fun!\r\n\r\n*amFkZUNURnt3M2xjMG0zX3QwX2o0ZGVfY3RmfQo=*",
+                "category": "DFIR",
+                "description": "Pearl is eager to throw a party on her birthday. However, she has no contact with Sandeep (no party in ISM is complete without Sandeep), and thus, she calls her friend Jade and asks him to give Sandeep's number. Jade gives her a code in her mail to contact Sandeep. However, her PC crashed & she lost access to all her information. Help her retrieve all her info and the code to contact Sandeep.\r\n\r\n**Flag Format:** jctf{.\\*}\r\n\r\n**Challenge File:**\r\n\r\n[Link1](https://mega.nz/file/y0YmWbbQ#AAy93p0coFvrl7fJXuecyrEa3O98qe8GzuxVV6Zaw1A)\r\n\r\n[Link2](https://terabox.com/s/1qTVM_8pMhvF93IafQnM-sQ)\r\n\r\n[Link2](https://drive.google.com/file/d/1hs-bat_f9cSQkYz2vzmsowkkW0Q8QFWM/view?usp=sharing)",
                 "files": [],
                 "hints": [
                     "-"
                 ],
-                "id": 68,
-                "name": "Welcome",
-                "points": 50,
-                "solves": 479
-            },
+                "id": 15,
+                "name": "Call Sandeep",
+                "points": 470,
+                "solves": 27
+            }
+        ],
+        "Feedback": [
+            {
+                "category": "Feedback",
+                "description": "Please give a honest feedback. <br>\r\nYour opinion really matters to us. <br>\r\nhttps://forms.gle/q935NCPG7QrJfX6L7 <br>\r\nThanks!",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 78,
+                "name": "Feedback",
+                "points": 25,
+                "solves": 28
+            }
+        ],
+        "Misc": [
             {
                 "category": "Misc",
                 "description": "It's time to pay attention.",
@@ -187,19 +177,7 @@
                 "id": 60,
                 "name": "Read the Rules",
                 "points": 50,
-                "solves": 427
-            },
-            {
-                "category": "Misc",
-                "description": "You have one chance to solve each board. More information is provided in the challenge.\r\n\r\nSome more information regarding the challenge:\r\n- Initially, Bob sets up the coins in the chessboard completely randomly.\r\n- After, that, he shows Alice which is the answer coin.\r\n- Then, Alice flips a coin strategically so as to communicate to you which coin is the correct one.\r\n- After all of these tasks are done, you see the board and you have to figure out in one go which is the correct coin. You do not know the initial configuration of the board, neither the coin which Alice flipped.\r\n- You have to answer the coin index (starting from 0) below which the paper is there.",
-                "files": [],
-                "hints": [
-                    "-"
-                ],
-                "id": 69,
-                "name": "Coin Flip",
-                "points": 457,
-                "solves": 32
+                "solves": 458
             },
             {
                 "category": "Misc",
@@ -215,41 +193,15 @@
             },
             {
                 "category": "Misc",
-                "description": "My friend challenged me at a game. But, I suck at it. <br>\r\nI have been at it for hours but I always end up losing :') <br>\r\nCan you help me beat him?",
-                "files": [
-                    "/files/897037add19d6fc4898e105749dbfb79/chall.py?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjF9.Y1PqxQ.CEEKypDpWyhQYJWUIWX_eqLx9zo"
-                ],
-                "hints": [
-                    "-"
-                ],
-                "id": 45,
-                "name": "Game of Chance",
-                "points": 500,
-                "solves": 3
-            },
-            {
-                "category": "Misc",
-                "description": "Secure or hidden?",
+                "description": "Join our discord server :) <br>\r\nhttps://discord.gg/UNrbpGEsNP",
                 "files": [],
                 "hints": [
                     "-"
                 ],
-                "id": 64,
-                "name": "Secure Terminal",
+                "id": 67,
+                "name": "Discord",
                 "points": 500,
-                "solves": 1
-            },
-            {
-                "category": "Misc",
-                "description": "Discord bots are awesome! Some can answer any question you ask, while some ask you questions.\r\n<br>\r\n<br>\r\n* Use channel #botspam. Tag the bot @Riddler and he will dm you ;)\r\n* Be fast with your answers, the bot doesn't entertain those who are slow :V",
-                "files": [],
-                "hints": [
-                    "-"
-                ],
-                "id": 73,
-                "name": "Riddle me this",
-                "points": 500,
-                "solves": 0
+                "solves": 4
             },
             {
                 "category": "Misc",
@@ -261,63 +213,85 @@
                 "id": 44,
                 "name": "SCP",
                 "points": 500,
-                "solves": 1
+                "solves": 4
+            },
+            {
+                "category": "Misc",
+                "description": "Secure or hidden?",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 64,
+                "name": "Secure Terminal",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "Misc",
+                "description": "JadeCTF team welcomes you. Hope you have fun!\r\n\r\n*amFkZUNURnt3M2xjMG0zX3QwX2o0ZGVfY3RmfQo=*",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 68,
+                "name": "Welcome",
+                "points": 50,
+                "solves": 516
+            },
+            {
+                "category": "Misc",
+                "description": "You have one chance to solve each board. More information is provided in the challenge.\r\n\r\nSome more information regarding the challenge:\r\n- Initially, Bob sets up the coins in the chessboard completely randomly.\r\n- After, that, he shows Alice which is the answer coin.\r\n- Then, Alice flips a coin strategically so as to communicate to you which coin is the correct one.\r\n- After all of these tasks are done, you see the board and you have to figure out in one go which is the correct coin. You do not know the initial configuration of the board, neither the coin which Alice flipped.\r\n- You have to answer the coin index (starting from 0) below which the paper is there.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 69,
+                "name": "Coin Flip",
+                "points": 442,
+                "solves": 37
+            },
+            {
+                "category": "Misc",
+                "description": "My friend challenged me at a game. But, I suck at it. <br>\r\nI have been at it for hours but I always end up losing :') <br>\r\nCan you help me beat him?",
+                "files": [
+                    "/files/897037add19d6fc4898e105749dbfb79/chall.py?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjF9.Y1yDwg.mANbnAKpfupTqDFKfBIU4XhMGz0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 45,
+                "name": "Game of Chance",
+                "points": 492,
+                "solves": 15
+            },
+            {
+                "category": "Misc",
+                "description": "Discord bots are awesome! Some can answer any question you ask, while some ask you questions.\r\n<br>\r\n<br>\r\n* Use channel #botspam. Tag the bot @Riddler and he will dm you ;)\r\n* Be fast with your answers, the bot doesn't entertain those who are slow :V\r\n* Division is integer division",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 73,
+                "name": "Riddle me this",
+                "points": 499,
+                "solves": 7
             }
         ],
         "OSINT": [
             {
                 "category": "OSINT",
-                "description": "Some hacK3r-man stole data from Saptang Labs. He hid it somewhere on the internet. Now, being an OSINT expert it's your job to retrieve what was stolen.",
-                "files": [],
-                "hints": [
-                    "-"
-                ],
-                "id": 31,
-                "name": "Chori Kar Liya",
-                "points": 496,
-                "solves": 11
-            },
-            {
-                "category": "OSINT",
                 "description": "Whenever I look at this picture, three questions come to my mind. <br>\r\n1) What are those protuding like structures? <br>\r\n2) What is this place? <br>\r\n3) How old are they? <br>\r\nCan you help me figure this out? <br>\r\nFlag: jadeCTF{name_place_age} <br>\r\nReplace spaces, if any, in name, place and age with underscore. <br>",
                 "files": [
-                    "/files/aa2c732b9618e64d6070f29b370c3579/IMG_20220105_132500.jpg?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjN9.Y1PqxA.HTAhGMLGTu8pah0mIZu6BrC0f6k"
+                    "/files/aa2c732b9618e64d6070f29b370c3579/IMG_20220105_132500.jpg?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjN9.Y1yDww.vDixaU2nEvhuGbmdCp4bxMls9F0"
                 ],
                 "hints": [
                     "-"
                 ],
                 "id": 53,
                 "name": "Heritage",
-                "points": 94,
-                "solves": 96
-            },
-            {
-                "category": "OSINT",
-                "description": "\"Picture of a tree?\" Weird! <br><br>\r\n**Note:** Once you logically connect everything, you will know what the answer is. Enclose the answer in jadeCTF{} to get your flag.",
-                "files": [
-                    "/files/f285f5dd232dcea406ebdce70ecca744/jade_sea.jpg?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjJ9.Y1Pqww.GtWC_ONUUz1dnxCw62aVfMrCcSs"
-                ],
-                "hints": [
-                    "-"
-                ],
-                "id": 52,
-                "name": "AES EDAJ",
-                "points": 497,
-                "solves": 10
-            },
-            {
-                "category": "OSINT",
-                "description": "Help me find this place ASAP, administration is after me.\r\n\r\n**Flag format**:jadeCTF{name_of_the_place_latitude(upto 3-decimal places)_longitude(upto 3-decimal places)}",
-                "files": [
-                    "/files/505c92b9c3085cdd00b15a26b95d2dc7/lost.png?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTl9.Y1PqxQ.fT0CofnrflWmzEkLDVWX1Pf_fFU"
-                ],
-                "hints": [
-                    "-"
-                ],
-                "id": 29,
-                "name": "Banged up Abroad ",
-                "points": 497,
-                "solves": 10
+                "points": 50,
+                "solves": 104
             },
             {
                 "category": "OSINT",
@@ -330,6 +304,46 @@
                 "name": "The Global Friend",
                 "points": 500,
                 "solves": 0
+            },
+            {
+                "category": "OSINT",
+                "description": "Some hacK3r-man stole data from Saptang Labs. He hid it somewhere on the internet. Now, being an OSINT expert it's your job to retrieve what was stolen.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "Chori Kar Liya",
+                "points": 492,
+                "solves": 15
+            },
+            {
+                "category": "OSINT",
+                "description": "Help me find this place ASAP, administration is after me.\r\n\r\n**Flag format**:jadeCTF{name_of_the_place_latitude(upto 3-decimal places)_longitude(upto 3-decimal places)}",
+                "files": [
+                    "/files/505c92b9c3085cdd00b15a26b95d2dc7/lost.png?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTl9.Y1yDww.73EXaztkxLTYLbTCwGuIl8oPMZo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 29,
+                "name": "Banged up Abroad ",
+                "points": 479,
+                "solves": 23
+            },
+            {
+                "category": "OSINT",
+                "description": "\"Picture of a tree?\" Weird! <br><br>\r\n**Note:** Once you logically connect everything, you will know what the answer is. Enclose the answer in jadeCTF{} to get your flag.",
+                "files": [
+                    "/files/f285f5dd232dcea406ebdce70ecca744/jade_sea.jpg?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjJ9.Y1yDwg.HlIbq21CrPvE2gqzHd6ZAH63P5o"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 52,
+                "name": "AES EDAJ",
+                "points": 489,
+                "solves": 17
             }
         ],
         "Pwn": [
@@ -337,64 +351,35 @@
                 "category": "Pwn",
                 "description": "In his DBMS course, Shekhar was learning about CRUD operations. He was taught these operations in SQL, but he wanted to try them out in C. He wrote a program for reading data from input, and then scrambling it so other users can't figure out what is stored.\r\nHe gave me the binary to test it, could you help me out?\r\n",
                 "files": [
-                    "/files/cb6af1428fe79d827b66fce8a2236f13/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjZ9.Y1Pqww.zGY2s124ZWWUuhVSduXJpwmpkHU"
+                    "/files/cb6af1428fe79d827b66fce8a2236f13/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjZ9.Y1yDww.SAXVY1J_DCpalLKLTzreTrTcwcA"
                 ],
                 "hints": [
                     "-"
                 ],
                 "id": 63,
                 "name": "Data Storage",
-                "points": 470,
-                "solves": 27
+                "points": 457,
+                "solves": 32
             },
             {
                 "category": "Pwn",
                 "description": "Sourav wanted to calculate his compatibility with this girl he has a huge crush on. He thought of writing an application for this. But his code didn't work. It didn't show any compatibility/love percentage whatsoever.\r\nHis application is provided. Help him understand why his code doesn't work.",
                 "files": [
-                    "/files/229e27a8d0f9cef9232f3f366531d06b/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6Mjh9.Y1Pqww.KxWQaloh7MEIp_HhyrqbFH4wIr8"
+                    "/files/229e27a8d0f9cef9232f3f366531d06b/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6Mjh9.Y1yDww.Z8cngQ1M0RwzXpYzrcAqBFcxp6U"
                 ],
                 "hints": [
                     "-"
                 ],
                 "id": 65,
                 "name": "Love Calculator",
-                "points": 344,
-                "solves": 60
-            },
-            {
-                "category": "Pwn",
-                "description": "Roll the dice, enter the coupon. Did you win? No? No worries. Try again. Life's all about chances.",
-                "files": [
-                    "/files/a1524ec0a93960e55da1551953cd584f/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MzF9.Y1Pqxg.BDeAwzA0Rx8Pur0U4HpK9gpxQjY"
-                ],
-                "hints": [
-                    "-"
-                ],
-                "id": 71,
-                "name": "Roll the Dice",
-                "points": 500,
-                "solves": 5
-            },
-            {
-                "category": "Pwn",
-                "description": "Sometimes guessing can help, sometimes it can't. Can you guess your way out of this challenge?",
-                "files": [
-                    "/files/0de428b16550e249b7fe41581c5425fc/libc.so.6?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6Mjl9.Y1Pqxg.zozGo0He38hGF4tiMBW0vJKbpv0",
-                    "/files/c5c8124395fe3f56ca496071a4fb2e1a/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MzB9.Y1Pqxg.KWWeRGBpLnlHb_EBqYMBp7MgPYI"
-                ],
-                "hints": [
-                    "-"
-                ],
-                "id": 70,
-                "name": "Guess Game",
-                "points": 498,
-                "solves": 9
+                "points": 292,
+                "solves": 69
             },
             {
                 "category": "Pwn",
                 "description": "Beginner level Binary Exploitation :)",
                 "files": [
-                    "/files/314a98bca8de2e58eccb4d6149405803/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjV9.Y1PqxA.2DKZeA9YIrcQZ-_1eUG06_70FBM"
+                    "/files/314a98bca8de2e58eccb4d6149405803/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjV9.Y1yDww.q_cgU30UzQDl5c_ZyYwVktVx1u8"
                 ],
                 "hints": [
                     "-"
@@ -402,25 +387,39 @@
                 "id": 57,
                 "name": "Baby Pwn",
                 "points": 50,
-                "solves": 186
-            }
-        ],
-        "Rev": [
+                "solves": 201
+            },
             {
-                "category": "Rev",
-                "description": "Nick is a huge anime fan. \r\nRecently, he started watching \u30c1\u30a7\u30f3\u30bd\u30fc\u30de\u30f3 and got really fascinated by it. <br>\r\nHe couldn't wait for the new episodes, and downloaded an application which would \"apparently\" get him all the episodes straight away. <br>\r\nSadly, it turned out to be a malware, and encrypted all the files in his system. <br>\r\nHe needs your help.  Provided is the malware and one of his files.\r\n\r\n**WARNING! THIS CHALLENGE CONTAINS A LIVE MALWARE**",
+                "category": "Pwn",
+                "description": "Sometimes guessing can help, sometimes it can't. Can you guess your way out of this challenge?",
                 "files": [
-                    "/files/7967fa9e53e2e554a60cd2b2145dddf7/ChainsawMan-Downloader.zip?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTR9.Y1PqxA._xXnN3ZHxf8tVZWb7GgdAbcg_Gc",
-                    "/files/0e1a47de1be06b9edb5833a50dcc3cc7/file.fun?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTV9.Y1PqxA.wuan2YXrL2KBGCsptlTVqlRsfFM"
+                    "/files/0de428b16550e249b7fe41581c5425fc/libc.so.6?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6Mjl9.Y1yDww.RCcOqnOvzLYPZwrdyT0w0CAi2qQ",
+                    "/files/c5c8124395fe3f56ca496071a4fb2e1a/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MzB9.Y1yDww._ScOcciCIIqzbxCdPYawt1OOyno"
                 ],
                 "hints": [
                     "-"
                 ],
-                "id": 34,
-                "name": "Denji ex-makima",
-                "points": 212,
-                "solves": 81
+                "id": 70,
+                "name": "Guess Game",
+                "points": 490,
+                "solves": 16
             },
+            {
+                "category": "Pwn",
+                "description": "Roll the dice, enter the coupon. Did you win? No? No worries. Try again. Life's all about chances.",
+                "files": [
+                    "/files/a1524ec0a93960e55da1551953cd584f/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MzF9.Y1yDww.ga65VAX41wl1KmoJzYHxDveIN0c"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 71,
+                "name": "Roll the Dice",
+                "points": 487,
+                "solves": 18
+            }
+        ],
+        "Rev": [
             {
                 "category": "Rev",
                 "description": "----------]<-<---<-------<---------->>>>+[<<<++,<+++++++++++++++,>+,<-----------------------------------,>>--,<+++++++++++++++,<++++++,>+,>,<---------------------------,<+++++++++,++++++,>>-------------------,\r\n",
@@ -430,23 +429,38 @@
                 ],
                 "id": 77,
                 "name": "jsDuck",
-                "points": 499,
-                "solves": 6
+                "points": 489,
+                "solves": 17
+            },
+            {
+                "category": "Rev",
+                "description": "Nick is a huge anime fan. \r\nRecently, he started watching \u30c1\u30a7\u30f3\u30bd\u30fc\u30de\u30f3 and got really fascinated by it. <br>\r\nHe couldn't wait for the new episodes, and downloaded an application which would \"apparently\" get him all the episodes straight away. <br>\r\nSadly, it turned out to be a malware, and encrypted all the files in his system. <br>\r\nHe needs your help.  Provided is the malware and one of his files.\r\n\r\n**WARNING! THIS CHALLENGE CONTAINS A LIVE MALWARE**",
+                "files": [
+                    "/files/7967fa9e53e2e554a60cd2b2145dddf7/ChainsawMan-Downloader.zip?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTR9.Y1yDxA.tI2vJBzPqeYa3zPUxXrBlqwZpkY",
+                    "/files/0e1a47de1be06b9edb5833a50dcc3cc7/file.fun?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTV9.Y1yDxA.AjKO9T-w1rFpLgonkZCtjlLXt3E"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 34,
+                "name": "Denji ex-makima",
+                "points": 152,
+                "solves": 89
             },
             {
                 "category": "Rev",
                 "description": "Self-explanatory. Reverse engineer the binary provided to find the flag!",
                 "files": [
-                    "/files/0f011038270791ed4be5c76117135f24/output?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MzJ9.Y1PqxQ.aCOFjukCV-rdG7INHwd8ZbfBRxg",
-                    "/files/c93414f41c1491f07d305b2298c5ce08/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MzN9.Y1PqxQ.MMdy489w6cALfu67hRI7FsWRjYQ"
+                    "/files/0f011038270791ed4be5c76117135f24/output?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MzJ9.Y1yDww.86-El8kw27ekgsn0Ge4YtwsTAIY",
+                    "/files/c93414f41c1491f07d305b2298c5ce08/chall?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MzN9.Y1yDww.nkKagGVUUrKmBr4DP3QVeZ5gruE"
                 ],
                 "hints": [
                     "-"
                 ],
                 "id": 72,
                 "name": "Bit Set Go",
-                "points": 500,
-                "solves": 4
+                "points": 494,
+                "solves": 13
             }
         ],
         "Steg": [
@@ -459,14 +473,14 @@
                 ],
                 "id": 28,
                 "name": "MojoJojo",
-                "points": 496,
-                "solves": 11
+                "points": 493,
+                "solves": 14
             },
             {
                 "category": "Steg",
                 "description": "Yash loves playing Jigsaw puzzles. But he is stuck in this one. Can you help him?",
                 "files": [
-                    "/files/f4f98732acaa028343d22495b0feab3d/scrambled.png?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTN9.Y1PqxQ.msu-Q5q3IZEPD59K_KivpZWyrJM"
+                    "/files/f4f98732acaa028343d22495b0feab3d/scrambled.png?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MTN9.Y1yDxA.Kt8g_HbtRIdrqo7wk5oOag1aK6Q"
                 ],
                 "hints": [
                     "-"
@@ -474,7 +488,7 @@
                 "id": 33,
                 "name": "Avengers Assemble!",
                 "points": 50,
-                "solves": 133
+                "solves": 145
             }
         ],
         "Web": [
@@ -487,22 +501,22 @@
                 ],
                 "id": 40,
                 "name": "Baby Web",
-                "points": 457,
-                "solves": 32
+                "points": 364,
+                "solves": 56
             },
             {
                 "category": "Web",
                 "description": "I have made an impossible game, no one can beat it! Can you?\r\n<br>\r\n<br>\r\n**Note:**\r\n<br>\r\nDue to some technical issues, we are not able to provide you individual instances. <br>\r\nPlease keep a secure username and password that no-one can guess. Otherwise someone else might login to your account and grab the flag.\r\n\r\n```\r\nServer: http://103.20.235.21:8000\r\nAPI: http://103.20.235.21:9000\r\n```",
                 "files": [
-                    "/files/4d13fde90a998315c4c648b061910d43/game_source.zip?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjB9.Y1Pqxg.OU2iAf2Z4fMhN406y9DqbYxGAfE"
+                    "/files/4d13fde90a998315c4c648b061910d43/game_source.zip?token=eyJ1c2VyX2lkIjo1MDMsInRlYW1faWQiOjI5NSwiZmlsZV9pZCI6MjB9.Y1yDxA.WQ_X_1NcKKjL8r2EynX3UGtbe_E"
                 ],
                 "hints": [
                     "-"
                 ],
                 "id": 37,
                 "name": "++game",
-                "points": 498,
-                "solves": 9
+                "points": 451,
+                "solves": 34
             },
             {
                 "category": "Web",
@@ -514,7 +528,7 @@
                 "id": 48,
                 "name": "Ultra Baby Web",
                 "points": 50,
-                "solves": 130
+                "solves": 199
             },
             {
                 "category": "Web",
@@ -525,8 +539,8 @@
                 ],
                 "id": 41,
                 "name": "HAAS",
-                "points": 500,
-                "solves": 2
+                "points": 499,
+                "solves": 7
             },
             {
                 "category": "Web",
@@ -537,8 +551,8 @@
                 ],
                 "id": 42,
                 "name": "Green Coffee",
-                "points": 499,
-                "solves": 7
+                "points": 487,
+                "solves": 18
             }
         ]
     },

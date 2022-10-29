@@ -1,7 +1,7 @@
-# Roll the Dice [500 pts]
+# Roll the Dice [487 pts]
 
 **Category:** Pwn
-**Solves:** 5
+**Solves:** 18
 
 ## Description
 >b"Roll the dice, enter the coupon. Did you win? No? No worries. Try again. Lifes all about chances."

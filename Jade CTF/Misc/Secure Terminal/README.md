@@ -1,7 +1,7 @@
 # Secure Terminal [500 pts]
 
 **Category:** Misc
-**Solves:** 1
+**Solves:** 2
 
 ## Description
 >Secure or hidden?
