@@ -1,0 +1,225 @@
+{
+    "data": {
+        "CRYPTO": [
+            {
+                "category": "CRYPTO",
+                "description": "E.N.D === Etherious Natsu Dragneel\r\n<br><br>\r\nnc 103.152.242.37 11103\r\n<br><br>\r\n***Author : Mockingjay#4958***<br>\r\nnb : chat me on Roxasium#7780",
+                "files": [
+                    "/files/f80c9b1c7e4f0aa4492ab05ce0014b28/chall.py?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6NDl9.Y0qknw.DDlTouPlukENuLwAywQjeURyH1Q"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 47,
+                "name": "Fairy Tail",
+                "points": 494,
+                "solves": 1
+            },
+            {
+                "category": "CRYPTO",
+                "description": "ah i made a mistakeee.....<br>\r\nhelppppp<br>\r\n<br>\r\n***Author : Mockingjay#4958***<br>\r\nnb : chat me on Roxasium#7780",
+                "files": [
+                    "/files/88baaab3fffa20ca686ea2a82931bbc9/chall.sage?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6NDV9.Y0qknw.eF2lXFHmekSOF3SUVjqJ67Hd60A",
+                    "/files/50af52a76ad1e4be726c5eb185c75eda/output.txt?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6NDZ9.Y0qknw.D47ULW4whMRaIuDmEQfGaYI8esw"
+                ],
+                "hints": [
+                    "<a href=\"https://en.wikipedia.org/wiki/Coppersmith%27s_attack#Franklin-Reiter_related-message_attack\">this might help<a>"
+                ],
+                "id": 45,
+                "name": "ez flag",
+                "points": 494,
+                "solves": 1
+            },
+            {
+                "category": "CRYPTO",
+                "description": "loh?he?kok gini?\r\n\r\n***Author : Mockingjay#4958***<br>\r\nnb : chat me on Roxasium#7780",
+                "files": [
+                    "/files/e594d3c9cb825dc92e6bbcf23a5611df/chall.py?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6NDd9.Y0qknQ.o2V31223viL4t4nr4dgZ1Dql-Co",
+                    "/files/98c149f0078086eddf313d8c84770407/output.txt?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6NDh9.Y0qknQ.mdcI5MYVY7cf1itIpmqbFEe1SSE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 46,
+                "name": "LoHe",
+                "points": 475,
+                "solves": 3
+            }
+        ],
+        "FEEDBACK": [
+            {
+                "category": "FEEDBACK",
+                "description": "Feedbacknya tuan <br>\r\n\r\nhttps://forms.gle/YR3dojJXGUCvXXMe9",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 51,
+                "name": "Feedback",
+                "points": 10,
+                "solves": 0
+            }
+        ],
+        "FORENSIC": [
+            {
+                "category": "FORENSIC",
+                "description": "\"Ada yang hilang, tapi bukan korek\"  --Anya Geraldine\r\n\r\n*Author:* **Indra Yana#6844**",
+                "files": [
+                    "/files/340d7e362255db09fab736f1baca855c/chall.zip?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6MzN9.Y0qknw.v1LgYjRME9IAq9qv9k0B-9uKIX0"
+                ],
+                "hints": [
+                    "Menurut prof.geeksforgeeks passwordnya sudah ditemukan "
+                ],
+                "id": 34,
+                "name": "Slette Bevis",
+                "points": 444,
+                "solves": 4
+            },
+            {
+                "category": "FORENSIC",
+                "description": "Long time no see ! \r\nLet's go hunting !\r\n\r\n*Author:* **Indra Yana#6844**",
+                "files": [
+                    "/files/e03b85550374b9d72d0b76d602887daf/flag.zip?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6MzZ9.Y0qknw.GuwRO-5pG9TsUHXShe_F0q4TNLs",
+                    "/files/c181addf33700c64bebb986fb1326ef2/README.md?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6Mzd9.Y0qknw.-ZoKLWTikR0-tNKpxLDOYugz4W4"
+                ],
+                "hints": [
+                    "Flag nya ada di salah satu hewan nya.. selamat berburu :)",
+                    "\tBuwung ape tu man ?"
+                ],
+                "id": 37,
+                "name": "Flag Hunter",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "FORENSIC",
+                "description": "Indra: \"Ngab liat tugas lw lagi dong\"<br>\r\nTeman Indra: \"Hoho tidak semudah itu kawand\"<br>\r\nIndra: \"Mulai lagi ni anak\"<br>\r\nTeman Indra: \"Ore no turn, DRAWW!!\"<br>\r\n<br>\r\n<img src=\"https://media.comicbook.com/2017/12/yugi-kaiba-1064866.jpg?auto=webp\" height=300>\r\n\r\n*Author:* **Roxasium#7780**",
+                "files": [
+                    "/files/7eedb7e53da2217ecbadfacec850fae0/chall.zip?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6NDJ9.Y0qknw.ZRFCDoI5c5183kOLVZkUPk2e4AA"
+                ],
+                "hints": [
+                    "r is red <br>\ng is green <br>\nb is blue"
+                ],
+                "id": 44,
+                "name": "Tugas Kuliah 2",
+                "points": 444,
+                "solves": 4
+            }
+        ],
+        "REVERSE ENGINEERING": [
+            {
+                "category": "REVERSE ENGINEERING",
+                "description": "\"gomacserial\"<br>\r\nIndra 2k22\r\n\r\n<br>\r\n<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABblBMVEX///+3+P8AAABh4O4/yd8jnvD/9ef1oCvWwpU9yOAsxt5i4/Fk5O67+f9j5fP4/f4emvBWzePu+vzt7e3//u//py319fWg4e3fyptBzuWp4+/b29uz5/GSkpIdmfC4uLjP7/Zvb2+dnZ2M2+rJycnc9Pji4uKHh4erq6t+1+ij8vtaWlrK7vVR1ed9fX29//9OTk5EnKYuqPDPz89NsbxZztslJSVDQ0NUw88ULzI0eIA4ODgpX2VMyO+np6cspvAZGRk/kZobP0MwbnUkU1hXV1c0pbc1r/BKxe88tu8nfYqM6/a8qoOgaBzp4NOvqJ4eHh4tkaE6tO9U0e8LJCijlHFfVkKDd1tCPC4mIhp/UxYtHQjWjCbAfSI5tchpZV/Hv7RsYksMGxwIJjoNPV0SUHkVYJIbe7sSOD4EERsZcawfjteS3ft0yvdGX2KThWeCsLVdfoJ3oaZmQxKXzNJQNA6nbR0cEgWLWxgzLiO/McD3AAAXh0lEQVR4nO1d+V/byJI3lkJiC3wRfICNbWwDBtuBcB9huHI6DzJDMpPMZALDXtl9u2/eMed/v1XV3VK3JIMly0MmH31/SHxIuL+q6rq6WopEQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIEWIoSN72AIaMEU3TFm97EMNEV0M0bnsYw0ND07qVxe5tD2OIABHe9hCGg1a3u0gGRtPGb3ssQwGbfBlSUvg3kmyNVG55SMECJ9+ihvrZIiWtfH7WZnGcyI1HisiwoWlCpp8X0MgsIkMiBzQ/O88PnBqLWheF+VkpqARDy+XWm5Fu4nN0h9ML80u7UY6r5fn91extDylAzM0uR11w0Cl/FiznSgdu9DiWF/7sJMubJpmjncOVtS3A2srhzolFcmn1tgfpH9mSYHG8sp4AGBz4Wls7POLfbpRve6T+kJ3nBHbWkJtmB/DUVrgsD/6EHAW/oxUj4WRnsdQOr+i43enbHrFHcP3c27qGHkMisca0tXrbY/aCBT771m/kxwS5tk3H/2lMztyuF36M4wqdMn/bQ+8PTEH3+udHuqrtkXv0+ZvOEH54QX2WHODHm+efg+MaGdUJ/COrpaXN5Y4jGEgz1CKRKfZKRx6Nmh6P682WecRUJJKDj1oVnR3UiCTZK/xmYEyTAFf64Gd0u+pBiXWajXNiFgNm1T8e12OAeBMYxGP0EhjW8GVc1/HjSBqO0NORNL6vVPhBlUiSv8oNTrCO49peT/Qhs5Hx8fFFlXOCNHVJCuo6yl9vxmM6oAjJNP6vx9NIUI/ptRxwQoo1kKaezsGbeDyZ0eN4VBry7DSeGI+1BiZYJgvjEGB3ZHzEwbALDMe7Nk3d4cxeH/PAzuYlazE9zgoDMGIUWgUI4v+RFrDCpDMHXEDMxRx+mkSGEfnrIAgeOgS4OO7GECs3i/aPGEWYxYh1p3XNACFSNWAG2seEw75q6jGYoJEpUlBxPEqTTVBU3oGxiqNbc2qoQx3dkOBAikfsbySOnWGAYNRkwjEZo5RiacZQmm5J+D7NjosPrqITPQjCBLuJnpForxwfbW+fQAh7TIpOn8Krku1HWlx28B8aRlTSdJMA3GOcoaSOcCXwbc4U9SB4BQP6sh8b45Tf+p5pW64o48ALRVwd0SrIrsaIJhlhNCoCToaNOCmvzi7IYKjCeF60fRE8ZHlitWolkyBW/PSx42fQ1qBX0IV90WtFgZaTIap13LwgAwGtzElBUT3DJWVyI4gCrHJhlXkt55jZHGcBgGZUkusqiiheVL63M0RyLW6FBkIWx6Pr1rAT2tba2vp1mZM4ErzCxpx6qfBqufgKAgilVozzaQVUmTB7MgQFjaX1AFwF6uiTglDSRPtwmw8U0sPrCR7bdXHilVBV15QRhJJumtMKLYlSOXcwLGJIEBvYVWCwtlfQ21w9hePmIdx1BCEa3bT9sewGnbcx4f5bYGtMv49qquvEqKhTlOpgGMEjBncVm6SjMTbo9dfwbne2Pj1dpkT/5Dp34TbZSOXtvE3UYrqkmjm0puAwdArbpiia09MV+/GDEsRw9MsCm4aJLRyeqWA0rdZ7UUSDWXf+vVV3K8OQUaIWohgjsaaTMEmRjhpiZ+IBuAoQ4VVBj6GSGuv2nKB6HcUeKWHHmVhYAMMhT6tGE12i3qywrxAxmdFArmJuoVQqz9EsRBESw6to1FY4m4W0r4cIV3qULlBPX/U/jmTmGgpofPv/Uyp4nnOAPgwIIkN0Y/v244Diiau5SRz14oGFgmDKNpUBsgorAoFoBhmCBGESLjmPrPayqM7Ak2PCkRz6Rdq/q6Bs9+iIMaQJzty3m5HHOMwJY62HzwM8hlN8DkxBY4CsAjzBNuY7WxSv4QQ30My41svgarxwCjHxojeLhV4e3yOaYIT8nltlWQ4ZT7QzeoFmobufXnYTIkSku9IxcMlemXN4wiV18oNk0n/IPc9SVcoByEQDwyuXbIBQd5uJiW05w2WRjPkBRg2+xxYMyszP4dQ7QhHG2ijOhR5HH4jMXWZ4JVkTsU4lAoDH1zj965Ak+DjRCfRZewktISxprI3uba7H0SUXNTXkWSvibcG5E3UNd24Ey4WDoYhB5yEZmic6Y7ijWo7yvjVECMTW7IGNwlD4HeFsSj4nIlUQA2JIg3qxwt09MjyR4+W6mgFFozt2NU0cSFq6GWVnCFaz10Xf16DYDJDhNL/sHwVD2XLM8S/FXNp1xjVw/IV5fD2aJYb11fLs/NImU1pfw6oFx5DlAOA0BEPZclQ5w5L5/srB0PQWE9P18kbUiV6z+loEyTAygRaPeUPwhwm3eSXcB8wrB0Pw+LMdq83GwvbJ8SGqv6/F70AZMjE+YQx1RYYkkoV503LsR6MOS7Om0Prvf/v3//jP//mvv/714RgVh7fdMqhko5GR3lQqCpdGpRE4Q5xuH3TOUJ6HlN6DSyExgBZ23KIamsV71IayPvbFHYExrsOO4LuSJl+Qpvpai71pmoxr+FZvDUGGnKBuKLYUbcXyblTSQqdD1NYNVsw3DG3soSCYYjq840iPp+KQv8dZpT6TjkNCjzk9r9nQUlMsHosHaEsRZeEsMD9Ef5gFeS2UgJejFWrPmofYTwP/KGo79tRkeE7HQDi4ofwWFrD1qeIU5fg1SBr0Wg2XCll2RPl9boqW4IJkCNPrtWBYWHExh1GYXaiFbc0kmNAOsRx6tbcmc5QYPsKPjRW7u8jxMmkTFw4juk5ZEV+ZwKoho9oIWIazwh0ithxWg43YUDqGeBWfbKZUwLEY3nluCDuk/FaTJ7O5uJTTirI31qIYr1osUIYlkRwitB2yGuvtsTsyUspyRkKupr52ZfgVriw6GeLQa46xswW2jFX9DpjhvMQwVhBWw0gpDNOyddmKyrCCVcvS3Hn4YLzLDlR+qxFn67vS8DOZBmNYsdYNA2bYkWVIBVNauVYZnssiVCfrisXQ8hZ3RkY0F4Y0EXE5jdXOMlPkLnRi2LLWaIbKsE1r2jDcGZWhNAttbn7d+sI6YcY80PZrDSxKsBYF5v3o7XAZylpKNWE3ho9kt5A4kkUoRXKW3Emt3RjiVpRmnNYhmljGb2VoIXuoWqowpJULbJNpqwyfqfGaueL7eksi2JYYngt1Vn4rwwI2ImPW0JLDtjSzvIZhqalttC4ME+uHexB0HquNU+cp9QR0Kmqlpsm9BK5Z4xpTRGKIS1IsuEmmg2UIHn9bkmHbMVrE8zGFITbPghnZUnIN45md4Y59ZbHJ3CGKr1HkpewMhjJoeXIYzAHFCq7TBNE7I1CmRRkLfTFkNcgVNWh7LgkdT3BG3uDxm7Vck+JS9BxxfEOmBhQ2CdFajMXlSDEe2I6juhR5W2qqMkx95WCIacWhoqSSw7+TeooMX9uzpyY1tum0job9bMSoRT1CUyhaXGSLxacyZG4rQTHESkZMt6upjeFTO0NQU4jEIVi1om/ZHd55OEbXwJYBN6ZwIS3WZF4Bk6d0LhlJYjcNGp1MDWNxkF0NPwlMT7E2/UEWIoWUNi21MTQSWzuvRcKxluDTUTa/X4yxWrqvKkbQiFo5vvAXmvHoOoaJLWm3BfYIUViuXhSjhzu8DWzwgrA8Ee0MH0oMDQ17naKbpXK9XuYN/WsJ+ylu6eFtoaq4fGZNr2GY4IF3NpudmMiCJaa+lJ2EbEopy0dT+mm074NDjN7E8AuTIeneHohndQKQXYDAFGOX7YRsShlDhym9LUzbTU37OoaJK4xFcQUniwwhImrjrpJ1w5ZRMlPqZ91iCIiqEzF2LUNj5SOEMgb4cmI4z4qo6DLgjFTKYki5U4+eoT8aVbmOwdS0N0ONOt0SJ9EDYmgVwsGUpp4/T5kMnXH37aFsU9OYyjBls6WkqzD8MlAEQ8wXM+AMjAuA5vkzsqUutcTbQ9TpLyzn9vTchSGLVybmymZbuPE8NZPWxjD5pcxrDBdeP5ktNBc2NS1whlh3SZ2PPXSJ2hJmos+LbWNfpeAyQOSWQppwSXDhtdd6MkcmHsQGin5gV1Odzyoc6kx77Gkq5cwtRLVG5PhjT2faVIxKUYAKJ0RvbBlq/WEMHWpKOX7qEQ41ZYw9B4bOtjbcQ7qyZlaJjedYy2EMv0rNnCf6MKW5P45hVap784k4w/QTJhRktmqdxrKqCSkFpiOIofFs5ouxfqLSpv6HMayragoekUwGMoTJ1Z6Z4Z21ia4MlzYwYqhpz9u9o9JGq9Xiya2uMsxY3yQzADq62EpGMgzJiHjlIzl2qOnYw9SdMWQINsY4PzeM7iLuc3JgZHFRZsoZjrEShkuDXJHvPchhdkh7meJxVn+aYt+kqTrFltkiSayn1pJ8qwIkyfxsH31uHZuaoqY9MtAyoo0Z6yK7EXcwnl2FocbibqezqPHVNT3Ni8N8Kxty4etu9LZG60+0wSZeTNKRVAbQKVf3w3DVZk1BK9sGN4rdxZ7sJJojXWZRU4LhkUvcXUFurUorDQwbtSZ24ddqNeyWxfJaeqqY09kuvUYNyTWpbNOITGF3BiX/Lfaq4p2hXU3ZvEMZPhu5kZ4g2cVqVIqt/1KE7nCHtZi8upaxasBTZrEUqTb4xdBjxUyDaa2ovvlvNu241RRR5/63T4LIcRFitxletDIcRZqIuZ0rUkwjnYbFEEXHXjXi5q49iYv41Fyf8w6bNS1wL35nJtc/wxFcb3okjI6bw8e5l5aHzRlK9W4kqzOGMcnQptn+haRji03/iJo9J9zna0znPBAEioa5bwHLUI72UtpcEddzDRvDltSN32QLwBWVS4sdi30APgli/+ieunwBOJ/5P28MzW2KVGhzhjQtXv9tJhWGRYkO30RjY8hFqw+wFXhWKn0XCgWD6qDdfs2MJETOcMttHoKa5XSq++oRuwxvYIgXoYVn+C6FW00nhcKT45M9vJmJ4ZWgJUS2UOzaBd2gXTJFmWFDmnS0G8/JEFsWmzX7NjAvyIqyaeHJFc+LPq498EgQKCoM7R20lSLNQL41VrKlcdNEim2xDoY55uwHqIRzU1N4giN79zsN8G/ehdhVGNqSfHl1TZFc09y7lePMHAxpMWOgLWybzOcXYFw/3svn8y+/wXJ20aMYhZoSwx/sm1OaMeYOmdumaKzRqPHhQ3gWyeASG+2ARquZU+YctZ36dRWIJWrCRBH+mL+HyN/7GkZZ9ChFmeG93216iv463eQ3F2D7uuMsRxT7gXE5qkGZI9lceTcQNXIMQFAw/BIGJpAHMW54IygmImP40hZ9N+nmDzy6puU0eMe2U1TQxuJXuEjK7iQRE8dx6AOmk+AQd5gM3+Rlin/zpqfcXxDDl/mvVSEmW7km3vlDmItMDUQqNsS08A0Pqou1HEFWysogrgIhghq89hZFGOLfPVHkpoY8/sv8S5dtYn4BOu3fVSC4t0A1laR4D955k6HM8F7+d1/N7G5oDHpjDHOhtIBrZ9+YFN9Eo//wIkTzXiB4oUjNA2LoP6vgmLZiGpTiW1lPPeYXEkO8QMEsAzs37ntF3VpjK3x4DT5fUHzpzdgIh5ggv4pnB3OXs1y6OdgsxM10VtNJ4YRmERPiD56EaDJ8TboeGMPBUVIq+wVsIbWE6GEmmgyPIKbJ53/0t7trGOjY2tsOTUXNv/ViTk2Ge9Ho13mYxR72Ow8XF0oGrNMmrx/ywpz27xNNhnD+27w9qLlNsJBGKrahmr0UPrF/NTUZohKg+D+RZWDct2UrJxo5VDNS03cerKmZXODa1NvBRZitB3Wf21dqJaqtaQ/+wY1N/sCHDHkncY89t/1ijraXBaMGUQfD8Z/IZ5Mx/Wf/DJUUeLBukyzfPhfEhmk3hiMj5NHy995BltgvQZXhYEOie4785e53ARkrF4YPNqIHb95gqt+/CINjmMXbT397d/LujYvlAzD8Oy9JeQm9TYYD9u1hFPnd+8m7d78PKrJ109IH/0R+2z/5yS0GbKfBjsDfgN/dyX9FDwIh6Mpw5MGDn34qPvCWARuWx/edGtIdRlGAgKAMTeTAwXCRBuy5nKhZUZvfe5tgJvcz0bs7+VtgMYPD4+POEj8QDK98FzAWhIYyEbqslfvCY3vUNiDDdd+diXgvhu85wcm/BHf75aot8sb7k/rgp4Q0vsKtZW5DhQgDu3uImh/GfDPsWobGTwv0xIE5BbkIA2tRlbcD041cNGMghtu+gm60Md+aAgxUhMqWbp0tc/tiaFjFRG9Xf3+pVMfL/ItFEA1pcF3G5uoah0YO0TtDKzv05u/FI0K+lyR4dwCX6oID1V1o/oypVKXxYuVRO39lFC0ZTn4bbBmrquzSo32I3hnKFW8Pt8SYZdPv/W+/RiVL+j7g3QwL6kTEm9P5ZuhRSZeEdk7e/eVXU4yTPwdcAplQJ2Lb30S0Apq+L//EhiS3ybu/iYjm+8AiUoFd2eeju/A+EYWSrvXqUnCB3UFMfs8/+DXwVv+Sqqa+JqJlZ/r0Y1m6b8+/3ssU32Nqj54i6Ce7zKkJlObdIwoR9uilcaJuPkbq5/eql4j+EqynYNhUAre2ZzU1S6Un/dmZaborzMHFGW2A+1Zi+J5YB793UW3Zx4noKXATt96njQp9JE50B7v50/uA0Y7q7GkuBmxmCFElv9C8CdF6tkC0LxFipbA0en+UcP90WU4KsXYxlIfWlBQhtj0J0ez3ovuX3xxNgtQ2Tjk/4ngWlbOKQGNuCwv+hWgRRGd/ceNP1YHBqIL7p+gXh5I3qQwlr0+Nwn1qqFjbZruFbv4pYDPqAMY2krEZwqoVez7Mh4IsxD70VHr6BSN4sxEEN39238HwPqjur9ZEHMI+cP4EHG8U5ad7sNsr9aFd+24iBIrzQlHfB3UXYhUQ4n+jKipRvK5BcXxk0dwwZNADLfry9WDTnCLkUvx5kkXdw1gdn48eYHOJnChqzNy4csSHs0hP0uEPQ+rLPvRiOHr/goLS4KNuhsfRt3lsvYBM0dTUNomoy7bGKOxGZHr8gR2uAXd2brpeL5fL9frq9BzLh8CUnroyHL2/i67/uyFtsKWV+zwpavSFLrprOIVud3FxZETsduqqj0EyEmtXeNayXbXmZh9H7TjYrIIyXrgLcfQU4+6g1ptsmGYrotheoHC88cksicTaRzrFsSBaddCzcNlDTy/xy+HcjKFjttDwMRx/KND9hUGO1z3j0VjhdwFxTEEMqS9mzy5PBS4vz85KnYvNg94U74/id53Z+erS8u7GwcHG5uNqqRxIsj8hOhOwvYTfkH77BZAs4O0b3QVpgPiOue65hNubEHphYG2O3gJKqjPq4hMv3SUexKNOd0V3CfaIRKbF09O2d57gBgzU1rYsSnzcqiboYev0O6cHw+l2eUrMaIoBRjlhxuRM5QjEzYzx1e7yxUUHcLHELvfAVakls+fyJZtQc/PmBXy99+LJB+RZAJbsbp7a1srOR/H972/yebguju33WTdpXDDtpDgUxn15KsQ6elmij84u+VWxMHq5O3BlcdrUURIhQ/lCGdvrjycne3t7JydH28rnL/Osw8/FPMxHXcADNkonEMsgq+oSvw2xm+ri9Ri4qFEWZib/RrGJ9Y7bDZBN7M7uc+Xu1Sw7V1+YBezvL4BDBL9YehXduG8q5YXtz5258mORwIBx6qq5CyFqH2m2Xlpye3D15jy2K00Lhq4ydMGsHM+A/s1Wlzdebewud0pnp9waOSW4G8A8BFF9cy+ff/muR+A1t1reL813qtVqZ740W66LK1oXDN/1kRYiymo8g4xOL0sX5uNEXj2ex7kpfU+SHnwpmG5Q/hZ3A3nLyxaYemMnaZ8TBUZ73xw+mJdNN/0oXdJlOL08Y4ocRMs/f0au178FMvwB7O8P/cchYH063ESemU/0BCXFiVouz3ZcnlRfCijRqM8vVfc9/y3zTtF9xx0wIQ7mIbjhwluerdtOnduXWG50bvtORVkmh6qHS2ONf2O+V0ltGm3wQnn6k2iinisveGwCrS8x4X0SN6wbFj4J2YQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIEeKzxP8DcNj7/B6LqXgAAAAASUVORK5CYII=\" height=200>\r\n<br>\r\n<br>\r\nFlag: slashroot6{serial}\r\n\r\n*Author:* **Roxasium#7780**",
+                "files": [
+                    "/files/696cc9d00b722fd862fab31690eed486/chall?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6NTB9.Y0qknw.GhKYCP8aCqrkZl6MUzehUNr5DUw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 48,
+                "name": "Easyrial",
+                "points": 444,
+                "solves": 4
+            },
+            {
+                "category": "REVERSE ENGINEERING",
+                "description": "Kebun Indra diserang oleh BUG!!!\r\nBantulah Indra menyelamatkan tanamannya apapun harganya<br>\r\n<img src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgT1906sBh0vHDBiD4HoC45CSuwC9JVdnO1A&usqp=CAU\" width=400 height=400>\r\n\r\n*Author:* **Roxasium#7780**",
+                "files": [
+                    "/files/d004e2486312aaa10f8f3b1e32a77630/app-release.apk?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6NDN9.Y0qknw.hoSTFXVXFqGgc40k4W6pErmdOpk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 43,
+                "name": "Network Garden",
+                "points": 344,
+                "solves": 6
+            },
+            {
+                "category": "REVERSE ENGINEERING",
+                "description": "Hello guys welcome back with me ya guys yak !\r\n\r\nnc 103.152.242.37 31402\r\n\r\n*Author:* **Indra Yana#6844**",
+                "files": [
+                    "/files/6b026fbc3f923c3863aed6e0551e525c/solo_lord2?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6Mzl9.Y0qknw.zbaFQe6E1-3qXO9d5jaXVlOycRM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 39,
+                "name": "Solo Lord 2",
+                "points": 344,
+                "solves": 6
+            }
+        ],
+        "Sanity": [
+            {
+                "category": "Sanity",
+                "description": "slashroot6{servernya_lagi_ngambek_ngab_maap_yaaa}",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 49,
+                "name": "Sanity Check",
+                "points": 10,
+                "solves": 7
+            }
+        ],
+        "WEB": [
+            {
+                "category": "WEB",
+                "description": "This is my first website, if you have complaints about this website you can complain to admin after login. Your complaints will be seen by admin. But you only have 2 chances to complain and the admin can access /getFlag <br>\r\n\r\nlink : http://103.152.242.37:21204 <br>\r\n\r\n*Author* : **TroubleOne#9157**",
+                "files": [],
+                "hints": [
+                    "not all endpoint have \"http only\""
+                ],
+                "id": 41,
+                "name": "Complain",
+                "points": 494,
+                "solves": 2
+            },
+            {
+                "category": "WEB",
+                "description": "hmm... do you remember trickation in slashroot 5? <br>\r\n\r\nlink : http://103.152.242.37:21203 <br>\r\n\r\n*Author* : **TroubleOne#9157**\r\n",
+                "files": [
+                    "/files/aa64cb5742499547e58f4e40b50aa01e/index.php?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6NDF9.Y0qkoA.7HXxWmSz7qwICpRMp7j-Wa8UQ2U"
+                ],
+                "hints": [
+                    "xor in php",
+                    "check disable function?? from phpinfo()???"
+                ],
+                "id": 40,
+                "name": "Trickation 2",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "WEB",
+                "description": "Kalkulator slashroot 6 digunakan untuk menghitung seputar event slashroot 6... <br>\r\n\r\nlink : http://103.152.242.37:21202 <br>\r\n\r\n*Author* : **TroubleOne#9157**",
+                "files": [
+                    "/files/b257aa0d21898df1b35ef24ec13775a3/app.zip?token=eyJ1c2VyX2lkIjoxNiwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6NTF9.Y0qkng.bCSfVjx1hD8zwgQm5RXEUlo13xk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 36,
+                "name": "Kalkulator Slashroot 6",
+                "points": 444,
+                "solves": 4
+            },
+            {
+                "category": "WEB",
+                "description": "don't forget, what do you want to do... <br>\r\n\r\nlink : http://103.152.242.37:21201 <br>\r\n\r\n*Author* : **TroubleOne#9157**",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 38,
+                "name": "Todo",
+                "points": 275,
+                "solves": 7
+            }
+        ]
+    },
+    "title": "Slashroot CTF #6",
+    "url": "https://ctf.slashrootctf.id"
+}
