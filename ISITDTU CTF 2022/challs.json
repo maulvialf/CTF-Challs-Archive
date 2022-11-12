@@ -1,0 +1,158 @@
+{
+    "data": {
+        "Crypto": [
+            {
+                "category": "Crypto",
+                "description": "I know it's late but if you find Wanda you get candy.\r\n<br>\r\n[Link](https://drive.google.com/drive/folders/1aTt8bHBiIwy_w0JFnnpCPsrNJqFn4MoB)\r\n<br><br>\r\nAuthor: manrop",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "Halloweens magix",
+                "points": 490,
+                "solves": 9
+            },
+            {
+                "category": "Crypto",
+                "description": "nc 34.132.73.130 8002\r\n",
+                "files": [
+                    "/files/6f938587a9265fb292f23efe67a9f7ff/chall.py?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6NH0.Y29FrA.MnzjHptUsSgl2r5WzSSteJtqfLY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "glitch in the matrix",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "An anonymous Script Kiddie recently used many hacking tools to break into different websites to sabotage it and today my server was his victim. Please help me analyze what data he got.\r\n<br>\r\n[Link](https://drive.google.com/file/d/1wGqihiDmn68ZFoGKTGkqi2sEd0LA20tS/view)\r\n<br><br>\r\nAuthor: Ego",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "T1M3",
+                "points": 430,
+                "solves": 22
+            },
+            {
+                "category": "Misc",
+                "description": "Find me and say a greeting in Discord",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 2,
+                "name": "Welcome",
+                "points": 10,
+                "solves": 60
+            },
+            {
+                "category": "Misc",
+                "description": "A friend of mine went on a trip in November 1st and sent me a picture of the landscape there, but when I asked, he didn't remember. Please help me find the place in the photo. Format flag :ISITDTU{LOCATION-CITY}\r\n<br>\r\n[Link](https://drive.google.com/file/d/1TlVZCquLvcn4ViNXuzwaUQm9St1O7xn7/view)\r\n<br><br>\r\nAuthor: Ego",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "Find",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Pwnable": [
+            {
+                "category": "Pwnable",
+                "description": "`nc 34.171.160.79 9998`",
+                "files": [
+                    "/files/f45bd1014d149008c8611a8df76eb054/attachment.rar?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6OH0.Y29FrA.Fy7oSkhvfXxBn-lYwkZYjEhtNE8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "pwn01",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Pwnable",
+                "description": "I heard that people can own NFT, but can we pwn NFT?\r\n\r\nSource build instruction:\r\n\r\nClone Linux kernel commit 4fe89d07dcc2804c8b562f6c7896a45643d34b2f (tag v6.0), then revert the commit 95f466d22364a33d183509629d0879885b4f547e.\r\n\r\n<a href=\"https://1drv.ms/u/s!An22WwPilIZ74nsXWxQsX0a4K8J4?e=vybPpz\" style=\"color:red;\">.config</a> \r\n\r\n<a href=\"https://1drv.ms/u/s!An22WwPilIZ74njaj6tPu3R6f_q_\" style=\"color:red;\">Compiled kernel on server</a>\r\n\r\n<a href=\"https://1drv.ms/u/s!An22WwPilIZ74noYC9ZAqsO3EIN6\" style=\"color:red;\">Disk image on server</a>\r\n\r\nIt will have python, vim, nano, build-essential and libnftnl-dev installed so you can build your exploit there. /tmp is writable.\r\n\r\nQEMU command line:\r\n\r\n```\r\nqemu-system-x86_64 -m 1024 -hda nft.qcow2 -nographic -smp 2 -kernel bzImage -append \"root=/dev/sda ro console=ttyS0\"\r\n```\r\n\r\nLogin: nft / nft\r\n\r\nNote: Please verify your exploit first before attempting on the server, as it's very slow and you will have to wait for POW.\r\n\r\nAlso please don't DDOS the infrastructure to create a fair competition for others!\r\n\r\n```nc 34.125.252.51 31337```\r\n\r\nOn the server, the flag will be at /flag.\r\n\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "NFT IDOR",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Reversing": [
+            {
+                "category": "Reversing",
+                "description": "Everybody gangsta until being chased by dogs. \r\n\r\n`Author: cothan `",
+                "files": [
+                    "/files/e3ffec218571e4c5156e85b3da42e452/dogbarkdogbites.rar?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6NX0.Y29FrA.Kk8FYi4ckzW9PtJKKZFZwIPYJE4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "Dog Barks Dog Bites ",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Reversing",
+                "description": "Free points & warm-up for everyone.\r\n\r\nJust read this blog https://acquykhud.github.io/2021/11/28/ISITDTU-Quals-2021.html and build tools to decompile flag.luac\r\n\r\n<a href=\"https://drive.google.com/file/d/1gsLKXCCqwEV1gw7fW6XWsPXLb3B4mX8D/view?usp=sharing\">sanity_check.zip</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "sanity_check",
+                "points": 496,
+                "solves": 6
+            }
+        ],
+        "Web": [
+            {
+                "category": "Web",
+                "description": "Bypass is win?\r\n<br>\r\nLink: http://34.143.168.221:5000/\r\n<br>\r\n**try get flag on local first, we dont have strong server for you**\r\n<br><br>\r\nAuthor: taidh#6710\r\n",
+                "files": [
+                    "/files/bf266f571370a04332e135405bee96d1/no_sanbox.zip?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6Mn0.Y29FrA.d6U5PfKt4hOMOEw6Dz6dx1-6QJc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "No Sanbox",
+                "points": 499,
+                "solves": 4
+            },
+            {
+                "category": "Web",
+                "description": "Warm up chill chill\r\n</br>\r\nLink: http://34.168.132.236:5000/\r\n</br></br>\r\n**You should install docker before trying on the server**\r\n<br>\r\nAuthor: onsra#9563",
+                "files": [
+                    "/files/88234bfe1e0f30c50856aed94676dd24/UploadEz.7z?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6Nn0.Y29FrA.9uthRpyflUN0AJVNET93TG4haBY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "Upload Ez",
+                "points": 500,
+                "solves": 2
+            }
+        ]
+    },
+    "title": "ISITDTU CTF 2022",
+    "url": "https://ctf.isitdtu.com"
+}
