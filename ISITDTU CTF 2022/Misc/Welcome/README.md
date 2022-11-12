@@ -1,7 +1,7 @@
 # Welcome [10 pts]
 
 **Category:** Misc
-**Solves:** 60
+**Solves:** 107
 
 ## Description
 >Find me and say a greeting in Discord

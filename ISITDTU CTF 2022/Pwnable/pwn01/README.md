@@ -1,7 +1,7 @@
-# pwn01 [500 pts]
+# pwn01 [436 pts]
 
 **Category:** Pwnable
-**Solves:** 0
+**Solves:** 21
 
 ## Description
 >`nc 34.171.160.79 9998`
