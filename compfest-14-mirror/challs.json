@@ -1,0 +1,213 @@
+{
+    "data": {
+        "Binary Exploitation": [
+            {
+                "category": "Binary Exploitation",
+                "description": "This weird app can send a mail to the past!!!! What if my future self already sent me a mail from the future?\r\n\r\n`nc 13.212.50.63 11001`\r\n\r\n`nc 13.212.50.63 11002`\r\n\r\n**Author**: ReeyaDono",
+                "files": [
+                    "/files/86ebd455e457f74ebec8256cd25eebb2/ld-2.27.so?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6MTAyfQ.Y3AkoA.NP7Zca58qku8TJb2TEp33Xq9QPU",
+                    "/files/03323b62709fafdc9aae357cfde7443f/libc-2.27.so?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6MTAzfQ.Y3AkoA.-hSvJco34f2rAbq-gGNXxKwtysc",
+                    "/files/da3f308b013e339653a46ef266fac13b/libtcmail.so?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6MTA0fQ.Y3AkoA.8W5mGjR5hHFVjA11kwSV72T5o8w",
+                    "/files/5f1a06b9c46f20760cf25a32d3e4eb29/tcmail?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6MTA1fQ.Y3AkoA.l3buUwvJcpT-3Ak5fLtPgyI-T7g"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 109,
+                "name": "Time Capsule\u2026 Mail",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "Rushia \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\r\n\r\n![](https://user-content.gitlab-static.net/40438bf005a9d76ed5134744bd8f1527734d4a9c/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f464d584a564153615541415f792d473f666f726d61743d6a7067)\r\n\r\n`nc 13.212.50.63 11019`\r\n\r\n`nc 13.212.50.63 11020`\r\n\r\n**Author**: Zafirr",
+                "files": [
+                    "/files/034105e6de6adbe0c179715569a9d2a4/ld-2.35.so?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6MTA3fQ.Y3AkoQ.H1afI86yJ2jRoTjsDbWaLjcqHtE",
+                    "/files/7a442566b54c02a16db4617912f58d3e/libc-2.35.so?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6MTA4fQ.Y3AkoQ.0c-44suNQFsbUnRhQKdfdYIv5Rs",
+                    "/files/ed1ea9cacb1fdb3873c54f23361eda88/uruharushia?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6MTA5fQ.Y3AkoQ.2bZFIW0tnRACB4aLqMzRl3qGjjQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 111,
+                "name": "Uruha Rushia",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Cryptography": [
+            {
+                "category": "Cryptography",
+                "description": "Who said that 3DES is slow? Triple that and it's still fast enough, though.\r\n\r\n**Author**: ivanox",
+                "files": [
+                    "/files/e35ad132dc7858f6a4305b2aa2c4e511/chall.zip?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6OTd9.Y3AkoQ.-oetzf5MBapFhGKwtRke_JclnzQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 103,
+                "name": "3(3DES)",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Cryptography",
+                "description": "Your friend has developed an AES-based enryption system in his spare time. That system is very limited and only able to use printable characters, and furthermore, two of four of its functions has yet to be fixed. Even though they are broken, he insisted the flag can be acquired through thorough analysis of the encryption itself. Feeling intrigued, you feel like you are able to get the flag.\r\n\r\n`nc 13.212.50.63 11688`\r\n\r\n`nc 13.212.50.63 11689`\r\n\r\n**Author :**\r\nhouseoforion",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 102,
+                "name": "Seems Familiar",
+                "points": 500,
+                "solves": 1
+            }
+        ],
+        "Forensics": [
+            {
+                "category": "Forensics",
+                "description": "Jack and his uncle loves solving puzzles. This morning, Jack's Uncle gave him a stack of card and said:\r\n\r\n\"In order to solve this, don't scramble the card, scramble the egg\"\r\n\r\n\"Just kidding\"\r\n\r\n\"Bye, shift you latter\"\r\n\r\n**Author**: IGNITE",
+                "files": [
+                    "/files/f318c9126d3c4cf26b511e35cdf5ff61/qr.zip?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6OTh9.Y3AkoQ.zDZMBB1kM458XKTdoqtVtkjdfcQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 104,
+                "name": "Scan Me",
+                "points": 500,
+                "solves": 4
+            },
+            {
+                "category": "Forensics",
+                "description": "A lot of stuff happened, but I ended up with a weird-looking archive. It was pretty old and had several names worn off. But I guess it has such kind of secret\r\n\r\n`Zip password: cycleleergreycactus`\r\n\r\n**Author**: Sui",
+                "files": [
+                    "/files/fdf9a107d902f997bd4dbc8b447fcd96/untagged.zip?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6OTl9.Y3AkoQ.EX8LTgMH12fdHFChA6UyjmFv1yo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 105,
+                "name": "Untagged",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "**\"History repeats itself. Hence, it's the best teacher.\"** that's what she said.\r\n\r\n`nc 108.136.40.50 11111`\r\n\r\n`nc 108.136.40.50 11112`\r\n\r\n**Author:**\r\ntwoface",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 91,
+                "name": "n0talogus",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Misc",
+                "description": "After so many successful attempts at enticing my waifu chatbot, I had to lock her up in my jail. I taught her various languages and now she only takes orders in a language that few people know how to speak well. \r\n\r\nThis should be the final solution.\r\n\r\nShe's online as `Nadead'ntka#1227` on the Discord server, but only talking in DMs. This time it should be safe.\r\n\r\n**Author**: sl0ck",
+                "files": [
+                    "/files/b7b2cb72a61792a7adb0c1f1afafa353/app.js?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6MTA2fQ.Y3AkoQ.6tjhpfz26FEVdEhKu_A0aBt1mqY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 110,
+                "name": "WaifuDroid 35",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Misc",
+                "description": "Welcome to CTF COMPFEST 2022!\r\nHere's the flag,\r\n\r\n`COMPFEST14{Go0d_LucK_4nd_H4vE_FuN_8e53852062}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 132,
+                "name": "Sanity Check",
+                "points": 25,
+                "solves": 77
+            }
+        ],
+        "OSINT": [
+            {
+                "category": "OSINT",
+                "description": "A few days back, I was going through my old stuff, and there\u2019s this one letter i found who\u2019s written by one of my classmates back in high school. Damn, I just realised then that it was a love letter. I wanted to contact her, but she changed her phone number when she moved abroad to Austria. Now, I only got her Facebook. If only i knew her email address :(\r\n\r\nCan you help me get her phone number?\r\nHere's her Facebook link https://www.facebook.com/profile.php?id=100082501329298\r\n\r\n`Flag : COMPFEST14{+[2 Digit Country Code][10 Digit Number]}`\r\n\r\n`Example : COMPFEST14{+621234567890}`\r\n\r\nNo bruteforce is needed for this challenge.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 108,
+                "name": "I Forgot Something Important",
+                "points": 495,
+                "solves": 10
+            }
+        ],
+        "Reverse Engineering": [
+            {
+                "category": "Reverse Engineering",
+                "description": "johan cryuff shield Winner (2019), knvb cup Winner (2020-21), eridivisie Winner (2020-21, 2021-22), rinus michels aWard (2019), copa am\u00e9rica Winner (2021), conmebol-uefa cup of champions (2022), and more to come. Lisandro martineZ is undoubtedly born to be a Winner.  But, can he beat this compression algorithm?\r\n\r\n**Author**: ivanox",
+                "files": [
+                    "/files/ded42aec14503e6c5bddc8cb2666084d/chall.zip?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6MTAwfQ.Y3AkoA.TIJ_3lHeQO8tY2VNh61lJyEVXiE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 106,
+                "name": "Lisandro martineZ",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "My avr challenge was so bad, so I decided to make a mips challenge, which is also very bad. This program can\u2019t even run properly for some reason lmao. But my friend can magically run the program and give the output to me. Can you figure out what input did my friend give to the program? btw I use musl.cc.\r\n\r\n**Author**: ReeyaDono",
+                "files": [
+                    "/files/bcbb7eeda6258a8f34fb783777d2061a/chall.zip?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6MTAxfQ.Y3AkoA.v5m2rUbz374_lWNUhYLEgoP2gvo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 107,
+                "name": "baby mips",
+                "points": 500,
+                "solves": 1
+            }
+        ],
+        "Web Exploitation": [
+            {
+                "category": "Web Exploitation",
+                "description": "I won't do anything unnecessary. It's just a low-key search engine clone, so bugs are expected.\r\n\r\nhttp://103.13.207.244:11071/\r\n\r\nhttp://103.13.207.244:11072/\r\n\r\n**Author**: Sui",
+                "files": [
+                    "/files/efb70ad823a92b295a0fdf53e1f3911d/public_searchify.zip?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6MTE0fQ.Y3AkoQ.fo69ntJnitm5NFueA4-rI7UucKY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 114,
+                "name": "Searchify",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Web Exploitation",
+                "description": "Yes yes, I hear you say. What\u2019s a 2022 CTF without a l4j challenge? Here\u2019s one for babies.\r\n\r\nWrap the secret around `COMPFEST14{}` for the flag.\r\n\r\nhttp://108.136.40.50:14401/\r\n\r\nhttp://108.136.40.50:14402/\r\n\r\n**Author**: sl0ck",
+                "files": [
+                    "/files/a74f01963fcc360bf7332301c3cafb29/HomeController.java?token=eyJ1c2VyX2lkIjo2ODksInRlYW1faWQiOjQxMSwiZmlsZV9pZCI6MTEwfQ.Y3AkoA.BTs9b7Dn48_15cTVnTsDvV1ZgDs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 112,
+                "name": "Log4baby",
+                "points": 499,
+                "solves": 5
+            }
+        ]
+    },
+    "title": "CTF COMPFEST 14",
+    "url": "https://ctf.compfest.id"
+}
