@@ -1,0 +1,201 @@
+body {
+  width: 100%;
+  background: #000;
+  font-family: Helvetica, sans-serif;
+}
+.inp {
+  background: rgba(0,127,128,0.68);
+  border: 1px solid rgba(128,255,255,0.25);
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 10px rgba(0,255,255,0.95);
+  font-size: 18px;
+  padding: 11px 30px;
+  text-shadow: 0 0 10px rgba(0,255,255,0.5);
+  outline: none;
+}
+.inp:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  border: 1px solid rgba(128,255,255,0.75);
+}
+.inp:focus {
+  -webkit-box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  border: 1px solid rgba(128,255,255,0.75);
+}
+.inp-secondary {
+  background-color: transparent;
+  color: rgba(0,127,128,0.8);
+  text-shadow: 0 0 12px rgba(0,255,255,0.3);
+/* text-shadow: none; */
+  border: 1px solid rgba(128,255,255,0.5);
+}
+.btn {
+  background: rgba(0,127,128,0.68);
+  border: 1px solid rgba(128,255,255,0.25);
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 10px rgba(0,255,255,0.55);
+  font-size: 17px;
+  font-weight: bold;
+  padding: 8px 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+.btn:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  border: 1px solid rgba(128,255,255,0.75);
+  background:rgba(0,127,128,0.9);
+}
+.btn-primary:active {
+  background: rgba(0,127,128,0.9);
+}
+.btn-secondary {
+  background-color: transparent;
+  color: rgba(0,127,128,0.8);
+  text-shadow: 0 0 12px rgba(0,255,255,0.3);
+/* text-shadow: none; */
+  border: 1px solid rgba(128,255,255,0.5);
+  -webkit-box-shadow: 0px 0px 12px rgba(0,255,255,0.25);
+  box-shadow: 0px 0px 12px rgba(0,255,255,0.25);
+}
+.btn-secondary:active {
+  -webkit-box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+}
+.element {
+  position: relative;
+  height: 160px;
+  color: #fff;
+  text-align: center;
+  background: rgba(0,127,128,0.68);
+  -webkit-box-shadow: 0px 0px 12px rgba(0,255,255,0.5);
+  box-shadow: 0px 0px 12px rgba(0,255,255,0.5);
+  border: 1px solid rgba(128,255,255,0.25);
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.element:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  border: 1px solid rgba(128,255,255,0.75);
+}
+.element .number {
+  font-size: 12px;
+  color: rgba(128,255,255,0.75);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.element .symbol {
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 10px rgba(0,255,255,0.55);
+  position: absolute;
+  font-size: 55px;
+  font-weight: bold;
+  top: 45px;
+  left: 0px;
+  right: 0px;
+}
+.element .details {
+  font-size: 12px;
+  color: rgba(128,255,255,0.75);
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+  right: 0px;
+}
+
+
+.scifi-card {
+background: #0c1a1c;
+color: rgba(128,255,255,0.75);
+ border: 1px solid rgba(128,255,255,0.25);
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#resp-msg {
+  margin-top: 20px;
+}
+
+.alert-info {
+background: #003537;
+color: rgba(128,255,255,0.75);
+border-radius: 0 !important;
+}
+
+.alert-danger {
+color: rgba(255, 97, 97, 0.75);
+background-color: #602222;
+border-radius: 0 !important;
+}
+
+a {
+color: #6ac4c4;
+text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+
+thead, tbody {
+border: none !important;
+
+}
+
+tr {
+border-color: #0c1a1c;
+}
+
+.table-dark {
+--bs-table-bg: #005657;
+--bs-table-striped-bg: #171717;
+color: #52c2c3;
+border-color: #0c1a1c;
+}
+
+td:hover, th:hover {
+background-color: #008284 !important;
+}
+
+.report-btn {
+font-size: 12px;
+padding: 7px 15px;
+margin: 0px !important;
+}
+
+.f-btn {
+font-size: 15px;
+ padding: 7px 15px;
+margin: 0px !important;
+
+}
+
+#cancel-btn {
+background-color: #602222;
+color: #d2d2d2;
+}
+
+
+@media (max-width:1200px) {
+  .element .symbol  {
+  font-size:40px;
+  }
+}
+
+@media (max-width:900px) {
+  .element .symbol  {
+  font-size:35px;
+  }
+}

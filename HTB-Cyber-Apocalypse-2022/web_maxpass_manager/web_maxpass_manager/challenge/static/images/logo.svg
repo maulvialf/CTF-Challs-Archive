@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="366" height="96" viewBox="0 0 122 32" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.3</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 20 15)"  >
+<g style=""   >
+		<g transform="matrix(0.98 0.21 -0.21 0.98 -13.18 -0.47)" id="Rectangle"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(100,147,255); fill-rule: evenodd; opacity: 1;"  x="-4" y="-14" rx="3" ry="3" width="8" height="28" />
+</g>
+		<g transform="matrix(1 -0.09 0.09 1 -2.18 1.89)" id="Rectangle-Copy"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(49,85,167); fill-rule: evenodd; opacity: 1;"  transform=" translate(-17.82, -16.89)" d="M 20.692404 5.62773945 L 22.6486992 5.89816004 C 24.2693472 6.12218379 25.3038863 7.15818531 24.9594069 8.21213419 L 18.8535049 26.6464512 C 18.5090256 27.7004001 16.5749522 28.3708273 14.9543042 28.1468036 L 12.998009 27.876383 C 11.377361 27.6523592 10.3428219 26.6163577 10.6873013 25.5624088 L 17.1342261 7.13045184 C 17.4787054 6.07650295 19.0717559 5.4037157 20.692404 5.62773945 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0.02 -0.02 1 7.97 3.02)" id="Rectangle-Copy-2"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(100,147,255); fill-rule: evenodd; opacity: 1;"  transform=" translate(-27.97, -18.02)" d="M 29.4097966 6.83626315 L 31.3660918 7.22576131 C 32.9867398 7.54843215 34.0212789 9.04062876 33.6767995 10.5586757 L 30.0867434 27.0397827 C 29.742264 28.5578297 28.1492135 29.5268735 26.5285655 29.2042026 L 24.5722703 28.8147045 C 22.9516223 28.4920336 21.9170832 26.999837 22.2615626 25.4817901 L 25.8516187 9.00068307 C 26.1960981 7.48263612 27.7891486 6.51359231 29.4097966 6.83626315 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -5.54 -8.64)" id="Path-2"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(100,147,255); fill-rule: evenodd; opacity: 1;"  transform=" translate(-14.46, -6.36)" d="M 8.83289062 0.4978125 L 23.0413562 4.82826151 C 24.0697336 5.14168983 24.6663497 6.21202752 24.392116 7.2515433 L 23.032 12.4072266 L 4.47070313 6.78271484 L 5.53341368 2.17992229 C 5.83381206 0.878842338 7.13206675 0.0676296372 8.4331467 0.368028012 C 8.56990928 0.399604284 8.70366246 0.443029804 8.83289062 0.4978125 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 16.5 9.5)" id="Oval"  >
+<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(100,147,255); fill-rule: evenodd; opacity: 1;"  cx="0" cy="0" r="3.5" />
+</g>
+</g>
+</g>
+<g transform="matrix(1 0 0 1 423.26 19.77)" style=""  >
+		<text xml:space="preserve" font-family="'Open Sans', sans-serif" font-size="18" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(72,70,70); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-376.76" y="5.34" style="font-family: 'Open Sans', sans-serif; font-size: 17px; fill: rgb(113,113,113); ">MaxPass</tspan></text>
+</g>
+</svg>
