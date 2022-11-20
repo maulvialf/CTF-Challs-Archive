@@ -3,31 +3,15 @@
         "Crypto": [
             {
                 "category": "Crypto",
-                "description": "nc 34.132.73.130 8002\r\n\r\nAuthor: catto",
-                "files": [
-                    "/files/6f938587a9265fb292f23efe67a9f7ff/chall.py?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6NH0.Y3AlNw.0WWwTvZniNYYm7RxsWD9yrtjAt4"
-                ],
+                "description": "[Link](https://drive.google.com/drive/folders/1AHhsQsugv0xPiOP5NR3UZzV9z8TyNFe3)\r\n\r\nAuthor: ConnorM",
+                "files": [],
                 "hints": [
                     "-"
                 ],
-                "id": 15,
-                "name": "glitch in the matrix",
-                "points": 481,
-                "solves": 12
-            },
-            {
-                "category": "Crypto",
-                "description": "nc 34.132.73.130 8003\r\n\r\n`Author: catto`",
-                "files": [
-                    "/files/dca7b61c3407c8a80c2bbd600ea3c3c9/chall.py?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTN9.Y3AlOA.xr8srY0bTYFyEOAgwBK_EJPa8Eo"
-                ],
-                "hints": [
-                    "-"
-                ],
-                "id": 23,
-                "name": "glitch in the matrix 20",
-                "points": 500,
-                "solves": 0
+                "id": 21,
+                "name": "dp_high",
+                "points": 464,
+                "solves": 16
             },
             {
                 "category": "Crypto",
@@ -38,20 +22,48 @@
                 ],
                 "id": 14,
                 "name": "Halloweens magix",
-                "points": 162,
-                "solves": 47
+                "points": 100,
+                "solves": 56
             },
             {
                 "category": "Crypto",
-                "description": "[Link](https://drive.google.com/drive/folders/1AHhsQsugv0xPiOP5NR3UZzV9z8TyNFe3)\r\n\r\nAuthor: ConnorM",
+                "description": "Give me my numbers, send \"Stop\" when you are done!\r\n\r\nnc 34.175.151.38 5001",
                 "files": [],
                 "hints": [
                     "-"
                 ],
-                "id": 21,
-                "name": "dp_high",
-                "points": 473,
-                "solves": 14
+                "id": 27,
+                "name": "XORFactory",
+                "points": 337,
+                "solves": 33
+            },
+            {
+                "category": "Crypto",
+                "description": "nc 34.132.73.130 8002\r\n\r\nAuthor: catto",
+                "files": [
+                    "/files/6f938587a9265fb292f23efe67a9f7ff/chall.py?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6NH0.Y3mFxg.xwXXUXF1NL2MWEJxCw9Ey4-Ust0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "glitch in the matrix",
+                "points": 443,
+                "solves": 20
+            },
+            {
+                "category": "Crypto",
+                "description": "nc 34.132.73.130 8003\r\n\r\n`Author: catto`",
+                "files": [
+                    "/files/dca7b61c3407c8a80c2bbd600ea3c3c9/chall.py?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTN9.Y3mFxQ.KFgLYIWqYNayauu214DVPraHhFs"
+                ],
+                "hints": [
+                    "The probability might tell you something"
+                ],
+                "id": 23,
+                "name": "glitch in the matrix 20",
+                "points": 500,
+                "solves": 2
             }
         ],
         "Misc": [
@@ -65,7 +77,19 @@
                 "id": 2,
                 "name": "Welcome",
                 "points": 10,
-                "solves": 107
+                "solves": 108
+            },
+            {
+                "category": "Misc",
+                "description": "Pablo Sherlock planned to show his new painting to the public. However, an incident occurred. The painting was actually stolen and posted for sale on social media by someone named Johny Panker. He also said that he could prove the authorship of the painting. During our investigation, we noticed that his account looks like a clone. So I need your help to find out the true identity of this thief\r\n<br><br>\r\nAuthor: Ego",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "The Fear Of Sherlock",
+                "points": 392,
+                "solves": 27
             },
             {
                 "category": "Misc",
@@ -77,7 +101,7 @@
                 "id": 9,
                 "name": "Find",
                 "points": 100,
-                "solves": 62
+                "solves": 71
             },
             {
                 "category": "Misc",
@@ -88,8 +112,8 @@
                 ],
                 "id": 19,
                 "name": "DCeased XXIV",
-                "points": 326,
-                "solves": 34
+                "points": 257,
+                "solves": 40
             },
             {
                 "category": "Misc",
@@ -101,7 +125,7 @@
                 "id": 13,
                 "name": "T1M3",
                 "points": 100,
-                "solves": 66
+                "solves": 68
             },
             {
                 "category": "Misc",
@@ -112,20 +136,8 @@
                 ],
                 "id": 12,
                 "name": "Malicious Project (The Fear Of Sherlock 2)",
-                "points": 500,
-                "solves": 1
-            },
-            {
-                "category": "Misc",
-                "description": "Pablo Sherlock planned to show his new painting to the public. However, an incident occurred. The painting was actually stolen and posted for sale on social media by someone named Johny Panker. He also said that he could prove the authorship of the painting. During our investigation, we noticed that his account looks like a clone. So I need your help to find out the true identity of this thief\r\n<br><br>\r\nAuthor: Ego",
-                "files": [],
-                "hints": [
-                    "-"
-                ],
-                "id": 10,
-                "name": "The Fear Of Sherlock",
-                "points": 498,
-                "solves": 5
+                "points": 416,
+                "solves": 24
             }
         ],
         "Pwnable": [
@@ -133,32 +145,15 @@
                 "category": "Pwnable",
                 "description": "`nc 34.171.160.79 9998`",
                 "files": [
-                    "/files/f45bd1014d149008c8611a8df76eb054/attachment.rar?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6OH0.Y3AlNg.pG1h6fvlrp8Y5Wry7qTelJvDcOo"
+                    "/files/f45bd1014d149008c8611a8df76eb054/attachment.rar?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6OH0.Y3mFxQ.Z0jRuoKZjeS5IE7sWbSKT2-ESJA"
                 ],
                 "hints": [
                     "-"
                 ],
                 "id": 17,
                 "name": "pwn01",
-                "points": 436,
-                "solves": 21
-            },
-            {
-                "category": "Pwnable",
-                "description": "http://34.171.160.79:5000",
-                "files": [
-                    "/files/29d45d15120762bb0a65cb275c9d983f/ctf.xinetd?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTR9.Y3AlNw.wE2nhXlOWxePth9xrWewWoyXOA0",
-                    "/files/e7f18d5260785c7295ed9f7ca65f58e8/Dockerfile?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTV9.Y3AlNw._5r2xucEtqb9G2yzfYvS8XzJaDg",
-                    "/files/e15aea72fa8127e2fb5d1704488ae992/chall?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTZ9.Y3AlNw.Yxe_dxTCdVOQXBiO_4wyRW1X-GA",
-                    "/files/31c75b6223e687f7f02699f2c4f8d500/start.sh?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTd9.Y3AlNw.ng6QUl97Ll3_yhkohONVcXQdDk4"
-                ],
-                "hints": [
-                    "-"
-                ],
-                "id": 24,
-                "name": "pwn02",
-                "points": 495,
-                "solves": 7
+                "points": 366,
+                "solves": 30
             },
             {
                 "category": "Pwnable",
@@ -171,9 +166,80 @@
                 "name": "NFT IDOR",
                 "points": 500,
                 "solves": 0
+            },
+            {
+                "category": "Pwnable",
+                "description": "http://34.171.160.79:5000",
+                "files": [
+                    "/files/29d45d15120762bb0a65cb275c9d983f/ctf.xinetd?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTR9.Y3mFxg.xr4hM69bbdXYzkhmLHfM9b5qeuc",
+                    "/files/e7f18d5260785c7295ed9f7ca65f58e8/Dockerfile?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTV9.Y3mFxg.hxb7kMg5bz5bsPN5P75vDfeVNOU",
+                    "/files/e15aea72fa8127e2fb5d1704488ae992/chall?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTZ9.Y3mFxg.xONlNGvuVRjtRnO9JvB52LmpQvw",
+                    "/files/31c75b6223e687f7f02699f2c4f8d500/start.sh?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTd9.Y3mFxg.QhOL8fNtmo5hMV6madgfKk0jzrQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 24,
+                "name": "pwn02",
+                "points": 423,
+                "solves": 23
+            },
+            {
+                "category": "Pwnable",
+                "description": "nc 34.175.151.38 2682",
+                "files": [
+                    "/files/9800d29076f633b981ec2532fbad7b25/challenge?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTl9.Y3mFxg.R8nvqHegqQKFBw_in2b_Pdawn58"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 26,
+                "name": "Re-name",
+                "points": 366,
+                "solves": 30
             }
         ],
         "Reversing": [
+            {
+                "category": "Reversing",
+                "description": "Don't think complicatedly, it is very simple",
+                "files": [
+                    "/files/eb65a38721442a66744f3798ac7dc0f8/R3v_F0r_Fun.zip?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTh9.Y3mFxg.UPqqQMrIGpN6wqnLJ4iMee7iMt0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "R3v F0r Fun ",
+                "points": 423,
+                "solves": 23
+            },
+            {
+                "category": "Reversing",
+                "description": "Everybody gangsta until being chased by dogs. \r\n\r\n`Author: cothan `",
+                "files": [
+                    "/files/e3ffec218571e4c5156e85b3da42e452/dogbarkdogbites.rar?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6NX0.Y3mFxw.w47DMowSH8UQsplZ0lY6_gsjim8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "Dog Barks Dog Bites ",
+                "points": 500,
+                "solves": 3
+            },
+            {
+                "category": "Reversing",
+                "description": "Write a tool that allows you to teleport to different maps in this game.\r\n\r\nThen teleport to the hidden map with scene_id = \"scene06\".\r\n\r\nYou could use check_scene_id.luac to check your current map's scene_id\r\n\r\nOnce you got into the hidden map, go to x=769, y=439 to get the flag.\r\n\r\nDownload the game at: https://cuuam.gosu.vn/tai-game.html\r\n\r\nMake sure you joined a game server named \"Thai Son\"\r\n\r\n<a href=\"https://drive.google.com/file/d/1ca14-j8GGew6bNR_Hb18FQkiCHj02fQx/view\"> teleport.zip </a>",
+                "files": [],
+                "hints": [
+                    "[Link](https://imgur.com/a/NotMWkZ)"
+                ],
+                "id": 20,
+                "name": "teleport",
+                "points": 500,
+                "solves": 1
+            },
             {
                 "category": "Reversing",
                 "description": "Free points & warm-up for everyone.\r\n\r\nJust read this blog https://acquykhud.github.io/2021/11/28/ISITDTU-Quals-2021.html and build tools to decompile flag.luac\r\n\r\n<a href=\"https://drive.google.com/file/d/1gsLKXCCqwEV1gw7fW6XWsPXLb3B4mX8D/view?usp=sharing\">sanity_check.zip</a>",
@@ -183,34 +249,8 @@
                 ],
                 "id": 5,
                 "name": "sanity_check",
-                "points": 304,
-                "solves": 36
-            },
-            {
-                "category": "Reversing",
-                "description": "Everybody gangsta until being chased by dogs. \r\n\r\n`Author: cothan `",
-                "files": [
-                    "/files/e3ffec218571e4c5156e85b3da42e452/dogbarkdogbites.rar?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6NX0.Y3AlOA.vedskvzgOWNWAwQDOnizqmMyta0"
-                ],
-                "hints": [
-                    "-"
-                ],
-                "id": 16,
-                "name": "Dog Barks Dog Bites ",
-                "points": 500,
-                "solves": 1
-            },
-            {
-                "category": "Reversing",
-                "description": "Write a tool that allows you to teleport to different maps in this game.\r\n\r\nThen teleport to the hidden map with scene_id = \"scene06\".\r\n\r\nYou could use check_scene_id.luac to check your current map's scene_id\r\n\r\nOnce you got into the hidden map, go to x=769, y=439 to get the flag.\r\n\r\nDownload the game at: https://cuuam.gosu.vn/tai-game.html\r\n\r\nMake sure you joined a game server named \"Thai Son\"\r\n\r\n<a href=\"https://drive.google.com/file/d/1ca14-j8GGew6bNR_Hb18FQkiCHj02fQx/view\"> teleport.zip </a>",
-                "files": [],
-                "hints": [
-                    "-"
-                ],
-                "id": 20,
-                "name": "teleport",
-                "points": 500,
-                "solves": 0
+                "points": 205,
+                "solves": 44
             }
         ],
         "Web": [
@@ -218,7 +258,7 @@
                 "category": "Web",
                 "description": "Link: http://34.168.132.236:9000/\r\n<br><br>\r\nAuthor: taidh#6710",
                 "files": [
-                    "/files/86b645b5779d716e5eeb2745439d44af/source_BabyClient.zip?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6M30.Y3AlOA.oiEXV5r2M2c83cImsPlraM5Sd0s"
+                    "/files/86b645b5779d716e5eeb2745439d44af/source_BabyClient.zip?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6M30.Y3mFxg.-iqBr_6NN2pmZkid2mjdOukfYEI"
                 ],
                 "hints": [
                     "-"
@@ -230,45 +270,46 @@
             },
             {
                 "category": "Web",
-                "description": "Warm up chill chill\r\n</br>\r\nLink: http://34.168.132.236:5000/\r\n\r\nLink: http://34.125.37.101:5000/\r\n\r\nLink: http://34.168.132.236:4000/\r\n</br></br>\r\n**You should install docker before trying on the server**\r\n<br>\r\nAuthor: onsra#9563",
-                "files": [
-                    "/files/88234bfe1e0f30c50856aed94676dd24/UploadEz.7z?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6Nn0.Y3AlOA.N7lz5dcese6U-aoT2JaAt9uDIcs"
-                ],
-                "hints": [
-                    "-"
-                ],
-                "id": 3,
-                "name": "Upload Ez",
-                "points": 293,
-                "solves": 37
-            },
-            {
-                "category": "Web",
                 "description": "Bypass is win?\r\n<br>\r\nLink: http://34.143.168.221:4000/\r\n\r\nLink: http://34.143.168.221:5000/\r\n\r\nLink: http://34.125.38.229:5000/\r\n<br>\r\n**try get flag on local first, we dont have strong server for you**\r\n<br><br>\r\nAuthor: taidh#6710\r\n",
                 "files": [
-                    "/files/bf266f571370a04332e135405bee96d1/no_sanbox.zip?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6Mn0.Y3AlOA._j5IdrBjg9_ju3iwFFz51zRy1cw"
+                    "/files/bf266f571370a04332e135405bee96d1/no_sanbox.zip?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6Mn0.Y3mFxw.dFiQB5N8WcmG2kCIuX8Z2p2ud3Y"
                 ],
                 "hints": [
                     "-"
                 ],
                 "id": 4,
                 "name": "No Sanbox",
-                "points": 147,
-                "solves": 48
+                "points": 100,
+                "solves": 52
+            },
+            {
+                "category": "Web",
+                "description": "Warm up chill chill\r\n</br>\r\nLink: http://34.168.132.236:5000/\r\n\r\nLink: http://34.125.37.101:5000/\r\n\r\nLink: http://34.168.132.236:4000/\r\n</br></br>\r\n**You should install docker before trying on the server**\r\n<br>\r\nAuthor: onsra#9563",
+                "files": [
+                    "/files/88234bfe1e0f30c50856aed94676dd24/UploadEz.7z?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6Nn0.Y3mFxg.Yod2336bhMeyHyxJQVOdA29CHIc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "Upload Ez",
+                "points": 218,
+                "solves": 43
             },
             {
                 "category": "Web",
                 "description": "Welcome to an awesome shop for Genshin Impact players!\r\n<br>\r\nThere is a flag which is sealed in the backend by nginx, choose a right element to make nginx overloaded and release the seal.\r\n\r\nhttp://34.83.110.28/\r\n\r\n`author: ks75vl`\r\n",
                 "files": [
-                    "/files/aefcd23216e23e890797c3b0e8d34780/genshin-shop_6d9cf33ff0495722dc606d061f09b545.zip?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTB9.Y3AlOA.Q5NAtJLUK_hzpBrQ4bT6R1wUEJE"
+                    "/files/aefcd23216e23e890797c3b0e8d34780/genshin-shop_6d9cf33ff0495722dc606d061f09b545.zip?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUyNCwiZmlsZV9pZCI6MTB9.Y3mFxw.Vzb_YNYHu4XI9jp0B-h-GVYE1t0"
                 ],
                 "hints": [
-                    "-"
+                    "Electro",
+                    "Websocket"
                 ],
                 "id": 18,
                 "name": "Genshin Shop 1",
                 "points": 500,
-                "solves": 0
+                "solves": 1
             }
         ]
     },
