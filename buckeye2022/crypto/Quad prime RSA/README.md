@@ -1,0 +1,3 @@
+title: Quad prime RSA
+value: 413
+description: Ok I learned from my mistake! I'll just put my twin primes into separate RSA keys...
