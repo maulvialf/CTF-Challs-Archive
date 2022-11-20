@@ -1,0 +1,234 @@
+{
+    "Crypto": {
+        "CaaS": {
+            "Description": "CaaS (Crypto as a Service) adalah layanan yang dapat digunakan untuk mengenkripsi suatu plain text. Kode sumber layanan ini bisa diunduh di bawah.\r\n\r\nEncrypted string berikut adalah flag yang sudah dienkripsi dengan layanan yang sama.\r\n\r\n`pJ8GmKrvZS0dO3LPfcvjXrbIRusaEF/wb/Ps8ENwmH0fvkcIau74mSnZPwBvbyMeXyUrAvDBY+McaztsZsM+nw==`\r\n\r\nAnda harus mendapatkan plain text dari flag tersebut.\r\n\r\n`nc net.cyber.jawara.systems 3001`", 
+            "Files": [
+                "/files/d5d98cea44a87bd5963f565383de1816/caas.py?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI2fQ.X2IbWw.h9nYm-eFQuZJA3DD7FGlRmpgXTg"
+            ], 
+            "Hint": "", 
+            "ID": 31, 
+            "Points": 514
+        }, 
+        "Crypto Checksum": {
+            "Description": "Salah satu cara untuk memeriksa integritas sebuah data adalah dengan mengecek checksum. Terkadang checksum juga digunakan untuk memeriksa apakah suatu input yang digunakan dalam proses dekripsi adalah valid atau tidak valid.\r\n\r\nLayanan berikut akan memeriksa suatu ciphertext untuk menentukan apakah input tersebut valid atau tidak valid.\r\n\r\n\r\n`nc net.cyber.jawara.systems 3002`", 
+            "Files": [
+                "/files/164f4ef91e47290f5039c91660d5760e/crypto_checksum.py?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjMwfQ.X2IbWw.9ccmCeKWVUnqcculFvWnKBnh4Bc"
+            ], 
+            "Hint": "", 
+            "ID": 32, 
+            "Points": 697
+        }, 
+        "Message Holmes": {
+            "Description": "Message Holmes :\r\n\r\n0d3b108d097c0197097c0197124107d608a8099913470d3e096a0eb506ea14bb096713470b5f06ea11690431122401b114bb09840cf6\r\n\r\nPublic key: 29, 2021, 666, 879, 3, 404, 1337, 1945", 
+            "Files": [
+                "/files/1c2bcba7dc8666694f70e5c29cfb5f25/encrypt.py?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI5fQ.X2IbWw.MwtX5hhlu7aG71-xvc1wXfcaIMU"
+            ], 
+            "Hint": "", 
+            "ID": 23, 
+            "Points": 590
+        }
+    }, 
+    "Forensic": {
+        "FTP": {
+            "Description": "Potongan paket jaringan berikut berisi beberapa paket data yang terdiri dari berbagai komunikasi protokol, termasuk FTP. Sepertinya ada hal menarik yang bisa Anda ketahui dari situ.", 
+            "Files": [
+                "/files/9fd266d51e51eb92bfdfdb26d3540e5e/ftp_cj.pcap?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjIyfQ.X2IbXQ.MhXQE5YYU_psHCDfwUz1Db9uFYY"
+            ], 
+            "Hint": "", 
+            "ID": 27, 
+            "Points": 100
+        }, 
+        "Home Folder": {
+            "Description": "Di saat melakukan forensic pada sistem yang menggunakan OS Ubuntu, Anda menemukan home folder dari salah satu user berisi sesuatu yang mencurigakan. Dapatkah Anda mendapatkan berkas flag.txt dari situ?", 
+            "Files": [
+                "/files/5c33c4ffe4a8ac33cfda281b6e6a045b/cj.zip?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjIxfQ.X2IbXA.aX4cpQgY4dWd2sFLOXNRrb_nrJM"
+            ], 
+            "Hint": "", 
+            "ID": 26, 
+            "Points": 100
+        }, 
+        "Image PIX": {
+            "Description": "Secret Message From Jim Moriarty to Holmes in Image", 
+            "Files": [
+                "/files/2132eb58cf556d9dfbd6bd27c80370d2/pix.png?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE4fQ.X2IbXA.4dhZQ4mLzXbd_gT_Z62I9ejLuqo"
+            ], 
+            "Hint": "", 
+            "ID": 22, 
+            "Points": 343
+        }, 
+        "Know Your Payload": {
+            "Description": "Jangan sembarangan menggunakan exploit orang.", 
+            "Files": [
+                "/files/4bd244bf961030cccea0429a4779fd4d/KnowYourPayload_forensic.zip?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI0fQ.X2IbXQ.3gHEvO_XjY0WVor8BGot_mwxCdU"
+            ], 
+            "Hint": "", 
+            "ID": 29, 
+            "Points": 699
+        }, 
+        "XimageX": {
+            "Description": "Steganografi mungkin terkadang menyebalkan, tetapi di Cyber Sea Game ada soal steganografi jadi kalian harus bisa :( \r\n\r\nHint: LSB", 
+            "Files": [
+                "/files/8e36a9a838fc5f4d4873910861cd3d93/ximagex.zip?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI1fQ.X2IbXQ.PzUPBja84p-_3d2EDSnedXhEtp4"
+            ], 
+            "Hint": "", 
+            "ID": 30, 
+            "Points": 700
+        }
+    }, 
+    "Pwn": {
+        "Brankas": {
+            "Description": "Kali ini, Anda harus membongkar brankas digital. Brankas ini cukup unik. Brankas memiliki 30 lapis. Di setiap lapis, Anda harus memasukkan PIN berupa 5 digit angka yang di-generate secara random pada setiap Anda mengakses brankas. Untuk setiap PIN yang dimasukkan, brankas akan menampilkan jumlah posisi digit yang sudah benar. Untuk proteksi, Anda hanya bisa menebak PIN sebanyak 10 kali untuk setiap lapis.\r\n\r\nSebagai contoh, misalnya PIN untuk lapisan 1 brankas adalah 50123. Interaksinya adalah sebagai berikut:\r\n\r\n> PIN: 01234\r\n\r\n> Benar: 0\r\n\r\n> PIN: 12123\r\n\r\n> Benar: 3\r\n\r\n> PIN: 00123\r\n\r\n> Benar: 4\r\n\r\n> PIN: 50123\r\n\r\n> Benar: 5\r\n\r\n> Lapisan 1 terbuka\r\n\r\n`nc pwn.cyber.jawara.systems 13374`", 
+            "Files": [
+                "/files/471296703051e699a1ccab91caa1a6dd/brankas?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjd9.X2IbXg.mky1fqnRDjNJTm4aCPQmkvyunqQ"
+            ], 
+            "Hint": "", 
+            "ID": 11, 
+            "Points": 691
+        }, 
+        "Game Console": {
+            "Description": "Konsep dasar melakukan eksploitasi game console sebenarnya sama dengan melakukan eksploitasi pada sistem operasi umum. Bahkan, pada Playstation 4, sistem yang digunakan adalah unix-like yang dikembangkan dari FreeBSD.\r\n\r\nLayanan ini adalah sebuah permainan yang memilik fitur Save dan Load. Tentunya permainan ini tidak berjalan di atas sistem operasi game console melainkan sistem operasi biasa yang dijalankan menggunakan docker. OS yang digunakan adalah Ubuntu 18.04 dengan versi Docker image `ubuntu:bionic-20190515`.\r\n\r\n`nc pwn.cyber.jawara.systems 13375`", 
+            "Files": [
+                "/files/5bb4ad26214dbaf5380a1e74e7608fc7/game_console?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjh9.X2IbXg.Uh6t1762DpO9aIN2_vg0o_B_72g"
+            ], 
+            "Hint": "", 
+            "ID": 12, 
+            "Points": 700
+        }, 
+        "ROP": {
+            "Description": "Return Oriented Programming (ROP) adalah salah satu trik yang biasa digunakan untuk mengeksekusi kode ketika instruction pointer sudah dapat dikontrol namun memasukkan/mengeksekusi shellcode tidak memungkinkan. Ide dasar ROP adalah menggunakan potongan-potongan instruksi mesin pada binary ataupun library yang mengandung ret (return) atau call (termasuk syscall) yang biasa disebut dengan ROP gadgets. Gadgets tersebut disusun sedemikian rupa sehingga instruksi bisa lompat-lompat dan pada akhirnya mengeksekusi perintah yang kita inginkan.\r\n\r\nBerikut adalah layanan yang memilik celah buffer overflow tanpa proteksi canary (stack protector) sehingga Anda dapat meng-overwrite instruction pointer mulai dari bytes ke-17 input. Binary ini di-compile secara statically-linked, tetapi Anda tidak punya akses ke binary-nya. Yang Anda dapatkan hanya informasi mengenai binary ELF tersebut dan juga kumpulan alamat gadgets yang bisa Anda gunakan.\r\n\r\n`nc pwn.cyber.jawara.systems 13372`", 
+            "Files": [
+                "/files/083a9f264bd34ff919184be949918d44/elf_info?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjl9.X2IbXg.6CbZrf9qALOGoVCyP_X_Zmai0Rw", 
+                "/files/a782ded4929cbfde86ca7d93c581d011/gadgets?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjEwfQ.X2IbXg.EbsYJTFq99Ig1YnCITdEvsHCId0"
+            ], 
+            "Hint": "", 
+            "ID": 9, 
+            "Points": 604
+        }, 
+        "Ranjau": {
+            "Description": "Mari bermain permainan yang sulit! Diberikan petak 4x4. Di setiap giliran, Anda harus memilih satu petak yang aman dari ranjau. Tentunya posisi ranjau selalu diacak layaknya game minesweeper. Flag akan ditampilkan ketika Anda berhasil bertahan hingga 8 giliran.\r\n\r\n`nc pwn.cyber.jawara.systems 13373`", 
+            "Files": [
+                "/files/954763974e5d18d61b560605cee9b311/ranjau?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjZ9.X2IbXg.omRp7G0c4Zh6zeN624C1sU5zrAE"
+            ], 
+            "Hint": "", 
+            "ID": 10, 
+            "Points": 669
+        }, 
+        "Syscall": {
+            "Description": "Syscall adalah salah satu pondasi yang penting dalam sistem operasi. Oleh karena itu, mengetahui tentang syscall adalah wajib dalam melakukan riset binary exploitation ataupun riset keamanan sistem operasi.\r\n\r\nBerikut adalah layanan yang akan menjalankan syscall pada sistem Linux x86 64 bit.\r\n\r\n`nc pwn.cyber.jawara.systems 13371`", 
+            "Files": [], 
+            "Hint": "", 
+            "ID": 8, 
+            "Points": 542
+        }
+    }, 
+    "Reverse Engineering": {
+        "BabyBaby": {
+            "Description": "Binary ini dapat digunakan untuk permulaan belajar reverse engineering.\r\n\r\nTips: Soal ini lebih mudah dikerjakan dengan static analysis seperti menggunakan Ghidra (gratis) atau IDA Pro (berbayar) dengan meng-generate kode C-like dari kode mesin yang ada di dalam binary.", 
+            "Files": [
+                "/files/3253baae30dea0a0e009285767dc11c6/BabyBaby?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE0fQ.X2IbXw.knLYMQzll6c4C0K08j_dnv40Jt4"
+            ], 
+            "Hint": "", 
+            "ID": 17, 
+            "Points": 369
+        }, 
+        "Holmes Code": {
+            "Description": "This Code Secret Dr. Watson to Holmes, Please check message on the Code", 
+            "Files": [
+                "/files/de057cd5be2a0cdfff506091f148a813/code.zip?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjIwfQ.X2IbYQ.w4a-rWlooDUMuCGeUoalvZ7ZVMQ"
+            ], 
+            "Hint": "", 
+            "ID": 24, 
+            "Points": 656
+        }, 
+        "Home Sherlock": {
+            "Description": "Number Home Sherlock Holmes ?\r\n\r\nPlease check on the File\r\n\r\nDownload home : https://drive.google.com/file/d/14P7xZ4XIsEm6HU5WMvOVw6E0BFRH6CuH/view\r\n", 
+            "Files": [], 
+            "Hint": "", 
+            "ID": 25, 
+            "Points": 676
+        }, 
+        "Koq Error": {
+            "Description": "Teman Anda baru belajar menggunakan Go dan membuat sebuah program sederhana. Namun, program tersebut crash ketika dijalankan padahal ia yakin programnya benar.\r\n\r\nIa meminta bantuan Anda untuk memeriksa apa yang salah. Namun, bukannya memberikan source code, teman Anda malah memberikan program yang sudah di-compile.\r\n\r\nDapatkah Anda memeriksa apa yang salah dan mendapatkan output yang diekspektasikan? Flag dari soal ini adalah `CJ2020{output}`\r\n\r\n[Unduh program](https://drive.google.com/file/d/1T0Cmjr4Ul1orltMOfNwf9cyyUoVpTTxM/view?usp=sharing)", 
+            "Files": [], 
+            "Hint": "", 
+            "ID": 20, 
+            "Points": 699
+        }, 
+        "Pawon": {
+            "Description": "Yet another reverse engineering challenge", 
+            "Files": [
+                "/files/ddd2cd6d9a0915d2af9fbce2923c0c12/pawon_re.zip?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjIzfQ.X2IbYg.79Y7jINIhzn2OzLc_wwn7Vows7M"
+            ], 
+            "Hint": "", 
+            "ID": 28, 
+            "Points": 598
+        }, 
+        "Ransomnware": {
+            "Description": "Reverse engineering berguna untuk mengetahui alur dari suatu program baik untuk riset binary exploitation, membuat crack/patch, membuat keygen, ataupun analisis malware.\r\n\r\nBerikut adalah sebuah ransomware yang mengenkripsi berkas flag.txt. Dapatkah Anda mendekripsi berkas tersebut?", 
+            "Files": [
+                "/files/ab84a6e4b49c9b2db0237dc19ae80e90/ransomnware?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE2fQ.X2IbYA.vG4LO5-Flo7gPSC9zggqgleb9PE", 
+                "/files/c4d68659c834645cca3f604f613f154e/flag.txt.enc?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE3fQ.X2IbYA.42dUNXxwYO2YUtqz-YRrGJrSWAI"
+            ], 
+            "Hint": "", 
+            "ID": 21, 
+            "Points": 691
+        }, 
+        "Snake 2020": {
+            "Description": "Permainan Snake dari Cyber Jawara sebelum-sebelumnya kembali lagi! Kali ini sudah menggunakan GUI yang dibuat dengan Java.\r\n\r\nFlag akan ditampilkan ketika skor permainan mencapai 8172. Tetapi, apakah ularnya akan muat?\r\n\r\nHint: Mengubah skor secara langsung menggunakan aplikasi semacam cheat engine tidak akan mengeluarkan flag.", 
+            "Files": [
+                "/files/1d372f24ce2523d07b58f4b3a9dbca02/Snake.jar?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE1fQ.X2IbXw.aHjcaun69aCYzfh6qfcq0gwcLgw"
+            ], 
+            "Hint": "", 
+            "ID": 19, 
+            "Points": 611
+        }
+    }, 
+    "Web": {
+        "AWS": {
+            "Description": "Suatu hari, Anda sedang mencari bug di suatu sistem demi mendapatkan bounty. Karena Anda pusing tidak dapat menemukan bug, Anda mencoba untuk mencari leaked credentials di Github.\r\n\r\nKarena Anda ingin agar temuan Anda ber-impact tinggi, Anda fokus untuk mencari credentials yang mengandung string \"aws\". Anda menemukan sebuah file di Github yang mencurigakan milik salah satu Software Engineer di perusahaan X. Anda juga tahu bahwa perusahaan X menyimpan beberapa berkas di cloud yang beralamat di https://cyberjawara.s3.amazonaws.com/.\r\n\r\nKira-kira, apa yang dapat Anda dapatkan dari credentials AWS berikut?", 
+            "Files": [
+                "/files/e74a1fb74e86a85c9032bcb149085ec0/credentials?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjJ9.X2IbYw.IotJXyH7Z44YKzO5OIbixtCfU94"
+            ], 
+            "Hint": "", 
+            "ID": 1, 
+            "Points": 100
+        }, 
+        "Extra Mile": {
+            "Description": "Setelah melakukan proses recon, Anda menemukan <a href=\"https://extramile.web.cyber.jawara.systems/\">halaman dashboard admin</a> tersembunyi suatu perusahaan. Secara intuitif, Anda mencoba untuk memasukkan admin:admin untuk login dan ternyata bisa! Sayangnya tidak ada apa-apa di dalam dashboard tersebut.\r\n\r\nAnda ingin melaporkan temuan Anda untuk mendapatkan bounty namun Anda khawatir kalau laporan Anda tidak eligible karena tidak ada apa-apa di dalam dashboard tersebut. Oleh karena itu, Anda ingin mencoba untuk menempuh extra mile dan mencoba mencari hal lain di aplikasi web tersebut untuk mendemonstrasikan impact setinggi mungkin.\r\n\r\nHint: Sepertinya Anda bisa mendapatkan suatu informasi dengan membuat error web tersebut.", 
+            "Files": [], 
+            "Hint": "", 
+            "ID": 5, 
+            "Points": 669
+        }, 
+        "Gravatar": {
+            "Description": "Gravatar adalah salah satu penyedia layanan avatar yang sangat banyak digunakan walaupun sekarang pamornya kalah turun semenjak adanya layanan integrasi akun dan avatar melalui OAuth populer seperti Google dan Facebook.\r\n\r\nhttps://gravatar.web.cyber.jawara.systems/\r\n\r\nHint:\r\n\r\n- `gravatar_image_path = urllib.parse.urljoin(gravatar_url, path)`\r\n- `whois $(dig +short gravatar.web.cyber.jawara.systems)`", 
+            "Files": [], 
+            "Hint": "", 
+            "ID": 7, 
+            "Points": 700
+        }, 
+        "Toko Masker 1": {
+            "Description": "Pada masa pandemi Covid-19 ini, seluruh orang yang berpergian ke luar rumah wajib menggunakan masker. Menggunakan masker secara kolektif terbukti dapat menurunkan angka penyebaran virus.\r\n\r\nPenjual masker pun mendapatkan peningkatan pendapatan (stonks). Selain berjualan secara langsung, banyak juga penjual masker yang menggunakan online shop untuk berjualan.\r\n\r\nKebetulan, stok masker Anda sudah habis. Anda ingin membeli masker di salah satu toko masker online yang menyediakan berbagai macam masker. Sembari membeli masker, Anda ingin melakukan security testing (karena sudah kebiasaan).\r\n\r\nAnda pun penasaran, dapatkah Anda mengakali toko masker online tersebut supaya Anda bisa mendapatkan masker secara gratis? Flag akan ditampilkan ketika Anda sudah berhasil membeli 100 buah masker N99.\r\n\r\nhttps://tokomasker1.web.cyber.jawara.systems/", 
+            "Files": [], 
+            "Hint": "", 
+            "ID": 2, 
+            "Points": 100
+        }, 
+        "Toko Masker 2": {
+            "Description": "Pemilik toko masker online dari soal sebelumnya telah menyadari bahwa aplikasinya dapat diakali sehingga banyak orang yang bisa memesan dan mendapatkan masker secara gratis. Bug yang dianggap sebagai penyebab kerugian toko tersebut kemudian diperbaiki.\r\n\r\nAnda pun tetap ingin mencoba untuk mendapatkan masker secara gratis dari toko tersebut. Flag akan ditampilkan ketika Anda berhasil membeli 100 buah masker N99.\r\n\r\nhttps://tokomasker2.web.cyber.jawara.systems/", 
+            "Files": [], 
+            "Hint": "", 
+            "ID": 3, 
+            "Points": 183
+        }, 
+        "Toko Masker 3": {
+            "Description": "Setelah berhasil menemukan cara untuk mendapatkan masker secara gratis, Anda melaporkan bug tersebut secara bertanggung jawab ke pemilik web. Setidaknya, ada 2 bug yang dilaporkan. Pemilik web tersebut pun telah melakukan patching untuk bug yang diketahui.\r\n\r\nSayangnya, toko masker tersebut tidak punya program bug bounty sehingga Anda hanya dikasih 2M (makasih mas). Tetapi, Anda kemudian ditawarkan proyek untuk melakukan security code review pada aplikasi tersebut. Karena outsource, pemilik web tidak dapat memberikan source code secara keseluruhan.\r\n\r\nDapatkah Anda meretas kembali toko masker ini untuk mendapatkan masker gratis? Flag akan ditampilkan ketika Anda berhasil membeli 100 buah masker N99.\r\n\r\nhttps://tokomasker3.web.cyber.jawara.systems/", 
+            "Files": [
+                "/files/4dfda422283fbd880121d1a05ec269f7/api.py?token=eyJ1c2VyX2lkIjozODQsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjN9.X2IbYw.eUwXzMUAkbY9oehEgcmwsWrPbQo"
+            ], 
+            "Hint": "", 
+            "ID": 4, 
+            "Points": 693
+        }
+    }
+}
