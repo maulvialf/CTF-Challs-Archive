@@ -1,0 +1,9 @@
+version: '3'
+services:
+  books1_deploy:
+    build:
+      context: .
+    working_dir: /home/ctf
+    container_name: books_v1
+    ports:
+      - "4441:4441"

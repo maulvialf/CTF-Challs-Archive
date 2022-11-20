@@ -1,0 +1,9 @@
+version: '3'
+services:
+  pwn_deploy:
+    build:
+      context: .
+    working_dir: /home/ctf
+    container_name: baby_uaf
+    ports:
+      - "4402:4402"

@@ -1,0 +1,44 @@
+version: '3.2'
+services:
+  uwu-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    image: server_uwu-app
+    restart: on-failure
+    networks:
+      - uwu-network
+    volumes:
+      - uwu-redis-volume:/tmp
+
+  uwu-nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    image: server_uwu-nginx
+    restart: on-failure
+    ports:
+      - "10002:80"
+    networks:
+      - uwu-network
+    volumes:
+      - uwu-redis-volume:/tmp
+
+  uwu-redis:
+    build:
+      context: .
+      dockerfile: Dockerfile.redis
+    image: server_uwu-redis
+    restart: on-failure
+    networks:
+      - uwu-network
+    volumes:
+      - uwu-redis-volume:/tmp
+
+networks:
+  uwu-network:
+    driver: overlay
+    attachable: true
+
+volumes:
+  uwu-redis-volume:

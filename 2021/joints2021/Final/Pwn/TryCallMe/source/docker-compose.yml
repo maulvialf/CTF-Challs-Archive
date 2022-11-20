@@ -1,0 +1,9 @@
+version: "3"
+services:
+  code:
+    image: trycallme
+    build:
+      context: .
+    ports:
+      - "51708:5000"
+

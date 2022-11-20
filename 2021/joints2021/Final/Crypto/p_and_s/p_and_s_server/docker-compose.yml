@@ -1,0 +1,9 @@
+version: '3'
+services:
+    crypto_p_and_s:
+        build: .
+        image: p_and_s_server_crypto_p_and_s
+        container_name: crypto_p_and_s
+        restart: always
+        ports:
+            - "20000:5000"

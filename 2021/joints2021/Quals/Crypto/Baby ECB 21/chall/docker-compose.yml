@@ -1,0 +1,10 @@
+version: '3'
+services:
+    baby_ecb:
+        image: baby_ecb
+        container_name: baby_ecb
+        build:
+            context: .
+        ports:
+            - '4456:5000'
+        restart: always

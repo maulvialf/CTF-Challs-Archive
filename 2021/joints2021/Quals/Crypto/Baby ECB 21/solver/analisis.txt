@@ -1,0 +1,65 @@
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa #same
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab #same
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabb #same
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbb #same
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbb #same
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbb #same
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbb #same
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbb #same
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbb #same
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbb #same
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbb #same
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbb #different
+
+
+# Susunan Pesan yang memungkinkan
+xxxx... =  merupakan 1 block pesan sebelum block user input yang tidak diketahui
+yyyy... =  merupakan block pesan yang tidak diketahui
+xxxxxxxxxxxaaaaa    # block 1
+aaaaaaaaaaaaaaaa    # block 2
+aaaaaaaaaaaaaaaa    # block 3
+aaaaaaaaaaayyyyy    # block 4
+
+Setelah melakukan analisis block pesan ternyata diketahui bahwa 5 karakter inputan user akan masuk di block pertama.
+Setelah mengetahui fakta ini, brute force bisa dilakukan dengan memanfaatkan block ke 2 dan seterusnya.
+
+gunakanan script pad.py untuk mempermudah melihat block2 dari cipher text token
+
+setelah mengetahui pola yang sesuai. maka yang dilakukan selanjutnya adalah melakukan brute force, brute force bisa dilakukan dengan bantuan script bruteforce.py
+
+setelah itu akan didapatkan block-block string seperti di bawah
+
+XXXXXXXXXXXaaaaa # block 1
+aaaaaaaaaaaaaaaa # block 2
+aaaaaaaaaaaaa",  # block 3
+"is_admin": 0, " # block 4
+encryption_alg": # block 5
+ "AES MODE_ECB"} # block 6
+aaaaaaaaaaaaaaaa # block 7
+aaaaaaaaaaaaa",  # block 8
+"is_admin": 0, " # block 9
+encryption_alg": # block 10
+ "AES MODE_ECB"} # block 11
+
+ selanjutnya adalah melakukan perubahan pada block 9 dengan mengganti is_admin = 1
+
+XXXXXXXXXXXaaaaa # block 1
+aaaaaaaaaaaaaaaa # block 2
+aaaaaaaaaaaaa",  # block 3
+"is_admin": 1, " # block 4
+encryption_alg": # block 5
+ "AES MODE_ECB"} # block 6
+aaaaaaaaaaaaaaaa # block 7
+aaaaaaaaaaaaa",  # block 8
+"is_admin": 0, " # block 9
+encryption_alg": # block 10
+ "AES MODE_ECB"} # block 11
+
+
+kemudian lanjut untuk mengganti block ke dua (pada awalnya merupakan block 9)
+
+XXXXXXXXXXXaa",  # block 1
+"is_admin": 0, " # block 2
+encryption_alg": # block 3
+ "AES MODE_ECB"} # block 4
+

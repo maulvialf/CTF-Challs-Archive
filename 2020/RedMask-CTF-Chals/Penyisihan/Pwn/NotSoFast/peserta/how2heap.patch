@@ -1,0 +1,51 @@
+diff --git a/quickjs-libc.c b/quickjs-libc.c
+index e8b81e9..9b1cb23 100644
+--- a/quickjs-libc.c
++++ b/quickjs-libc.c
+@@ -3689,6 +3689,13 @@ static JSValue js_print(JSContext *ctx, JSValueConst this_val,
+     return JS_UNDEFINED;
+ }
+ 
++static JSValue js_detachArrayBuffer(JSContext *ctx, JSValue this_val,
++                                    int argc, JSValue *argv)
++{
++    JS_DetachArrayBuffer(ctx, argv[0]);
++    return JS_UNDEFINED;
++}
++
+ void js_std_add_helpers(JSContext *ctx, int argc, char **argv)
+ {
+     JSValue global_obj, console, args;
+@@ -3697,6 +3704,11 @@ void js_std_add_helpers(JSContext *ctx, int argc, char **argv)
+     /* XXX: should these global definitions be enumerable? */
+     global_obj = JS_GetGlobalObject(ctx);
+ 
++    /* Add new how2heap helper function */
++    JS_SetPropertyStr(
++        ctx, global_obj, "ArrayBufferDetach",
++        JS_NewCFunction(ctx, js_detachArrayBuffer, "ArrayBufferDetach", 1));
++
+     console = JS_NewObject(ctx);
+     JS_SetPropertyStr(ctx, console, "log",
+                       JS_NewCFunction(ctx, js_print, "log", 1));
+diff --git a/quickjs.c b/quickjs.c
+index a39ff8f..f78143a 100644
+--- a/quickjs.c
++++ b/quickjs.c
+@@ -51057,6 +51057,8 @@ void JS_DetachArrayBuffer(JSContext *ctx, JSValueConst obj)
+         return;
+     if (abuf->free_func)
+         abuf->free_func(ctx->rt, abuf->opaque, abuf->data);
++    /* add how2heap functions */
++    #if 0
+     abuf->data = NULL;
+     abuf->byte_length = 0;
+     abuf->detached = TRUE;
+@@ -51073,6 +51075,7 @@ void JS_DetachArrayBuffer(JSContext *ctx, JSValueConst obj)
+             p->u.array.u.ptr = NULL;
+         }
+     }
++    #endif
+ }
+ 
+ /* get an ArrayBuffer or SharedArrayBuffer */

@@ -1,0 +1,4 @@
+
+foreach(new DirectoryIterator("o"^"A") as $f){echo $f;}
+
+error_reporting(E_ALL);new finfo(0,"2(1t3$5"^"AAZZAAA")

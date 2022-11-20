@@ -1,0 +1,41 @@
+version: '3.9'
+
+services:
+  wrapper:
+    build: wrapper
+    image: server_wrapper:latest
+    hostname: wrapper
+    ports:
+      - 22222:4444
+    networks:
+      - snapshot-network
+
+  snapshot:
+    build: service
+    image: server_snapshot:latest
+    deploy:
+      mode: replicated
+      endpoint_mode: dnsrr
+      replicas: 0
+      resources:
+        reservations:
+          cpus: '0.05'
+          memory: 100M
+        limits:
+          cpus: '0.1'
+          memory: 128M
+      restart_policy:
+        condition: any
+    depends_on:
+      - wrapper
+    networks:
+      - snapshot-network
+    cap_add:
+      - NET_ADMIN
+
+networks:
+  snapshot-network:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.31.0.0/16

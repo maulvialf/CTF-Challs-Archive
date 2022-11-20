@@ -1,0 +1,62 @@
+version: '3.2'
+services:
+
+  #PHP Service
+  backend-app:
+    image: wtube_backend:latest
+    restart: unless-stopped
+    environment:
+      APP_ENV: production
+      APP_DEBUG: 'false'
+      APP_URL: http://localhost
+    working_dir: /var/www
+    deploy:
+      mode: global
+      placement:
+        constraints: [node.role == manager]
+    expose:
+      - "80"
+    networks:
+      - wtube-network
+
+  #Nginx Service
+  server-app:
+    image: wtube_server:latest
+    restart: unless-stopped
+    tty: true
+    deploy:
+      mode: global
+      placement:
+        constraints: [node.role == manager]
+    ports:
+      - "10001:80"
+    networks:
+      - wtube-network
+
+  #Mysql Service
+  db:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Bambang123@
+      MYSQL_DATABASE: wtube
+      MYSQL_USER: Bambang123@
+      MYSQL_PASSWORD: Bambang123@
+    deploy:
+      placement:
+        constraints: [node.hostname == ubuntu]
+    ports:
+      - "17013:3306"
+    networks:
+      - wtube-network
+
+#Docker Networks
+networks:
+  wtube-network:
+    driver: overlay
+    attachable: true
+
+volumes:
+  db_data: {}

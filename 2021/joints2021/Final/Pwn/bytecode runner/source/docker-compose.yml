@@ -1,0 +1,9 @@
+version: "3"
+services:
+  code:
+    image: bytecoderunner
+    build:
+      context: .
+    ports:
+      - "51709:5000"
+

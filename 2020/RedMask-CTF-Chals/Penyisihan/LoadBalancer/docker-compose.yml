@@ -1,0 +1,21 @@
+version: '3.2'
+services:
+
+  #Load Balancer
+  balancer:
+    image: nginx:latest
+    restart: unless-stopped
+    tty: true
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - "11001:11001"
+      - "11002:11002"
+    networks:
+      - balancer-network
+
+#Docker Networks
+networks:
+  balancer-network:
+    driver: overlay
+    attachable: true

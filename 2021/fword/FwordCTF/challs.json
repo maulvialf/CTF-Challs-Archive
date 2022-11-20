@@ -1,0 +1,359 @@
+{
+    "data": {
+        "Bash": [
+            {
+                "category": "Bash",
+                "description": "Well good luck elevating your privs x)<br>\r\n<b>ssh -p 10000 ctf@devprivops.fword.tech</b><br>\r\n<b>Password: </b>FwOrDAndKahl4FTW<br>\r\nAuthor: Kahla",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 34,
+                "name": "devprivops",
+                "points": 802,
+                "solves": 48
+            },
+            {
+                "category": "Bash",
+                "description": "I really don't like docker so I created mine :D <br>\r\n<b>ssh -p 10000 ctf@bash.fword.tech</b>\r\n<b>Password:</b>FwOrDAndKahl4FTW <br>\r\nAuthor: Kahla<br>\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/bash/sealer\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        sealer\r\n    </small>\r\n</a>\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 22,
+                "name": "Containers",
+                "points": 997,
+                "solves": 7
+            }
+        ],
+        "Cryptography": [
+            {
+                "category": "Cryptography",
+                "description": "Private keys are not always a problem.\r\nChange my mind..\r\n<br/>\r\n`nc 52.149.135.130 4871`\r\n<br/>\r\n\r\n*Author :* `CTFCreators` & `Aptx`\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/crypto/login.py\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        login.py\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "Login",
+                "points": 997,
+                "solves": 7
+            },
+            {
+                "category": "Cryptography",
+                "description": "Beat me in my game, if you can.\r\n<br/>\r\n`nc 52.149.135.130 4874`\r\n<br/>\r\n\r\n*Author :* `Aptx`\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/crypto/invincible.py\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        invincible.py\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "Invincible",
+                "points": 957,
+                "solves": 23
+            },
+            {
+                "category": "Cryptography",
+                "description": "Get the flag, by order of the leaky fookin blinders..\r\n<br/>\r\n`nc 52.149.135.130 4869`\r\n<br/>\r\n\r\n*Author :* `Aptx`\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/crypto/leaky_blinders.py\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        leaky_blinders.py\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "Leaky Blinders",
+                "points": 100,
+                "solves": 103
+            },
+            {
+                "category": "Cryptography",
+                "description": "My friend got access to the National Bank Money Transfer.\r\nHe tried to transfer money to his account as much as he wants BUT it's limited.\r\n<br/>\r\nCould you break it ?\r\n<br/>\r\n`nc 52.149.135.130 4870`\r\n<br/>\r\n\r\n*Author :* `Aptx`\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/crypto/transfer/transfer.py\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        transfer.py\r\n    </small>\r\n</a>\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/crypto/transfer/ed25519.py\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        ed25519.py\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 6,
+                "name": "Transfer",
+                "points": 999,
+                "solves": 5
+            },
+            {
+                "category": "Cryptography",
+                "description": "A pen and a paper, thats's all you need to watch the movie.\r\n<br/>\r\n`nc 52.149.135.130 4872`\r\n<br/>\r\n\r\n*Author :* `Aptx`\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/crypto/boombastic.py\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        boombastic.py\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "Boombastic",
+                "points": 818,
+                "solves": 46
+            },
+            {
+                "category": "Cryptography",
+                "description": "Get Bob's trust.\r\nOr maybe try something else ?\r\n<br/>\r\n`nc 52.149.135.130 4873`\r\n<br/>\r\n\r\n*Author :* `Aptx`\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/crypto/procyon.py\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        procyon.py\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "Procyon",
+                "points": 1000,
+                "solves": 3
+            }
+        ],
+        "Forensics": [
+            {
+                "category": "Forensics",
+                "description": "If you have to ask you will never know if you know you need only ask\r\n\r\nAuthor : **CTFCreator** x FwordForen\r\n\r\n[CTFCreator Discord Server]( https://discord.gg/HCu7ZRSQPn)\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://drive.google.com/file/d/1H-XZ4apefiN0_0LTNpJR_jptI46YxBm7/view?usp=sharing\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        LINK\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 36,
+                "name": "shshshsh",
+                "points": 995,
+                "solves": 9
+            },
+            {
+                "category": "Forensics",
+                "description": "Is forensics about tools? Prove it.\r\n\r\nIt seems forensics is not about tools : ). Here is a scenario to make things easier.\r\n\r\nAn internal attacker was able to gain access to the central server. Your mission is to understand what happened under the hood?\r\n\r\nP.S. It is not a CTF challenge where you convert hex to string xD. Think logically.\r\n\r\nFlag Format: FwordCTF{....}\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://drive.google.com/file/d/1FdF6k7RGNeE5ecxVyTBwRaRXc8VmeQ7p/view\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        bf.pcapng\r\n    </small>\r\n</a>\r\n\r\n**Author : 0xMohammed**",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 28,
+                "name": "BF",
+                "points": 999,
+                "solves": 5
+            },
+            {
+                "category": "Forensics",
+                "description": "Semah has enrolled new hacking  course in order to enhance his skills. He started the first phase of learning, as his friend I wanted to make sure that he is getting lessons from the good people. So i took an image for you and help me figuring it out.\r\n\r\nFlag format : **FwordCTF{InstructorName_targetIPTested_toolsUsedToReach\r\nTheFileandDownloadIt_NameOfFoundFile_Content}**\r\n\r\nExample : \r\n\r\n**InstructorName** : SemahBA\r\n\r\n**TargetIPTested** : 10.10.10.10\r\n\r\n**toolsUsedToReachTheFileandDownloadIt** : JohnTheRipper ,gobuster, python (submit it in alphabetical order ) [no extension is needed]\r\n\r\n**NameOfFoundFile** : flag.txt\r\n\r\n**Content** : fakefakefake\r\n\r\nFlag is : FwordCTF{SemahBA_10.10.10.10_gobuster-JohnTheRipper-python_flag.txt_fakefakefake}\r\n\r\n**Author : SemahBA**\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://drive.google.com/file/d/1tfcLMAbBWH-KBnkCDAboXAswm5fZuIed/view?usp=sharing\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        LINK1\r\n    </small>\r\n</a>\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://mega.nz/file/dwxHXQJa#loOkmUJfr2c1MNoAlue62IJZX4zHpOsW_QrWWdEUdlw\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        LINK2\r\n    </small>\r\n</a>\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://www.dropbox.com/s/chp4g30onaumjnm/Challenge2.zip?dl=0\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        LINK3\r\n    </small>\r\n</a>\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 35,
+                "name": "eLearning",
+                "points": 988,
+                "solves": 13
+            },
+            {
+                "category": "Forensics",
+                "description": "Semah was having some cryptography lessons, but while learning he encrypted his file, but since he followed the steps of his teacher, he contacted him but he admitted that he didn't receive an answer although the teacher told him that he gave him everything he needs. So as our group, we are sending you to help him out.\r\n\r\nFlag Format : **FwordCTF{DateOfReceive_SenderUsername_contentofencrypted\r\nFile}**\r\n\r\n**Example** :\r\n\r\n**Date** : 1 March,2021 1:23 (Submit in this format : MMDDYYYY-hh:mm) [no time conversion needed]\r\n\r\n**username** : semah ba\r\n\r\n**content** : 123abc5649abcedf123abc5649abcedf\r\n\r\nFlag is : FwordCTF{03012021-01:23_semah.ba_123abc5649abcedf123abc5649abcedf}\r\n\r\n**Challenge File** \r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://drive.google.com/drive/folders/11KSbrlsTUuhPmGRx5uDjyaJvIR-_gBO8?usp=sharing\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        LINK1\r\n    </small>\r\n</a>\r\n<br/>\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://www.dropbox.com/sh/ipxelxzufpya66s/AAAFVi4cL-sdI0Hj9LGbMd8_a?dl=0\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        LINK2\r\n    </small>\r\n</a>\r\n<br/>\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://mega.nz/folder/0tQy0DCS#f5Q2kLogc7KJs4_y74HkEw\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        LINK3\r\n    </small>\r\n</a>\r\n\r\nAuthor : SemahBA",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "Crypt",
+                "points": 896,
+                "solves": 35
+            },
+            {
+                "category": "Forensics",
+                "description": "How Deep Can You Possibly Dig?\r\n\r\nFlag Format: FwordCTF{....}\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/foren/challenge.pcap\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        challenge.pcap\r\n    </small>\r\n</a>\r\n\r\n***Author : MohammedHassen x SemahBA***",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "listening",
+                "points": 864,
+                "solves": 40
+            }
+        ],
+        "OSINT": [
+            {
+                "category": "OSINT",
+                "description": "\"Qunnoune Phrasavath\" has recently started a new job. Can you find his serial number in the company he works for?\r\n\r\nFlag Format: FwordCTF{serialNumber}\r\n\r\nAuthor: `Cyb3rDoctor`",
+                "files": [],
+                "hints": [
+                    "Focus on every single detail you found (literally!). You may have focused on some obvious big parts and forgot to check the smaller ones and vice versa. (Remember, small details may be helpful sometimes). Finally, don't forget to link everything together.",
+                    "1.  I thought it was obvious that I'm not targeting a real person in the challenge! And that means that I definitely can't get him a serial number from a real company!!! So, the company was also created by me. Don't waste your time by searching for real companies, you'll only find the company name with the serial number in the last step, so focus on the details.\n\n2. The scope that I chose for this challenge fits the CTF, so it's your task to identify the scope.\n\n3. Read more about SOCMINT, that may help you in some steps.\n\n4. Everything is there for a reason, so try to link everything together."
+                ],
+                "id": 13,
+                "name": "New Employee",
+                "points": 1000,
+                "solves": 0
+            },
+            {
+                "category": "OSINT",
+                "description": "The attached audio was retrieved from a device found in relation to a person working as a tech for an organized crime ring. They specialize in second-hand arms trades in the middle east, but their origin is unknown. The client is not sure what the audio is supposed to represent, but they made a note that this organization is struggling with secure communications and they suspect this audio is part of an effort to solve that issue. \r\n\r\n----\r\nNote: This is NOT a steganography challenge.\r\n.....\r\n\r\nMirror (for the audio file): https://mega.nz/file/lwpRmCAQ#GteP8yvHVbML5YHP6NfDuou9w1z4fu-J8pQkqVBgfiU\r\n\r\nThanks to zewensec for his contribution with the idea of this challenge.\r\n\r\nAuthor: `Cyb3rDoctor` & `@zewensec`\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/osint/Questions.txt\" >\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        link\r\n    </small>\r\n</a>\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/osint/audio.mp3\" >\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        link\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 19,
+                "name": "OP NUMBER STATION",
+                "points": 996,
+                "solves": 8
+            }
+        ],
+        "Pwn": [
+            {
+                "category": "Pwn",
+                "description": "It's time to revenge  !<br/>\r\nflag is in /home/fbi/flag.txt<br/>\r\nNote : There is no stdout/stderr in the server , can you manage it this year?<br>\r\n<b>nc 40.71.72.198 1236 </b><br/>\r\nAuthor : haflout <br/>\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/blacklist\">\r\n    <i color=\"#fff\" class=\"fas fa-download\"></i>\r\n    <small>\r\n        binary\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 24,
+                "name": "Blacklist Revenge",
+                "points": 935,
+                "solves": 28
+            },
+            {
+                "category": "Pwn",
+                "description": "Can you take over the world ?<br/>\r\n\r\n<a href=\"http://40.71.72.198:8080\"> link </a><br/>\r\nAuthor : haflout <br/>\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/files.zip\">\r\n    <i color=\"#fff\" class=\"fas fa-download\"></i>\r\n    <small>\r\n        files\r\n    </small>\r\n</a>\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 30,
+                "name": "Peaky & the Brain",
+                "points": 990,
+                "solves": 12
+            },
+            {
+                "category": "Pwn",
+                "description": "A wise man once said \"Ejrili denya Chhili\" <br/>\r\nGet a shell before the Chhili comes !<br/>\r\n<b>nc 40.71.72.198 1234 </b><br/>\r\n<i>Run on UBUNTU 20.04 </i><br/>\r\nAuthor : haflout <br/>\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/chhili\">\r\n    <i color=\"#fff\" class=\"fas fa-download\"></i>\r\n    <small>\r\n        link\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "Chhili",
+                "points": 784,
+                "solves": 50
+            },
+            {
+                "category": "Pwn",
+                "description": "You can always manage your notes !  !<br/>\r\n<b>nc 40.71.72.198 1235 </b><br/>\r\nAuthor : haflout <br/>\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/task2\">\r\n    <i color=\"#fff\" class=\"fas fa-download\"></i>\r\n    <small>\r\n        binary\r\n    </small>\r\n</a>\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/libc-2.27.so\">\r\n    <i color=\"#fff\" class=\"fas fa-download\"></i>\r\n    <small>\r\n        libc\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 26,
+                "name": "Notes",
+                "points": 914,
+                "solves": 32
+            }
+        ],
+        "Reverse Engineering": [
+            {
+                "category": "Reverse Engineering",
+                "description": "Inspired by Sora's fight with the  Werebeast's Queen.\r\nWhat did sora tell shiro?</br>\r\nnc 52.142.61.234 1478</br>\r\nAuthor: ENI\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/rev/sora.exe\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        link\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 32,
+                "name": "Sora",
+                "points": 1000,
+                "solves": 0
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "They fear death, they should fear so much more than that.\r\n\r\nFlag format : FWORDctf{}\r\n\r\n**Author : Joezid**\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/rev/Omen_Final.exe\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        LINK1\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 29,
+                "name": "Omen",
+                "points": 995,
+                "solves": 9
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Saw: We make our secret code consist of 400 chars to make it more secure can you break it ? Flag Format: FwordCTF{}\r\n\r\nAuthor: Joezid\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/rev/SAW.exe\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        link\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "Saw",
+                "points": 991,
+                "solves": 11
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "No description needed just discover it by your self :D\r\n\r\nFlag Format: FWORDctf{}\r\n\r\nAuthor: Joezid\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/rev/Time_Machine.exe\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        link\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 18,
+                "name": "Time Machine",
+                "points": 977,
+                "solves": 17
+            }
+        ],
+        "Web": [
+            {
+                "category": "Web",
+                "description": "Well as always you have the source code so why adding a description ?<br>\r\nLINK: <a href=\"http://seoftw.fword.tech\">Here</a>\r\n\r\nAuthor: Kahla\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/web/seoftw.zip\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        seoftw.zip\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 27,
+                "name": "SeoFtw",
+                "points": 914,
+                "solves": 32
+            },
+            {
+                "category": "Web",
+                "description": "Well as always you have everything good luck :D Typical pastebin chall :-( <br>\r\n<b>Link: </b><a href=\"https://l33k.fword.tech/\" >Here </a> <br>\r\n\r\nAuthor: Kahla\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/web/l33k.zip\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        l33k.zip\r\n    </small>\r\n</a>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 37,
+                "name": "L33k",
+                "points": 1000,
+                "solves": 1
+            },
+            {
+                "category": "Web",
+                "description": "Well you don't need anything if you have source code ? \r\n<b> Link:</b> <a href=\"https://shisui.fword.tech/\">Here</a><br>\r\nAuthor: Kahla<br>\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/web/shisui.zip\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        shisui.zip\r\n    </small>\r\n</a>\r\n\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 21,
+                "name": "Shisui",
+                "points": 1000,
+                "solves": 4
+            },
+            {
+                "category": "Web",
+                "description": "All people hate java and I'm not an exception! But it's really found a lot in real life scenarios.<br>\r\n<b>LINK: </b> <a href=\"http://parrotox.fword.tech\">Here</a><br>\r\n\r\nAuthor: Kahla\r\n\r\n<a class=\"btn btn-success btn-outlined\" href=\"https://static.fword.tech/web/parrot.zip\">\r\n    <i class=\"fas fa-download\"></i>\r\n    <small>\r\n        parrot.zip\r\n    </small>\r\n</a>\r\n\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 33,
+                "name": "ParrotOx",
+                "points": 999,
+                "solves": 5
+            }
+        ],
+        "Welcome": [
+            {
+                "category": "Welcome",
+                "description": "Check our Discord for a free flag",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "Welcome",
+                "points": 10,
+                "solves": 347
+            }
+        ]
+    },
+    "title": "FwordCTF",
+    "url": "https://ctf.fword.tech"
+}

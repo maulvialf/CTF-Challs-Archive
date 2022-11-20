@@ -1,0 +1,964 @@
+I, [2020-09-24T22:28:07.731386 #27256]  INFO -- : [40b18ccf-b4e1-48dc-bdb1-45e28a215a33] Started GET "/" for 127.0.0.1 at 2020-09-24 22:28:07 +0800
+I, [2020-09-24T22:28:07.756131 #27256]  INFO -- : [40b18ccf-b4e1-48dc-bdb1-45e28a215a33] Processing by UsersController#new as HTML
+D, [2020-09-24T22:28:07.780014 #27256] DEBUG -- : [40b18ccf-b4e1-48dc-bdb1-45e28a215a33]   [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+I, [2020-09-24T22:28:07.781009 #27256]  INFO -- : [40b18ccf-b4e1-48dc-bdb1-45e28a215a33] Completed 500 Internal Server Error in 25ms (ActiveRecord: 1.0ms | Allocations: 2378)
+F, [2020-09-24T22:28:07.781856 #27256] FATAL -- : [40b18ccf-b4e1-48dc-bdb1-45e28a215a33]   
+[40b18ccf-b4e1-48dc-bdb1-45e28a215a33] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[40b18ccf-b4e1-48dc-bdb1-45e28a215a33]   
+[40b18ccf-b4e1-48dc-bdb1-45e28a215a33] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:28:07.918856 #27256]  INFO -- : [f89212b7-f3fb-4363-9a66-f098f9575675] Started GET "/favicon.ico" for 127.0.0.1 at 2020-09-24 22:28:07 +0800
+F, [2020-09-24T22:28:07.920419 #27256] FATAL -- : [f89212b7-f3fb-4363-9a66-f098f9575675]   
+[f89212b7-f3fb-4363-9a66-f098f9575675] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[f89212b7-f3fb-4363-9a66-f098f9575675]   
+[f89212b7-f3fb-4363-9a66-f098f9575675] actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+[f89212b7-f3fb-4363-9a66-f098f9575675] railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[f89212b7-f3fb-4363-9a66-f098f9575675] activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+[f89212b7-f3fb-4363-9a66-f098f9575675] activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+[f89212b7-f3fb-4363-9a66-f098f9575675] railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+[f89212b7-f3fb-4363-9a66-f098f9575675] puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+[f89212b7-f3fb-4363-9a66-f098f9575675] puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+[f89212b7-f3fb-4363-9a66-f098f9575675] puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+[f89212b7-f3fb-4363-9a66-f098f9575675] puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2020-09-24T22:28:13.310130 #27256]  INFO -- : [af2312f5-0b8c-4500-a016-23d2aa6f7ec1] Started GET "/users/new" for 127.0.0.1 at 2020-09-24 22:28:13 +0800
+I, [2020-09-24T22:28:13.311903 #27256]  INFO -- : [af2312f5-0b8c-4500-a016-23d2aa6f7ec1] Processing by UsersController#new as HTML
+I, [2020-09-24T22:28:13.316271 #27256]  INFO -- : [af2312f5-0b8c-4500-a016-23d2aa6f7ec1] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms | Allocations: 839)
+F, [2020-09-24T22:28:13.317879 #27256] FATAL -- : [af2312f5-0b8c-4500-a016-23d2aa6f7ec1]   
+[af2312f5-0b8c-4500-a016-23d2aa6f7ec1] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[af2312f5-0b8c-4500-a016-23d2aa6f7ec1]   
+[af2312f5-0b8c-4500-a016-23d2aa6f7ec1] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:28:15.260134 #27256]  INFO -- : [00c66cd2-ca1b-401c-9e8e-c7bad65a1d80] Started GET "/users/new" for 127.0.0.1 at 2020-09-24 22:28:15 +0800
+I, [2020-09-24T22:28:15.260633 #27256]  INFO -- : [00c66cd2-ca1b-401c-9e8e-c7bad65a1d80] Processing by UsersController#new as HTML
+I, [2020-09-24T22:28:15.262224 #27256]  INFO -- : [00c66cd2-ca1b-401c-9e8e-c7bad65a1d80] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 839)
+F, [2020-09-24T22:28:15.262708 #27256] FATAL -- : [00c66cd2-ca1b-401c-9e8e-c7bad65a1d80]   
+[00c66cd2-ca1b-401c-9e8e-c7bad65a1d80] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[00c66cd2-ca1b-401c-9e8e-c7bad65a1d80]   
+[00c66cd2-ca1b-401c-9e8e-c7bad65a1d80] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:28:28.059409 #27256]  INFO -- : [5de6acb1-3c46-4126-877d-165647598fab] Started GET "/users/new" for 127.0.0.1 at 2020-09-24 22:28:28 +0800
+I, [2020-09-24T22:28:28.060324 #27256]  INFO -- : [5de6acb1-3c46-4126-877d-165647598fab] Processing by UsersController#new as HTML
+I, [2020-09-24T22:28:28.062305 #27256]  INFO -- : [5de6acb1-3c46-4126-877d-165647598fab] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 839)
+F, [2020-09-24T22:28:28.063177 #27256] FATAL -- : [5de6acb1-3c46-4126-877d-165647598fab]   
+[5de6acb1-3c46-4126-877d-165647598fab] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[5de6acb1-3c46-4126-877d-165647598fab]   
+[5de6acb1-3c46-4126-877d-165647598fab] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:28:38.876957 #27256]  INFO -- : [04415c02-9cfd-41bb-b231-e58ac5ea9ae4] Started GET "/users/new" for 127.0.0.1 at 2020-09-24 22:28:38 +0800
+I, [2020-09-24T22:28:38.878733 #27256]  INFO -- : [04415c02-9cfd-41bb-b231-e58ac5ea9ae4] Processing by UsersController#new as HTML
+I, [2020-09-24T22:28:38.880885 #27256]  INFO -- : [04415c02-9cfd-41bb-b231-e58ac5ea9ae4] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.3ms | Allocations: 249)
+F, [2020-09-24T22:28:38.882149 #27256] FATAL -- : [04415c02-9cfd-41bb-b231-e58ac5ea9ae4]   
+[04415c02-9cfd-41bb-b231-e58ac5ea9ae4] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[04415c02-9cfd-41bb-b231-e58ac5ea9ae4]   
+[04415c02-9cfd-41bb-b231-e58ac5ea9ae4] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:28:40.112078 #27256]  INFO -- : [676f63fa-4a35-4019-a231-e52afa58f7f9] Started GET "/users/new" for 127.0.0.1 at 2020-09-24 22:28:40 +0800
+I, [2020-09-24T22:28:40.112917 #27256]  INFO -- : [676f63fa-4a35-4019-a231-e52afa58f7f9] Processing by UsersController#new as HTML
+I, [2020-09-24T22:28:40.113954 #27256]  INFO -- : [676f63fa-4a35-4019-a231-e52afa58f7f9] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 249)
+F, [2020-09-24T22:28:40.114387 #27256] FATAL -- : [676f63fa-4a35-4019-a231-e52afa58f7f9]   
+[676f63fa-4a35-4019-a231-e52afa58f7f9] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[676f63fa-4a35-4019-a231-e52afa58f7f9]   
+[676f63fa-4a35-4019-a231-e52afa58f7f9] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:28:40.174911 #27256]  INFO -- : [7392280e-b631-48ca-bd4d-6c7796327706] Started GET "/favicon.ico" for 127.0.0.1 at 2020-09-24 22:28:40 +0800
+F, [2020-09-24T22:28:40.176216 #27256] FATAL -- : [7392280e-b631-48ca-bd4d-6c7796327706]   
+[7392280e-b631-48ca-bd4d-6c7796327706] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[7392280e-b631-48ca-bd4d-6c7796327706]   
+[7392280e-b631-48ca-bd4d-6c7796327706] actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+[7392280e-b631-48ca-bd4d-6c7796327706] railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+[7392280e-b631-48ca-bd4d-6c7796327706] activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[7392280e-b631-48ca-bd4d-6c7796327706] activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+[7392280e-b631-48ca-bd4d-6c7796327706] activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+[7392280e-b631-48ca-bd4d-6c7796327706] railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+[7392280e-b631-48ca-bd4d-6c7796327706] puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+[7392280e-b631-48ca-bd4d-6c7796327706] puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+[7392280e-b631-48ca-bd4d-6c7796327706] puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+[7392280e-b631-48ca-bd4d-6c7796327706] puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2020-09-24T22:28:45.270176 #27256]  INFO -- : [95293b35-1c27-4b17-a86d-0f72e9603aea] Started GET "/pages/new" for 127.0.0.1 at 2020-09-24 22:28:45 +0800
+I, [2020-09-24T22:28:45.271580 #27256]  INFO -- : [95293b35-1c27-4b17-a86d-0f72e9603aea] Processing by PagesController#new as HTML
+I, [2020-09-24T22:28:45.273408 #27256]  INFO -- : [95293b35-1c27-4b17-a86d-0f72e9603aea] Redirected to http://localhost:3000/login
+I, [2020-09-24T22:28:45.273726 #27256]  INFO -- : [95293b35-1c27-4b17-a86d-0f72e9603aea] Filter chain halted as :authorize rendered or redirected
+I, [2020-09-24T22:28:45.273955 #27256]  INFO -- : [95293b35-1c27-4b17-a86d-0f72e9603aea] Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 329)
+I, [2020-09-24T22:28:45.291675 #27256]  INFO -- : [7f0c6300-463f-4230-a59c-d16062cdce02] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:28:45 +0800
+I, [2020-09-24T22:28:45.293552 #27256]  INFO -- : [7f0c6300-463f-4230-a59c-d16062cdce02] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:28:45.359757 #27256]  INFO -- : [7f0c6300-463f-4230-a59c-d16062cdce02]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:28:45.394921 #27256]  INFO -- : [7f0c6300-463f-4230-a59c-d16062cdce02]   Rendered sessions/new.html.erb within layouts/application (Duration: 34.9ms | Allocations: 1074)
+I, [2020-09-24T22:28:45.564238 #27256]  INFO -- : [7f0c6300-463f-4230-a59c-d16062cdce02] Completed 200 OK in 270ms (Views: 207.5ms | ActiveRecord: 0.0ms | Allocations: 6273)
+I, [2020-09-24T22:29:01.705480 #27256]  INFO -- : [8a9235e1-4793-4152-8997-04f061c9530b] Started POST "/login" for 127.0.0.1 at 2020-09-24 22:29:01 +0800
+I, [2020-09-24T22:29:01.707007 #27256]  INFO -- : [8a9235e1-4793-4152-8997-04f061c9530b] Processing by SessionsController#create as HTML
+I, [2020-09-24T22:29:01.707149 #27256]  INFO -- : [8a9235e1-4793-4152-8997-04f061c9530b]   Parameters: {"authenticity_token"=>"4/ATSHS1lFxeqpEXb2IfeTq40ypXnCBFcK6VGX0iBtaBkisLXJZsD3ivICvm7vxUkeydRcSAD/hfCXq+GKQ5Ag==", "login"=>{"email"=>"wow@wow.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+I, [2020-09-24T22:29:01.711497 #27256]  INFO -- : [8a9235e1-4793-4152-8997-04f061c9530b] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms | Allocations: 517)
+F, [2020-09-24T22:29:01.713110 #27256] FATAL -- : [8a9235e1-4793-4152-8997-04f061c9530b]   
+[8a9235e1-4793-4152-8997-04f061c9530b] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[8a9235e1-4793-4152-8997-04f061c9530b]   
+[8a9235e1-4793-4152-8997-04f061c9530b] app/controllers/sessions_controller.rb:11:in `create'
+I, [2020-09-24T22:29:14.711642 #27256]  INFO -- : [00fce9e2-b951-419d-a6bd-eb3839917267] Started GET "/pages/new" for 127.0.0.1 at 2020-09-24 22:29:14 +0800
+I, [2020-09-24T22:29:14.712302 #27256]  INFO -- : [00fce9e2-b951-419d-a6bd-eb3839917267] Processing by PagesController#new as HTML
+I, [2020-09-24T22:29:14.712921 #27256]  INFO -- : [00fce9e2-b951-419d-a6bd-eb3839917267] Redirected to http://localhost:3000/login
+I, [2020-09-24T22:29:14.713013 #27256]  INFO -- : [00fce9e2-b951-419d-a6bd-eb3839917267] Filter chain halted as :authorize rendered or redirected
+I, [2020-09-24T22:29:14.713104 #27256]  INFO -- : [00fce9e2-b951-419d-a6bd-eb3839917267] Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 317)
+I, [2020-09-24T22:29:14.718177 #27256]  INFO -- : [68a64a2f-9b2b-4976-ac46-58b7e4ffe633] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:29:14 +0800
+I, [2020-09-24T22:29:14.718644 #27256]  INFO -- : [68a64a2f-9b2b-4976-ac46-58b7e4ffe633] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:29:14.719316 #27256]  INFO -- : [68a64a2f-9b2b-4976-ac46-58b7e4ffe633]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:29:14.720107 #27256]  INFO -- : [68a64a2f-9b2b-4976-ac46-58b7e4ffe633]   Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 492)
+I, [2020-09-24T22:29:14.720487 #27256]  INFO -- : [68a64a2f-9b2b-4976-ac46-58b7e4ffe633] Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1113)
+I, [2020-09-24T22:29:19.120884 #27256]  INFO -- : [88847f92-4d2a-47c8-8888-d6194c0099cf] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:29:19 +0800
+I, [2020-09-24T22:29:19.122484 #27256]  INFO -- : [88847f92-4d2a-47c8-8888-d6194c0099cf] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:29:19.125123 #27256]  INFO -- : [88847f92-4d2a-47c8-8888-d6194c0099cf]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:29:19.127507 #27256]  INFO -- : [88847f92-4d2a-47c8-8888-d6194c0099cf]   Rendered sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 488)
+I, [2020-09-24T22:29:19.128797 #27256]  INFO -- : [88847f92-4d2a-47c8-8888-d6194c0099cf] Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 1089)
+I, [2020-09-24T22:29:19.761018 #27256]  INFO -- : [05691f55-c907-4561-9177-d636141a0300] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:29:19 +0800
+I, [2020-09-24T22:29:19.762128 #27256]  INFO -- : [05691f55-c907-4561-9177-d636141a0300] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:29:19.763923 #27256]  INFO -- : [05691f55-c907-4561-9177-d636141a0300]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:29:19.766042 #27256]  INFO -- : [05691f55-c907-4561-9177-d636141a0300]   Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 486)
+I, [2020-09-24T22:29:19.767375 #27256]  INFO -- : [05691f55-c907-4561-9177-d636141a0300] Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 1082)
+I, [2020-09-24T22:29:24.251659 #27256]  INFO -- : [f4d546bb-a3f4-47c2-833e-61c1be0b508f] Started GET "/users/new" for 127.0.0.1 at 2020-09-24 22:29:24 +0800
+I, [2020-09-24T22:29:24.253127 #27256]  INFO -- : [f4d546bb-a3f4-47c2-833e-61c1be0b508f] Processing by UsersController#new as HTML
+I, [2020-09-24T22:29:24.255988 #27256]  INFO -- : [f4d546bb-a3f4-47c2-833e-61c1be0b508f] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms | Allocations: 334)
+F, [2020-09-24T22:29:24.258237 #27256] FATAL -- : [f4d546bb-a3f4-47c2-833e-61c1be0b508f]   
+[f4d546bb-a3f4-47c2-833e-61c1be0b508f] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[f4d546bb-a3f4-47c2-833e-61c1be0b508f]   
+[f4d546bb-a3f4-47c2-833e-61c1be0b508f] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:29:29.406291 #27256]  INFO -- : [e9092af6-c992-411d-b63c-913e4768e3bd] Started GET "/signup" for 127.0.0.1 at 2020-09-24 22:29:29 +0800
+F, [2020-09-24T22:29:29.407144 #27256] FATAL -- : [e9092af6-c992-411d-b63c-913e4768e3bd]   
+[e9092af6-c992-411d-b63c-913e4768e3bd] ActionController::RoutingError (No route matches [GET] "/signup"):
+[e9092af6-c992-411d-b63c-913e4768e3bd]   
+[e9092af6-c992-411d-b63c-913e4768e3bd] actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+[e9092af6-c992-411d-b63c-913e4768e3bd] railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[e9092af6-c992-411d-b63c-913e4768e3bd] activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+[e9092af6-c992-411d-b63c-913e4768e3bd] activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+[e9092af6-c992-411d-b63c-913e4768e3bd] railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+[e9092af6-c992-411d-b63c-913e4768e3bd] puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+[e9092af6-c992-411d-b63c-913e4768e3bd] puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+[e9092af6-c992-411d-b63c-913e4768e3bd] puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+[e9092af6-c992-411d-b63c-913e4768e3bd] puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2020-09-24T22:30:03.264394 #27256]  INFO -- : [d5576bf9-f212-4848-ab43-4de94bbc3b9b] Started GET "/users/new" for 127.0.0.1 at 2020-09-24 22:30:03 +0800
+I, [2020-09-24T22:30:03.265161 #27256]  INFO -- : [d5576bf9-f212-4848-ab43-4de94bbc3b9b] Processing by UsersController#new as HTML
+I, [2020-09-24T22:30:03.266383 #27256]  INFO -- : [d5576bf9-f212-4848-ab43-4de94bbc3b9b] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 334)
+F, [2020-09-24T22:30:03.267193 #27256] FATAL -- : [d5576bf9-f212-4848-ab43-4de94bbc3b9b]   
+[d5576bf9-f212-4848-ab43-4de94bbc3b9b] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[d5576bf9-f212-4848-ab43-4de94bbc3b9b]   
+[d5576bf9-f212-4848-ab43-4de94bbc3b9b] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:30:08.065001 #27256]  INFO -- : [a77dae6f-449d-4962-be4e-4c1d31711ce6] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:30:08 +0800
+I, [2020-09-24T22:30:08.066082 #27256]  INFO -- : [a77dae6f-449d-4962-be4e-4c1d31711ce6] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:30:08.067844 #27256]  INFO -- : [a77dae6f-449d-4962-be4e-4c1d31711ce6]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:30:08.069256 #27256]  INFO -- : [a77dae6f-449d-4962-be4e-4c1d31711ce6]   Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 488)
+I, [2020-09-24T22:30:08.070255 #27256]  INFO -- : [a77dae6f-449d-4962-be4e-4c1d31711ce6] Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1086)
+I, [2020-09-24T22:30:53.676090 #28051]  INFO -- : [7660dcf3-87a8-4083-ada3-e75cd37618b1] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:30:53 +0800
+I, [2020-09-24T22:30:53.679940 #28051]  INFO -- : [7660dcf3-87a8-4083-ada3-e75cd37618b1] Processing by UsersController#new as HTML
+D, [2020-09-24T22:30:53.689964 #28051] DEBUG -- : [7660dcf3-87a8-4083-ada3-e75cd37618b1]   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+I, [2020-09-24T22:30:53.690536 #28051]  INFO -- : [7660dcf3-87a8-4083-ada3-e75cd37618b1] Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms | Allocations: 1880)
+F, [2020-09-24T22:30:53.690994 #28051] FATAL -- : [7660dcf3-87a8-4083-ada3-e75cd37618b1]   
+[7660dcf3-87a8-4083-ada3-e75cd37618b1] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[7660dcf3-87a8-4083-ada3-e75cd37618b1]   
+[7660dcf3-87a8-4083-ada3-e75cd37618b1] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:30:55.592746 #28051]  INFO -- : [2c806fab-106b-47e9-a6d8-44190677ac28] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:30:55 +0800
+I, [2020-09-24T22:30:55.594579 #28051]  INFO -- : [2c806fab-106b-47e9-a6d8-44190677ac28] Processing by UsersController#new as HTML
+I, [2020-09-24T22:30:55.597136 #28051]  INFO -- : [2c806fab-106b-47e9-a6d8-44190677ac28] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 343)
+F, [2020-09-24T22:30:55.598277 #28051] FATAL -- : [2c806fab-106b-47e9-a6d8-44190677ac28]   
+[2c806fab-106b-47e9-a6d8-44190677ac28] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[2c806fab-106b-47e9-a6d8-44190677ac28]   
+[2c806fab-106b-47e9-a6d8-44190677ac28] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:30:56.162434 #28051]  INFO -- : [165ddafa-7844-4a4c-b33f-0ea75d99a9b1] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:30:56 +0800
+I, [2020-09-24T22:30:56.163516 #28051]  INFO -- : [165ddafa-7844-4a4c-b33f-0ea75d99a9b1] Processing by UsersController#new as HTML
+I, [2020-09-24T22:30:56.165464 #28051]  INFO -- : [165ddafa-7844-4a4c-b33f-0ea75d99a9b1] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 343)
+F, [2020-09-24T22:30:56.166398 #28051] FATAL -- : [165ddafa-7844-4a4c-b33f-0ea75d99a9b1]   
+[165ddafa-7844-4a4c-b33f-0ea75d99a9b1] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[165ddafa-7844-4a4c-b33f-0ea75d99a9b1]   
+[165ddafa-7844-4a4c-b33f-0ea75d99a9b1] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:30:56.494413 #28051]  INFO -- : [2c59c431-d930-48fd-b847-beeb535712b9] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:30:56 +0800
+I, [2020-09-24T22:30:56.496776 #28051]  INFO -- : [2c59c431-d930-48fd-b847-beeb535712b9] Processing by UsersController#new as HTML
+I, [2020-09-24T22:30:56.499871 #28051]  INFO -- : [2c59c431-d930-48fd-b847-beeb535712b9] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.3ms | Allocations: 343)
+F, [2020-09-24T22:30:56.501504 #28051] FATAL -- : [2c59c431-d930-48fd-b847-beeb535712b9]   
+[2c59c431-d930-48fd-b847-beeb535712b9] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[2c59c431-d930-48fd-b847-beeb535712b9]   
+[2c59c431-d930-48fd-b847-beeb535712b9] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:30:56.651855 #28051]  INFO -- : [46197d8b-4275-4ae5-9069-07e410224a60] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:30:56 +0800
+I, [2020-09-24T22:30:56.653588 #28051]  INFO -- : [46197d8b-4275-4ae5-9069-07e410224a60] Processing by UsersController#new as HTML
+I, [2020-09-24T22:30:56.656865 #28051]  INFO -- : [46197d8b-4275-4ae5-9069-07e410224a60] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.3ms | Allocations: 334)
+F, [2020-09-24T22:30:56.658437 #28051] FATAL -- : [46197d8b-4275-4ae5-9069-07e410224a60]   
+[46197d8b-4275-4ae5-9069-07e410224a60] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[46197d8b-4275-4ae5-9069-07e410224a60]   
+[46197d8b-4275-4ae5-9069-07e410224a60] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:30:56.758374 #28051]  INFO -- : [824e8370-907f-4ac5-8d61-003ca7380a1e] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:30:56 +0800
+I, [2020-09-24T22:30:56.758840 #28051]  INFO -- : [824e8370-907f-4ac5-8d61-003ca7380a1e] Processing by UsersController#new as HTML
+I, [2020-09-24T22:30:56.759812 #28051]  INFO -- : [824e8370-907f-4ac5-8d61-003ca7380a1e] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 334)
+F, [2020-09-24T22:30:56.760812 #28051] FATAL -- : [824e8370-907f-4ac5-8d61-003ca7380a1e]   
+[824e8370-907f-4ac5-8d61-003ca7380a1e] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[824e8370-907f-4ac5-8d61-003ca7380a1e]   
+[824e8370-907f-4ac5-8d61-003ca7380a1e] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:30:56.872735 #28051]  INFO -- : [6340084c-5c77-448e-8cd4-557e0f8f4cdb] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:30:56 +0800
+I, [2020-09-24T22:30:56.873203 #28051]  INFO -- : [6340084c-5c77-448e-8cd4-557e0f8f4cdb] Processing by UsersController#new as HTML
+I, [2020-09-24T22:30:56.873969 #28051]  INFO -- : [6340084c-5c77-448e-8cd4-557e0f8f4cdb] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 334)
+F, [2020-09-24T22:30:56.874386 #28051] FATAL -- : [6340084c-5c77-448e-8cd4-557e0f8f4cdb]   
+[6340084c-5c77-448e-8cd4-557e0f8f4cdb] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[6340084c-5c77-448e-8cd4-557e0f8f4cdb]   
+[6340084c-5c77-448e-8cd4-557e0f8f4cdb] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:30:57.058535 #28051]  INFO -- : [40bd2ca1-d2e3-4de1-b94b-dbba4a403401] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:30:57 +0800
+I, [2020-09-24T22:30:57.059267 #28051]  INFO -- : [40bd2ca1-d2e3-4de1-b94b-dbba4a403401] Processing by UsersController#new as HTML
+I, [2020-09-24T22:30:57.061718 #28051]  INFO -- : [40bd2ca1-d2e3-4de1-b94b-dbba4a403401] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.4ms | Allocations: 334)
+F, [2020-09-24T22:30:57.062888 #28051] FATAL -- : [40bd2ca1-d2e3-4de1-b94b-dbba4a403401]   
+[40bd2ca1-d2e3-4de1-b94b-dbba4a403401] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[40bd2ca1-d2e3-4de1-b94b-dbba4a403401]   
+[40bd2ca1-d2e3-4de1-b94b-dbba4a403401] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:31:14.916209 #28264]  INFO -- : [eb8a6709-8d0a-44f4-8096-66e51b009594] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:31:14 +0800
+I, [2020-09-24T22:31:14.918123 #28264]  INFO -- : [eb8a6709-8d0a-44f4-8096-66e51b009594] Processing by UsersController#new as HTML
+D, [2020-09-24T22:31:14.929094 #28264] DEBUG -- : [eb8a6709-8d0a-44f4-8096-66e51b009594]   [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+I, [2020-09-24T22:31:14.930252 #28264]  INFO -- : [eb8a6709-8d0a-44f4-8096-66e51b009594] Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.9ms | Allocations: 1880)
+F, [2020-09-24T22:31:14.931063 #28264] FATAL -- : [eb8a6709-8d0a-44f4-8096-66e51b009594]   
+[eb8a6709-8d0a-44f4-8096-66e51b009594] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[eb8a6709-8d0a-44f4-8096-66e51b009594]   
+[eb8a6709-8d0a-44f4-8096-66e51b009594] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:31:15.523946 #28264]  INFO -- : [f188ce03-b713-4f05-ba66-0e9282238beb] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:31:15 +0800
+I, [2020-09-24T22:31:15.525940 #28264]  INFO -- : [f188ce03-b713-4f05-ba66-0e9282238beb] Processing by UsersController#new as HTML
+I, [2020-09-24T22:31:15.528128 #28264]  INFO -- : [f188ce03-b713-4f05-ba66-0e9282238beb] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 343)
+F, [2020-09-24T22:31:15.528938 #28264] FATAL -- : [f188ce03-b713-4f05-ba66-0e9282238beb]   
+[f188ce03-b713-4f05-ba66-0e9282238beb] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[f188ce03-b713-4f05-ba66-0e9282238beb]   
+[f188ce03-b713-4f05-ba66-0e9282238beb] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:31:15.860364 #28264]  INFO -- : [09f84350-857b-4c8f-a92b-894f3d01aee7] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:31:15 +0800
+I, [2020-09-24T22:31:15.862025 #28264]  INFO -- : [09f84350-857b-4c8f-a92b-894f3d01aee7] Processing by UsersController#new as HTML
+I, [2020-09-24T22:31:15.864295 #28264]  INFO -- : [09f84350-857b-4c8f-a92b-894f3d01aee7] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 343)
+F, [2020-09-24T22:31:15.865474 #28264] FATAL -- : [09f84350-857b-4c8f-a92b-894f3d01aee7]   
+[09f84350-857b-4c8f-a92b-894f3d01aee7] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[09f84350-857b-4c8f-a92b-894f3d01aee7]   
+[09f84350-857b-4c8f-a92b-894f3d01aee7] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:31:18.594916 #28264]  INFO -- : [5cb60955-500b-485e-b5eb-5f2998f731d6] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:31:18 +0800
+I, [2020-09-24T22:31:18.596237 #28264]  INFO -- : [5cb60955-500b-485e-b5eb-5f2998f731d6] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:31:18.599952 #28264]  INFO -- : [5cb60955-500b-485e-b5eb-5f2998f731d6]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:31:18.602508 #28264]  INFO -- : [5cb60955-500b-485e-b5eb-5f2998f731d6]   Rendered sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1087)
+I, [2020-09-24T22:31:18.916970 #28264]  INFO -- : [5cb60955-500b-485e-b5eb-5f2998f731d6] Completed 500 Internal Server Error in 321ms (ActiveRecord: 0.0ms | Allocations: 139643)
+F, [2020-09-24T22:31:18.917674 #28264] FATAL -- : [5cb60955-500b-485e-b5eb-5f2998f731d6]   
+[5cb60955-500b-485e-b5eb-5f2998f731d6] ActionView::Template::Error (undefined local variable or method `new_user_path' for #<#<Class:0x0000563043404628>:0x00005630433f2a18>):
+[5cb60955-500b-485e-b5eb-5f2998f731d6]     14:       <%= "Logged in as #{current_user.email}" %> | <%= link_to 'Home', root_path %> | <%= link_to 'Log Out', logout_path, method: :delete %>
+[5cb60955-500b-485e-b5eb-5f2998f731d6]     15:     <% else %>
+[5cb60955-500b-485e-b5eb-5f2998f731d6]     16:       <!-- not logged in -->
+[5cb60955-500b-485e-b5eb-5f2998f731d6]     17:       <%= link_to 'Home', root_path %> | <%= link_to 'Log In', login_path %> or <%= link_to 'Sign Up', new_user_path %>
+[5cb60955-500b-485e-b5eb-5f2998f731d6]     18:     <% end %>
+[5cb60955-500b-485e-b5eb-5f2998f731d6]     19:     <hr>
+[5cb60955-500b-485e-b5eb-5f2998f731d6]     20:     <!-- end -->
+[5cb60955-500b-485e-b5eb-5f2998f731d6]   
+[5cb60955-500b-485e-b5eb-5f2998f731d6] app/views/layouts/application.html.erb:17
+I, [2020-09-24T22:31:20.389781 #28264]  INFO -- : [f6ce841c-e429-4e25-ac37-51c4e82bbfc1] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:31:20 +0800
+I, [2020-09-24T22:31:20.391543 #28264]  INFO -- : [f6ce841c-e429-4e25-ac37-51c4e82bbfc1] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:31:20.393670 #28264]  INFO -- : [f6ce841c-e429-4e25-ac37-51c4e82bbfc1]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:31:20.395616 #28264]  INFO -- : [f6ce841c-e429-4e25-ac37-51c4e82bbfc1]   Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 493)
+I, [2020-09-24T22:31:20.700639 #28264]  INFO -- : [f6ce841c-e429-4e25-ac37-51c4e82bbfc1] Completed 500 Internal Server Error in 309ms (ActiveRecord: 0.0ms | Allocations: 137670)
+F, [2020-09-24T22:31:20.701397 #28264] FATAL -- : [f6ce841c-e429-4e25-ac37-51c4e82bbfc1]   
+[f6ce841c-e429-4e25-ac37-51c4e82bbfc1] ActionView::Template::Error (undefined local variable or method `new_user_path' for #<#<Class:0x0000563043404628>:0x0000563045eb54a8>):
+[f6ce841c-e429-4e25-ac37-51c4e82bbfc1]     14:       <%= "Logged in as #{current_user.email}" %> | <%= link_to 'Home', root_path %> | <%= link_to 'Log Out', logout_path, method: :delete %>
+[f6ce841c-e429-4e25-ac37-51c4e82bbfc1]     15:     <% else %>
+[f6ce841c-e429-4e25-ac37-51c4e82bbfc1]     16:       <!-- not logged in -->
+[f6ce841c-e429-4e25-ac37-51c4e82bbfc1]     17:       <%= link_to 'Home', root_path %> | <%= link_to 'Log In', login_path %> or <%= link_to 'Sign Up', new_user_path %>
+[f6ce841c-e429-4e25-ac37-51c4e82bbfc1]     18:     <% end %>
+[f6ce841c-e429-4e25-ac37-51c4e82bbfc1]     19:     <hr>
+[f6ce841c-e429-4e25-ac37-51c4e82bbfc1]     20:     <!-- end -->
+[f6ce841c-e429-4e25-ac37-51c4e82bbfc1]   
+[f6ce841c-e429-4e25-ac37-51c4e82bbfc1] app/views/layouts/application.html.erb:17
+I, [2020-09-24T22:31:22.707012 #28264]  INFO -- : [58839e71-ce8b-4418-a45b-3339f2c4035f] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:31:22 +0800
+I, [2020-09-24T22:31:22.708293 #28264]  INFO -- : [58839e71-ce8b-4418-a45b-3339f2c4035f] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:31:22.709768 #28264]  INFO -- : [58839e71-ce8b-4418-a45b-3339f2c4035f]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:31:22.711282 #28264]  INFO -- : [58839e71-ce8b-4418-a45b-3339f2c4035f]   Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 488)
+I, [2020-09-24T22:31:22.971666 #28264]  INFO -- : [58839e71-ce8b-4418-a45b-3339f2c4035f] Completed 500 Internal Server Error in 263ms (ActiveRecord: 0.0ms | Allocations: 137658)
+F, [2020-09-24T22:31:22.972352 #28264] FATAL -- : [58839e71-ce8b-4418-a45b-3339f2c4035f]   
+[58839e71-ce8b-4418-a45b-3339f2c4035f] ActionView::Template::Error (undefined local variable or method `new_user_path' for #<#<Class:0x0000563043404628>:0x0000563045659b38>):
+[58839e71-ce8b-4418-a45b-3339f2c4035f]     14:       <%= "Logged in as #{current_user.email}" %> | <%= link_to 'Home', root_path %> | <%= link_to 'Log Out', logout_path, method: :delete %>
+[58839e71-ce8b-4418-a45b-3339f2c4035f]     15:     <% else %>
+[58839e71-ce8b-4418-a45b-3339f2c4035f]     16:       <!-- not logged in -->
+[58839e71-ce8b-4418-a45b-3339f2c4035f]     17:       <%= link_to 'Home', root_path %> | <%= link_to 'Log In', login_path %> or <%= link_to 'Sign Up', new_user_path %>
+[58839e71-ce8b-4418-a45b-3339f2c4035f]     18:     <% end %>
+[58839e71-ce8b-4418-a45b-3339f2c4035f]     19:     <hr>
+[58839e71-ce8b-4418-a45b-3339f2c4035f]     20:     <!-- end -->
+[58839e71-ce8b-4418-a45b-3339f2c4035f]   
+[58839e71-ce8b-4418-a45b-3339f2c4035f] app/views/layouts/application.html.erb:17
+I, [2020-09-24T22:31:26.834276 #28264]  INFO -- : [0482656b-caa5-4525-b36d-8b2d73ca193f] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:31:26 +0800
+I, [2020-09-24T22:31:26.835518 #28264]  INFO -- : [0482656b-caa5-4525-b36d-8b2d73ca193f] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:31:26.836688 #28264]  INFO -- : [0482656b-caa5-4525-b36d-8b2d73ca193f]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:31:26.838554 #28264]  INFO -- : [0482656b-caa5-4525-b36d-8b2d73ca193f]   Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 503)
+I, [2020-09-24T22:31:27.102677 #28264]  INFO -- : [0482656b-caa5-4525-b36d-8b2d73ca193f] Completed 500 Internal Server Error in 267ms (ActiveRecord: 0.0ms | Allocations: 137528)
+F, [2020-09-24T22:31:27.103316 #28264] FATAL -- : [0482656b-caa5-4525-b36d-8b2d73ca193f]   
+[0482656b-caa5-4525-b36d-8b2d73ca193f] ActionView::Template::Error (undefined local variable or method `new_user_path' for #<#<Class:0x0000563043404628>:0x0000563045c359f8>):
+[0482656b-caa5-4525-b36d-8b2d73ca193f]     14:       <%= "Logged in as #{current_user.email}" %> | <%= link_to 'Home', root_path %> | <%= link_to 'Log Out', logout_path, method: :delete %>
+[0482656b-caa5-4525-b36d-8b2d73ca193f]     15:     <% else %>
+[0482656b-caa5-4525-b36d-8b2d73ca193f]     16:       <!-- not logged in -->
+[0482656b-caa5-4525-b36d-8b2d73ca193f]     17:       <%= link_to 'Home', root_path %> | <%= link_to 'Log In', login_path %> or <%= link_to 'Sign Up', new_user_path %>
+[0482656b-caa5-4525-b36d-8b2d73ca193f]     18:     <% end %>
+[0482656b-caa5-4525-b36d-8b2d73ca193f]     19:     <hr>
+[0482656b-caa5-4525-b36d-8b2d73ca193f]     20:     <!-- end -->
+[0482656b-caa5-4525-b36d-8b2d73ca193f]   
+[0482656b-caa5-4525-b36d-8b2d73ca193f] app/views/layouts/application.html.erb:17
+I, [2020-09-24T22:31:40.205240 #28264]  INFO -- : [0d83a00b-2de0-440c-a291-78d3a01db1b8] Started GET "/pages/new" for 127.0.0.1 at 2020-09-24 22:31:40 +0800
+I, [2020-09-24T22:31:40.206029 #28264]  INFO -- : [0d83a00b-2de0-440c-a291-78d3a01db1b8] Processing by PagesController#new as HTML
+I, [2020-09-24T22:31:40.206925 #28264]  INFO -- : [0d83a00b-2de0-440c-a291-78d3a01db1b8] Redirected to http://localhost:3000/login
+I, [2020-09-24T22:31:40.207073 #28264]  INFO -- : [0d83a00b-2de0-440c-a291-78d3a01db1b8] Filter chain halted as :authorize rendered or redirected
+I, [2020-09-24T22:31:40.207201 #28264]  INFO -- : [0d83a00b-2de0-440c-a291-78d3a01db1b8] Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 312)
+I, [2020-09-24T22:31:40.215612 #28264]  INFO -- : [c354ca4d-5570-4cbf-ab80-ff9f16fd8083] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:31:40 +0800
+I, [2020-09-24T22:31:40.216252 #28264]  INFO -- : [c354ca4d-5570-4cbf-ab80-ff9f16fd8083] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:31:40.217091 #28264]  INFO -- : [c354ca4d-5570-4cbf-ab80-ff9f16fd8083]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:31:40.218061 #28264]  INFO -- : [c354ca4d-5570-4cbf-ab80-ff9f16fd8083]   Rendered sessions/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 492)
+I, [2020-09-24T22:31:40.528952 #28264]  INFO -- : [c354ca4d-5570-4cbf-ab80-ff9f16fd8083] Completed 500 Internal Server Error in 313ms (ActiveRecord: 0.0ms | Allocations: 137743)
+F, [2020-09-24T22:31:40.529796 #28264] FATAL -- : [c354ca4d-5570-4cbf-ab80-ff9f16fd8083]   
+[c354ca4d-5570-4cbf-ab80-ff9f16fd8083] ActionView::Template::Error (undefined local variable or method `new_user_path' for #<#<Class:0x0000563043404628>:0x0000563044bc9088>):
+[c354ca4d-5570-4cbf-ab80-ff9f16fd8083]     14:       <%= "Logged in as #{current_user.email}" %> | <%= link_to 'Home', root_path %> | <%= link_to 'Log Out', logout_path, method: :delete %>
+[c354ca4d-5570-4cbf-ab80-ff9f16fd8083]     15:     <% else %>
+[c354ca4d-5570-4cbf-ab80-ff9f16fd8083]     16:       <!-- not logged in -->
+[c354ca4d-5570-4cbf-ab80-ff9f16fd8083]     17:       <%= link_to 'Home', root_path %> | <%= link_to 'Log In', login_path %> or <%= link_to 'Sign Up', new_user_path %>
+[c354ca4d-5570-4cbf-ab80-ff9f16fd8083]     18:     <% end %>
+[c354ca4d-5570-4cbf-ab80-ff9f16fd8083]     19:     <hr>
+[c354ca4d-5570-4cbf-ab80-ff9f16fd8083]     20:     <!-- end -->
+[c354ca4d-5570-4cbf-ab80-ff9f16fd8083]   
+[c354ca4d-5570-4cbf-ab80-ff9f16fd8083] app/views/layouts/application.html.erb:17
+I, [2020-09-24T22:31:40.605386 #28264]  INFO -- : [6a06c2f2-2b00-4a9b-aac9-3103342550e9] Started GET "/favicon.ico" for 127.0.0.1 at 2020-09-24 22:31:40 +0800
+F, [2020-09-24T22:31:40.606682 #28264] FATAL -- : [6a06c2f2-2b00-4a9b-aac9-3103342550e9]   
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9]   
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+[6a06c2f2-2b00-4a9b-aac9-3103342550e9] puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2020-09-24T22:32:12.064130 #28587]  INFO -- : [d5dc9271-ebf9-418c-9522-b8e26b932af5] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:32:12 +0800
+I, [2020-09-24T22:32:12.087047 #28587]  INFO -- : [d5dc9271-ebf9-418c-9522-b8e26b932af5] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:32:12.114068 #28587]  INFO -- : [d5dc9271-ebf9-418c-9522-b8e26b932af5]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:32:12.118879 #28587]  INFO -- : [d5dc9271-ebf9-418c-9522-b8e26b932af5]   Rendered sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1092)
+I, [2020-09-24T22:32:12.122220 #28587]  INFO -- : [d5dc9271-ebf9-418c-9522-b8e26b932af5] Completed 200 OK in 35ms (Views: 12.0ms | Allocations: 3170)
+I, [2020-09-24T22:32:15.402895 #28587]  INFO -- : [f573aff6-7528-4e0e-9bbd-35166267b264] Started GET "/" for 127.0.0.1 at 2020-09-24 22:32:15 +0800
+I, [2020-09-24T22:32:15.405291 #28587]  INFO -- : [f573aff6-7528-4e0e-9bbd-35166267b264] Processing by UsersController#new as HTML
+D, [2020-09-24T22:32:15.429807 #28587] DEBUG -- : [f573aff6-7528-4e0e-9bbd-35166267b264]   [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+I, [2020-09-24T22:32:15.431607 #28587]  INFO -- : [f573aff6-7528-4e0e-9bbd-35166267b264] Completed 500 Internal Server Error in 26ms (ActiveRecord: 1.4ms | Allocations: 1799)
+F, [2020-09-24T22:32:15.433019 #28587] FATAL -- : [f573aff6-7528-4e0e-9bbd-35166267b264]   
+[f573aff6-7528-4e0e-9bbd-35166267b264] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[f573aff6-7528-4e0e-9bbd-35166267b264]   
+[f573aff6-7528-4e0e-9bbd-35166267b264] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:32:17.759488 #28587]  INFO -- : [9b509577-4fe7-42e5-b57b-449a98b125c1] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:32:17 +0800
+I, [2020-09-24T22:32:17.761346 #28587]  INFO -- : [9b509577-4fe7-42e5-b57b-449a98b125c1] Processing by UsersController#new as HTML
+I, [2020-09-24T22:32:17.764272 #28587]  INFO -- : [9b509577-4fe7-42e5-b57b-449a98b125c1] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms | Allocations: 352)
+F, [2020-09-24T22:32:17.765478 #28587] FATAL -- : [9b509577-4fe7-42e5-b57b-449a98b125c1]   
+[9b509577-4fe7-42e5-b57b-449a98b125c1] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[9b509577-4fe7-42e5-b57b-449a98b125c1]   
+[9b509577-4fe7-42e5-b57b-449a98b125c1] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:32:20.023762 #28587]  INFO -- : [888a3481-f2f4-4f9c-a8ee-59be2caccf87] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:32:20 +0800
+I, [2020-09-24T22:32:20.024406 #28587]  INFO -- : [888a3481-f2f4-4f9c-a8ee-59be2caccf87] Processing by UsersController#new as HTML
+I, [2020-09-24T22:32:20.025420 #28587]  INFO -- : [888a3481-f2f4-4f9c-a8ee-59be2caccf87] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 352)
+F, [2020-09-24T22:32:20.025954 #28587] FATAL -- : [888a3481-f2f4-4f9c-a8ee-59be2caccf87]   
+[888a3481-f2f4-4f9c-a8ee-59be2caccf87] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[888a3481-f2f4-4f9c-a8ee-59be2caccf87]   
+[888a3481-f2f4-4f9c-a8ee-59be2caccf87] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:31.410142 #29186]  INFO -- : [957a415b-afcc-4f66-8861-7e50136cbc3b] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:31 +0800
+I, [2020-09-24T22:33:31.435812 #29186]  INFO -- : [957a415b-afcc-4f66-8861-7e50136cbc3b] Processing by UsersController#new as HTML
+D, [2020-09-24T22:33:31.454171 #29186] DEBUG -- : [957a415b-afcc-4f66-8861-7e50136cbc3b]   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+I, [2020-09-24T22:33:31.455143 #29186]  INFO -- : [957a415b-afcc-4f66-8861-7e50136cbc3b] Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.7ms | Allocations: 2378)
+F, [2020-09-24T22:33:31.455947 #29186] FATAL -- : [957a415b-afcc-4f66-8861-7e50136cbc3b]   
+[957a415b-afcc-4f66-8861-7e50136cbc3b] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[957a415b-afcc-4f66-8861-7e50136cbc3b]   
+[957a415b-afcc-4f66-8861-7e50136cbc3b] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:32.174698 #29186]  INFO -- : [5264a456-acdb-4edf-9e0f-8f911cd71e84] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:32 +0800
+I, [2020-09-24T22:33:32.176199 #29186]  INFO -- : [5264a456-acdb-4edf-9e0f-8f911cd71e84] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:32.181218 #29186]  INFO -- : [5264a456-acdb-4edf-9e0f-8f911cd71e84] Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms | Allocations: 839)
+F, [2020-09-24T22:33:32.182632 #29186] FATAL -- : [5264a456-acdb-4edf-9e0f-8f911cd71e84]   
+[5264a456-acdb-4edf-9e0f-8f911cd71e84] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[5264a456-acdb-4edf-9e0f-8f911cd71e84]   
+[5264a456-acdb-4edf-9e0f-8f911cd71e84] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:32.525026 #29186]  INFO -- : [bb11efbb-8f06-4749-a347-82f169508ce0] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:32 +0800
+I, [2020-09-24T22:33:32.526306 #29186]  INFO -- : [bb11efbb-8f06-4749-a347-82f169508ce0] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:32.529337 #29186]  INFO -- : [bb11efbb-8f06-4749-a347-82f169508ce0] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms | Allocations: 839)
+F, [2020-09-24T22:33:32.530691 #29186] FATAL -- : [bb11efbb-8f06-4749-a347-82f169508ce0]   
+[bb11efbb-8f06-4749-a347-82f169508ce0] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[bb11efbb-8f06-4749-a347-82f169508ce0]   
+[bb11efbb-8f06-4749-a347-82f169508ce0] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:32.737945 #29186]  INFO -- : [900ba6d8-8ab0-46b5-9864-932a28004f61] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:32 +0800
+I, [2020-09-24T22:33:32.740131 #29186]  INFO -- : [900ba6d8-8ab0-46b5-9864-932a28004f61] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:32.744483 #29186]  INFO -- : [900ba6d8-8ab0-46b5-9864-932a28004f61] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms | Allocations: 839)
+F, [2020-09-24T22:33:32.746684 #29186] FATAL -- : [900ba6d8-8ab0-46b5-9864-932a28004f61]   
+[900ba6d8-8ab0-46b5-9864-932a28004f61] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[900ba6d8-8ab0-46b5-9864-932a28004f61]   
+[900ba6d8-8ab0-46b5-9864-932a28004f61] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:32.813825 #29186]  INFO -- : [422bc3be-3486-47ef-99c4-a13e1106f18e] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:32 +0800
+I, [2020-09-24T22:33:32.814455 #29186]  INFO -- : [422bc3be-3486-47ef-99c4-a13e1106f18e] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:32.816596 #29186]  INFO -- : [422bc3be-3486-47ef-99c4-a13e1106f18e] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms | Allocations: 830)
+F, [2020-09-24T22:33:32.818766 #29186] FATAL -- : [422bc3be-3486-47ef-99c4-a13e1106f18e]   
+[422bc3be-3486-47ef-99c4-a13e1106f18e] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[422bc3be-3486-47ef-99c4-a13e1106f18e]   
+[422bc3be-3486-47ef-99c4-a13e1106f18e] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:33.017773 #29186]  INFO -- : [2fe31cf6-a43a-44a2-92cc-10ae32380696] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:33 +0800
+I, [2020-09-24T22:33:33.018852 #29186]  INFO -- : [2fe31cf6-a43a-44a2-92cc-10ae32380696] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:33.022652 #29186]  INFO -- : [2fe31cf6-a43a-44a2-92cc-10ae32380696] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms | Allocations: 830)
+F, [2020-09-24T22:33:33.024289 #29186] FATAL -- : [2fe31cf6-a43a-44a2-92cc-10ae32380696]   
+[2fe31cf6-a43a-44a2-92cc-10ae32380696] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[2fe31cf6-a43a-44a2-92cc-10ae32380696]   
+[2fe31cf6-a43a-44a2-92cc-10ae32380696] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:33.143312 #29186]  INFO -- : [57381d4d-db63-4680-a6ab-df18f1dadf75] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:33 +0800
+I, [2020-09-24T22:33:33.143866 #29186]  INFO -- : [57381d4d-db63-4680-a6ab-df18f1dadf75] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:33.146511 #29186]  INFO -- : [57381d4d-db63-4680-a6ab-df18f1dadf75] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 830)
+F, [2020-09-24T22:33:33.147123 #29186] FATAL -- : [57381d4d-db63-4680-a6ab-df18f1dadf75]   
+[57381d4d-db63-4680-a6ab-df18f1dadf75] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[57381d4d-db63-4680-a6ab-df18f1dadf75]   
+[57381d4d-db63-4680-a6ab-df18f1dadf75] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:33.272132 #29186]  INFO -- : [ae81e984-9bc2-446c-9c82-f53ffded32fa] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:33 +0800
+I, [2020-09-24T22:33:33.273114 #29186]  INFO -- : [ae81e984-9bc2-446c-9c82-f53ffded32fa] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:33.275081 #29186]  INFO -- : [ae81e984-9bc2-446c-9c82-f53ffded32fa] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms | Allocations: 830)
+F, [2020-09-24T22:33:33.275753 #29186] FATAL -- : [ae81e984-9bc2-446c-9c82-f53ffded32fa]   
+[ae81e984-9bc2-446c-9c82-f53ffded32fa] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[ae81e984-9bc2-446c-9c82-f53ffded32fa]   
+[ae81e984-9bc2-446c-9c82-f53ffded32fa] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:33.390418 #29186]  INFO -- : [5e939572-9250-43a6-9611-c1e04cbe5afb] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:33 +0800
+I, [2020-09-24T22:33:33.391077 #29186]  INFO -- : [5e939572-9250-43a6-9611-c1e04cbe5afb] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:33.392920 #29186]  INFO -- : [5e939572-9250-43a6-9611-c1e04cbe5afb] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms | Allocations: 830)
+F, [2020-09-24T22:33:33.393430 #29186] FATAL -- : [5e939572-9250-43a6-9611-c1e04cbe5afb]   
+[5e939572-9250-43a6-9611-c1e04cbe5afb] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[5e939572-9250-43a6-9611-c1e04cbe5afb]   
+[5e939572-9250-43a6-9611-c1e04cbe5afb] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:33.544564 #29186]  INFO -- : [b0b777f7-49f8-4e33-befc-a329d2eeba66] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:33 +0800
+I, [2020-09-24T22:33:33.546988 #29186]  INFO -- : [b0b777f7-49f8-4e33-befc-a329d2eeba66] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:33.550918 #29186]  INFO -- : [b0b777f7-49f8-4e33-befc-a329d2eeba66] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms | Allocations: 830)
+F, [2020-09-24T22:33:33.552190 #29186] FATAL -- : [b0b777f7-49f8-4e33-befc-a329d2eeba66]   
+[b0b777f7-49f8-4e33-befc-a329d2eeba66] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[b0b777f7-49f8-4e33-befc-a329d2eeba66]   
+[b0b777f7-49f8-4e33-befc-a329d2eeba66] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:33.690738 #29186]  INFO -- : [c368d27a-678e-4daa-8f6f-28f30941e1fd] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:33 +0800
+I, [2020-09-24T22:33:33.692418 #29186]  INFO -- : [c368d27a-678e-4daa-8f6f-28f30941e1fd] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:33.693861 #29186]  INFO -- : [c368d27a-678e-4daa-8f6f-28f30941e1fd] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 830)
+F, [2020-09-24T22:33:33.694355 #29186] FATAL -- : [c368d27a-678e-4daa-8f6f-28f30941e1fd]   
+[c368d27a-678e-4daa-8f6f-28f30941e1fd] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[c368d27a-678e-4daa-8f6f-28f30941e1fd]   
+[c368d27a-678e-4daa-8f6f-28f30941e1fd] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:33.870849 #29186]  INFO -- : [b9a71acf-b3dc-491b-8805-02314dabe9fb] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:33 +0800
+I, [2020-09-24T22:33:33.872907 #29186]  INFO -- : [b9a71acf-b3dc-491b-8805-02314dabe9fb] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:33.881571 #29186]  INFO -- : [b9a71acf-b3dc-491b-8805-02314dabe9fb] Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.3ms | Allocations: 830)
+F, [2020-09-24T22:33:33.884064 #29186] FATAL -- : [b9a71acf-b3dc-491b-8805-02314dabe9fb]   
+[b9a71acf-b3dc-491b-8805-02314dabe9fb] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[b9a71acf-b3dc-491b-8805-02314dabe9fb]   
+[b9a71acf-b3dc-491b-8805-02314dabe9fb] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:34.008432 #29186]  INFO -- : [b15487a1-e99a-45ba-bafa-b370697bc566] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:34 +0800
+I, [2020-09-24T22:33:34.008996 #29186]  INFO -- : [b15487a1-e99a-45ba-bafa-b370697bc566] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:34.010266 #29186]  INFO -- : [b15487a1-e99a-45ba-bafa-b370697bc566] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 830)
+F, [2020-09-24T22:33:34.010699 #29186] FATAL -- : [b15487a1-e99a-45ba-bafa-b370697bc566]   
+[b15487a1-e99a-45ba-bafa-b370697bc566] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[b15487a1-e99a-45ba-bafa-b370697bc566]   
+[b15487a1-e99a-45ba-bafa-b370697bc566] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:34.081629 #29186]  INFO -- : [c3e948c1-6886-49f4-969b-69a376a5162d] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:34 +0800
+I, [2020-09-24T22:33:34.082504 #29186]  INFO -- : [c3e948c1-6886-49f4-969b-69a376a5162d] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:34.085127 #29186]  INFO -- : [c3e948c1-6886-49f4-969b-69a376a5162d] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 839)
+F, [2020-09-24T22:33:34.086065 #29186] FATAL -- : [c3e948c1-6886-49f4-969b-69a376a5162d]   
+[c3e948c1-6886-49f4-969b-69a376a5162d] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[c3e948c1-6886-49f4-969b-69a376a5162d]   
+[c3e948c1-6886-49f4-969b-69a376a5162d] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:34.286721 #29186]  INFO -- : [d2b04673-1837-47f1-8859-2db86e7c5a3e] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:34 +0800
+I, [2020-09-24T22:33:34.287991 #29186]  INFO -- : [d2b04673-1837-47f1-8859-2db86e7c5a3e] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:34.290642 #29186]  INFO -- : [d2b04673-1837-47f1-8859-2db86e7c5a3e] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 830)
+F, [2020-09-24T22:33:34.291193 #29186] FATAL -- : [d2b04673-1837-47f1-8859-2db86e7c5a3e]   
+[d2b04673-1837-47f1-8859-2db86e7c5a3e] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[d2b04673-1837-47f1-8859-2db86e7c5a3e]   
+[d2b04673-1837-47f1-8859-2db86e7c5a3e] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:34.512673 #29186]  INFO -- : [33096433-cc55-4ecf-b308-e7867fee981c] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:34 +0800
+I, [2020-09-24T22:33:34.514143 #29186]  INFO -- : [33096433-cc55-4ecf-b308-e7867fee981c] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:34.517945 #29186]  INFO -- : [33096433-cc55-4ecf-b308-e7867fee981c] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms | Allocations: 830)
+F, [2020-09-24T22:33:34.519488 #29186] FATAL -- : [33096433-cc55-4ecf-b308-e7867fee981c]   
+[33096433-cc55-4ecf-b308-e7867fee981c] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[33096433-cc55-4ecf-b308-e7867fee981c]   
+[33096433-cc55-4ecf-b308-e7867fee981c] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:34.777295 #29186]  INFO -- : [79aef0dd-b588-4c9b-81b3-86915a250fe6] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:34 +0800
+I, [2020-09-24T22:33:34.778956 #29186]  INFO -- : [79aef0dd-b588-4c9b-81b3-86915a250fe6] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:34.784640 #29186]  INFO -- : [79aef0dd-b588-4c9b-81b3-86915a250fe6] Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.3ms | Allocations: 830)
+F, [2020-09-24T22:33:34.786483 #29186] FATAL -- : [79aef0dd-b588-4c9b-81b3-86915a250fe6]   
+[79aef0dd-b588-4c9b-81b3-86915a250fe6] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[79aef0dd-b588-4c9b-81b3-86915a250fe6]   
+[79aef0dd-b588-4c9b-81b3-86915a250fe6] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:34.892449 #29186]  INFO -- : [80867340-54d6-4cfa-b2e0-cb6513cee2fb] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:34 +0800
+I, [2020-09-24T22:33:34.892957 #29186]  INFO -- : [80867340-54d6-4cfa-b2e0-cb6513cee2fb] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:34.894224 #29186]  INFO -- : [80867340-54d6-4cfa-b2e0-cb6513cee2fb] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 830)
+F, [2020-09-24T22:33:34.895197 #29186] FATAL -- : [80867340-54d6-4cfa-b2e0-cb6513cee2fb]   
+[80867340-54d6-4cfa-b2e0-cb6513cee2fb] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[80867340-54d6-4cfa-b2e0-cb6513cee2fb]   
+[80867340-54d6-4cfa-b2e0-cb6513cee2fb] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:35.079585 #29186]  INFO -- : [36ce7e0d-e8a0-402a-8226-d93ca126562e] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:33:35 +0800
+I, [2020-09-24T22:33:35.080657 #29186]  INFO -- : [36ce7e0d-e8a0-402a-8226-d93ca126562e] Processing by UsersController#new as HTML
+I, [2020-09-24T22:33:35.084382 #29186]  INFO -- : [36ce7e0d-e8a0-402a-8226-d93ca126562e] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms | Allocations: 830)
+F, [2020-09-24T22:33:35.085613 #29186] FATAL -- : [36ce7e0d-e8a0-402a-8226-d93ca126562e]   
+[36ce7e0d-e8a0-402a-8226-d93ca126562e] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[36ce7e0d-e8a0-402a-8226-d93ca126562e]   
+[36ce7e0d-e8a0-402a-8226-d93ca126562e] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:33:37.329522 #29186]  INFO -- : [56462b1e-cba6-4993-af8a-588f50a4da50] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:33:37 +0800
+I, [2020-09-24T22:33:37.330481 #29186]  INFO -- : [56462b1e-cba6-4993-af8a-588f50a4da50] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:33:37.334999 #29186]  INFO -- : [56462b1e-cba6-4993-af8a-588f50a4da50]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:33:37.336953 #29186]  INFO -- : [56462b1e-cba6-4993-af8a-588f50a4da50]   Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1101)
+I, [2020-09-24T22:33:37.337971 #29186]  INFO -- : [56462b1e-cba6-4993-af8a-588f50a4da50] Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3573)
+I, [2020-09-24T22:34:45.975531 #29576]  INFO -- : [38cdfaac-846d-4513-8adf-76d28c9ec509] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:34:45 +0800
+I, [2020-09-24T22:34:45.977055 #29576]  INFO -- : [38cdfaac-846d-4513-8adf-76d28c9ec509] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:34:45.988417 #29576]  INFO -- : [38cdfaac-846d-4513-8adf-76d28c9ec509]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:34:45.991209 #29576]  INFO -- : [38cdfaac-846d-4513-8adf-76d28c9ec509]   Rendered sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1087)
+I, [2020-09-24T22:34:45.992720 #29576]  INFO -- : [38cdfaac-846d-4513-8adf-76d28c9ec509] Completed 200 OK in 16ms (Views: 6.1ms | Allocations: 3153)
+I, [2020-09-24T22:34:47.061470 #29576]  INFO -- : [4fcf8069-6f41-4ab2-a894-4bf2e9bfb2b7] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:34:47 +0800
+I, [2020-09-24T22:34:47.063051 #29576]  INFO -- : [4fcf8069-6f41-4ab2-a894-4bf2e9bfb2b7] Processing by UsersController#new as HTML
+D, [2020-09-24T22:34:47.070373 #29576] DEBUG -- : [4fcf8069-6f41-4ab2-a894-4bf2e9bfb2b7]   [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+I, [2020-09-24T22:34:47.071666 #29576]  INFO -- : [4fcf8069-6f41-4ab2-a894-4bf2e9bfb2b7] Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.9ms | Allocations: 1795)
+F, [2020-09-24T22:34:47.072734 #29576] FATAL -- : [4fcf8069-6f41-4ab2-a894-4bf2e9bfb2b7]   
+[4fcf8069-6f41-4ab2-a894-4bf2e9bfb2b7] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[4fcf8069-6f41-4ab2-a894-4bf2e9bfb2b7]   
+[4fcf8069-6f41-4ab2-a894-4bf2e9bfb2b7] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:34:48.295068 #29576]  INFO -- : [be08bc4a-86c9-4026-a013-a81d2b1a733b] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:34:48 +0800
+I, [2020-09-24T22:34:48.296109 #29576]  INFO -- : [be08bc4a-86c9-4026-a013-a81d2b1a733b] Processing by UsersController#new as HTML
+I, [2020-09-24T22:34:48.297689 #29576]  INFO -- : [be08bc4a-86c9-4026-a013-a81d2b1a733b] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.2ms | Allocations: 348)
+F, [2020-09-24T22:34:48.298131 #29576] FATAL -- : [be08bc4a-86c9-4026-a013-a81d2b1a733b]   
+[be08bc4a-86c9-4026-a013-a81d2b1a733b] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[be08bc4a-86c9-4026-a013-a81d2b1a733b]   
+[be08bc4a-86c9-4026-a013-a81d2b1a733b] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:34:48.723482 #29576]  INFO -- : [2f8c11f2-a0d7-4365-9fdb-535422f4f2ca] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:34:48 +0800
+I, [2020-09-24T22:34:48.724954 #29576]  INFO -- : [2f8c11f2-a0d7-4365-9fdb-535422f4f2ca] Processing by UsersController#new as HTML
+I, [2020-09-24T22:34:48.726427 #29576]  INFO -- : [2f8c11f2-a0d7-4365-9fdb-535422f4f2ca] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.2ms | Allocations: 348)
+F, [2020-09-24T22:34:48.727229 #29576] FATAL -- : [2f8c11f2-a0d7-4365-9fdb-535422f4f2ca]   
+[2f8c11f2-a0d7-4365-9fdb-535422f4f2ca] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[2f8c11f2-a0d7-4365-9fdb-535422f4f2ca]   
+[2f8c11f2-a0d7-4365-9fdb-535422f4f2ca] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:34:48.915423 #29576]  INFO -- : [c526dfc2-234a-4112-a037-eb79884609a1] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:34:48 +0800
+I, [2020-09-24T22:34:48.916569 #29576]  INFO -- : [c526dfc2-234a-4112-a037-eb79884609a1] Processing by UsersController#new as HTML
+I, [2020-09-24T22:34:48.918858 #29576]  INFO -- : [c526dfc2-234a-4112-a037-eb79884609a1] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.4ms | Allocations: 339)
+F, [2020-09-24T22:34:48.920224 #29576] FATAL -- : [c526dfc2-234a-4112-a037-eb79884609a1]   
+[c526dfc2-234a-4112-a037-eb79884609a1] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[c526dfc2-234a-4112-a037-eb79884609a1]   
+[c526dfc2-234a-4112-a037-eb79884609a1] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:34:49.044340 #29576]  INFO -- : [457549ef-7560-4236-bc87-7735130a4d20] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:34:49 +0800
+I, [2020-09-24T22:34:49.046317 #29576]  INFO -- : [457549ef-7560-4236-bc87-7735130a4d20] Processing by UsersController#new as HTML
+I, [2020-09-24T22:34:49.048102 #29576]  INFO -- : [457549ef-7560-4236-bc87-7735130a4d20] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms | Allocations: 339)
+F, [2020-09-24T22:34:49.049153 #29576] FATAL -- : [457549ef-7560-4236-bc87-7735130a4d20]   
+[457549ef-7560-4236-bc87-7735130a4d20] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[457549ef-7560-4236-bc87-7735130a4d20]   
+[457549ef-7560-4236-bc87-7735130a4d20] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:34:49.158638 #29576]  INFO -- : [fe5d5a4f-cead-4b19-a4b2-bdc291a6ba3f] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:34:49 +0800
+I, [2020-09-24T22:34:49.159148 #29576]  INFO -- : [fe5d5a4f-cead-4b19-a4b2-bdc291a6ba3f] Processing by UsersController#new as HTML
+I, [2020-09-24T22:34:49.159945 #29576]  INFO -- : [fe5d5a4f-cead-4b19-a4b2-bdc291a6ba3f] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 339)
+F, [2020-09-24T22:34:49.160380 #29576] FATAL -- : [fe5d5a4f-cead-4b19-a4b2-bdc291a6ba3f]   
+[fe5d5a4f-cead-4b19-a4b2-bdc291a6ba3f] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[fe5d5a4f-cead-4b19-a4b2-bdc291a6ba3f]   
+[fe5d5a4f-cead-4b19-a4b2-bdc291a6ba3f] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:34:49.490699 #29576]  INFO -- : [7255749a-b237-471b-b1ab-1e811dfda12d] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:34:49 +0800
+I, [2020-09-24T22:34:49.492188 #29576]  INFO -- : [7255749a-b237-471b-b1ab-1e811dfda12d] Processing by UsersController#new as HTML
+I, [2020-09-24T22:34:49.494586 #29576]  INFO -- : [7255749a-b237-471b-b1ab-1e811dfda12d] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 348)
+F, [2020-09-24T22:34:49.496493 #29576] FATAL -- : [7255749a-b237-471b-b1ab-1e811dfda12d]   
+[7255749a-b237-471b-b1ab-1e811dfda12d] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[7255749a-b237-471b-b1ab-1e811dfda12d]   
+[7255749a-b237-471b-b1ab-1e811dfda12d] app/controllers/users_controller.rb:4:in `new'
+I, [2020-09-24T22:34:49.624574 #29576]  INFO -- : [9c05b3a1-8669-41a0-a861-b2242d27f9fa] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:34:49 +0800
+I, [2020-09-24T22:34:49.625026 #29576]  INFO -- : [9c05b3a1-8669-41a0-a861-b2242d27f9fa] Processing by UsersController#new as HTML
+I, [2020-09-24T22:34:49.625803 #29576]  INFO -- : [9c05b3a1-8669-41a0-a861-b2242d27f9fa] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 339)
+F, [2020-09-24T22:34:49.626217 #29576] FATAL -- : [9c05b3a1-8669-41a0-a861-b2242d27f9fa]   
+[9c05b3a1-8669-41a0-a861-b2242d27f9fa] ActiveRecord::StatementInvalid (Could not find table 'users'):
+[9c05b3a1-8669-41a0-a861-b2242d27f9fa]   
+[9c05b3a1-8669-41a0-a861-b2242d27f9fa] app/controllers/users_controller.rb:4:in `new'
+D, [2020-09-24T22:36:48.230955 #30523] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2020-09-24T22:36:48.683891 #30523] DEBUG -- :   [1m[35m (434.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+D, [2020-09-24T22:36:48.964846 #30523] DEBUG -- :   [1m[35m (243.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+D, [2020-09-24T22:36:48.976497 #30523] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2020-09-24T22:36:48.976591 #30523]  INFO -- : Migrating to CreateUsers (20200924122406)
+D, [2020-09-24T22:36:49.008511 #30523] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2020-09-24T22:36:49.009196 #30523] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "password_digest" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+D, [2020-09-24T22:36:49.015832 #30523] DEBUG -- :   [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200924122406"]]
+D, [2020-09-24T22:36:49.165821 #30523] DEBUG -- :   [1m[35m (149.6ms)[0m  [1m[36mcommit transaction[0m
+I, [2020-09-24T22:36:49.166010 #30523]  INFO -- : Migrating to CreatePages (20200924131935)
+D, [2020-09-24T22:36:49.181367 #30523] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2020-09-24T22:36:49.182200 #30523] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "pages" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "text" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+D, [2020-09-24T22:36:49.183692 #30523] DEBUG -- :   [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200924131935"]]
+D, [2020-09-24T22:36:49.344507 #30523] DEBUG -- :   [1m[35m (160.5ms)[0m  [1m[36mcommit transaction[0m
+D, [2020-09-24T22:36:49.361057 #30523] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2020-09-24T22:36:49.372585 #30523] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2020-09-24T22:36:49.373635 #30523] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "production"], ["created_at", "2020-09-24 14:36:49.371262"], ["updated_at", "2020-09-24 14:36:49.371262"]]
+D, [2020-09-24T22:36:49.485084 #30523] DEBUG -- :   [1m[35m (111.0ms)[0m  [1m[36mcommit transaction[0m
+I, [2020-09-24T22:37:17.832651 #30709]  INFO -- : [f32d21dd-8b72-478a-a1e2-7e2bf9db7a8d] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:37:17 +0800
+I, [2020-09-24T22:37:17.835939 #30709]  INFO -- : [f32d21dd-8b72-478a-a1e2-7e2bf9db7a8d] Processing by UsersController#new as HTML
+D, [2020-09-24T22:37:17.856114 #30709] DEBUG -- : [f32d21dd-8b72-478a-a1e2-7e2bf9db7a8d]   [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+I, [2020-09-24T22:37:17.870790 #30709]  INFO -- : [f32d21dd-8b72-478a-a1e2-7e2bf9db7a8d]   Rendering users/new.html.erb within layouts/application
+I, [2020-09-24T22:37:17.873680 #30709]  INFO -- : [f32d21dd-8b72-478a-a1e2-7e2bf9db7a8d]   Rendered users/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1800)
+I, [2020-09-24T22:37:17.874619 #30709]  INFO -- : [f32d21dd-8b72-478a-a1e2-7e2bf9db7a8d] Completed 200 OK in 38ms (Views: 4.9ms | ActiveRecord: 2.4ms | Allocations: 10699)
+I, [2020-09-24T22:37:20.013130 #30709]  INFO -- : [88369851-766a-4b7b-b05a-1bea9cd4aeb5] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:37:20 +0800
+I, [2020-09-24T22:37:20.014502 #30709]  INFO -- : [88369851-766a-4b7b-b05a-1bea9cd4aeb5] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:37:20.018307 #30709]  INFO -- : [88369851-766a-4b7b-b05a-1bea9cd4aeb5]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:37:20.021356 #30709]  INFO -- : [88369851-766a-4b7b-b05a-1bea9cd4aeb5]   Rendered sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 941)
+I, [2020-09-24T22:37:20.022258 #30709]  INFO -- : [88369851-766a-4b7b-b05a-1bea9cd4aeb5] Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 2123)
+I, [2020-09-24T22:37:25.812027 #30709]  INFO -- : [c9229850-513b-4e91-8f01-834b493fbedb] Started POST "/login" for 127.0.0.1 at 2020-09-24 22:37:25 +0800
+I, [2020-09-24T22:37:25.813572 #30709]  INFO -- : [c9229850-513b-4e91-8f01-834b493fbedb] Processing by SessionsController#create as HTML
+I, [2020-09-24T22:37:25.813817 #30709]  INFO -- : [c9229850-513b-4e91-8f01-834b493fbedb]   Parameters: {"authenticity_token"=>"kRwLyilwAk+hRLkYtV6nTENheuraNwfw0fMxP8mH67TfxiHkK3LoufA9TevVO8JJt3gHGGyVtiZuj0CDHD03Gg==", "login"=>{"email"=>"wow@wow.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+D, [2020-09-24T22:37:25.820305 #30709] DEBUG -- : [c9229850-513b-4e91-8f01-834b493fbedb]   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "wow@wow.com"], ["LIMIT", 1]]
+I, [2020-09-24T22:37:25.821317 #30709]  INFO -- : [c9229850-513b-4e91-8f01-834b493fbedb]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:37:25.823242 #30709]  INFO -- : [c9229850-513b-4e91-8f01-834b493fbedb]   Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 486)
+I, [2020-09-24T22:37:25.824495 #30709]  INFO -- : [c9229850-513b-4e91-8f01-834b493fbedb] Completed 200 OK in 10ms (Views: 3.6ms | ActiveRecord: 0.4ms | Allocations: 2100)
+I, [2020-09-24T22:37:32.837002 #30709]  INFO -- : [e9880b88-ba0a-475e-807b-9654943436fa] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:37:32 +0800
+I, [2020-09-24T22:37:32.838439 #30709]  INFO -- : [e9880b88-ba0a-475e-807b-9654943436fa] Processing by UsersController#new as HTML
+I, [2020-09-24T22:37:32.840621 #30709]  INFO -- : [e9880b88-ba0a-475e-807b-9654943436fa]   Rendering users/new.html.erb within layouts/application
+I, [2020-09-24T22:37:32.847744 #30709]  INFO -- : [e9880b88-ba0a-475e-807b-9654943436fa]   Rendered users/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1159)
+I, [2020-09-24T22:37:32.849723 #30709]  INFO -- : [e9880b88-ba0a-475e-807b-9654943436fa] Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 1792)
+I, [2020-09-24T22:37:49.480549 #30709]  INFO -- : [fe3f3763-e648-4656-84e6-182a0327377a] Started POST "/users" for 127.0.0.1 at 2020-09-24 22:37:49 +0800
+I, [2020-09-24T22:37:49.482617 #30709]  INFO -- : [fe3f3763-e648-4656-84e6-182a0327377a] Processing by UsersController#create as HTML
+I, [2020-09-24T22:37:49.482889 #30709]  INFO -- : [fe3f3763-e648-4656-84e6-182a0327377a]   Parameters: {"authenticity_token"=>"PIX2F0rvOKxbfHJ141gW1E9QtAahMoRoBzQJ5QwmkdqdQxpdOsmw5IdGUiTqQRxaOP8ZDEU2fUuokRf5VnHFvw==", "user"=>{"name"=>"admin", "email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up!"}
+D, [2020-09-24T22:37:49.758074 #30709] DEBUG -- : [fe3f3763-e648-4656-84e6-182a0327377a]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2020-09-24T22:37:49.758302 #30709] DEBUG -- : [fe3f3763-e648-4656-84e6-182a0327377a]   [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "admin@admin.com"], ["LIMIT", 1]]
+D, [2020-09-24T22:37:49.759100 #30709] DEBUG -- : [fe3f3763-e648-4656-84e6-182a0327377a]   [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "admin"], ["email", "admin@admin.com"], ["password_digest", "$2a$12$4qhuqRF2gndSiypaAH0SaOlVpOJOIikr9vU8hR4IaaTmtflkdtQBy"], ["created_at", "2020-09-24 14:37:49.758397"], ["updated_at", "2020-09-24 14:37:49.758397"]]
+D, [2020-09-24T22:37:49.859944 #30709] DEBUG -- : [fe3f3763-e648-4656-84e6-182a0327377a]   [1m[35m (100.5ms)[0m  [1m[36mcommit transaction[0m
+I, [2020-09-24T22:37:49.860732 #30709]  INFO -- : [fe3f3763-e648-4656-84e6-182a0327377a] Redirected to http://localhost:3000/
+I, [2020-09-24T22:37:49.861022 #30709]  INFO -- : [fe3f3763-e648-4656-84e6-182a0327377a] Completed 302 Found in 378ms (ActiveRecord: 100.8ms | Allocations: 1575)
+I, [2020-09-24T22:37:49.875796 #30709]  INFO -- : [d923b899-0e75-4b7a-88fa-67a77feac434] Started GET "/" for 127.0.0.1 at 2020-09-24 22:37:49 +0800
+I, [2020-09-24T22:37:49.877354 #30709]  INFO -- : [d923b899-0e75-4b7a-88fa-67a77feac434] Processing by UsersController#new as HTML
+I, [2020-09-24T22:37:49.880014 #30709]  INFO -- : [d923b899-0e75-4b7a-88fa-67a77feac434]   Rendering users/new.html.erb within layouts/application
+I, [2020-09-24T22:37:49.885412 #30709]  INFO -- : [d923b899-0e75-4b7a-88fa-67a77feac434]   Rendered users/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1149)
+I, [2020-09-24T22:37:49.886178 #30709]  INFO -- : [d923b899-0e75-4b7a-88fa-67a77feac434] Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 1781)
+I, [2020-09-24T22:37:51.106072 #30709]  INFO -- : [4d1b65a6-1ac4-4df9-9b93-65a78ae1afa0] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:37:51 +0800
+I, [2020-09-24T22:37:51.106685 #30709]  INFO -- : [4d1b65a6-1ac4-4df9-9b93-65a78ae1afa0] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:37:51.107536 #30709]  INFO -- : [4d1b65a6-1ac4-4df9-9b93-65a78ae1afa0]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:37:51.108487 #30709]  INFO -- : [4d1b65a6-1ac4-4df9-9b93-65a78ae1afa0]   Rendered sessions/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 486)
+I, [2020-09-24T22:37:51.109325 #30709]  INFO -- : [4d1b65a6-1ac4-4df9-9b93-65a78ae1afa0] Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1091)
+I, [2020-09-24T22:38:02.637208 #30709]  INFO -- : [1cba626a-0616-498c-b7d7-ad0d7b97b199] Started GET "/register" for 127.0.0.1 at 2020-09-24 22:38:02 +0800
+I, [2020-09-24T22:38:02.638105 #30709]  INFO -- : [1cba626a-0616-498c-b7d7-ad0d7b97b199] Processing by UsersController#new as HTML
+I, [2020-09-24T22:38:02.639640 #30709]  INFO -- : [1cba626a-0616-498c-b7d7-ad0d7b97b199]   Rendering users/new.html.erb within layouts/application
+I, [2020-09-24T22:38:02.643117 #30709]  INFO -- : [1cba626a-0616-498c-b7d7-ad0d7b97b199]   Rendered users/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1149)
+I, [2020-09-24T22:38:02.643772 #30709]  INFO -- : [1cba626a-0616-498c-b7d7-ad0d7b97b199] Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 1767)
+I, [2020-09-24T22:38:11.619005 #30709]  INFO -- : [abd3a42d-f41e-4dd9-b6d4-cbe96c0abd99] Started POST "/users" for 127.0.0.1 at 2020-09-24 22:38:11 +0800
+I, [2020-09-24T22:38:11.620456 #30709]  INFO -- : [abd3a42d-f41e-4dd9-b6d4-cbe96c0abd99] Processing by UsersController#create as HTML
+I, [2020-09-24T22:38:11.620655 #30709]  INFO -- : [abd3a42d-f41e-4dd9-b6d4-cbe96c0abd99]   Parameters: {"authenticity_token"=>"z4JS965MH/NUvVA0y4ue7om4VA/S6S4YBH58vo43zYFuRL693mqXu4iHcGXCkpRg/hf5BTbt1zur22Ki1GCZ5A==", "user"=>{"name"=>"wow", "email"=>"wow@wow.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up!"}
+D, [2020-09-24T22:38:11.905344 #30709] DEBUG -- : [abd3a42d-f41e-4dd9-b6d4-cbe96c0abd99]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2020-09-24T22:38:11.905671 #30709] DEBUG -- : [abd3a42d-f41e-4dd9-b6d4-cbe96c0abd99]   [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "wow@wow.com"], ["LIMIT", 1]]
+D, [2020-09-24T22:38:11.906609 #30709] DEBUG -- : [abd3a42d-f41e-4dd9-b6d4-cbe96c0abd99]   [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "wow"], ["email", "wow@wow.com"], ["password_digest", "$2a$12$yGY/Dbmxa516uk7.x8xYYesynjexaBO3AZ9Ii6PAM22Kssl1opuZa"], ["created_at", "2020-09-24 14:38:11.905799"], ["updated_at", "2020-09-24 14:38:11.905799"]]
+D, [2020-09-24T22:38:12.038446 #30709] DEBUG -- : [abd3a42d-f41e-4dd9-b6d4-cbe96c0abd99]   [1m[35m (131.5ms)[0m  [1m[36mcommit transaction[0m
+I, [2020-09-24T22:38:12.039074 #30709]  INFO -- : [abd3a42d-f41e-4dd9-b6d4-cbe96c0abd99] Redirected to http://localhost:3000/
+I, [2020-09-24T22:38:12.039414 #30709]  INFO -- : [abd3a42d-f41e-4dd9-b6d4-cbe96c0abd99] Completed 302 Found in 418ms (ActiveRecord: 132.0ms | Allocations: 1203)
+I, [2020-09-24T22:38:12.054208 #30709]  INFO -- : [b37444a6-0f56-491d-934c-6b4236572e1e] Started GET "/" for 127.0.0.1 at 2020-09-24 22:38:12 +0800
+I, [2020-09-24T22:38:12.055339 #30709]  INFO -- : [b37444a6-0f56-491d-934c-6b4236572e1e] Processing by UsersController#new as HTML
+I, [2020-09-24T22:38:12.057548 #30709]  INFO -- : [b37444a6-0f56-491d-934c-6b4236572e1e]   Rendering users/new.html.erb within layouts/application
+I, [2020-09-24T22:38:12.061909 #30709]  INFO -- : [b37444a6-0f56-491d-934c-6b4236572e1e]   Rendered users/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1149)
+I, [2020-09-24T22:38:12.062848 #30709]  INFO -- : [b37444a6-0f56-491d-934c-6b4236572e1e] Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 1785)
+I, [2020-09-24T22:38:14.035498 #30709]  INFO -- : [a372f7e6-fecb-49d7-9bb8-521181250751] Started GET "/login" for 127.0.0.1 at 2020-09-24 22:38:14 +0800
+I, [2020-09-24T22:38:14.037155 #30709]  INFO -- : [a372f7e6-fecb-49d7-9bb8-521181250751] Processing by SessionsController#new as HTML
+I, [2020-09-24T22:38:14.039903 #30709]  INFO -- : [a372f7e6-fecb-49d7-9bb8-521181250751]   Rendering sessions/new.html.erb within layouts/application
+I, [2020-09-24T22:38:14.043097 #30709]  INFO -- : [a372f7e6-fecb-49d7-9bb8-521181250751]   Rendered sessions/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 489)
+I, [2020-09-24T22:38:14.045135 #30709]  INFO -- : [a372f7e6-fecb-49d7-9bb8-521181250751] Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 1090)
+I, [2020-09-24T22:38:19.729279 #30709]  INFO -- : [f333d945-d0a2-45ea-baa9-feb6c52d1069] Started POST "/login" for 127.0.0.1 at 2020-09-24 22:38:19 +0800
+I, [2020-09-24T22:38:19.730668 #30709]  INFO -- : [f333d945-d0a2-45ea-baa9-feb6c52d1069] Processing by SessionsController#create as HTML
+I, [2020-09-24T22:38:19.730864 #30709]  INFO -- : [f333d945-d0a2-45ea-baa9-feb6c52d1069]   Parameters: {"authenticity_token"=>"snfzgjV7r95rg1ywkWkOqPU1Q8bGY6tmQ94oik3e8Kz8rdmsN3lFKDr6qEPxDGutASw+NHDBGrD8olk2mGQsAg==", "login"=>{"email"=>"wow@wow.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+D, [2020-09-24T22:38:19.733443 #30709] DEBUG -- : [f333d945-d0a2-45ea-baa9-feb6c52d1069]   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "wow@wow.com"], ["LIMIT", 1]]
+I, [2020-09-24T22:38:20.009095 #30709]  INFO -- : [f333d945-d0a2-45ea-baa9-feb6c52d1069] Redirected to http://localhost:3000/
+I, [2020-09-24T22:38:20.009272 #30709]  INFO -- : [f333d945-d0a2-45ea-baa9-feb6c52d1069] Completed 302 Found in 278ms (ActiveRecord: 0.3ms | Allocations: 568)
+I, [2020-09-24T22:38:20.014019 #30709]  INFO -- : [eefcd573-72b7-4e0d-9527-e7c7d9e074ee] Started GET "/" for 127.0.0.1 at 2020-09-24 22:38:20 +0800
+I, [2020-09-24T22:38:20.014512 #30709]  INFO -- : [eefcd573-72b7-4e0d-9527-e7c7d9e074ee] Processing by UsersController#new as HTML
+I, [2020-09-24T22:38:20.015986 #30709]  INFO -- : [eefcd573-72b7-4e0d-9527-e7c7d9e074ee]   Rendering users/new.html.erb within layouts/application
+I, [2020-09-24T22:38:20.017976 #30709]  INFO -- : [eefcd573-72b7-4e0d-9527-e7c7d9e074ee]   Rendered users/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1149)
+D, [2020-09-24T22:38:20.018772 #30709] DEBUG -- : [eefcd573-72b7-4e0d-9527-e7c7d9e074ee]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+I, [2020-09-24T22:38:20.019179 #30709]  INFO -- : [eefcd573-72b7-4e0d-9527-e7c7d9e074ee] Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 2040)
+I, [2020-09-24T22:38:27.194387 #30709]  INFO -- : [83bc51ee-14dd-48f2-a5c7-3b1b99f29fac] Started GET "/pages/new" for 127.0.0.1 at 2020-09-24 22:38:27 +0800
+I, [2020-09-24T22:38:27.195253 #30709]  INFO -- : [83bc51ee-14dd-48f2-a5c7-3b1b99f29fac] Processing by PagesController#new as HTML
+D, [2020-09-24T22:38:27.196345 #30709] DEBUG -- : [83bc51ee-14dd-48f2-a5c7-3b1b99f29fac]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+I, [2020-09-24T22:38:27.203105 #30709]  INFO -- : [83bc51ee-14dd-48f2-a5c7-3b1b99f29fac]   Rendering pages/new.html.erb within layouts/application
+I, [2020-09-24T22:38:27.222629 #30709]  INFO -- : [83bc51ee-14dd-48f2-a5c7-3b1b99f29fac]   Rendered pages/new.html.erb within layouts/application (Duration: 19.3ms | Allocations: 1315)
+I, [2020-09-24T22:38:27.224224 #30709]  INFO -- : [83bc51ee-14dd-48f2-a5c7-3b1b99f29fac] Completed 200 OK in 29ms (Views: 21.8ms | ActiveRecord: 0.6ms | Allocations: 6388)
+I, [2020-09-24T22:38:36.634210 #30709]  INFO -- : [a1bb5a4f-ebf0-4fb0-bcc6-2c840f12f0a0] Started POST "/pages" for 127.0.0.1 at 2020-09-24 22:38:36 +0800
+I, [2020-09-24T22:38:36.635956 #30709]  INFO -- : [a1bb5a4f-ebf0-4fb0-bcc6-2c840f12f0a0] Processing by PagesController#create as HTML
+I, [2020-09-24T22:38:36.636130 #30709]  INFO -- : [a1bb5a4f-ebf0-4fb0-bcc6-2c840f12f0a0]   Parameters: {"authenticity_token"=>"ZpVIv3oggGPktpdqNS/ryuOXy4fNNVx9a2uz0DCqJqYnFx835KFD+mn/7oTDYqwbwl+ou/vxwFzq9Ab82BDssw==", "page"=>{"title"=>"aasdasdsad", "text"=>"asdasdad"}, "commit"=>"Save Page"}
+D, [2020-09-24T22:38:36.638248 #30709] DEBUG -- : [a1bb5a4f-ebf0-4fb0-bcc6-2c840f12f0a0]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:38:36.640646 #30709] DEBUG -- : [a1bb5a4f-ebf0-4fb0-bcc6-2c840f12f0a0]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2020-09-24T22:38:36.641716 #30709] DEBUG -- : [a1bb5a4f-ebf0-4fb0-bcc6-2c840f12f0a0]   [1m[36mPage Create (0.4ms)[0m  [1m[32mINSERT INTO "pages" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "aasdasdsad"], ["text", "asdasdad"], ["created_at", "2020-09-24 14:38:36.639522"], ["updated_at", "2020-09-24 14:38:36.639522"]]
+D, [2020-09-24T22:38:36.844920 #30709] DEBUG -- : [a1bb5a4f-ebf0-4fb0-bcc6-2c840f12f0a0]   [1m[35m (202.7ms)[0m  [1m[36mcommit transaction[0m
+I, [2020-09-24T22:38:36.845643 #30709]  INFO -- : [a1bb5a4f-ebf0-4fb0-bcc6-2c840f12f0a0] Redirected to http://localhost:3000/
+I, [2020-09-24T22:38:36.845972 #30709]  INFO -- : [a1bb5a4f-ebf0-4fb0-bcc6-2c840f12f0a0] Completed 302 Found in 210ms (ActiveRecord: 203.5ms | Allocations: 1116)
+I, [2020-09-24T22:38:36.861111 #30709]  INFO -- : [c3b9c18d-9f52-4c8b-8404-e7044d166f1f] Started GET "/" for 127.0.0.1 at 2020-09-24 22:38:36 +0800
+I, [2020-09-24T22:38:36.862663 #30709]  INFO -- : [c3b9c18d-9f52-4c8b-8404-e7044d166f1f] Processing by UsersController#new as HTML
+I, [2020-09-24T22:38:36.865424 #30709]  INFO -- : [c3b9c18d-9f52-4c8b-8404-e7044d166f1f]   Rendering users/new.html.erb within layouts/application
+I, [2020-09-24T22:38:36.872170 #30709]  INFO -- : [c3b9c18d-9f52-4c8b-8404-e7044d166f1f]   Rendered users/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1158)
+D, [2020-09-24T22:38:36.873478 #30709] DEBUG -- : [c3b9c18d-9f52-4c8b-8404-e7044d166f1f]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+I, [2020-09-24T22:38:36.874588 #30709]  INFO -- : [c3b9c18d-9f52-4c8b-8404-e7044d166f1f] Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.2ms | Allocations: 1919)
+I, [2020-09-24T22:38:39.632192 #30709]  INFO -- : [70f075f0-07a0-4f16-b08c-a5f8d11afcca] Started GET "/pages/new" for 127.0.0.1 at 2020-09-24 22:38:39 +0800
+I, [2020-09-24T22:38:39.633054 #30709]  INFO -- : [70f075f0-07a0-4f16-b08c-a5f8d11afcca] Processing by PagesController#new as HTML
+D, [2020-09-24T22:38:39.634472 #30709] DEBUG -- : [70f075f0-07a0-4f16-b08c-a5f8d11afcca]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+I, [2020-09-24T22:38:39.635419 #30709]  INFO -- : [70f075f0-07a0-4f16-b08c-a5f8d11afcca]   Rendering pages/new.html.erb within layouts/application
+I, [2020-09-24T22:38:39.637834 #30709]  INFO -- : [70f075f0-07a0-4f16-b08c-a5f8d11afcca]   Rendered pages/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 801)
+I, [2020-09-24T22:38:39.638674 #30709]  INFO -- : [70f075f0-07a0-4f16-b08c-a5f8d11afcca] Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 1562)
+I, [2020-09-24T22:38:42.644913 #30709]  INFO -- : [52c94561-bfee-4d35-a162-7623bb8a70ba] Started GET "/pages/share?page_id=1" for 127.0.0.1 at 2020-09-24 22:38:42 +0800
+I, [2020-09-24T22:38:42.646123 #30709]  INFO -- : [52c94561-bfee-4d35-a162-7623bb8a70ba] Processing by PagesController#show as HTML
+I, [2020-09-24T22:38:42.646282 #30709]  INFO -- : [52c94561-bfee-4d35-a162-7623bb8a70ba]   Parameters: {"page_id"=>"1"}
+D, [2020-09-24T22:38:42.647850 #30709] DEBUG -- : [52c94561-bfee-4d35-a162-7623bb8a70ba]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:38:42.649891 #30709] DEBUG -- : [52c94561-bfee-4d35-a162-7623bb8a70ba]   [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+D, [2020-09-24T22:38:42.651216 #30709] DEBUG -- : [52c94561-bfee-4d35-a162-7623bb8a70ba]   [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+I, [2020-09-24T22:38:42.652392 #30709]  INFO -- : [52c94561-bfee-4d35-a162-7623bb8a70ba]   Rendering pages/show.html.erb within layouts/application
+I, [2020-09-24T22:38:42.678283 #30709]  INFO -- : [52c94561-bfee-4d35-a162-7623bb8a70ba]   Rendered pages/show.html.erb within layouts/application (Duration: 25.7ms | Allocations: 226)
+I, [2020-09-24T22:38:42.679063 #30709]  INFO -- : [52c94561-bfee-4d35-a162-7623bb8a70ba] Completed 200 OK in 33ms (Views: 26.9ms | ActiveRecord: 0.7ms | Allocations: 1624)
+I, [2020-09-24T22:38:47.235690 #30709]  INFO -- : [55158107-d8a5-41b0-8042-d988c44c087c] Started GET "/pages/share?page_id=2=1" for 127.0.0.1 at 2020-09-24 22:38:47 +0800
+I, [2020-09-24T22:38:47.237251 #30709]  INFO -- : [55158107-d8a5-41b0-8042-d988c44c087c] Processing by PagesController#show as HTML
+I, [2020-09-24T22:38:47.237529 #30709]  INFO -- : [55158107-d8a5-41b0-8042-d988c44c087c]   Parameters: {"page_id"=>"2=1"}
+D, [2020-09-24T22:38:47.239533 #30709] DEBUG -- : [55158107-d8a5-41b0-8042-d988c44c087c]   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:38:47.241153 #30709] DEBUG -- : [55158107-d8a5-41b0-8042-d988c44c087c]   [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+I, [2020-09-24T22:38:47.242076 #30709]  INFO -- : [55158107-d8a5-41b0-8042-d988c44c087c]   Rendering pages/show.html.erb within layouts/application
+I, [2020-09-24T22:38:47.242320 #30709]  INFO -- : [55158107-d8a5-41b0-8042-d988c44c087c]   Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+I, [2020-09-24T22:38:47.243393 #30709]  INFO -- : [55158107-d8a5-41b0-8042-d988c44c087c] Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.5ms | Allocations: 966)
+I, [2020-09-24T22:38:50.216235 #30709]  INFO -- : [8d95c8ac-1217-410c-b12f-f1103776a1de] Started GET "/pages/share?page_id=5" for 127.0.0.1 at 2020-09-24 22:38:50 +0800
+I, [2020-09-24T22:38:50.217464 #30709]  INFO -- : [8d95c8ac-1217-410c-b12f-f1103776a1de] Processing by PagesController#show as HTML
+I, [2020-09-24T22:38:50.217609 #30709]  INFO -- : [8d95c8ac-1217-410c-b12f-f1103776a1de]   Parameters: {"page_id"=>"5"}
+D, [2020-09-24T22:38:50.218712 #30709] DEBUG -- : [8d95c8ac-1217-410c-b12f-f1103776a1de]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:38:50.219925 #30709] DEBUG -- : [8d95c8ac-1217-410c-b12f-f1103776a1de]   [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+I, [2020-09-24T22:38:50.220500 #30709]  INFO -- : [8d95c8ac-1217-410c-b12f-f1103776a1de]   Rendering pages/show.html.erb within layouts/application
+I, [2020-09-24T22:38:50.220687 #30709]  INFO -- : [8d95c8ac-1217-410c-b12f-f1103776a1de]   Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+I, [2020-09-24T22:38:50.221268 #30709]  INFO -- : [8d95c8ac-1217-410c-b12f-f1103776a1de] Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.4ms | Allocations: 958)
+I, [2020-09-24T22:38:54.306645 #30709]  INFO -- : [0611e470-9167-4bd5-8ef6-77242c661d71] Started GET "/pages/share?page_id=select%201=2" for 127.0.0.1 at 2020-09-24 22:38:54 +0800
+I, [2020-09-24T22:38:54.307595 #30709]  INFO -- : [0611e470-9167-4bd5-8ef6-77242c661d71] Processing by PagesController#show as HTML
+I, [2020-09-24T22:38:54.307716 #30709]  INFO -- : [0611e470-9167-4bd5-8ef6-77242c661d71]   Parameters: {"page_id"=>"select 1=2"}
+D, [2020-09-24T22:38:54.315079 #30709] DEBUG -- : [0611e470-9167-4bd5-8ef6-77242c661d71]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:38:54.316856 #30709] DEBUG -- : [0611e470-9167-4bd5-8ef6-77242c661d71]   [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+I, [2020-09-24T22:38:54.317648 #30709]  INFO -- : [0611e470-9167-4bd5-8ef6-77242c661d71]   Rendering pages/show.html.erb within layouts/application
+I, [2020-09-24T22:38:54.317850 #30709]  INFO -- : [0611e470-9167-4bd5-8ef6-77242c661d71]   Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+I, [2020-09-24T22:38:54.318676 #30709]  INFO -- : [0611e470-9167-4bd5-8ef6-77242c661d71] Completed 200 OK in 11ms (Views: 1.3ms | ActiveRecord: 0.4ms | Allocations: 967)
+I, [2020-09-24T22:38:56.206493 #30709]  INFO -- : [edaf29af-4a0e-481c-af1f-f59f67ee9e84] Started GET "/pages/share?page_id=select%201=1" for 127.0.0.1 at 2020-09-24 22:38:56 +0800
+I, [2020-09-24T22:38:56.207272 #30709]  INFO -- : [edaf29af-4a0e-481c-af1f-f59f67ee9e84] Processing by PagesController#show as HTML
+I, [2020-09-24T22:38:56.207401 #30709]  INFO -- : [edaf29af-4a0e-481c-af1f-f59f67ee9e84]   Parameters: {"page_id"=>"select 1=1"}
+D, [2020-09-24T22:38:56.208447 #30709] DEBUG -- : [edaf29af-4a0e-481c-af1f-f59f67ee9e84]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:38:56.209331 #30709] DEBUG -- : [edaf29af-4a0e-481c-af1f-f59f67ee9e84]   [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+I, [2020-09-24T22:38:56.209819 #30709]  INFO -- : [edaf29af-4a0e-481c-af1f-f59f67ee9e84]   Rendering pages/show.html.erb within layouts/application
+I, [2020-09-24T22:38:56.209935 #30709]  INFO -- : [edaf29af-4a0e-481c-af1f-f59f67ee9e84]   Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+I, [2020-09-24T22:38:56.210594 #30709]  INFO -- : [edaf29af-4a0e-481c-af1f-f59f67ee9e84] Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 968)
+I, [2020-09-24T22:39:10.679615 #30709]  INFO -- : [b30e9d89-93aa-46a3-b32b-755af6a7297d] Started GET "/pages/share?page_id=3" for 127.0.0.1 at 2020-09-24 22:39:10 +0800
+I, [2020-09-24T22:39:10.680161 #30709]  INFO -- : [b30e9d89-93aa-46a3-b32b-755af6a7297d] Processing by PagesController#show as HTML
+I, [2020-09-24T22:39:10.680211 #30709]  INFO -- : [b30e9d89-93aa-46a3-b32b-755af6a7297d]   Parameters: {"page_id"=>"3"}
+D, [2020-09-24T22:39:10.681007 #30709] DEBUG -- : [b30e9d89-93aa-46a3-b32b-755af6a7297d]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:39:10.681668 #30709] DEBUG -- : [b30e9d89-93aa-46a3-b32b-755af6a7297d]   [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+I, [2020-09-24T22:39:10.682037 #30709]  INFO -- : [b30e9d89-93aa-46a3-b32b-755af6a7297d]   Rendering pages/show.html.erb within layouts/application
+I, [2020-09-24T22:39:10.682150 #30709]  INFO -- : [b30e9d89-93aa-46a3-b32b-755af6a7297d]   Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+I, [2020-09-24T22:39:10.682731 #30709]  INFO -- : [b30e9d89-93aa-46a3-b32b-755af6a7297d] Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 958)
+I, [2020-09-24T22:39:22.608221 #30709]  INFO -- : [e80bd80c-817e-44ef-99d2-7ba689c92621] Started GET "/pages/share?page_id=1=2" for 127.0.0.1 at 2020-09-24 22:39:22 +0800
+I, [2020-09-24T22:39:22.609704 #30709]  INFO -- : [e80bd80c-817e-44ef-99d2-7ba689c92621] Processing by PagesController#show as HTML
+I, [2020-09-24T22:39:22.609912 #30709]  INFO -- : [e80bd80c-817e-44ef-99d2-7ba689c92621]   Parameters: {"page_id"=>"1=2"}
+D, [2020-09-24T22:39:22.612034 #30709] DEBUG -- : [e80bd80c-817e-44ef-99d2-7ba689c92621]   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:39:22.613497 #30709] DEBUG -- : [e80bd80c-817e-44ef-99d2-7ba689c92621]   [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+D, [2020-09-24T22:39:22.614276 #30709] DEBUG -- : [e80bd80c-817e-44ef-99d2-7ba689c92621]   [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+I, [2020-09-24T22:39:22.615193 #30709]  INFO -- : [e80bd80c-817e-44ef-99d2-7ba689c92621]   Rendering pages/show.html.erb within layouts/application
+I, [2020-09-24T22:39:22.615584 #30709]  INFO -- : [e80bd80c-817e-44ef-99d2-7ba689c92621]   Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+I, [2020-09-24T22:39:22.616775 #30709]  INFO -- : [e80bd80c-817e-44ef-99d2-7ba689c92621] Completed 200 OK in 7ms (Views: 1.9ms | ActiveRecord: 0.8ms | Allocations: 1074)
+I, [2020-09-24T22:39:26.542291 #30709]  INFO -- : [426f6bb3-fa8b-4de6-bc9e-3ebdff802863] Started GET "/pages/share?page_id[]=1=2" for 127.0.0.1 at 2020-09-24 22:39:26 +0800
+I, [2020-09-24T22:39:26.543171 #30709]  INFO -- : [426f6bb3-fa8b-4de6-bc9e-3ebdff802863] Processing by PagesController#show as HTML
+I, [2020-09-24T22:39:26.543260 #30709]  INFO -- : [426f6bb3-fa8b-4de6-bc9e-3ebdff802863]   Parameters: {"page_id"=>["1=2"]}
+D, [2020-09-24T22:39:26.544218 #30709] DEBUG -- : [426f6bb3-fa8b-4de6-bc9e-3ebdff802863]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:39:26.544913 #30709] DEBUG -- : [426f6bb3-fa8b-4de6-bc9e-3ebdff802863]   [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=2) LIMIT ?[0m  [["LIMIT", 1]]
+I, [2020-09-24T22:39:26.545345 #30709]  INFO -- : [426f6bb3-fa8b-4de6-bc9e-3ebdff802863]   Rendering pages/show.html.erb within layouts/application
+I, [2020-09-24T22:39:26.545465 #30709]  INFO -- : [426f6bb3-fa8b-4de6-bc9e-3ebdff802863]   Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+I, [2020-09-24T22:39:26.545980 #30709]  INFO -- : [426f6bb3-fa8b-4de6-bc9e-3ebdff802863] Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 949)
+I, [2020-09-24T22:39:28.473355 #30709]  INFO -- : [cf6bd9ce-dd68-445b-9422-81f70d01c130] Started GET "/pages/share?page_id[]=1=1" for 127.0.0.1 at 2020-09-24 22:39:28 +0800
+I, [2020-09-24T22:39:28.474184 #30709]  INFO -- : [cf6bd9ce-dd68-445b-9422-81f70d01c130] Processing by PagesController#show as HTML
+I, [2020-09-24T22:39:28.474287 #30709]  INFO -- : [cf6bd9ce-dd68-445b-9422-81f70d01c130]   Parameters: {"page_id"=>["1=1"]}
+D, [2020-09-24T22:39:28.475495 #30709] DEBUG -- : [cf6bd9ce-dd68-445b-9422-81f70d01c130]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:39:28.476548 #30709] DEBUG -- : [cf6bd9ce-dd68-445b-9422-81f70d01c130]   [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=1) LIMIT ?[0m  [["LIMIT", 1]]
+D, [2020-09-24T22:39:28.477476 #30709] DEBUG -- : [cf6bd9ce-dd68-445b-9422-81f70d01c130]   [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+I, [2020-09-24T22:39:28.478151 #30709]  INFO -- : [cf6bd9ce-dd68-445b-9422-81f70d01c130]   Rendering pages/show.html.erb within layouts/application
+I, [2020-09-24T22:39:28.478335 #30709]  INFO -- : [cf6bd9ce-dd68-445b-9422-81f70d01c130]   Rendered pages/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+I, [2020-09-24T22:39:28.479013 #30709]  INFO -- : [cf6bd9ce-dd68-445b-9422-81f70d01c130] Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 0.5ms | Allocations: 1176)
+I, [2020-09-24T22:39:39.357886 #30709]  INFO -- : [bf37b394-5c05-414b-a4b5-4bc248055d6a] Started GET "/pages/share?page_id[]=1=2" for 127.0.0.1 at 2020-09-24 22:39:39 +0800
+I, [2020-09-24T22:39:39.358763 #30709]  INFO -- : [bf37b394-5c05-414b-a4b5-4bc248055d6a] Processing by PagesController#show as HTML
+I, [2020-09-24T22:39:39.358913 #30709]  INFO -- : [bf37b394-5c05-414b-a4b5-4bc248055d6a]   Parameters: {"page_id"=>["1=2"]}
+D, [2020-09-24T22:39:39.360009 #30709] DEBUG -- : [bf37b394-5c05-414b-a4b5-4bc248055d6a]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:39:39.360917 #30709] DEBUG -- : [bf37b394-5c05-414b-a4b5-4bc248055d6a]   [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (1=2) LIMIT ?[0m  [["LIMIT", 1]]
+I, [2020-09-24T22:39:39.361405 #30709]  INFO -- : [bf37b394-5c05-414b-a4b5-4bc248055d6a]   Rendering pages/show.html.erb within layouts/application
+I, [2020-09-24T22:39:39.361558 #30709]  INFO -- : [bf37b394-5c05-414b-a4b5-4bc248055d6a]   Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+I, [2020-09-24T22:39:39.362366 #30709]  INFO -- : [bf37b394-5c05-414b-a4b5-4bc248055d6a] Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 947)
+I, [2020-09-24T22:39:46.602599 #30709]  INFO -- : [667747c7-4d20-46c1-bdca-e83eb6c811e6] Started GET "/pages/share?page_id[]=select%20version()" for 127.0.0.1 at 2020-09-24 22:39:46 +0800
+I, [2020-09-24T22:39:46.603252 #30709]  INFO -- : [667747c7-4d20-46c1-bdca-e83eb6c811e6] Processing by PagesController#show as HTML
+I, [2020-09-24T22:39:46.603379 #30709]  INFO -- : [667747c7-4d20-46c1-bdca-e83eb6c811e6]   Parameters: {"page_id"=>["select version()"]}
+D, [2020-09-24T22:39:46.604364 #30709] DEBUG -- : [667747c7-4d20-46c1-bdca-e83eb6c811e6]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:39:46.606162 #30709] DEBUG -- : [667747c7-4d20-46c1-bdca-e83eb6c811e6]   [1m[36mPage Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select version()) LIMIT ?[0m  [["LIMIT", 1]]
+I, [2020-09-24T22:39:46.606419 #30709]  INFO -- : [667747c7-4d20-46c1-bdca-e83eb6c811e6] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.2ms | Allocations: 642)
+F, [2020-09-24T22:39:46.607309 #30709] FATAL -- : [667747c7-4d20-46c1-bdca-e83eb6c811e6]   
+[667747c7-4d20-46c1-bdca-e83eb6c811e6] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such function: version):
+[667747c7-4d20-46c1-bdca-e83eb6c811e6]   
+[667747c7-4d20-46c1-bdca-e83eb6c811e6] app/controllers/pages_controller.rb:6:in `show'
+I, [2020-09-24T22:40:04.163633 #30709]  INFO -- : [1dc95e7d-2662-4a16-9cd5-9ef323c42162] Started GET "/pages/share?page_id[]=select%20version()%20=%20%273.27.1%27" for 127.0.0.1 at 2020-09-24 22:40:04 +0800
+I, [2020-09-24T22:40:04.165102 #30709]  INFO -- : [1dc95e7d-2662-4a16-9cd5-9ef323c42162] Processing by PagesController#show as HTML
+I, [2020-09-24T22:40:04.165270 #30709]  INFO -- : [1dc95e7d-2662-4a16-9cd5-9ef323c42162]   Parameters: {"page_id"=>["select version() = '3.27.1'"]}
+D, [2020-09-24T22:40:04.167042 #30709] DEBUG -- : [1dc95e7d-2662-4a16-9cd5-9ef323c42162]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:40:04.168649 #30709] DEBUG -- : [1dc95e7d-2662-4a16-9cd5-9ef323c42162]   [1m[36mPage Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select version() = '3.27.1') LIMIT ?[0m  [["LIMIT", 1]]
+I, [2020-09-24T22:40:04.168917 #30709]  INFO -- : [1dc95e7d-2662-4a16-9cd5-9ef323c42162] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.8ms | Allocations: 635)
+F, [2020-09-24T22:40:04.170066 #30709] FATAL -- : [1dc95e7d-2662-4a16-9cd5-9ef323c42162]   
+[1dc95e7d-2662-4a16-9cd5-9ef323c42162] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such function: version):
+[1dc95e7d-2662-4a16-9cd5-9ef323c42162]   
+[1dc95e7d-2662-4a16-9cd5-9ef323c42162] app/controllers/pages_controller.rb:6:in `show'
+I, [2020-09-24T22:40:12.575393 #30709]  INFO -- : [2b04055d-5f1d-4756-80f2-c2d663cd0d79] Started GET "/pages/share?page_id[]=select%20sqlite_version()%20=%20%273.27.1%27" for 127.0.0.1 at 2020-09-24 22:40:12 +0800
+I, [2020-09-24T22:40:12.576386 #30709]  INFO -- : [2b04055d-5f1d-4756-80f2-c2d663cd0d79] Processing by PagesController#show as HTML
+I, [2020-09-24T22:40:12.576476 #30709]  INFO -- : [2b04055d-5f1d-4756-80f2-c2d663cd0d79]   Parameters: {"page_id"=>["select sqlite_version() = '3.27.1'"]}
+D, [2020-09-24T22:40:12.577771 #30709] DEBUG -- : [2b04055d-5f1d-4756-80f2-c2d663cd0d79]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:40:12.578581 #30709] DEBUG -- : [2b04055d-5f1d-4756-80f2-c2d663cd0d79]   [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select sqlite_version() = '3.27.1') LIMIT ?[0m  [["LIMIT", 1]]
+I, [2020-09-24T22:40:12.579031 #30709]  INFO -- : [2b04055d-5f1d-4756-80f2-c2d663cd0d79]   Rendering pages/show.html.erb within layouts/application
+I, [2020-09-24T22:40:12.579136 #30709]  INFO -- : [2b04055d-5f1d-4756-80f2-c2d663cd0d79]   Rendered pages/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+I, [2020-09-24T22:40:12.579716 #30709]  INFO -- : [2b04055d-5f1d-4756-80f2-c2d663cd0d79] Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 938)
+I, [2020-09-24T22:40:16.076191 #30709]  INFO -- : [7f62ab8e-748d-410f-a969-5ca8a4840c7a] Started GET "/pages/share?page_id[]=select%20sqlite_version()%20=%20%273.27.2%27" for 127.0.0.1 at 2020-09-24 22:40:16 +0800
+I, [2020-09-24T22:40:16.076984 #30709]  INFO -- : [7f62ab8e-748d-410f-a969-5ca8a4840c7a] Processing by PagesController#show as HTML
+I, [2020-09-24T22:40:16.077055 #30709]  INFO -- : [7f62ab8e-748d-410f-a969-5ca8a4840c7a]   Parameters: {"page_id"=>["select sqlite_version() = '3.27.2'"]}
+D, [2020-09-24T22:40:16.078280 #30709] DEBUG -- : [7f62ab8e-748d-410f-a969-5ca8a4840c7a]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+D, [2020-09-24T22:40:16.079288 #30709] DEBUG -- : [7f62ab8e-748d-410f-a969-5ca8a4840c7a]   [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (select sqlite_version() = '3.27.2') LIMIT ?[0m  [["LIMIT", 1]]
+D, [2020-09-24T22:40:16.080147 #30709] DEBUG -- : [7f62ab8e-748d-410f-a969-5ca8a4840c7a]   [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+I, [2020-09-24T22:40:16.080912 #30709]  INFO -- : [7f62ab8e-748d-410f-a969-5ca8a4840c7a] Completed 404 Not Found in 4ms (ActiveRecord: 0.5ms | Allocations: 846)
+F, [2020-09-24T22:40:16.081494 #30709] FATAL -- : [7f62ab8e-748d-410f-a969-5ca8a4840c7a]   
+[7f62ab8e-748d-410f-a969-5ca8a4840c7a] ActiveRecord::RecordNotFound (Couldn't find Page with 'id'=select sqlite_version() = '3.27.2'):
+[7f62ab8e-748d-410f-a969-5ca8a4840c7a]   
+[7f62ab8e-748d-410f-a969-5ca8a4840c7a] app/controllers/pages_controller.rb:7:in `show'
+I, [2021-03-29T12:12:50.453545 #31187]  INFO -- : [a206f6e4-6ad7-4471-a72f-7cb262cd065d] Started GET "/pages/share?page_id[]=9%27" for 127.0.0.1 at 2021-03-29 12:12:50 +0800
+I, [2021-03-29T12:12:50.457284 #31187]  INFO -- : [a206f6e4-6ad7-4471-a72f-7cb262cd065d] Processing by PagesController#show as HTML
+I, [2021-03-29T12:12:50.457508 #31187]  INFO -- : [a206f6e4-6ad7-4471-a72f-7cb262cd065d]   Parameters: {"page_id"=>["9'"]}
+I, [2021-03-29T12:12:50.471995 #31187]  INFO -- : [a206f6e4-6ad7-4471-a72f-7cb262cd065d] Redirected to http://localhost:3000/login
+I, [2021-03-29T12:12:50.472244 #31187]  INFO -- : [a206f6e4-6ad7-4471-a72f-7cb262cd065d] Filter chain halted as :authorize rendered or redirected
+I, [2021-03-29T12:12:50.472440 #31187]  INFO -- : [a206f6e4-6ad7-4471-a72f-7cb262cd065d] Completed 302 Found in 15ms (Allocations: 913)
+I, [2021-03-29T12:12:50.479415 #31187]  INFO -- : [6c4b9d50-626d-46c6-8a37-42312bb760fe] Started GET "/login" for 127.0.0.1 at 2021-03-29 12:12:50 +0800
+I, [2021-03-29T12:12:50.480305 #31187]  INFO -- : [6c4b9d50-626d-46c6-8a37-42312bb760fe] Processing by SessionsController#new as HTML
+I, [2021-03-29T12:12:50.483616 #31187]  INFO -- : [6c4b9d50-626d-46c6-8a37-42312bb760fe]   Rendering sessions/new.html.erb within layouts/application
+I, [2021-03-29T12:12:50.486443 #31187]  INFO -- : [6c4b9d50-626d-46c6-8a37-42312bb760fe]   Rendered sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1018)
+I, [2021-03-29T12:12:50.488010 #31187]  INFO -- : [6c4b9d50-626d-46c6-8a37-42312bb760fe] Completed 200 OK in 8ms (Views: 5.9ms | Allocations: 2892)
+I, [2021-03-29T12:12:57.623029 #31187]  INFO -- : [267182dc-e82e-4222-87e8-641dc405b05c] Started POST "/login" for 127.0.0.1 at 2021-03-29 12:12:57 +0800
+I, [2021-03-29T12:12:57.625133 #31187]  INFO -- : [267182dc-e82e-4222-87e8-641dc405b05c] Processing by SessionsController#create as HTML
+I, [2021-03-29T12:12:57.625382 #31187]  INFO -- : [267182dc-e82e-4222-87e8-641dc405b05c]   Parameters: {"authenticity_token"=>"ONZE+2UtlZlVkrpjuUMxKBZxX5A9SiGKX/mUw/6pQEvNUprL0iO58r4QRik7qsMv4NkDaG0T2WHu0F39G9r+Bw==", "login"=>{"email"=>"yeraisci@mail.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+D, [2021-03-29T12:12:57.632418 #31187] DEBUG -- : [267182dc-e82e-4222-87e8-641dc405b05c]   [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2021-03-29T12:12:57.638147 #31187] DEBUG -- : [267182dc-e82e-4222-87e8-641dc405b05c]   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "yeraisci@mail.com"], ["LIMIT", 1]]
+I, [2021-03-29T12:12:57.638931 #31187]  INFO -- : [267182dc-e82e-4222-87e8-641dc405b05c]   Rendering sessions/new.html.erb within layouts/application
+I, [2021-03-29T12:12:57.640307 #31187]  INFO -- : [267182dc-e82e-4222-87e8-641dc405b05c]   Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 460)
+I, [2021-03-29T12:12:57.640994 #31187]  INFO -- : [267182dc-e82e-4222-87e8-641dc405b05c] Completed 200 OK in 15ms (Views: 2.4ms | ActiveRecord: 1.7ms | Allocations: 3198)
+I, [2021-03-29T12:13:03.467959 #31187]  INFO -- : [f4c0c768-b79c-4e21-881d-f531be8150de] Started GET "/register" for 127.0.0.1 at 2021-03-29 12:13:03 +0800
+I, [2021-03-29T12:13:03.469272 #31187]  INFO -- : [f4c0c768-b79c-4e21-881d-f531be8150de] Processing by UsersController#new as HTML
+I, [2021-03-29T12:13:03.482713 #31187]  INFO -- : [f4c0c768-b79c-4e21-881d-f531be8150de]   Rendering users/new.html.erb within layouts/application
+I, [2021-03-29T12:13:03.488560 #31187]  INFO -- : [f4c0c768-b79c-4e21-881d-f531be8150de]   Rendered users/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1535)
+I, [2021-03-29T12:13:03.489322 #31187]  INFO -- : [f4c0c768-b79c-4e21-881d-f531be8150de] Completed 200 OK in 20ms (Views: 8.1ms | ActiveRecord: 0.6ms | Allocations: 5789)
+I, [2021-03-29T12:13:14.241623 #31187]  INFO -- : [d3a5fd2a-3b4e-4eaf-96e5-fc7558fd9f16] Started POST "/users" for 127.0.0.1 at 2021-03-29 12:13:14 +0800
+I, [2021-03-29T12:13:14.242887 #31187]  INFO -- : [d3a5fd2a-3b4e-4eaf-96e5-fc7558fd9f16] Processing by UsersController#create as HTML
+I, [2021-03-29T12:13:14.243016 #31187]  INFO -- : [d3a5fd2a-3b4e-4eaf-96e5-fc7558fd9f16]   Parameters: {"authenticity_token"=>"H22caAJfAZ+yYUa94MuA3MLGmV3WhGfklnvR30sKDpQuWhIbVtrrm2xfFce26Oa1kz17Ht8XDRBxSWSVGEDp6w==", "user"=>{"name"=>"yeraisci", "email"=>"yeraisci@mail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up!"}
+D, [2021-03-29T12:13:14.582922 #31187] DEBUG -- : [d3a5fd2a-3b4e-4eaf-96e5-fc7558fd9f16]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2021-03-29T12:13:14.583383 #31187] DEBUG -- : [d3a5fd2a-3b4e-4eaf-96e5-fc7558fd9f16]   [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "yeraisci@mail.com"], ["LIMIT", 1]]
+D, [2021-03-29T12:13:14.584748 #31187] DEBUG -- : [d3a5fd2a-3b4e-4eaf-96e5-fc7558fd9f16]   [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "yeraisci"], ["email", "yeraisci@mail.com"], ["password_digest", "$2a$12$bahRfEZiGsqNWa3oCOIj/OB5xTueL8afqFkOiEs/4CcrVbQqRtS5m"], ["created_at", "2021-03-29 04:13:14.583540"], ["updated_at", "2021-03-29 04:13:14.583540"]]
+D, [2021-03-29T12:13:14.588047 #31187] DEBUG -- : [d3a5fd2a-3b4e-4eaf-96e5-fc7558fd9f16]   [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+I, [2021-03-29T12:13:14.588629 #31187]  INFO -- : [d3a5fd2a-3b4e-4eaf-96e5-fc7558fd9f16] Redirected to http://localhost:3000/
+I, [2021-03-29T12:13:14.588969 #31187]  INFO -- : [d3a5fd2a-3b4e-4eaf-96e5-fc7558fd9f16] Completed 302 Found in 346ms (ActiveRecord: 3.3ms | Allocations: 1448)
+I, [2021-03-29T12:13:14.597096 #31187]  INFO -- : [e8d6cc6d-a930-4d02-8374-33423bec55be] Started GET "/" for 127.0.0.1 at 2021-03-29 12:13:14 +0800
+I, [2021-03-29T12:13:14.598062 #31187]  INFO -- : [e8d6cc6d-a930-4d02-8374-33423bec55be] Processing by UsersController#new as HTML
+I, [2021-03-29T12:13:14.599445 #31187]  INFO -- : [e8d6cc6d-a930-4d02-8374-33423bec55be]   Rendering users/new.html.erb within layouts/application
+I, [2021-03-29T12:13:14.601580 #31187]  INFO -- : [e8d6cc6d-a930-4d02-8374-33423bec55be]   Rendered users/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1062)
+I, [2021-03-29T12:13:14.602174 #31187]  INFO -- : [e8d6cc6d-a930-4d02-8374-33423bec55be] Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1669)
+I, [2021-03-29T12:13:17.144969 #31187]  INFO -- : [3e7c24f2-277d-429f-bedf-045bb454b706] Started GET "/login" for 127.0.0.1 at 2021-03-29 12:13:17 +0800
+I, [2021-03-29T12:13:17.147422 #31187]  INFO -- : [3e7c24f2-277d-429f-bedf-045bb454b706] Processing by SessionsController#new as HTML
+I, [2021-03-29T12:13:17.150693 #31187]  INFO -- : [3e7c24f2-277d-429f-bedf-045bb454b706]   Rendering sessions/new.html.erb within layouts/application
+I, [2021-03-29T12:13:17.154316 #31187]  INFO -- : [3e7c24f2-277d-429f-bedf-045bb454b706]   Rendered sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 468)
+I, [2021-03-29T12:13:17.156149 #31187]  INFO -- : [3e7c24f2-277d-429f-bedf-045bb454b706] Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 1053)
+I, [2021-03-29T12:13:21.612034 #31187]  INFO -- : [035a8932-c8d3-4fcb-a060-6e83fc1285cb] Started POST "/login" for 127.0.0.1 at 2021-03-29 12:13:21 +0800
+I, [2021-03-29T12:13:21.613868 #31187]  INFO -- : [035a8932-c8d3-4fcb-a060-6e83fc1285cb] Processing by SessionsController#create as HTML
+I, [2021-03-29T12:13:21.614122 #31187]  INFO -- : [035a8932-c8d3-4fcb-a060-6e83fc1285cb]   Parameters: {"authenticity_token"=>"sg+awRnobSpH+QXZUIrb1vD7mJzBZnSRdB5rQYgClLVHi0TxruZBQax7+ZPSYynRBlPEZJE/jHrFN6J/bXEq+Q==", "login"=>{"email"=>"yeraisci@mail.com", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+D, [2021-03-29T12:13:21.617346 #31187] DEBUG -- : [035a8932-c8d3-4fcb-a060-6e83fc1285cb]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "yeraisci@mail.com"], ["LIMIT", 1]]
+I, [2021-03-29T12:13:21.951842 #31187]  INFO -- : [035a8932-c8d3-4fcb-a060-6e83fc1285cb] Redirected to http://localhost:3000/
+I, [2021-03-29T12:13:21.952010 #31187]  INFO -- : [035a8932-c8d3-4fcb-a060-6e83fc1285cb] Completed 302 Found in 338ms (ActiveRecord: 0.2ms | Allocations: 527)
+I, [2021-03-29T12:13:21.960096 #31187]  INFO -- : [cc612e08-0f05-47b5-8729-12c2fc7147aa] Started GET "/" for 127.0.0.1 at 2021-03-29 12:13:21 +0800
+I, [2021-03-29T12:13:21.961020 #31187]  INFO -- : [cc612e08-0f05-47b5-8729-12c2fc7147aa] Processing by UsersController#new as HTML
+I, [2021-03-29T12:13:21.962579 #31187]  INFO -- : [cc612e08-0f05-47b5-8729-12c2fc7147aa]   Rendering users/new.html.erb within layouts/application
+I, [2021-03-29T12:13:21.964880 #31187]  INFO -- : [cc612e08-0f05-47b5-8729-12c2fc7147aa]   Rendered users/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1061)
+D, [2021-03-29T12:13:21.965983 #31187] DEBUG -- : [cc612e08-0f05-47b5-8729-12c2fc7147aa]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+I, [2021-03-29T12:13:21.966680 #31187]  INFO -- : [cc612e08-0f05-47b5-8729-12c2fc7147aa] Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.2ms | Allocations: 1914)
+I, [2021-03-29T12:13:29.628022 #31187]  INFO -- : [e0c4b196-9b24-4428-af48-a79afdb658de] Started GET "/pages/share?page_id=9" for 127.0.0.1 at 2021-03-29 12:13:29 +0800
+I, [2021-03-29T12:13:29.628849 #31187]  INFO -- : [e0c4b196-9b24-4428-af48-a79afdb658de] Processing by PagesController#show as HTML
+I, [2021-03-29T12:13:29.628917 #31187]  INFO -- : [e0c4b196-9b24-4428-af48-a79afdb658de]   Parameters: {"page_id"=>"9"}
+D, [2021-03-29T12:13:29.629993 #31187] DEBUG -- : [e0c4b196-9b24-4428-af48-a79afdb658de]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+D, [2021-03-29T12:13:29.632552 #31187] DEBUG -- : [e0c4b196-9b24-4428-af48-a79afdb658de]   [1m[36mPage Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+I, [2021-03-29T12:13:29.634161 #31187]  INFO -- : [e0c4b196-9b24-4428-af48-a79afdb658de]   Rendering pages/show.html.erb within layouts/application
+I, [2021-03-29T12:13:29.634982 #31187]  INFO -- : [e0c4b196-9b24-4428-af48-a79afdb658de]   Rendered pages/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 198)
+I, [2021-03-29T12:13:29.635870 #31187]  INFO -- : [e0c4b196-9b24-4428-af48-a79afdb658de] Completed 200 OK in 7ms (Views: 2.5ms | ActiveRecord: 0.7ms | Allocations: 2142)
+I, [2021-03-29T12:13:34.382163 #31187]  INFO -- : [914db3b8-e2a8-415c-80b9-16b401d29f11] Started GET "/pages/share?page_id[]=9%27" for 127.0.0.1 at 2021-03-29 12:13:34 +0800
+I, [2021-03-29T12:13:34.383108 #31187]  INFO -- : [914db3b8-e2a8-415c-80b9-16b401d29f11] Processing by PagesController#show as HTML
+I, [2021-03-29T12:13:34.383180 #31187]  INFO -- : [914db3b8-e2a8-415c-80b9-16b401d29f11]   Parameters: {"page_id"=>["9'"]}
+D, [2021-03-29T12:13:34.384435 #31187] DEBUG -- : [914db3b8-e2a8-415c-80b9-16b401d29f11]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+D, [2021-03-29T12:13:34.385799 #31187] DEBUG -- : [914db3b8-e2a8-415c-80b9-16b401d29f11]   [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (9') LIMIT ?[0m  [["LIMIT", 1]]
+I, [2021-03-29T12:13:34.386142 #31187]  INFO -- : [914db3b8-e2a8-415c-80b9-16b401d29f11] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.4ms | Allocations: 603)
+F, [2021-03-29T12:13:34.387229 #31187] FATAL -- : [914db3b8-e2a8-415c-80b9-16b401d29f11]   
+[914db3b8-e2a8-415c-80b9-16b401d29f11] ActiveRecord::StatementInvalid (SQLite3::SQLException: unrecognized token: "') LIMIT ?"):
+[914db3b8-e2a8-415c-80b9-16b401d29f11]   
+[914db3b8-e2a8-415c-80b9-16b401d29f11] app/controllers/pages_controller.rb:6:in `show'
+I, [2021-03-29T12:14:12.959540 #31187]  INFO -- : [31ccb3ed-2da2-4a0e-8931-52184e0487ca] Started GET "/pages/share?page_id[]=9%27)%20and%201%20--%20-" for 127.0.0.1 at 2021-03-29 12:14:12 +0800
+I, [2021-03-29T12:14:12.960617 #31187]  INFO -- : [31ccb3ed-2da2-4a0e-8931-52184e0487ca] Processing by PagesController#show as HTML
+I, [2021-03-29T12:14:12.960706 #31187]  INFO -- : [31ccb3ed-2da2-4a0e-8931-52184e0487ca]   Parameters: {"page_id"=>["9') and 1 -- -"]}
+D, [2021-03-29T12:14:12.961647 #31187] DEBUG -- : [31ccb3ed-2da2-4a0e-8931-52184e0487ca]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+D, [2021-03-29T12:14:12.963054 #31187] DEBUG -- : [31ccb3ed-2da2-4a0e-8931-52184e0487ca]   [1m[36mPage Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (9') and 1 -- -) LIMIT ?[0m  [["LIMIT", 1]]
+I, [2021-03-29T12:14:12.963291 #31187]  INFO -- : [31ccb3ed-2da2-4a0e-8931-52184e0487ca] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.4ms | Allocations: 594)
+F, [2021-03-29T12:14:12.964176 #31187] FATAL -- : [31ccb3ed-2da2-4a0e-8931-52184e0487ca]   
+[31ccb3ed-2da2-4a0e-8931-52184e0487ca] ActiveRecord::StatementInvalid (SQLite3::SQLException: unrecognized token: "') and 1 -- -) LIMIT ?"):
+[31ccb3ed-2da2-4a0e-8931-52184e0487ca]   
+[31ccb3ed-2da2-4a0e-8931-52184e0487ca] app/controllers/pages_controller.rb:6:in `show'
+I, [2021-03-29T12:14:18.451082 #31187]  INFO -- : [c03fa90a-6250-46f1-8814-2615d227489c] Started GET "/pages/share?page_id[]=9%27)%20--%20-" for 127.0.0.1 at 2021-03-29 12:14:18 +0800
+I, [2021-03-29T12:14:18.452479 #31187]  INFO -- : [c03fa90a-6250-46f1-8814-2615d227489c] Processing by PagesController#show as HTML
+I, [2021-03-29T12:14:18.452597 #31187]  INFO -- : [c03fa90a-6250-46f1-8814-2615d227489c]   Parameters: {"page_id"=>["9') -- -"]}
+D, [2021-03-29T12:14:18.454048 #31187] DEBUG -- : [c03fa90a-6250-46f1-8814-2615d227489c]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+D, [2021-03-29T12:14:18.455013 #31187] DEBUG -- : [c03fa90a-6250-46f1-8814-2615d227489c]   [1m[36mPage Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (9') -- -) LIMIT ?[0m  [["LIMIT", 1]]
+I, [2021-03-29T12:14:18.455193 #31187]  INFO -- : [c03fa90a-6250-46f1-8814-2615d227489c] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.4ms | Allocations: 594)
+F, [2021-03-29T12:14:18.456032 #31187] FATAL -- : [c03fa90a-6250-46f1-8814-2615d227489c]   
+[c03fa90a-6250-46f1-8814-2615d227489c] ActiveRecord::StatementInvalid (SQLite3::SQLException: unrecognized token: "') -- -) LIMIT ?"):
+[c03fa90a-6250-46f1-8814-2615d227489c]   
+[c03fa90a-6250-46f1-8814-2615d227489c] app/controllers/pages_controller.rb:6:in `show'
+I, [2021-03-29T12:14:49.358356 #31187]  INFO -- : [4c4c766b-3ee7-42a9-8a74-ef6e25f9d701] Started GET "/pages/share?page_id[]=9)%20--%20-" for 127.0.0.1 at 2021-03-29 12:14:49 +0800
+I, [2021-03-29T12:14:49.359332 #31187]  INFO -- : [4c4c766b-3ee7-42a9-8a74-ef6e25f9d701] Processing by PagesController#show as HTML
+I, [2021-03-29T12:14:49.359451 #31187]  INFO -- : [4c4c766b-3ee7-42a9-8a74-ef6e25f9d701]   Parameters: {"page_id"=>["9) -- -"]}
+D, [2021-03-29T12:14:49.360780 #31187] DEBUG -- : [4c4c766b-3ee7-42a9-8a74-ef6e25f9d701]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+D, [2021-03-29T12:14:49.362358 #31187] DEBUG -- : [4c4c766b-3ee7-42a9-8a74-ef6e25f9d701]   [1m[36mPage Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (9) -- -) LIMIT ?[0m  [["LIMIT", 1]]
+I, [2021-03-29T12:14:49.362608 #31187]  INFO -- : [4c4c766b-3ee7-42a9-8a74-ef6e25f9d701] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.6ms | Allocations: 617)
+F, [2021-03-29T12:14:49.363800 #31187] FATAL -- : [4c4c766b-3ee7-42a9-8a74-ef6e25f9d701]   
+[4c4c766b-3ee7-42a9-8a74-ef6e25f9d701] ActiveRecord::StatementInvalid (SQLite3::RangeException: column index out of range):
+[4c4c766b-3ee7-42a9-8a74-ef6e25f9d701]   
+[4c4c766b-3ee7-42a9-8a74-ef6e25f9d701] app/controllers/pages_controller.rb:6:in `show'
+I, [2021-03-29T12:14:54.759077 #31187]  INFO -- : [a7b07972-d228-46b9-8f20-466726cee41d] Started GET "/pages/share?page_id[]=9%20--%20-" for 127.0.0.1 at 2021-03-29 12:14:54 +0800
+I, [2021-03-29T12:14:54.760067 #31187]  INFO -- : [a7b07972-d228-46b9-8f20-466726cee41d] Processing by PagesController#show as HTML
+I, [2021-03-29T12:14:54.760169 #31187]  INFO -- : [a7b07972-d228-46b9-8f20-466726cee41d]   Parameters: {"page_id"=>["9 -- -"]}
+D, [2021-03-29T12:14:54.761380 #31187] DEBUG -- : [a7b07972-d228-46b9-8f20-466726cee41d]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+D, [2021-03-29T12:14:54.762593 #31187] DEBUG -- : [a7b07972-d228-46b9-8f20-466726cee41d]   [1m[36mPage Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (9 -- -) LIMIT ?[0m  [["LIMIT", 1]]
+I, [2021-03-29T12:14:54.762887 #31187]  INFO -- : [a7b07972-d228-46b9-8f20-466726cee41d] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.6ms | Allocations: 593)
+F, [2021-03-29T12:14:54.764444 #31187] FATAL -- : [a7b07972-d228-46b9-8f20-466726cee41d]   
+[a7b07972-d228-46b9-8f20-466726cee41d] ActiveRecord::StatementInvalid (SQLite3::SQLException: incomplete input):
+[a7b07972-d228-46b9-8f20-466726cee41d]   
+[a7b07972-d228-46b9-8f20-466726cee41d] app/controllers/pages_controller.rb:6:in `show'
+I, [2021-03-29T12:15:05.378998 #31187]  INFO -- : [61658dec-360b-4850-9101-fbe1d48ac00b] Started GET "/pages/share?page_id[]=9)%20limit%201%20--%20-" for 127.0.0.1 at 2021-03-29 12:15:05 +0800
+I, [2021-03-29T12:15:05.380255 #31187]  INFO -- : [61658dec-360b-4850-9101-fbe1d48ac00b] Processing by PagesController#show as HTML
+I, [2021-03-29T12:15:05.380403 #31187]  INFO -- : [61658dec-360b-4850-9101-fbe1d48ac00b]   Parameters: {"page_id"=>["9) limit 1 -- -"]}
+D, [2021-03-29T12:15:05.381876 #31187] DEBUG -- : [61658dec-360b-4850-9101-fbe1d48ac00b]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+D, [2021-03-29T12:15:05.383228 #31187] DEBUG -- : [61658dec-360b-4850-9101-fbe1d48ac00b]   [1m[36mPage Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "pages" WHERE (9) limit 1 -- -) LIMIT ?[0m  [["LIMIT", 1]]
+I, [2021-03-29T12:15:05.383468 #31187]  INFO -- : [61658dec-360b-4850-9101-fbe1d48ac00b] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.5ms | Allocations: 602)
+F, [2021-03-29T12:15:05.384336 #31187] FATAL -- : [61658dec-360b-4850-9101-fbe1d48ac00b]   
+[61658dec-360b-4850-9101-fbe1d48ac00b] ActiveRecord::StatementInvalid (SQLite3::RangeException: column index out of range):
+[61658dec-360b-4850-9101-fbe1d48ac00b]   
+[61658dec-360b-4850-9101-fbe1d48ac00b] app/controllers/pages_controller.rb:6:in `show'

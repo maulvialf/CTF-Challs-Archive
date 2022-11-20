@@ -1,0 +1,13 @@
+{
+    "name": "cacadosman/app",
+    "authors": [
+        {
+            "name": "cacadosman",
+            "email": "wetmanz23@gmail.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "^1.1",
+        "vlucas/phpdotenv": "^5.3"
+    }
+}

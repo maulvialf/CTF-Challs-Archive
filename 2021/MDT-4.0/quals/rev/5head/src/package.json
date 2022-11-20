@@ -1,0 +1,15 @@
+{
+  "name": "5Head",
+  "version": "4.2.0",
+  "description": "face-recognition authentication wannabe",
+  "repository": "electron/simple-samples",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.2"
+  },
+  "dependencies": {}
+}

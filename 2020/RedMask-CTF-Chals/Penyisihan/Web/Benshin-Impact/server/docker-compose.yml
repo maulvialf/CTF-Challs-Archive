@@ -1,0 +1,19 @@
+version: '3.2'
+services:
+  wtube:
+    image: benshin_app:latest
+    restart: unless-stopped
+    deploy:
+      mode: replicated
+      replicas: 10
+      placement:
+        constraints: [node.role == manager]
+    ports:
+      - "10002:3000"
+    networks:
+      - benshin-network
+      
+networks:
+  benshin-network:
+    driver: overlay
+    attachable: true

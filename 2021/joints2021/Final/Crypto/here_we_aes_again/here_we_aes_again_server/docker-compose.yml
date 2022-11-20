@@ -1,0 +1,9 @@
+version: '3'
+services:
+    crypto_here_we_aes_again:
+        build: .
+        image: here_we_aes_again_server_crypto_here_we_aes_again
+        container_name: crypto_here_we_aes_again
+        restart: always
+        ports:
+            - "20001:5000"

@@ -1,0 +1,7 @@
+from mysql:5.7
+
+copy ./schema.sql /docker-entrypoint-initdb.d/schema.sql
+copy ./my.cnf /etc/mysql/conf.d/my.cnf
+
+RUN mkdir /tmp/heheboi
+RUN chown -R 999:999 /tmp/heheboi

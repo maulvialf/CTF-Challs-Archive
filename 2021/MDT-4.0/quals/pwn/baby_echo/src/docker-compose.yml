@@ -1,0 +1,9 @@
+version: '3'
+services:
+  pwn_deploy2:
+    build:
+      context: .
+    working_dir: /home/ctf
+    container_name: baby_echo
+    ports:
+      - "4401:4401"

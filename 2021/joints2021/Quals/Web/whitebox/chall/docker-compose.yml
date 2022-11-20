@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  web-server:
+    container_name: white-box_webserver
+    build: .
+    tty: true
+    expose:
+      - '4000'
+    ports:
+      - '4000:4000'
+    restart: always
+
+networks:
+  default:
+    external:
+      name: ctf-network

@@ -1,0 +1,19 @@
+
+
+<% if @page %>
+	<% if current_user.id == 1 %>
+		<p>
+		  <strong>Title:</strong>
+		  <%= @page.title %>
+		</p>
+		 
+		<p>
+		  <strong>Text:</strong>
+		  <%= @page.text %>
+		</p>
+	<% else %>
+		Bukan admin
+	<% end %>
+<% else %> 
+   Not exist
+<% end %>

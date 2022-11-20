@@ -1,0 +1,17 @@
+
+version: '3.8'
+
+services:
+  renge-blog:
+    container_name: renge-blog
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 45500:8080
+    restart: always
+    environment:
+      - CHOKIDAR_USEPOLLING=true

@@ -1,0 +1,9 @@
+version: "3"
+services:
+  code:
+    image: passvault
+    build:
+      context: .
+    ports:
+      - "51707:5000"
+

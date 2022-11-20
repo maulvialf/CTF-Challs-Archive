@@ -1,0 +1,10 @@
+version: "3"
+services:
+  warm_pwn:
+    image: warm_pwn
+    container_name: warm_pwn
+    build:
+      context: .
+    ports:
+      - "40000:5000"
+    restart: always

@@ -1,0 +1,9 @@
+#directories
+bower_components
+node_modules
+dist
+#too big for git
+5Head.exe
+#files
+*.tgz
+*.log

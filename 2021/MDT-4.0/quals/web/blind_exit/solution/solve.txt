@@ -1,0 +1,1 @@
+https://blog.convisoappsec.com/en/a-case-study-on-cve-2021-22204-exiftool-rce/

@@ -1,0 +1,554 @@
+{
+    "data": {
+        "Crypto": [
+            {
+                "category": "Crypto",
+                "description": "I just made the fastest RNG! No one can predict my machine.\r\n\r\n**Author :** [Majin#6223](https://twitter.com/Alekh_Avinash)",
+                "files": [
+                    "/files/50199a2680638b59949cedd2b35a72be/source.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MzJ9.YRnjGQ.zvRV0CrF5ayxP27TAvqi8men2iQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 27,
+                "name": "Right Now Generator",
+                "points": 100,
+                "solves": 51
+            },
+            {
+                "category": "Crypto",
+                "description": "We are testing a new Optimised Signature scheme for Authentication in our Voting System.\r\n\r\nThis might lead us to reduce the time taken for Election Process.\r\n\t\t\r\n**Author** :  [chandu-kona](https://twitter.com/chandu_kona)",
+                "files": [
+                    "/files/23a5d022721ea1e0e13208b2abdda7b6/Handout.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6NTF9.YRnjGQ.oX-UCGaxVF874-L_1OA44H7OHjE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 57,
+                "name": "Trouble With Pairs",
+                "points": 925,
+                "solves": 14
+            },
+            {
+                "category": "Crypto",
+                "description": "Lets see how good you are at performing blind operations :)\r\n\r\n> **NOTE:  \r\nTo solve the challenge installation of pallisade or running the challenge files is not a necessity, analysing level.cpp code with pen and paper is enough!**\r\n\r\n**MD5 Hash**: `src.zip 93c7534260c4c76a95b5c6bb6775626d`\r\n\r\n**NOTE**:  flag format is inctfi{}\r\n\r\n**Author**\r\n[**Stryd3r**](https://twitter.com/The_Str1d3r)\r\n",
+                "files": [
+                    "/files/c53ecd543b05e42a9bf98b41cdc16dc4/src.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MzN9.YRnjGA.dN8Cg4MGrWV0prMssKH73D2hHyk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 41,
+                "name": "Encrypted Operations",
+                "points": 823,
+                "solves": 21
+            },
+            {
+                "category": "Crypto",
+                "description": "X made a stateless password manager and used it for all the top sites he visited. But on observing the code he found that his key could retrieve a maximum number of states and decided to not use it because of its weaknesses.\r\n\r\nHowever, he did not get to reset all of his passwords.\r\n\r\nWe'll send you the names of some websites at `nc 34.106.211.122 1222`. If you are able to find most of the passwords, we'll give you the flag.\r\n\r\n**MD5sum**  :  `072419cd201a7964c19a7177af1ec090  src.zip`\r\n\r\n**Author** : [ph03n1x](https://twitter.com/MeenakshiSl1) ,  [4lex1](https://twitter.com/SandhraBino)\r\n",
+                "files": [
+                    "/files/c5ec03edb5b5aac802f4e62cf3116f08/src.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6NTl9.YRnjGA.p8miWf31qShNq28DdPB6NIlxL9Y"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 49,
+                "name": "Tabula Recta",
+                "points": 996,
+                "solves": 4
+            },
+            {
+                "category": "Crypto",
+                "description": "Break the cipher and prove your worth!\r\n",
+                "files": [
+                    "/files/44ffaf9340492361f0fc43304ca9bec1/handout.txt?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MzZ9.YRnjGA.nN8Cxch7zxERzyyy-LzePdCdTFw",
+                    "/files/256dbf735058d823a083dc819fdad0aa/gold_digger.py?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6Mzd9.YRnjGA.8IoTbuqfCiVT3jR2pwZbgUI_FZw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 46,
+                "name": "Gold_digger",
+                "points": 100,
+                "solves": 76
+            },
+            {
+                "category": "Crypto",
+                "description": "My older brother found a new way to implement the DH Key Exchange. I tried my best to recreate his method. Hope I didn't make a mistake...\r\n\r\n**MD5 Hash**: `src.zip 677edcba5b74a91d090abb46cfffb095`\r\n\r\n**Author :** [Majin#6223](https://twitter.com/Alekh_Avinash)",
+                "files": [
+                    "/files/a354db73cb5d5afc4052b84024a7a112/src.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MzR9.YRnjGA._c-ElSJcLEotneyhFJXsXapAAK8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 29,
+                "name": "Eazy Xchange",
+                "points": 179,
+                "solves": 44
+            },
+            {
+                "category": "Crypto",
+                "description": "It seems I'm out of luck I just lost my bag the the airport. Can u help me find it?\r\n\r\n**Author :** [Majin#6223](https://twitter.com/Alekh_Avinash)",
+                "files": [
+                    "/files/c4b4c9e029460556878069dfe3d5e42b/ori.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MzV9.YRnjFw.-nRuzbPeU7kx6pLSf-Msy94G6vU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 30,
+                "name": "Lost Baggage",
+                "points": 100,
+                "solves": 52
+            }
+        ],
+        "Forensics": [
+            {
+                "category": "Forensics",
+                "description": "We sent Michael over to the Union Depository to collect data from one of their systems for the heist. We were able to retrieve the data, but it looks like they were able to read the message sent to us that Michael had typed from their system. Fortunately, he took the memory dump before escaping the building. Analyze the memory dump and find out how the message was compromised.\r\n\r\n**Challenge Link :**\r\n+ [Primary Link](https://drive.google.com/drive/folders/1JZfwuASJ9e8LVWcB4py59AB7kxrKEKFK?usp=sharing)\r\n+ [Mirror Link](https://drive.google.com/drive/folders/1qzVvBS29lh8VwHWnmyqLscg0p11t8Vz3?usp=sharing)\r\n\r\n**MD5 Hash :** 5bdcfc3d4a73020019fc61ab6e933395\r\n\r\n**Author :** [d3liri0us](https://twitter.com/d3liri0us_)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 40,
+                "name": "The Big Score",
+                "points": 956,
+                "solves": 11
+            },
+            {
+                "category": "Forensics",
+                "description": "**Description**\r\n\r\nOur IB team recovered a mobile phone from one of the members of the gang. Can you help out the team in finding answers for the following questions?\r\n\r\n**Questions**:\r\n1. When did the Professor create the note for Rio?\r\n    * Answer in `DD-MM-YYYY_HH:MM:SS`. Timestamp in UTC\r\n\r\n2. Where did Professor and Rio, planned to meet for planning the heist?\r\n    * Format: `Lat_Long` (round-off to 3 decimals)\r\n\r\n3. When did Rio plan to meet Professor?\r\n    * Answer in `DD-MM-YYYY_HH:MM:SS`. (In original timezone)\r\n\r\n4. How many members did Rio gathered for the heist?\r\n    * Format: `N` (Integer)\r\n\r\n5. How many tasks did Rio created in planning the heist, and how many did he complete?\r\n    * Format: `Created_Completed` in Integers\r\n\r\n6. There is a secret code present in a document shared between Rio & Professor, can you find out what it is?\r\n    * Format: `AB1234578PMFE`\r\n\r\n7. We found a game installed on the device. When did Rio first open this game?\r\n    * Answer in `DD-MM-YYYY_HH:MM:SS` in UTC\r\n\r\n**Note**:\r\n+ Wrap the flag around inctf{}\r\n+ Sample flag: `inctf{01-01-2012_14:01:16_1.111_2.222_01-01-2012_14:01:00_1_0_0_AB1234578PMFE_01-01-2012_14:01:00}`\r\n+ Flag is **Case Sensitive**\r\n\r\n**Challenge Download Links**:\r\n+ [Primary Link](https://drive.google.com/file/d/1hLgFoXYQA-brR8ucAKJa3lCRx94XXXRD/view?usp=sharing)\r\n+ [Mirror Link](https://amritauniv-my.sharepoint.com/:u:/g/personal/inctfj_am_amrita_edu/Ecfnrp8zcZdHsd-7PhCaP1ABxCZBo2qOPNM7AGQL1WnGhw?e=gBhDIA)\r\n\r\n**MD5 Hash**: `Heist_ends.zip 28EB446FB1A2D3B408CBCCAFBBFBA86D`\r\n\r\n**Challenge Author**: [g4rud4](https://twitter.com/_Nihith)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 19,
+                "name": "Heist Ends",
+                "points": 989,
+                "solves": 6
+            },
+            {
+                "category": "Forensics",
+                "description": "**Description**\r\n\r\nOur Incident Response team started their investigation on a device found when pinning down a terrorist. They got some doubts while analyzing the device, So they framed these questions can you help them in answering these questions? Our Intelligence report states that the terrorist used a legit chat application for communication among themselves.\r\n\r\n**Questions:**\r\n\r\n* What is the name of the chat application program?\r\n    * Ex: `Mozilla_Firefox` (Use Name of the program, Not the name of the binary. If there is a space replace it with `_`. )\r\n\r\n* When did the user last used this chat application?\r\n    * Answer in `DD-MM-YYYY_HH:MM:SS`. Timestamp in UTC\r\n\r\n* How many unread messages are there in the chat application that the user is using?\r\n    * Answer should be an integer `n`.\r\n\r\n* What is the current version of the chat application that's being used?\r\n    * Answer in `X.X.XXXX.XXXX`\r\n\r\n**Note:** \r\n+ Wrap the answers around inctf{}.\r\n+ Sample flag: `inctf{Mozilla_Firefox_31-07-2020_19:00:00_10_1.2.2345.5678}`\r\n+ Flag is **Case Sensitive**\r\n\r\n**Challenge Download Links**:\r\n+ [Primary Link](https://drive.google.com/file/d/1qDZAtOLhVT-qr97W1bXo36poTMekvEOU/view?usp=sharing)\r\n\r\n**MD5 Hash**: `ermittlung.raw 110305F3CF71432B4DFAFD1538CDF850`\r\n\r\n**Challenge Author**: [g4rud4](https://twitter.com/_Nihith)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "Ermittlung",
+                "points": 140,
+                "solves": 45
+            },
+            {
+                "category": "Forensics",
+                "description": "**Description**: We have received the report that a certain employee of of an organization might have stolen confidential information and hidden in his system. We seized his laptop and collected a forensic image of the system. Our intel suggests that the employee might have visited suspicious websites and also deleted key files from the system which could've been vital for us. Could you please recover it?\r\n\r\n**Challenge link**: https://storagefor.bi0s.in/Darkness-Evidence.7z\r\n+ [Mirror Link](https://drive.google.com/file/d/1vPGSUFxB6XO5zWsYATjDEr0ubAWrDiAD/view?usp=sharing)\r\n\r\n**Password (of the archive)**: `d:'2;]7{<-v5^4]tz@*s+%qqd}c|&mv]`\r\n\r\n**Author**: [stuxn3t](https://twitter.com/_abhiramkumar)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "Darkness",
+                "points": 887,
+                "solves": 17
+            },
+            {
+                "category": "Forensics",
+                "description": "**Challenge Description**\r\n\r\nOur Intelligence Bureau team found out a group of people roaming around a well-noted organization, and our team has captured them. After the interrogation, Our IB team found out the head of the heist they planned. While capturing the leader of the heist, Our team found some electronic devices like laptops, USB devices. Our evidence collection team captured the data from these devices and sent it to us for analysis. During evidence collection, The team found out that the leader of the heist was using a lot of browsers, remote desktop applications, Voice modulators etc. Our team needs some help from you in finding answers to some questions. Can you help the team in finding answers to these questions?\r\n\r\n**Questions**:\r\n\r\n1. What is the default browser that the Heist leader is using on the device?\r\n    \r\n    * Ex: `Opera_Mini`, etc (Use Name of the program, Not the name of the binary. If there is a space replace it with `_`)\r\n2. What is the top-visited website in the leader's system on the default browser?\r\n    \r\n    * Answer in `domain.net` (`HTTP(s)://` or `www.` & sub-domains are NOT included)\r\n3. When was the latest file transfer session initiated in TeamViewer?\r\n    \r\n    * Answer in `DD-MM-YYYY_HH:MM:SS`. Timestamp in UTC\r\n4. What is the ID, Hostname of that file-transfer session?\r\n    \r\n    * Format: `123456789_Hostname`\r\n\r\n**Note**:\r\n1. Wrap the answers around inctf{}.\r\n2. Sample Flag: `inctf{Opera_Mini_google.com_01-01-2012_01:01:10_123456789_Hostname}`\r\n3. Flag is **Case Sensitive**\r\n\r\n**Download Link**\r\n+ [Primary Link](https://storagefor.bi0s.in/Heist.7z)\r\n\t+ Password: ```H0Y7$8j!och^jjYJMsR45KU4SV```\r\n+ [Mirror Link](https://drive.google.com/drive/folders/1H3Ly8hnAW7eh7dxvf_bTA7_JYk8zMP3-?usp=sharing) - Splitted files, Not Password Protected.\r\n\r\n**MD5 Hash**: `A916E26016180D2C5189061D652DC9E1 Heist.7z`\r\n\r\n**Challenge Author**:  [g4rud4](https://twitter.com/_Nihith)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "Heist",
+                "points": 913,
+                "solves": 15
+            },
+            {
+                "category": "Forensics",
+                "description": "**Description**\r\n\r\nOur analyst team at Intelligence Bureau need answers for few more questions. Can you help them out in finding answers for below questions?\r\n\r\n**Questions:**\r\n\r\n1. What is the workspace ID and USER ID of the Slack workspace that is the user participating in?\r\n    \r\n    * Answer in `T0A0A0A0A0A_U0A0A0A0A0` (All in Uppercase)\r\n\r\n2. There was a remote connection and we think there is a secret text on the remote connected PC's wallpaper. What are the first and last 3 characters of the secret text?\r\n    \r\n    * Format: `abcxyz`\r\n3. Team restored 2 USB devices (Sandisk 3.2Gen1 & Toshiba External USB 3.0) at the leader's place. What is the file system of these 2 USB devices?\r\n    \r\n    * Format: `FileSystem1_FileSystem2` (All in caps)\r\n4. Team found some traces of Voice Modulator, How much time did the user actively used this Voice Modulator?\r\n    \r\n    * Answer in `X` Seconds.\r\n\r\n**Note**: \r\n\r\n+ Wrap the answers around inctf{}.\r\n+ **Sample Flag**: `inctf{T0A0A0A0A0A_U0A0A0A0A0_abcxyz_FileSystem1_FileSystem2_X}`\r\n+ The **challenge file** is same as that of **Heist** challenge.\r\n+ Flag is **Case Sensitive**\r\n\r\n**Challenge Author**: [g4rud4](https://twitter.com/_Nihith)",
+                "files": [],
+                "hints": [
+                    "How does Windows build timeline for user activity? Think again."
+                ],
+                "id": 18,
+                "name": "Heist Continues",
+                "points": 984,
+                "solves": 7
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "We have created a mini game to test your skills. Go grab the flag!!\r\n\r\n**authors :** careless_finch, malf0y",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "Alpha Pie",
+                "points": 100,
+                "solves": 58
+            },
+            {
+                "category": "Misc",
+                "description": "Presenting you, **blackStab Cloud Services** a secure VM provider which lets you spawn your own VMs on the cloud with your favorite OS (may it be Arch or even Windows)\r\n\r\nNote: On the occasion of inaguration, we're giving out 1000$ worth blackStab cloud credits for new users!!\r\n\r\n**Author:** [f4lc0n](https://twitter.com/theevilsyn)",
+                "files": [
+                    "/files/2a9b5919a6a4a50daf98ddd20aae477f/blackstab.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6NjN9.YRnjGQ.PLwVBythj8bO07DdPbcP-sdu-rY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 61,
+                "name": "blackStab Cloud Services",
+                "points": 1000,
+                "solves": 2
+            },
+            {
+                "category": "Misc",
+                "description": "Welcome to InCTFi 2021!\r\n\r\nTo get the flag, please grab it from **#general** in our discord: https://discord.gg/CZCYZNqC4B",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 43,
+                "name": "Sanity Check",
+                "points": 10,
+                "solves": 552
+            },
+            {
+                "category": "Misc",
+                "description": "Hope you had fun at our CTF! Thank you for your participation! It would be great if you could take a few minutes and fill out our feedback form\r\n\r\n[Form](https://forms.gle/2bJc2TnsNoZmhKug6)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 62,
+                "name": "Feedback",
+                "points": 0,
+                "solves": 14
+            }
+        ],
+        "Network Pentest": [
+            {
+                "category": "Network Pentest",
+                "description": "There's no guarantee, it's not up to me, you can only see.\r\n\r\n**Author:** [f4lc0n](https://twitter.com/theevilsyn)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 56,
+                "name": "Legacy",
+                "points": 993,
+                "solves": 5
+            },
+            {
+                "category": "Network Pentest",
+                "description": "The quieter you become, the more you are able to listen. \r\n\r\n**Author:** [f4lc0n](https://twitter.com/theevilsyn)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 54,
+                "name": "Listen",
+                "points": 100,
+                "solves": 69
+            },
+            {
+                "category": "Network Pentest",
+                "description": "Tell us about our naive [NAS](http://172.30.0.8:5000/) architecture :P\r\n\r\n**Authors:** [f4lc0n](https://twitter.com/theevilsyn),  [amr_bal](https://twitter.com/amr_bal)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 59,
+                "name": "Home Drive",
+                "points": 993,
+                "solves": 5
+            },
+            {
+                "category": "Network Pentest",
+                "description": "He sells linux shells on the shell store. \r\n\r\n**Author:** [f4lcon](https://twitter.com/theevilsyn)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 55,
+                "name": "Shell Boi",
+                "points": 956,
+                "solves": 11
+            }
+        ],
+        "Pwn": [
+            {
+                "category": "Pwn",
+                "description": "A long queue awaits you in ring0.\r\n\r\n**md5sum** : bzImage     -    `d7c173966e9fb6e79eaef8d351cb8f09`\r\n                             : kqueue.ko -   `702ab39064a7b4ee1d33f7c484eeb77a`\r\n\r\n**Author** - [Cyb0rG](https://twitter.com/_Cyb0rG)\r\n\r\n**username : password** - `ctf:kqueue`\r\n\r\n",
+                "files": [
+                    "/files/1559da2f50795704238422529a6ec1b6/Handout.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6NTB9.YRnjGg.gxFziBfMU_JQIjhtLX5f6dGxC_A"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 51,
+                "name": "Kqueue",
+                "points": 984,
+                "solves": 7
+            },
+            {
+                "category": "Pwn",
+                "description": "**Author:** [3agl3](https://twitter.com/3agl31)",
+                "files": [
+                    "/files/441c9d8e156b1f1f93ecbb5ee507384c/handout.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MTd9.YRnjGg.RWp9EEYZ68My1swhMj5bTqOgIoQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "Node Keeper",
+                "points": 925,
+                "solves": 14
+            },
+            {
+                "category": "Pwn",
+                "description": "You can now store two types of data in kernel.\r\n\r\n**Author:** [3agl3](https://twitter.com/3agl31)",
+                "files": [
+                    "/files/de1671a0c90e863c749327df36115030/handout.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MTZ9.YRnjGg.r2BIwcj6PO9o97LrDeJaOxbXx_M"
+                ],
+                "hints": [
+                    "Functions that may look irrelevant might have bigger affect than you think!"
+                ],
+                "id": 13,
+                "name": "MultiStorage",
+                "points": 1000,
+                "solves": 1
+            },
+            {
+                "category": "Pwn",
+                "description": "Someone's gotta stop those glibc nerds \r\n\r\nThe challenge runs the DEBUG build of jemalloc\r\n\r\n**Author** : [Pwn-Solo](https://twitter.com/Pwn_Solo)",
+                "files": [
+                    "/files/034fc91716da0397781ba168ecb0e67d/Handout.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MTV9.YRnjGg.wDKaYjxSQdxJf9U9mO8JJNr5wUc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "Ancient_House",
+                "points": 545,
+                "solves": 33
+            },
+            {
+                "category": "Pwn",
+                "description": "I decided that DFG wasn't fast enough.\r\n\r\n**Author**: [DarkKnight](https://twitter.com/_d4rkkn1gh7)",
+                "files": [
+                    "/files/59f626181c625b0197a866c2ef0240a0/DFGHandout.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MTF9.YRnjGg.gRlgnF0HoKpeAM0eC4iqtK963TI",
+                    "/files/f545590d56667a3e9dc612f6bcefcafe/DFGServer.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6NDJ9.YRnjGg.UXPM5tSUOtTIvj98tIX-3hLz7tw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 7,
+                "name": "DeadlyFastGraph",
+                "points": 996,
+                "solves": 4
+            },
+            {
+                "category": "Pwn",
+                "description": "Super secure path finder from your own 2017.\r\n\r\n**md5sum** : chall - `60aedc6cf9a7b163254cfc2ffea64c04`\r\n\r\n**Note** - Standard `ubuntu 20.04` docker has been used.\r\n\r\n**Author** - [Cyb0rG](https://twitter.com/_Cyb0rG)",
+                "files": [
+                    "/files/a8d55c5b9a37e310cece6c1e859fb49a/Handout.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6NTh9.YRnjGg.u-rfSdddLHBeCQuvojKak4BoyRE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 53,
+                "name": "Baby Glob",
+                "points": 993,
+                "solves": 5
+            }
+        ],
+        "Reverse": [
+            {
+                "category": "Reverse",
+                "description": "I noodes\r\n\r\n**Author:**\r\nr3x",
+                "files": [
+                    "/files/87316f83b907c7ffbf699e0e08d66596/ialert?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6NTZ9.YRnjGw.3jTN0WQrBoiyLd6XO9ydiBFnhi8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 48,
+                "name": "Noodes",
+                "points": 900,
+                "solves": 16
+            },
+            {
+                "category": "Reverse",
+                "description": "Senpai plis find me a way.\r\n\r\n**Author:**\r\nFreakston, silverf3lix",
+                "files": [
+                    "/files/a19ac4471cae349ba046bcf9a2dd8721/miz?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6Mjd9.YRnjGg.wQjr59zrRZGTTkg0I4GRiZ27ZI8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 38,
+                "name": "Miz",
+                "points": 723,
+                "solves": 26
+            },
+            {
+                "category": "Reverse",
+                "description": "Find pluto , and get your Reward !!\r\n\r\n**Author:**\r\n[bl4ck_Widw](https://twitter.com/N4m1th4_01)",
+                "files": [
+                    "/files/3a404362b1d1fe42f3b4d49cffb767e7/chall?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6NDF9.YRnjGg.hM8Nvtrpflnt620GSADnrnmfin4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 32,
+                "name": "find_plut0",
+                "points": 100,
+                "solves": 116
+            },
+            {
+                "category": "Reverse",
+                "description": "Enter the correct flag with flag format.\r\n\r\n**Author:**\r\nimm0rt4l_5t4rk\r\n",
+                "files": [
+                    "/files/b1585cc16ecd353a4bd7485f94f62ab5/flagchecker?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6NDh9.YRnjGw.uQRoqpgVC70U9QQflEUeCtb94Sk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 35,
+                "name": "flagchecker",
+                "points": 887,
+                "solves": 17
+            },
+            {
+                "category": "Reverse",
+                "description": "A lonely adventure of loney knight fighting mobs, there might be a secret in the end.\r\n\r\n**Author:**\r\n[fug1tive](https://twitter.com/fug1t1v31)",
+                "files": [
+                    "/files/a14e8046ffe80874a9a582759bcb7538/full_game.nes?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6NTd9.YRnjGg.9Mww46hApdqRjwuQkPIMDHx0v64"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 37,
+                "name": "Adventures of Lonely Knight (PART-1)",
+                "points": 936,
+                "solves": 13
+            },
+            {
+                "category": "Reverse",
+                "description": "Replication is the new thing.\r\n\r\n**Author:**\r\nk4iz3n",
+                "files": [
+                    "/files/ffdfc5c60064cf28baa1d730216c66f4/main_replica?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MjR9.YRnjGg.aXdVHYi4kv_zKS7S0M-iIq0eyro"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 34,
+                "name": "REplica",
+                "points": 723,
+                "solves": 26
+            }
+        ],
+        "Web": [
+            {
+                "category": "Web",
+                "description": "**Description:** Here's a nice web application to host your notes.\r\n\r\n**Links:** [Challenge](http://web.challenge.bi0s.in:5432/) |  [Bot](http://web.challenge.bi0s.in:1337)\r\n\r\n**Author:** [yadhu#2142](https://twitter.com/YadhuKrishna_)",
+                "files": [
+                    "/files/cc6c3599de8ced0fda0c9d046587ba3c/md-notes.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MjB9.YRnjGw.8FLh2clbFYxaXk6urjgo9aQrDsI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "MD Notes",
+                "points": 100,
+                "solves": 46
+            },
+            {
+                "category": "Web",
+                "description": "Our new recruit worked on our new super secure file store and i am pretty sure he is good at what he does,it looks awesome.\r\n**Backup link**:http://web.challenge.bi0s.in:6006/\r\n\r\n**Note**:Challenge will restart every 10 minutes\r\n\r\n**Author** : Sk4d00.sh, Rohit",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "Vuln Drive",
+                "points": 700,
+                "solves": 27
+            },
+            {
+                "category": "Web",
+                "description": "Welcome to JSON Analyser. Verify your role and get Subscription ID. Then start looking into your dump json file.\r\n\r\n**Note**: Deployment gets killed every 10 minutes.\r\n\r\n**Challenge Author**: Sayooj B Kumar#9588",
+                "files": [
+                    "/files/1cd2674cea94cf05ab505b7e76f43a6b/json_analyser.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MjJ9.YRnjGw.GGCXsaqIe9gvxfstMVyI6OPGrYQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "Json Analyser",
+                "points": 804,
+                "solves": 22
+            },
+            {
+                "category": "Web",
+                "description": "**Description:** Arthur Morgan was asked to retrieve an important article from Cornwall's computer. Help him steal it.\r\n\r\n**Links:** [Challenge](http://chall.notepad15.gq:1515) |  [Bot](http://web.challenge.bi0s.in:1337)\r\n\r\n**Author:** [Az3z3l#7404](https://twitter.com/Az3z3l)",
+                "files": [
+                    "/files/2ee0ce1b9d0aa0e787787d84c9e9785e/arthursarticle.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MTl9.YRnjGw.vn34-LuXzJMNgZzdTP3e2Evjvt8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 22,
+                "name": "Notepad 15 - Arthur's Article",
+                "points": 900,
+                "solves": 16
+            },
+            {
+                "category": "Web",
+                "description": "**Description:** Since Everything is going online i decided to make a easy Requests as a Service Bot To Make life easier, But i seem to have messed up oops!!!\r\n\r\n**Links:** [Challenge](http://web.challenge.bi0s.in:6969/) \r\n\r\n**Author:** [Capt-k](https://twitter.com/Captainkay11)",
+                "files": [
+                    "/files/ae05cf0b44931755ce4fe8b547dd7b3d/Dockerfile?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MzF9.YRnjGw.h8Vf32peSpU88jn-gSzc9tvtGco"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 45,
+                "name": "Raas",
+                "points": 100,
+                "solves": 73
+            },
+            {
+                "category": "Web",
+                "description": "**Description:** \"Years ago, when I was backpacking across Western Europe, I was just outside of Barcelona, hiking in the foothills of Mount Tibidabo. I was at the end of this path, and I came to a clearing, and there was a lake, very secluded, and there were tall trees all around. It was dead silent. Gorgeous. And across the lake, I saw a beautiful woman bathing herself. But she was crying...\". There is a rumor that the rest of the story is on this website. Help Ken Adams uncover it.\r\n\r\n**Links:** [Challenge](https://chall.notepad2.gq) |  [Bot](http://web.challenge.bi0s.in:1337)\r\n\r\n**Author:** [Az3z3l](https://twitter.com/Az3z3l)",
+                "files": [
+                    "/files/70b72d58083dc1ad85038a621dffae76/kenschronicle.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6NjB9.YRnjGw.OUTLjm2FjsDtWNub2z_MOPuRS-s"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 23,
+                "name": "Notepad 2 - Ken's Chronicle",
+                "points": 925,
+                "solves": 14
+            },
+            {
+                "category": "Web",
+                "description": "**Description:** Janet Snakehole, the rich aristocratic widow with a terrible secret, is being investigated by the FBI's number 1, Burt Tyrannosaurus Macklin. Burt found a website that she visits often. See if you can find anything.\r\n\r\n**Links:** [Challenge](http://chall.notepad1.gq:1111) |  [Bot](http://web.challenge.bi0s.in:1337)\r\n\r\n**Author:** [Az3z3l](https://twitter.com/Az3z3l)",
+                "files": [
+                    "/files/031e7077a62560dbbbf94e9654e89923/snakeholessecret.zip?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjIwMywiZmlsZV9pZCI6MTh9.YRnjGw.oSSnPkhvUtm7U5h50zgpkeNj99U"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 21,
+                "name": "Notepad 1 - Snakehole's Secret",
+                "points": 823,
+                "solves": 21
+            }
+        ]
+    },
+    "title": "InCTFi",
+    "url": "https://ctf.bi0s.in"
+}

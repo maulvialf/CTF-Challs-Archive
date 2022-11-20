@@ -1,0 +1,10 @@
+version: '3'
+services:
+  pwn3:
+    image: pwn3
+    container_name: pwn3
+    build:
+      context: .
+    ports:
+      - '22223:5000'
+    restart: always

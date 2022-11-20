@@ -1,0 +1,74 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<section class="search-banner bg-success text-white py-5" id="search-banner">
+    <div class="container py-5 my-5">
+    <div class="row text-center pb-4">
+        <div class="col-md-12">
+            <h2>Fetch all you want</h2>
+            <button type="submit" class="btn btn-dark" onclick="location.href='/flag';">Flag</button>
+        </div>
+    </div>   
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+              <form action="/fetch" method="POST">
+                <div class="card-body">
+                    <div class="row">
+                <div class="col-md-2">
+                    <div class="form-group ">
+                          <select id="inputState" class="form-control" name="is_https">
+                            <option valeue="" selected>Select Protocol</option>
+                            <option value="0">http</option>
+                            <option value="1">https</option>
+                          </select>
+                        </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="host" id="host" aria-describedby="" value="" placeholder="Domain/IP">
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="port" id="port" aria-describedby="" placeholder="Port (optional)">
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="path" id="path" aria-describedby="" placeholder="URL Path (Ex : /xxx)">
+                  </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group ">
+                          <select id="inputState" class="form-control" name="method">
+                            <option selected>Select Method</option>
+                            <option value="GET">GET</option>
+                            <option value="HEAD">HEAD</option>
+                            <option value="POST">POST</option>
+                          </select>
+                        </div>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-dark">Fetch</button>
+                </div>
+              </form>
+            </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <br><br>
+    <div class="row text-center pb-4">
+      <div class="col-md-12">
+          <p>
+            {{ content }}  
+          </p>
+      </div>
+  </div>  
+
+</div>
+</section>

@@ -1,0 +1,12 @@
+{
+    "name": "cacadosman/app",
+    "authors": [
+        {
+            "name": "cacadosman",
+            "email": "wetmanz23@gmail.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.8"
+    }
+}

