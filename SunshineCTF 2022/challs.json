@@ -1,0 +1,318 @@
+{
+    "data": {
+        "Crypto": [
+            {
+                "category": "Crypto",
+                "description": "My friend doesn't trust \"galois fields\" and thinks AES has a backdoor in its sboxes, so he made his own to use. \r\n\r\nAuthor: ratman",
+                "files": [
+                    "/files/c72fc599921f095acd4408a9460dbd07/aeschall.py?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUxMCwiZmlsZV9pZCI6NX0.Y3mCeA.MGVr2fVFdaHfEkg_ZReXEiHZlpY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "AESChall",
+                "points": 200,
+                "solves": 5
+            },
+            {
+                "category": "Crypto",
+                "description": "Our researchers at CoolCryptoGames have been designing a new encoding algorithm for our Korean customers that is just as efficient as plain ol' text. However, they kind-of forgot how to decode their own algorithm, so can you help them decrypt this so they can patent it?\r\n\r\n```\r\n\uac73\uac75\uac6e\uac7b\uac62\uac34\uac73\uac33\uac5f\uac31\uac32\uac38\uac5f\uac31\uac35\uac5f\uac62\uac31\uac74\uac5f\uac72\uac33\uac6d\uac34\uac70\uac70\uac31\uac6e\uac67\uac7d\r\n```",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "Exotic Bytes",
+                "points": 50,
+                "solves": 9
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "Come talk to one of the judges in the CTF room to get your team verified as competing in-person!",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 6,
+                "name": "In-Person Verification",
+                "points": 0,
+                "solves": 6
+            },
+            {
+                "category": "Misc",
+                "description": "Ha! You thought I was going to say matrix, didn't you?\r\n\r\nCheck out the topic of #announcements for this flag",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 2,
+                "name": "Matr I mean Discord",
+                "points": 2,
+                "solves": 189
+            },
+            {
+                "category": "Misc",
+                "description": "Submit this flag to prove your existence: `sun{here}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "Roll Call",
+                "points": 1,
+                "solves": 231
+            },
+            {
+                "category": "Misc",
+                "description": "A friend of mine accidentially ripped this fancy-new JPEG file of mine in half, and I need help recovering the super-secret cheat code contained within. Do you think you can help out?",
+                "files": [
+                    "/files/1d6ab75f48c4277672961fc57010e16a/half.jxl?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUxMCwiZmlsZV9pZCI6N30.Y3mCeA.X0-u5KKgY3i2Rm3qA0QZcbzCImk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "Half a JXL",
+                "points": 250,
+                "solves": 4
+            }
+        ],
+        "Pegasus": [
+            {
+                "category": "Pegasus",
+                "description": "You manage to connect to the JTAG interface of the console! However, the\r\ndebug interface provided over JTAG is partially locked down and only\r\nprovides non-intrusive debugging capabilities. Maybe that will be enough\r\nto bypass the password protection on the device?\r\n\r\n-----\r\n\r\n### Note:\r\n\r\nThere are intentionally no files delivered as part of this challenge. You\r\nneed to use the interactive debugger to solve it.\r\n\r\nYou can connect to this challenge over SSH for an enhanced interactive\r\ndebugging experience with tab-completion, arrow keys, suggestions, etc.\r\nThe debugger is also available over a standard TCP socket, which may be\r\neasier to use from a script. After connecting to the debugger (either SSH\r\nor plain TCP), you then connect to another port from a second terminal to\r\naccess the program's I/O. That is, you'll have one terminal window connected\r\nto the debugger, and another connected to the program's stdin/stdout.\r\n\r\n### 1A. Connect to debugger (enhanced SSH version)\r\n\r\n```\r\nssh -o StrictHostKeyChecking=no -p 22702 peg-debug@sunshinectf.games\r\n```\r\n\r\n### 1B. Connect to debugger (plain TCP version)\r\n\r\n```\r\nnc sunshinectf.games 22701\r\n```\r\n\r\n### 2. Connect to program I/O (in another terminal)\r\n\r\n```\r\nnc sunshinectf.games 22700\r\n```\r\n\r\nThen, paste the PEGASUS debug session ID that the debugger connection printed.\r\n\r\nAuthor: kcolley",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "PEG_DEBUG",
+                "points": 200,
+                "solves": 11
+            },
+            {
+                "category": "Pegasus",
+                "description": "It's been two years since you found a strange \"PEGASUS\" computerized device in\r\nyour parents' garage. Yet now, right in front of you, appears to be an upgraded\r\nmodel of the PEGASUS computer! Why not pop in the first cartridge you find and\r\nsee what happens?\r\n\r\n=====\r\n\r\nPEGASUS file for this challenge\r\n* [gimme.peg](https://sunshinectf.games/83b299b5cb51/gimme.peg)\r\n\r\nCore PEGASUS v2 files:\r\n* [libpegasus_ear.so](https://sunshinectf.games/76a1bc821aca/libpegasus_ear.so)\r\n* [runpeg](https://sunshinectf.games/76a1bc821aca/runpeg)\r\n* [submitpeg](https://sunshinectf.games/76a1bc821aca/submitpeg)\r\n\r\nDocumentation for v2:\r\n* [EAR_EAR_v2.md](https://sunshinectf.games/76a1bc821aca/EAR_EAR_v2.md)\r\n* [PEGASUS.md](https://sunshinectf.games/76a1bc821aca/PEGASUS.md)\r\n\r\nHow to run a PEGASUS file:\r\n\r\n`runpeg <file.peg> [--debug] [--verbose] [--trace]`\r\n\r\nAuthor: kcolley",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 7,
+                "name": "PEG_GIMME",
+                "points": 10,
+                "solves": 73
+            },
+            {
+                "category": "Pegasus",
+                "description": "Now you need to connect this console to the internet to see if it can talk to the old game services! Unfortunately, because it's such an old device, you need to help it figure out how to route its way through the Internet (basically a series of tubes) to reach your ISP. Oh, and also, your ISP uses advanced network security that automatically randomizes the path of connection packets every 30 seconds! Can you get this old console connected through all 5 network hops needed to achieve Internet access before the paths are randomized again? It might be difficult with no pixels to look at...\r\n\r\n=====\r\n\r\n`nc sunshinectf.games 22703`\r\n\r\n* [peg_autorev_checker.so](https://sunshinectf.games/b59fa4288309/peg_autorev_checker.so)\r\n\r\nAuthor: kcolley",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "PEG_AUTOREV",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Pegasus",
+                "description": ">Silicon Bridge is the classic thrilling game of chance! All you need to do is cross the bridge that's made up of two rows of silicon tiles. But be careful! At each step, one of the two silicon tiles will not support your weight! Can you make it to the end?\r\n\r\nThat's what the description on this game cartridge says, but Silicon Bridge seems impossible. Maybe there's some way to cheat?\r\n\r\n=====\r\n\r\nRun locally:\r\n```\r\necho 'sun{fake_local_flag}' > flag.txt\r\nrunpeg --plugin peg_cheat_checker.so SiliconBridge.peg [--debug] [--verbose] [--trace]\r\n```\r\n\r\nRun on the challenge server:\r\n```\r\nnc sunshinectf.games 22704\r\n```\r\n\r\nPegasus program:\r\n* [SiliconBridge.peg](https://sunshinectf.games/21478ecf6429/SiliconBridge.peg)\r\n\r\nChecker module for runpeg, just allows accessing a `flag.txt` file by reading from port 0xF (for Flag, get it?):\r\n* [peg_cheat_checker.so](https://sunshinectf.games/21478ecf6429/peg_cheat_checker.so)\r\n\r\nAuthor: kcolley",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "PEG_CHEAT",
+                "points": 300,
+                "solves": 1
+            }
+        ],
+        "Pwn": [
+            {
+                "category": "Pwn",
+                "description": "Step right up and compete to improve your ~~guessing~~ CTF skills!\r\n\r\n`nc sunshinectf.games 22000`\r\n\r\n* [ctf-simulator](https://sunshinectf.games/260da6f98fbe/ctf-simulator)\r\n\r\nAuthor: kcolley",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "CTF Simulator",
+                "points": 100,
+                "solves": 40
+            },
+            {
+                "category": "Pwn",
+                "description": "I've heard of brilliant chess players exploiting en passant before, but this is something else!\r\n\r\n`nc sunshinectf.games 22001`\r\n\r\n* [chessfen](https://sunshinectf.games/d9bd95296eaa/fen)\r\n\r\nAuthor: kcolley",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "ChessFEN",
+                "points": 300,
+                "solves": 1
+            },
+            {
+                "category": "Pwn",
+                "description": "Even as a lite version, Elden RIIng is too hard :( can you beat it for me so I can become the Elden Lard? \r\n\r\nChallenge sponsored by Research Innovations, Inc. (RII)\r\n\r\n`nc sunshinectf.games 22003`\r\n\r\n* [EldenRIIngLite](https://sunshinectf.games/f676ec2b2bc3/EldenRIIngLite)\r\n* [EldenRIIngLite-libc.so](https://sunshinectf.games/f676ec2b2bc3/EldenRIIngLite-libc.so)\r\n* [ld-2.31.so](https://sunshinectf.games/f676ec2b2bc3/ld-2.31.so)\r\n\r\nAuthor: Z1pburg3r",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 22,
+                "name": "[RII] EldenRIIngLite",
+                "points": 300,
+                "solves": 3
+            },
+            {
+                "category": "Pwn",
+                "description": "Can you slither your way to a shell? Give it a go [here](https://wargames.ret2.systems/ctf/5cbe29ac9494938d1c5331826fbb9f22/sunshinectf2022_snake)\r\n\r\nAuthor: pernicious, [RET2 Systems](https://ret2.io)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "[RET2] Snake",
+                "points": 400,
+                "solves": 0
+            },
+            {
+                "category": "Pwn",
+                "description": "Who needs to debate MTG Arena vs MTG Online when you have Simplified Magic the GatheRIIng? None of the complexity, all of the pwnable fun.\r\n\r\nChallenge sponsored by Research Innovations, Inc. (RII)\r\n\r\n`nc sunshinectf.games 22002`\r\n\r\n* [MagicTheGatheRIIng](https://sunshinectf.games/18697a6a916b/MagicTheGatheRIIng)\r\n* [MagicTheGatheRIIng-libc.so](https://sunshinectf.games/18697a6a916b/MagicTheGatheRIIng-libc.so)\r\n\r\nAuthor: crandyman\r\n \r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "[RII] Magic the GatheRIIng",
+                "points": 400,
+                "solves": 1
+            }
+        ],
+        "Re": [
+            {
+                "category": "Re",
+                "description": "Hey, I found this weird game that is password-protected. I think it's a plumbing-themed platformer, but I'm unsure. Do you mind looking for the password for me? My schedule's kinda packed and I want to play later.",
+                "files": [
+                    "/files/13fe56b3800b6d7124df0e2d5f3a77e9/plumber_game?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUxMCwiZmlsZV9pZCI6Nn0.Y3mCeA.Vh68cfUwIZ8VD2ovOcNTTXv9FgQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "Lets-a-Go!",
+                "points": 100,
+                "solves": 39
+            },
+            {
+                "category": "Re",
+                "description": "Here at Chompy Game Studios, we have developed a brand-new byte ordering scheme: middle endian! This transformative scheme will surely impress our shareholders! Can you reveal the secret contained within?\r\n\r\n*(Special thanks to Oreomeister for the concept)*",
+                "files": [
+                    "/files/ab2ef4ff506a58396a3779f27c175d6d/flag.png.me?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUxMCwiZmlsZV9pZCI6OX0.Y3mCeA.W3s94xrqYkPWfqaNYcEgjJCvuDI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 24,
+                "name": "MiddleEndian",
+                "points": 150,
+                "solves": 0
+            }
+        ],
+        "Scripting": [
+            {
+                "category": "Scripting",
+                "description": "# PredictorProgrammer\r\n## Take that, friends and siblings!\r\n\r\nHave you ever played \"Guess the Number?\"\r\n\r\nYou know, \"I'm thinking of a number from 1 to X, where X is a non-real number with some imaginary parts and could be transcendental but not e or pi?\"\r\n\r\nNo? Gee I must have weird friends.\r\n\r\nWhat about \"I'm thinking of a number from 1 to 10?\"\r\n\r\nOh? You have?\r\n\r\nWell have I got a challenge for you!\r\n\r\nLast year, I procrastinated my security system, and took security in the challenge to the cliff of failure.\r\n\r\nHeh heh, turns out eval wasn't safe to use... ever.\r\n\r\nThis year we take one step further! *_Minus the whole \"user sends executable code to us that we then use python to execute,\" and all. That was a **minor** mistake._\r\n\r\nVisit `nc predictor.sunshinectf.games 22201`, and play a game of predicting the future!\r\n\r\nBut don't worry that this game will get old! The flags in this game are split into three kingdoms, with one flag in each... you'll never find them all! And since it's random, no two games will ever be alike!\r\n\r\nFlag will be given by our backend in the standard `sun{}` format!\r\n\r\n## Notes\r\n\r\nI am not unreasonable.\r\n\r\nAll I ask is you predict the future with 100% accuracy.\r\n\r\nThat's hard, that's why I give you a couple chances to get it wrong.\r\n\r\nOnce you get a few numbers I feel you'll get the hang of it.\r\n\r\nJust don't use the previous numbers to predict the state of the RNG, that would totally not be predicting the future, as the state is set from the start, so you'd be predicting the past! And it would _ruin_ the whole concept of this challenge and make it an exercise in math and googling how to break linear congruential generators! That's super boring, this is _strictly_ about predicting the future, which is fun!\r\n\r\n## Example Usages\r\n\r\n\"Hi, I'm thinking of a number from 1 to 31\"\r\n```python\r\n7\r\n```\r\nWrong. I was thinking of 17. You must not be from Florida!\r\n\r\n...\r\n\r\n\r\n8\r\nCorrect! You've guessed 3 numbers correctly, and have 1 life left! Only 16 more correct answers left to guess!\r\n\r\nNote: In the future we may change the support structure if we find there's security issues with them.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 19,
+                "name": "PredictorProgrammer 1",
+                "points": 50,
+                "solves": 76
+            },
+            {
+                "category": "Scripting",
+                "description": "# PredictorProgrammer: Sequels are all the rage!\r\n## Take that, friends and siblings!\r\n\r\nWell pooh. I give up. This one is doable. Hints are same as before.\r\n\r\nAssuming I didn't do that I would need to give you a couple chances to get it right... But I expect you to have flawless perfection.\r\n\r\nFlag will be given by our backend in the standard `sun{}` format!\r\n\r\nVisit `nc predictor.sunshinectf.games 22203`, and play a game of predicting the ~~future~~ PAST!\r\n\r\n## Notes\r\n\r\nI am not unreasonable.\r\n\r\nAll I ask is you predict the PAST SEED with 100% accuracy.\r\n\r\nJust don't use the previous numbers to predict the PAST state of the RNG, that would totally not be predicting the future, as the state is set from the start, so you'd be predicting the PAST! And it would _ruin_ the whole concept of this challenge and make it an exercise in math and googling how to break linear congruential generators! That's super boring, this is _strictly_ about predicting the PAST, which is fun!\r\n\r\n## Example Usages\r\n\r\n\"Hi, I'm thinking of a number from 1 to 31\"\r\n```python\r\n7\r\n```\r\nWrong. Just wrong.\r\n\r\n...\r\n\r\n\r\nNote: In the PAST we may change the support structure if we find there's security issues with them.\r\nwait did I just find-replace future with PAST?",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 21,
+                "name": "PredictorProgrammer 3",
+                "points": 175,
+                "solves": 5
+            },
+            {
+                "category": "Scripting",
+                "description": "# PredictorProgrammer: Another Castle \ud83c\udff0\r\n## Take that, friends and siblings!\r\n\r\nThis TIME I have taken a different path.\r\n\r\nMy CLOCK tells me that you cannot guess the future, as you don't come from a future TIME period.\r\n\r\nI may have fixed the bug in the previous predictor challenge. Assuming there was a bug. Anyhow the bug has been censored.\r\n\r\nI would never use something so predictable as TIME to predict the future, the future is made of TIME so I would _never_ do such a thing...\r\n\r\nIt would only give you SECONDS... no... HUNDREDS of MICROSECONDS to figure out what the seed was.\r\n\r\nAssuming I didn't do that I would need to give you a couple chances to get it right... But I expect you to have flawless perfection.\r\n\r\nFlag will be given by our backend in the standard `sun{}` format!\r\n\r\nVisit `nc predictor.sunshinectf.games 22202`, and play a game of predicting the future!\r\n\r\n## Clarity\r\n### clarification 1\r\n@here for PredictorProgrammer 2, carefully read the description. Milliseconds would not be enough...\r\nKeep in mind what you learned from #1 though in regards to how linear congruential number generators work... do they keep producing the same seed?\r\n### clarification 2\r\n\"It would only give you SECONDS... no... HUNDREDS of MICROSECONDS to figure out what the seed was.\"\r\nAs you are given the unix timestamp in seconds, you will need to do more work than brute-forcing the seed. The challenge server will provide you enough information to correctly derive the next values in series every time.\r\nAlso note that just like challenge 1... challenge 2 will keep adjusting the LCRNG, as you would normally use an LCRNG. Thanks!\r\nChallenge 3 is much more straightforward. \ud83d\ude42\r\n### clarification 3\r\nThe state of the LCRNG is maintained for Programmer 2 during the connection.\r\n\r\n## Notes\r\n\r\nI am not unreasonable.\r\n\r\nAll I ask is you predict the future with 100% accuracy.\r\n\r\nThat's hard, that's why I give you a couple chances to get it wrong.\r\n\r\nOnce you get a few numbers I feel you'll get the hang of it.\r\n\r\nJust don't use the previous numbers to predict the state of the RNG, that would totally not be predicting the future, as the state is set from the start, so you'd be predicting the past! And it would _ruin_ the whole concept of this challenge and make it an exercise in math and googling how to break linear congruential generators! That's super boring, this is _strictly_ about predicting the future, which is fun!\r\n\r\n## Example Usages\r\n\r\n\"Hi, I'm thinking of a number from 1 to 31\"\r\n```python\r\n7\r\n```\r\nWrong. Too big! Guess again! You have 6 lives remaining!\r\n\r\n...\r\n\r\n\r\n8\r\nCorrect! You've guessed 3 numbers correctly, and have 1 life left! Only 16 more correct answers left to guess!\r\n\r\nNote: In the future we may change the support structure if we find there's security issues with them.",
+                "files": [
+                    "/files/7e5d54e97171537e75c9e6b7725aee1b/server-challenge-2.py?token=eyJ1c2VyX2lkIjo4NjEsInRlYW1faWQiOjUxMCwiZmlsZV9pZCI6OH0.Y3mCeA.eF_XoFJY9LIA7l1wjDmmGU3rQI0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "PredictorProgrammer 2",
+                "points": 150,
+                "solves": 5
+            }
+        ],
+        "Web": [
+            {
+                "category": "Web",
+                "description": "This one is simple! Just look where you might look at the cryptographic history of the sunshinectf.org domain! There's a Yeti in one and a Nimbus in another!\r\n\r\nFlag Format: `sun*endflag`\r\nexample: sun-this-is-the-flag-endflag\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "Transparency",
+                "points": 50,
+                "solves": 73
+            },
+            {
+                "category": "Web",
+                "description": "Introducing *Network Pong*: *Pong* for the Internet! In this game, you just ping random websites and try to get the lowest latency. It is protected with state-of-the-art anti-hacking techniques, so it should be *unhackable* according to our security team of well-trained monkeys and felines.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "Network Pong",
+                "points": 100,
+                "solves": 104
+            },
+            {
+                "category": "Web",
+                "description": "# DONT inspect-element\r\nOur education game servers are now secure.\r\n\r\nThey used to have flags on them, but we've made the website 100% secure now.\r\n\r\nAll malicious hackers are now instructed, do not use inspect element on this page.\r\n\r\nProblemo solved!\r\n\r\n## Website\r\nNavigate to our website: educashun-game.web.2022.sunshinectf.org/login.html and fetch what you need to fetch. 100% secure!",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "Inspect Element",
+                "points": 50,
+                "solves": 210
+            },
+            {
+                "category": "Web",
+                "description": "I've been on a real City Pop binge and thought I would share one of my favorite albums.\r\n\r\n### Comments added in Discord\r\nFor Timely! No off the shelf tools such as SqlMap should be necessary. If possible please refrain from using these tools as they cause unneeded load on the web server \ud83d\ude04 \r\nAs I realize the above might be confusing. It does require smart bruteforcing, however it does not require the use of SqlMap or dumb bruteforcing tools.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 23,
+                "name": "Timely!",
+                "points": 100,
+                "solves": 3
+            }
+        ]
+    },
+    "title": "SunshineCTF 2022",
+    "url": "https://2022.sunshinectf.org"
+}

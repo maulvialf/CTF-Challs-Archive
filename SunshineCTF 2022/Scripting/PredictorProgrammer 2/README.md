@@ -1,0 +1,15 @@
+# PredictorProgrammer 2 [150 pts]
+
+**Category:** Scripting
+**Solves:** 5
+
+## Description
+># PredictorProgrammer: Another Castle \xf0\x9f\x8f\xb0\r\n## Take that, friends and siblings!\r\n\r\nThis TIME I have taken a different path.\r\n\r\nMy CLOCK tells me that you cannot guess the future, as you don\t come from a future TIME period.\r\n\r\nI may have fixed the bug in the previous predictor challenge. Assuming there was a bug. Anyhow the bug has been censored.\r\n\r\nI would never use something so predictable as TIME to predict the future, the future is made of TIME so I would _never_ do such a thing...\r\n\r\nIt would only give you SECONDS... no... HUNDREDS of MICROSECONDS to figure out what the seed was.\r\n\r\nAssuming I didn\t do that I would need to give you a couple chances to get it right... But I expect you to have flawless perfection.\r\n\r\nFlag will be given by our backend in the standard `sun{}` format!\r\n\r\nVisit `nc predictor.sunshinectf.games 22202`, and play a game of predicting the future!\r\n\r\n## Clarity\r\n### clarification 1\r\n@here for PredictorProgrammer 2, carefully read the description. Milliseconds would not be enough...\r\nKeep in mind what you learned from #1 though in regards to how linear congruential number generators work... do they keep producing the same seed?\r\n### clarification 2\r\n"It would only give you SECONDS... no... HUNDREDS of MICROSECONDS to figure out what the seed was."\r\nAs you are given the unix timestamp in seconds, you will need to do more work than brute-forcing the seed. The challenge server will provide you enough information to correctly derive the next values in series every time.\r\nAlso note that just like challenge 1... challenge 2 will keep adjusting the LCRNG, as you would normally use an LCRNG. Thanks!\r\nChallenge 3 is much more straightforward. \xf0\x9f\x99\x82\r\n### clarification 3\r\nThe state of the LCRNG is maintained for Programmer 2 during the connection.\r\n\r\n## Notes\r\n\r\nI am not unreasonable.\r\n\r\nAll I ask is you predict the future with 100% accuracy.\r\n\r\nThat\s hard, that\s why I give you a couple chances to get it wrong.\r\n\r\nOnce you get a few numbers I feel you\ll get the hang of it.\r\n\r\nJust don\t use the previous numbers to predict the state of the RNG, that would totally not be predicting the future, as the state is set from the start, so you\d be predicting the past! And it would _ruin_ the whole concept of this challenge and make it an exercise in math and googling how to break linear congruential generators! That\s super boring, this is _strictly_ about predicting the future, which is fun!\r\n\r\n## Example Usages\r\n\r\n"Hi, I\m thinking of a number from 1 to 31"\r\n```python\r\n7\r\n```\r\nWrong. Too big! Guess again! You have 6 lives remaining!\r\n\r\n...\r\n\r\n\r\n8\r\nCorrect! You\ve guessed 3 numbers correctly, and have 1 life left! Only 16 more correct answers left to guess!\r\n\r\nNote: In the future we may change the support structure if we find there\s security issues with them.
+
+**Hint**
+* -
+
+## Solution
+
+### Flag
+
