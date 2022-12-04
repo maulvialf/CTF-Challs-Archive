@@ -1,0 +1,346 @@
+{
+    "data": {
+        "Cryptography": [
+            {
+                "category": "Cryptography",
+                "description": "Even contract with the devil require your digital signature.\r\n\r\nAuthor: merricx\r\n\r\n`nc 167.172.88.66 33303`",
+                "files": [
+                    "/files/1f66e7c20580adfc42324b9515cf187c/challenge.py?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjMyfQ.Y4vjVA.GQJ6yXox_dTxDWXGe0wKQOkMm5o"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "Faustian",
+                "points": 962,
+                "solves": 7
+            },
+            {
+                "category": "Cryptography",
+                "description": "Yet another cool theorem but noisy://\r\n\r\nAuthor: deomkicer\r\n\r\n`nc 167.172.88.66 33302`",
+                "files": [
+                    "/files/57720f1e25dfebe50de1c4f1b6947c71/server.py?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjM2fQ.Y4vjVQ.9H4YBQtyDqMrr01tPwoadCEaN4w"
+                ],
+                "hints": [
+                    "`theorem(x, y, key) == crt([x, y], [key.p, key.q])`"
+                ],
+                "id": 23,
+                "name": "Noisy Theorem",
+                "points": 1000,
+                "solves": 1
+            },
+            {
+                "category": "Cryptography",
+                "description": "Once upon a time, there were 4 higher beings that stood as the world fundamental. But right now, one of them was (partially) missing.\r\n\r\n_NOTE: This is pure AES challenge. There is no intended vulnerability on `aes.py` file_\r\n\r\nAuthor: merricx\r\n\r\n`nc 167.172.88.66 33304`",
+                "files": [
+                    "/files/50fcb8b51193e0ee47ef67fca65761e8/aes.py?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjMzfQ.Y4vjVQ.aOBZ9w-UZvvI9csKlQdzYZvQGW8",
+                    "/files/f75bee542895ae9d8811ad559a8fd703/challenge.py?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjM0fQ.Y4vjVQ.e8DdGp7gzzY8ez2VXx2SbbiQy2g"
+                ],
+                "hints": [
+                    "Actually, you can \"skip\" some round. Differential and MitM are your friends.",
+                    "Multiple path, multiple solution.\n\n* CELESTIAL: google/stackoverflow may help you\n* DIVINE: mostly come from **iacr**\n* GODMASTER: just ignore this, unless you have no life"
+                ],
+                "id": 21,
+                "name": "Pantheon",
+                "points": 1000,
+                "solves": 0
+            },
+            {
+                "category": "Cryptography",
+                "description": "I'm trying to implement RSA using [pycryptodome](https://pycryptodome.readthedocs.io/) but somehow I often get different values for the private key. Can you help me debug my code?\r\n\r\nAuthor: deomkicer\r\n\r\n`nc 167.172.88.66 33301`",
+                "files": [
+                    "/files/97c17ebde784929efde633f0f130678e/server.py?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjM1fQ.Y4vjVQ.QWxQB0WhsDlP9qjehpAGGzQEpqA"
+                ],
+                "hints": [
+                    "You dont need to use LLL or coppersmith"
+                ],
+                "id": 22,
+                "name": "Friends with Errors",
+                "points": 993,
+                "solves": 4
+            }
+        ],
+        "Forensic": [
+            {
+                "category": "Forensic",
+                "description": "Someone handed me a paper-like document. A man had said that there's something beneath it. He also said that the creator of the document didn't really care about its security, so that he ended up using a mere random number password in the process.",
+                "files": [
+                    "/files/d497a4bcc1c912bedfc23058051e083a/paper_slide.pdf?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjM3fQ.Y4vjVQ.GA8P-BM97x5M-cUiSNZCyTE-2Fw"
+                ],
+                "hints": [
+                    "I felt that there's something off about this document, to the point that the PDF objects can't be rendered properly, including the decryption process. This thing happened, after he decided to nullify all of the document's catalog where the page resides",
+                    "He secretly said there're two kinds of password, which are password of pages and an old archive. Each of them were considered to be different. To be precise, the old archive password is not crackable, but can only be obtained after decrypting the pages",
+                    "Do you know that a PDF page can be `overrided` over and over again in a simple manner? This term is applies to this document. The creator thought that it would be nice to fit all of things into a `single page`"
+                ],
+                "id": 24,
+                "name": "Paper Slide",
+                "points": 1000,
+                "solves": 0
+            },
+            {
+                "category": "Forensic",
+                "description": "Lately, I've been playing around with some multiple devices. It went well, but there was something bothered me. It was a bit painful to manage those at once, especially with GUI. Fortunately, it can be solved using a commonly-used yet sluggish protocol\r\n\r\n",
+                "files": [
+                    "/files/4605688b3d5e2453b7f71b728f29b4e5/virtual_space.tar.xz?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjM5fQ.Y4vjVQ.NtX_1_OVVHCS_IUyWySo5SZLI3c"
+                ],
+                "hints": [
+                    "Inspite of being commonly-used, I decided to use an `uncommon port` to serve it"
+                ],
+                "id": 26,
+                "name": "Virtual Space",
+                "points": 1000,
+                "solves": 1
+            },
+            {
+                "category": "Forensic",
+                "description": "It was story of irrational-looking guy who was captivated by the magic of version control. Long story short, he made something vague by mixing two terms at once. Sure enough it was chaotic, but somehow it was barely worked. Could you figure it out?\r\n\r\n",
+                "files": [
+                    "/files/ccd93ff3e0434ad30c0d18aa764598c7/version_control.tar.xz?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjM4fQ.Y4vjVQ.bX8gQ8-MLWtUGU4QwcZDRbH4bfo"
+                ],
+                "hints": [
+                    "I hate to say this, but `Wireshark` isn't fully capable of decrypting SSL/TLS. It's like there're some cases whereas it couldn't identify the packet properly",
+                    "Here's some trivia, `FTP-DATA` port are mostly random for each of different sessions. Thus made the `Wireshark` failed to decrypt the SSL/TLS packet"
+                ],
+                "id": 25,
+                "name": "Version Control",
+                "points": 1000,
+                "solves": 1
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "Siti mendapatkan file gambar yang ternyata berupa gambar garis bergaris menjadi satu.\r\n\r\nKawan2 dapat membantu siti apakah terdapat pesan tersembunyi di balik gambar tersebut.\r\n\r\nAuthor: KangGorengan",
+                "files": [
+                    "/files/f05e57082fe870b580a3f34a9c7a2528/ImageNation.png?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjIxfQ.Y4vjVQ.ZHqvoQDXFYQSKsL3IHqjOGg3Udw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 7,
+                "name": "Your ImageNation",
+                "points": 300,
+                "solves": 125
+            }
+        ],
+        "Pwn": [
+            {
+                "category": "Pwn",
+                "description": "gatau masukin apa kesini\r\n\r\ngood luck aja deh\r\n\r\nchallenge di build pake ubuntu 22.04 latest, jadi kalo ada salah offset dsb silakan build di local\r\n\r\nAuthor: Zafirr",
+                "files": [
+                    "/files/820f662b0a53cb99eeeb9758dadb59e9/inui-toko.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI1fQ.Y4vjVQ.L_bXf8wFjMKjV07vok-eGAY31AU"
+                ],
+                "hints": [
+                    "randomizernya: https://www.geeksforgeeks.org/stdmt19937-class-in-cpp/\n\nchecksum disimpan di loker tapi ada off by one keknya\n\npartial relro + no pie, you know what to do :eyes:",
+                    "overwrite got nya gak sekali, tapi 2 kali!!!!! :scream: :scream: :scream:",
+                    "change delete to call the plt of another function. \nchange that other function to system\ncall delete\nprofit"
+                ],
+                "id": 12,
+                "name": "Inui Toko",
+                "points": 1000,
+                "solves": 0
+            },
+            {
+                "category": "Pwn",
+                "description": "Aqua isnt a baby, but this challenge definitely is (dijamin tidak sesusah soal stack compfest final dan gemastik :YEP:)\r\n\r\nAuthor: Zafirr",
+                "files": [
+                    "/files/350d4a358329ddb35a48cd04f0c0578b/minato-aqua.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjIzfQ.Y4vjVQ.u7aIVZgkMTiZit6vwWAgmwxAC8w"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "Minato Aqua",
+                "points": 657,
+                "solves": 19
+            },
+            {
+                "category": "Pwn",
+                "description": "met.ko(mori) \r\n\r\nbadum tss\r\n\r\n(laugh please)\r\n\r\nAuthor: Zafirr",
+                "files": [
+                    "/files/65d4b5937d8a33f39c1fbe58d6b800d7/komori-met.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI3fQ.Y4vjVA.oxeMHvNwmS97DD1wB-VWaKswveo"
+                ],
+                "hints": [
+                    "1. theres no difference between copy_from_user, \\_copy_from_user and raw_copy_from_user right?\n\n2. ever heard of struct pt_regs?",
+                    "pt_regs is saved in the stack\n\noverflownya cuma 1 word, tapi kalo bisa kita ganti isi pt_regs mungkin bisa lompat kesitu...."
+                ],
+                "id": 14,
+                "name": "Komori Met",
+                "points": 1000,
+                "solves": 0
+            },
+            {
+                "category": "Pwn",
+                "description": "#963fam\r\n\r\nTerima kasih kepada Piers#5817 yang bantu tes challenge ini\r\n\r\ndisarankan menggunakan Dockerfile yang tersedia untuk membuat exploit\r\n\r\nAuthor: Zafirr",
+                "files": [
+                    "/files/e365136be7447485e10d9cd343e656dc/kurumi-noah.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjQwfQ.Y4vjVQ.YqWJiXcRBc-9k38YPimOtMizgxk"
+                ],
+                "hints": [
+                    "liveoverflow said to use fd's to prevent race conditions, my code is safe from those now right???  ^_^"
+                ],
+                "id": 19,
+                "name": "Kurumi Noah",
+                "points": 1000,
+                "solves": 0
+            }
+        ],
+        "Reverse Engineering": [
+            {
+                "category": "Reverse Engineering",
+                "description": "Slamet mendapatkan file yang berisi pesan dari Joko, tetapi sebelum membaca pesan tersebut si Slamet harus mendapatkan Kode terlebih dahulu.\r\n\r\nBantu si Slamet mendapatkan isi pesan dari Joko ya kawan2.\r\n\r\nAuthor: KangGorengan",
+                "files": [
+                    "/files/4d8096203f1cd06eb0f2751ed3216996/Sekr3T?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE5fQ.Y4vjVQ.rZoEz-WfTOU-kxfXCfzDyfwSdCA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "Sekr3T Message",
+                "points": 300,
+                "solves": 89
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Intro Bois\r\n\r\nAuthor: lunashci",
+                "files": [
+                    "/files/ac2b587eaf56d9e66e89354c02913682/babyrev?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE2fQ.Y4vjVQ.Tq48SuZoh7n5AjJtM8TaYD3y7rc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "BabyRev",
+                "points": 300,
+                "solves": 83
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "deep down der\r\n\r\nAuthor: vidner",
+                "files": [
+                    "/files/b577f4ce21568f9a3f55cb088f693f3b/ddd.exe?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI5fQ.Y4vjVg.Id5JJGs55OAvcHyT13Gse1hNUMs"
+                ],
+                "hints": [
+                    "Sort the function by the length of the code might help, thank me later.",
+                    "DDD ? 3D ? Whats rhyme with 3D ? Maze \ndump it, solve it, sabmit\n"
+                ],
+                "id": 17,
+                "name": "DDD",
+                "points": 1000,
+                "solves": 0
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Grown up BabyRev\r\n\r\nAuthor: lunashci",
+                "files": [
+                    "/files/955ef1d399f09036bed42fc84bf25c8f/chall.pyc?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjIyfQ.Y4vjVg.ks7GJbiGX6N4_9OdZIMgy0KpVu8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "TeenRev",
+                "points": 776,
+                "solves": 17
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "you like flag, i like flag, everybody like flag\r\n\r\nAuthor: vidner",
+                "files": [
+                    "/files/c7eba538b1ba5ab4afb7e701fede2688/flag-viewer?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI4fQ.Y4vjVg.QGFMclERxp2kKSSnT55ZUYL0XgI"
+                ],
+                "hints": [
+                    "Maybe you already know this but, It's open source https://github.com/tauri-apps/tauri",
+                    "How tauri store its assets ?\nCTRL + F or grep an interesting keyword might help."
+                ],
+                "id": 15,
+                "name": "Flag Viewer",
+                "points": 1000,
+                "solves": 1
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Zip password: ransomware\r\n\r\nAuthor: lunashci\r\n\r\nHotel: Trivago",
+                "files": [
+                    "/files/838fb4c39564878064143fda099e10e1/release.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjMwfQ.Y4vjVg.P0r2Vbh-Py9FFQ-lw7jyzNDpNHg"
+                ],
+                "hints": [
+                    "Find a way to extract the seed"
+                ],
+                "id": 18,
+                "name": "Raware",
+                "points": 1000,
+                "solves": 1
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Alif seorang yang sedang viral dengan slogan \"Kamu Nanya\" mendapatkan pesan yang misterius, Karena pesan tersebut terdapat di beberapa file yang begitu banyak.\r\n\r\nBisakah kawan2 dapat membantu si Alif dengan memecahkan apa isi pesan tersembunyi di file tersebut?\r\n\r\nAuthor: KangGorengan",
+                "files": [
+                    "/files/f87d7a128c0c1751cb2c626e4ff9e8dd/bertanya.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjIwfQ.Y4vjVg.k5582vU8Hg6O9r2r3Y344Hgjduk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "Kamu Nanya",
+                "points": 300,
+                "solves": 41
+            }
+        ],
+        "Web": [
+            {
+                "category": "Web",
+                "description": "Huh ASCII??? Yowai Mo!!!\r\n\r\n<img src=\"https://imgx.sonora.id/crop/0x0:0x0/x/photo/2022/10/13/rsz-1rsz-gojo-arrives-late-anime-20221013031428.jpg\" width=\"200px\">\r\n\r\nhttp://167.172.80.90:10971/index.php\r\n\r\nAuthor: cacadosman\r\n\r\n<img src=\"https://external-preview.redd.it/48cN9tCmJBw-IcO2yoGtPnAFe9A5mVPLrvHqC2Usq0w.png?width=640&crop=smart&auto=webp&s=490477a275e30474565c1b74a18563149641c5bb\" width=\"100px\">\r\n\r\n15 jam enak turu daripada ctf",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "Flag Ceker",
+                "points": 869,
+                "solves": 12
+            },
+            {
+                "category": "Web",
+                "description": "I make this simple fetch app. Not so sure if it's good or not :/\r\n\r\n**NOTE: this is a fully whitebox challenge, no need to bruteforce anything (login, endpoint, etc). The team that associated with the IP that detected try to do a heavy bruteforce will be given a penalty point.**\r\n\r\nhttp://167.172.80.90:8894/\r\n\r\nAuthor: Yeraisci",
+                "files": [
+                    "/files/19812beba7bd7e5de0eb50740a55e082/chall.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE4fQ.Y4vjVg.iKs6SBRSw5rHJBwd6hlVDAMHORQ"
+                ],
+                "hints": [
+                    "chaining known vuln is fun"
+                ],
+                "id": 3,
+                "name": "Fetch Your Way",
+                "points": 993,
+                "solves": 4
+            },
+            {
+                "category": "Web",
+                "description": "http://167.172.80.90:11037/ <br>\r\nMirror: http://128.199.133.15:11037/ <br>\r\nNO BRUTEFORCE YA <br>\r\nUntuk solve gak perlu pakai brute udah bisa, Terima Kasih. \r\n\r\nAuthor: cacadosman\r\n\r\n<img src=\"https://external-preview.redd.it/48cN9tCmJBw-IcO2yoGtPnAFe9A5mVPLrvHqC2Usq0w.png?width=640&crop=smart&auto=webp&s=490477a275e30474565c1b74a18563149641c5bb\" width=\"100px\">\r\n\r\n15 jam enak turu daripada ctf",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "Kalkulator",
+                "points": 981,
+                "solves": 5
+            },
+            {
+                "category": "Web",
+                "description": "I just installed wordpress to host my epic hacking course. Please let me know if there is a vuln.\r\n\r\n**NOTE: this is a fully whitebox challenge, no need to bruteforce anything (login, endpoint, etc). The team that associated with the IP that detected try to do a heavy bruteforce will be given a penalty point.**\r\n\r\n[http://167.172.80.90:8686/](http://167.172.80.90:8686/)\r\n\r\nAuthor: Yeraisci",
+                "files": [
+                    "/files/7115b9884af03f0e6f3c71af6ae80376/challenge.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE3fQ.Y4vjVg.sWUQctX9FayPshmyfKPZqo3jmvE"
+                ],
+                "hints": [
+                    "99.4% of security vulnerabilities in the WordPress ecosystem originate from third-party plugins . No other hints after this."
+                ],
+                "id": 2,
+                "name": "Wordpress Enjoyer",
+                "points": 1000,
+                "solves": 1
+            }
+        ]
+    },
+    "title": "Cyber Jawara 2022",
+    "url": "https://cyberjawara.ctfd.io"
+}
