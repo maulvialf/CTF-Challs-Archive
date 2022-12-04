@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Spell Orsterra</title>
+    <meta name="author" content="rayhan0x01">
+    <link rel="icon" href="/static/images/spell.gif" />
+    <link rel="stylesheet" href="/assets/pro.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-VhBcF/php0Z/P5ZxlxaEx1GwqTQVIBu4G4giRWxTKOCjTxsPFETUDdVL5B6vYvOt" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="/static/css/map.css" >
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light top-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"><span class="sb3">Spell Orsterra</span></a>
+        </div>
+        <ul class="navbar-nav mb-2 mb-lg-0 me-5">
+            <li class="nav-item nav-li">
+                <a class="nav-item nav-active" href="#">Trackers</a>
+            </li>
+            <li class="nav-item nav-li">
+                <a class="nav-item" href="/admin/exports">Exports</a>
+            </li>
+            <li class="nav-item nav-li">
+            <a class="nav-item" href="/logout">Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+<section id="map">
+
+	<div class="map-header">
+
+		<div class="map-legend">
+			<div class="map-legend-factions">
+				<h1>factions</h1>
+				<div class="locfaction cagliostro" title="click to see territory"><img src="/static/images/map-cagliostro.png"></div>
+				<div class="locfaction farnessa" title="click to see territory"><img src="/static/images/map-farnessa.png"></div>
+				<div class="locfaction atmahata" title="click to see territory"><img src="/static/images/map-atma.png"></div>
+				<div class="locfaction tarpuz" title="click to see territory"><img src="/static/images/map-tarpuz.png"></div>
+			</div>
+			<div class="map-legend-areas">
+
+			</div>
+            <div class="map-legend-factions">
+				<h1>Stats</h1>
+				<div class="locfaction cagliostro" title="click to see territory">
+                    <p class="label-p">Total Tracker: <span id="track-count">0</span></p>
+                    <p class="label-p">Spells Running: <span id="spell-count">0</span></p>
+                    <p class="label-p">Results Returned: <span id="result-count">0</span></p>
+                </div>
+			</div>
+		</div>
+	</div>
+
+	<div id="orsterramap">
+		<div class="cleanmap"></div>
+
+        <div class="kingdoms">
+			<div class="area cagliostro area-active"></div>
+			<div class="area farnessa area-active"></div>
+			<div class="area atmahata area-active"></div>
+			<div class="area tarpuz area-active"></div>
+		</div>
+
+		<!-- POINTS OF INTEREST -->
+		<div class="orsterra-points">
+			
+
+		</div>
+
+		<div id="main-data-modal" class="modal-content">
+			<div class="modal-head">
+				<div class="icon-signs-01"></div>
+				<div class="modal-title">
+					<h1>Live Tracking</h1>
+                    <h2 class="mt-1 ms-1">Cast tracker spell to receive periodical location updates to your email.</h2>
+				</div>
+			</div>
+            <p>Track UUID : <span class="uuid_info"></span></p>
+			<p>Coordinate X on Map : <span class="coor_x"></span></p>
+            <p>Coordinate Y on Map : <span class="coor_y"></span></p>
+            <input type="text" class="form-control spell-email-inp" id="email" placeholder="your email">
+			<button href="#" class="spell-cast-btn" id="spell-cast-btn">Cast Tracker Spell &nbsp;<i class="fas fa-flask-potion"></i></button>
+		</div>
+
+	</div>
+</section>
+<div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true" id="globalToast">
+    <div class="d-flex">
+        <div class="toast-body" id="globalToastMsg">
+        </div>
+    </div>
+</div>
+<footer class="footer text-center">
+    <p>Copyright &copy; Spell Orsterra</p>
+</footer>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/map.js"></script>
+</body>
+</html>

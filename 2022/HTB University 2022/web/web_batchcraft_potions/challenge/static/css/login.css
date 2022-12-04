@@ -1,0 +1,29 @@
+
+.login-frame > h3 {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.login-frame {
+    padding: 30px !important;
+    margin-top: 25px !important;
+    height: 500px !important;
+}
+
+.login-frame input {
+    margin: 15px 0px;
+    height: 50px;
+}
+
+#username, #password, #otp {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.alert-info, .alert-danger, .alert-success {
+    background-color: #834d36;
+}
+
+#resp-msg {
+    display: none;
+}

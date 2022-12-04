@@ -1,0 +1,24 @@
+loginView:
+   path: /
+   controller: App\Controller\DefaultController::loginView
+login:
+   path: /login
+   controller: App\Controller\LoginController::login
+adminIndex:
+   path: /admin/
+   controller: App\Controller\AdminController::adminIndex
+exportIndex:
+   path: /admin/exports
+   controller: App\Controller\AdminController::exportIndex
+listTracker:
+   path: /api/tracker/list
+   controller: App\Controller\AdminController::listTracker
+listExports:
+   path: /api/tracker/exports
+   controller: App\Controller\AdminController::listExports
+subscribe:
+   path: /api/tracker/subscribe
+   controller: App\Controller\AdminController::subscribe
+logout:
+   path: /logout
+   controller: App\Controller\AdminController::logout

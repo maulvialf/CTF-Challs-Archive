@@ -1,0 +1,50 @@
+parameters:
+
+services:
+    Redis:
+        class: Redis
+        calls:
+            - connect:
+                - '%env(REDIS_HOST)%'
+                - '%env(int:REDIS_PORT)%'
+
+    # twig.sandbox.policy:
+    #     class: Twig\Sandbox\SecurityPolicy
+    #     arguments:
+    #         # tags
+    #         - ['include']
+    #         # filters
+    #         - ['upper', 'join', 'raw', 'escape', 'sort']
+    #         # methods
+    #         - []
+    #         # properties
+    #         - []
+    #         # functions
+    #         - []
+    #     public: false
+
+    # twig.sandbox.extension:
+    #     class: Twig\Extension\SandboxExtension
+    #     arguments:
+    #         - "@twig.sandbox.policy"
+    #         - true
+
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\:
+        resource: '../src/'
+        exclude:
+            - '../src/DependencyInjection/'
+            - '../src/Entity/'
+            - '../src/Kernel.php'
+            - '../src/Tests/'
+
+    App\Controller\:
+        resource: '../src/Controller/'
+        tags: ['controller.service_arguments']
+
+    Symfony\Component\HttpFoundation\Session\Storage\Handler\RedisSessionHandler:
+        arguments:
+            - '@Redis'

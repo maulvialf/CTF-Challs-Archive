@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="rpgui-cursor-default">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BatchCraft Potions Shop</title>
+    <meta name="author" content="rayhan0x01">
+    <link rel="stylesheet" href="/static/vendors/base/vendor.bundle.base.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/vendors/rpgui/rpgui.min.css">
+    <link rel="stylesheet" href="/static/css/carousel.css">
+    <link rel="stylesheet" href="/static/css/site.css">
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+  </head>
+  <body class="rpgui-content">
+    <div class="container reset-pos rpgui-container framed-golden-2 shop-header-container">
+        <p class="shop-header"><span class="mage">🧙‍♀️</span> BatchCraft Potions Shop <span class="mage">🧙</span></p>
+    </div>
+    <div class="container reset-pos rpgui-container framed potions-container">
+        <div class="owl-carousel owl-theme" id="potions-carousel">
+            {% for product in products %}
+            <a href="/products/{{ product.id }}" class="potion-href">
+                <div class="item potion-items" data-category="{{ product.product_category }}">
+                    <p class="product-name">{{ product.product_name }}</p>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="container reset-pos rpgui-container framed-golden-2">
+
+        <img src="/static/images/open.png" class="open-banner">
+    </div>
+    <div class="container reset-pos rpgui-container framed-golden-2"></div>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/owl.carousel.min.js"></script>
+    <script src="/static/vendors/rpgui/rpgui.min.js"></script>
+    <script src="/static/js/global.js"></script>
+    <script src="/static/js/site.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+# config/packages/messenger.yaml
+framework:
+    messenger:
+        transports:
+            SendMailTransport: "%env(MESSENGER_TRANSPORT_DSN)%"
+
+        routing:
+            'App\Message\SubscribeNotification': SendMailTransport

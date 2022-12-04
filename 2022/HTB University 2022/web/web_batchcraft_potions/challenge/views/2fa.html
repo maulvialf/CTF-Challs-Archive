@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="rpgui-cursor-default">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BatchCraft Potions Shop</title>
+    <meta name="author" content="rayhan0x01">
+    <link rel="stylesheet" href="/static/vendors/base/vendor.bundle.base.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/vendors/rpgui/rpgui.min.css">
+    <link rel="stylesheet" href="/static/css/carousel.css">
+    <link rel="stylesheet" href="/static/css/site.css">
+    <link rel="stylesheet" href="/static/css/product.css">
+    <link rel="stylesheet" href="/static/css/login.css">
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+  </head>
+  <body class="rpgui-content">
+    <div class="container reset-pos rpgui-container framed-golden-2 shop-header-container">
+        <a href="/" id="goback"><img src="/static/images/goback.png"></a>
+        <p class="shop-header"><span class="mage">🧙‍♀️</span> BatchCraft Potions Shop <span class="mage">🧙</span></p>
+    </div>
+    <div class="container reset-pos rpgui-container framed potions-container">
+        <div class="row w-100 g-0 m-0 p-0">
+            <div class="col" id="main-container">
+                <div class="reset-pos rpgui-container framed-golden-2 detail-container rpgui-content login-frame">
+                    <h3 class="d-block m-auto w-100 mb-5">Welcome back, {{ user.username }}!</h3>
+                    <label>Submit your OTP token for 2FA</label>
+                    <input type="number" id="otp" placeholder="enter otp">
+                    <div class="text-center">
+                        <button class="rpgui-button" type="button" id="verify-btn"><p class="pt-3">Verify</p></button>
+                    </div>
+                    <div class="my-3">
+                        <p id="resp-msg" class="alert alert-info">Please wait...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container reset-pos rpgui-container framed-golden-2">
+
+        <img src="/static/images/open.png" class="open-banner">
+
+    </div>
+    <div class="container reset-pos rpgui-container framed-golden-2"></div>
+
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/owl.carousel.min.js"></script>
+    <script src="/static/vendors/rpgui/rpgui.min.js"></script>
+    <script src="/static/js/global.js"></script>
+    <script src="/static/js/product.js"></script>
+    <script src="/static/js/template.js"></script>
+    <script src="/static/js/2fa.js"></script>
+  </body>
+</html>

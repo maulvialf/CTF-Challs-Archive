@@ -1,0 +1,84 @@
+
+.category-img {
+    height: 350px;
+    margin-top: 60px;
+    margin-bottom: 23px;
+  }
+
+.detail-container {
+  margin-top: 40px !important;
+  min-height: 470px;
+  position: relative;
+}
+
+.product-name {
+  font-size: 18px !important;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+  text-shadow: none !important;
+}
+
+.product-desc {
+ margin: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+
+.product-desc p {
+  line-height: 1.7rem;
+  margin: 0 !important;
+  padding: 0 !important;
+     font-size: 13px !important;
+  text-shadow: none !important;
+
+}
+
+.product-price {
+   margin: 25px;
+  margin-bottom: 0px !important;
+} .product-quantity {
+  margin: 25px;
+  margin-top: 15px;
+  margin-bottom: 34px;
+}
+
+li {
+  margin-bottom: 20px !important;
+}
+
+.quantity-select {
+  max-width: 150px;
+}
+
+.action-row {
+  position: absolute;
+  bottom: 0px;
+}
+
+.product-purchase {
+  height: 100%;
+  position: relative;
+}
+
+.product-purchase > button {
+  position: absolute;
+  
+  bottom: 35px;
+  right: 35px;
+}
+
+#goback {
+  position: absolute;
+  top: 3px;
+  left: 15px;
+}
+
+#goback > img {
+    height: 35px;
+}
+
+#goback:hover {
+  opacity: 0.5;
+  	cursor: url(/static/vendors/rpgui/img/cursor/point.png),auto !important;
+}

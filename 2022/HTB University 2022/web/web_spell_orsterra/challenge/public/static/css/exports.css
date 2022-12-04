@@ -1,0 +1,17 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.export-container {
+    margin-top: 100px;
+    background: #073d53;
+	background-color:  #005273;
+	background-image: url(/static/images/map-effect.jpg);
+	background-blend-mode: color-burn;
+	background-position: top right;
+}
+
+th, td {
+	font-size: 16px;
+}

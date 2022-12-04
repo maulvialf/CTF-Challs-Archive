@@ -1,0 +1,42 @@
+body {
+    overflow: scroll !important;
+    position: relative !important;
+}
+
+.potions-container {
+    padding-bottom: 50px !important; 
+}
+.dash-frame >div> h3 {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.dash-frame {
+    padding: 30px !important;
+    margin-top: 25px !important;
+    min-height: 480px !important;
+}
+
+.dash-frame input {
+    margin: 10px 0px 15px 0px;
+    height: 50px;
+    font-size: 12px;
+}
+
+
+.alert-info, .alert-danger, .alert-success {
+    background-color: #834d36;
+}
+
+#resp-msg, .hidden, #add-resp-msg {
+    display: none;
+}
+
+
+td {
+    vertical-align:middle
+}
+
+.href-res {
+    text-decoration: none !important;
+}
