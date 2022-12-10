@@ -1,0 +1,164 @@
+{
+    "data": {
+        "Crypto": [
+            {
+                "category": "Crypto",
+                "description": "In this challenge, participants must find the hidden flag in the Smart Contract that has been deployed on the L2 Polygon blockchain network. The Smart Contract used was created using Solidity.\r\n\r\nSmart contract address: **0x62974aef8f688b99310c5e896c166f40234a756c**\r\n\r\n\r\n.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "Easy Smart Contract",
+                "points": 100,
+                "solves": null
+            },
+            {
+                "category": "Crypto",
+                "description": "In this challenge, participants are required to find the hidden flag by solving a puzzle. Find passphrase for the following ethereum address:\r\n\r\n**0x517cCbfdbCdE30b3E543Ce0FE208f5d3d3476698**\r\n\r\nSee attachment for guideline.",
+                "files": [
+                    "/files/08ad4dc7556e1f17201bbf774a562885/NUTECH-CTF_Crypto_puzzle_-_level_3_-_hard.pdf?token=eyJ1c2VyX2lkIjoxNjIsInRlYW1faWQiOjc1LCJmaWxlX2lkIjoxMH0.Y5PsfA.C7df3jcbpNkxpDPFkirJP0rlDe8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "Hard Crypto Puzzle",
+                "points": 500,
+                "solves": null
+            },
+            {
+                "category": "Crypto",
+                "description": "Bongkar dan pecahkan tantangan ini untuk mendapatkan flagnya. Attachment terlampir.\r\nHost : **easyrsa.nu-tech.xyz**\r\nPort : **9000**\r\n\r\n.",
+                "files": [
+                    "/files/9bf6431d6fb8e831d917db550d0c4e8c/rsaisezep.zip?token=eyJ1c2VyX2lkIjoxNjIsInRlYW1faWQiOjc1LCJmaWxlX2lkIjo5fQ.Y5PsfA.gEc86OouAhWdbJ0ymX-oZ8Ngap4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 7,
+                "name": "Ez Pz RSA",
+                "points": 300,
+                "solves": null
+            },
+            {
+                "category": "Crypto",
+                "description": "In this challenge, participants must find the hidden flag in the Smart Contract that has been deployed on the L2 Polygon blockchain network. The Smart Contract used was created using Solidity.\r\n\r\n\r\nSmart contract address: **0xD7a7b45a59F08b04C2516E22757c1856003665D7**\r\n\r\n.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "Medium Smart Contract",
+                "points": 300,
+                "solves": null
+            }
+        ],
+        "Pwn": [
+            {
+                "category": "Pwn",
+                "description": "Server Address\r\n\r\nHOST : **easypwn1.nu-tech.xyz**\r\n\r\nPORT : **20002**\r\n\r\n.",
+                "files": [
+                    "/files/1d7db6628d1de62162ac723fa7f574d6/pwn.zip?token=eyJ1c2VyX2lkIjoxNjIsInRlYW1faWQiOjc1LCJmaWxlX2lkIjoxMX0.Y5PsfA.Akn3HEWvm04tvsD5KyQPGSKKR6o"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "Ez Pwnage",
+                "points": 300,
+                "solves": null
+            },
+            {
+                "category": "Pwn",
+                "description": "Server Address\r\n\r\nHOST : **easypwn2.nu-tech.xyz**\r\n\r\nPORT : **20003**\r\n\r\n.",
+                "files": [
+                    "/files/df8f111aa803a5dd2b55b90f2349745d/pwn2.zip?token=eyJ1c2VyX2lkIjoxNjIsInRlYW1faWQiOjc1LCJmaWxlX2lkIjoxMn0.Y5PsfA.tVzkomBixGjKyghs-gVIteAQIMA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "Leak Everywhere",
+                "points": 300,
+                "solves": null
+            }
+        ],
+        "Web Attack": [
+            {
+                "category": "Web Attack",
+                "description": "Anda menemukan sebuah host CnC botnet. Dapatkan flag yang dipakai sebagai key untuk melakukan request ke botnet tersebut\r\n\r\n\r\n.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "Request of The Day",
+                "points": 100,
+                "solves": null
+            },
+            {
+                "category": "Web Attack",
+                "description": "Sebuah startup baru saja meluncurkan portal berbagi Icon mereka yang bernama **IconGram**. Namun menurut kabar yang beredar, masih terdapat celah keamanan di portal tersebut. Eksploitasi portal IconGram untuk mendapatkan flagnya\r\n\r\n\r\n.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "IconGram",
+                "points": 300,
+                "solves": null
+            },
+            {
+                "category": "Web Attack",
+                "description": "Akhir tahun 2022 akan diadakan Konser Akhir Tahun besar-besaran. Namun tiket yang tersedia sudah sold-out semua. Eksploitasi portal pembelian tiket tersebut agar anda bisa mendapatkan tiket konsernya.\r\n\r\n\r\n.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 2,
+                "name": "Ticket Fraud",
+                "points": 100,
+                "solves": null
+            },
+            {
+                "category": "Web Attack",
+                "description": "Bambang seorang pemuda progresif. Ia melihat banyak sekali produk-produk ***Software as a Service***, ***Platform as a Service*** bahkan ***Infrastructure as a Service***. Bambang kemudian mengembangkan sebuah produk bertagline **Request as a Service** dengan klaim menggunakan protokol rahasia racikannya sendiri. Namun Bambang terburu-buru merilis produknya tersebut, sehingga masih ada kelemahan yang memiliki severity High pada produknya tersebut. Cari kelemahannya, temukan **Protokol Rahasia** di produk tersebut untuk mendapatkan flagnya.\r\n\r\n\r\n.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "Request as a Service Apocalypse",
+                "points": 300,
+                "solves": null
+            },
+            {
+                "category": "Web Attack",
+                "description": "Sebuah perusahaan IT baru-baru ini mempekerjakan seorang **Sysadmin** baru. Sysadmin tersebut mengembangkan sebuah tools yang membantunya dalam mendiagnostik server-server maupun node di perusahaan tersebut. Akan tetapi **Diagnostic Tools** tersebut dapat diakses publik karena kesalahan dalam implementasi rule firewallnya. Eksploitasi celah Diagnostic Tools tersebut untuk mendapatkan flagnya.\r\n\r\n\r\n.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "Sysadmin Tools are Vuln",
+                "points": 300,
+                "solves": null
+            },
+            {
+                "category": "Web Attack",
+                "description": "Anda diberikan tantangan oleh seseorang untuk membuktikan bahwa web orang tersebut memiliki celah keamanan. Eksploitasi web tersebut untuk mendapatkan flagnya.\r\n\r\n\r\n.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 6,
+                "name": "Blind as a Service",
+                "points": 500,
+                "solves": null
+            }
+        ]
+    },
+    "title": "Login - Capture The Flag NU-Tech",
+    "url": "https://ctf.nu-tech.id"
+}
