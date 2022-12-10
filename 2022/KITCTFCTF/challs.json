@@ -1,0 +1,338 @@
+{
+    "data": {
+        "boomer crypto": [
+            {
+                "category": "boomer crypto",
+                "description": "Another round on the Prime Guesser 9000. But the Security found you using smartEncrypt\u2122 and deemed it cheating. Determined to win without your app, you spent all night at the machine. For sure not addicted. Playing for hours, you got a hang for the numbers used in the machine. Can you win another 100 Rounds to receive the next jackpot?",
+                "files": [
+                    "/files/bdab43b8d4494cb7c1ec070177d7dbef/PrimeGuesser2.py?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6MzB9.Y5PrRw.jptMbBlTHYfCdO9Pj8A0_QrGX14"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 26,
+                "name": "Prime Guesser 2",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "boomer crypto",
+                "description": "Your Seatmate is sure to know what you have to bet in the next Round of K-Roulette\u2122. But he does not have the guts to bet it himself. Can you make the bet and win it all?",
+                "files": [
+                    "/files/4134e4e17a73fe434be38af4010edd14/Crooked_Roulette.py?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6MzF9.Y5PrRw.J9lL4nUwtsFbzvSLu02bEXXTJws"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "Crooked Roulette",
+                "points": 486,
+                "solves": 20
+            },
+            {
+                "category": "boomer crypto",
+                "description": "The Prime Guesser 9000 is a simple game: Guess the prime and win it all. Due to quantum computers, we encrypted the number before handing it to you. Luckily you installed the smartEncrypt\u2122 on your smartphone to encrypt numbers yourself. Win 100 Rounds to receive the big jackpot!",
+                "files": [
+                    "/files/4f8eaa168e18569eebd1b9559241d472/PrimeGuesser1.py?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6Mjl9.Y5PrRg.Re2oWqTGx1-kvL_uq6dUBAO8LJM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "Prime Guesser 1",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "boomer crypto",
+                "description": "I know a few secrets about this KAsino. But they would not be secrets if a shared them with everybody, so of course I do not share them in plaintext.\r\nGood luck getting past my information-theoretic secure encryption.\r\n\r\n*This challenge is the first from a set of three challenges.*",
+                "files": [
+                    "/files/c9a775d768a1eb02c68d4391de8d1edd/main.c?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6MzJ9.Y5PrRw.8K1WY3DI9vziA7wFptqy6tIT8oA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 28,
+                "name": "One Trick Pony",
+                "points": 384,
+                "solves": 55
+            }
+        ],
+        "codeql": [
+            {
+                "category": "codeql",
+                "description": "Oh no, you have to do an internal audit on hundreds of Ruby projects for system command executions.\r\nYou decide to write a CodeQL to ease auditing.\r\n\r\n**Find ALL the system command executions marked with `BAD` and submit the query on the submission site to get the flag.**\r\n\r\nNote: The `BAD` comments will be stripped on the query verification page.\r\n\r\n\r\n",
+                "files": [
+                    "/files/2e54046630660a4f1c519b913d7affa0/challenge-one.zip?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6MzV9.Y5PrRw.BGQvww26vXCeei4eFCT2m_qC0aI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "Grep it CodeQL it! 1",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "misc": [
+            {
+                "category": "misc",
+                "description": "Join the discord or the IRC. Read the rules or the topic. You know the drill \ud83d\ude80",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "Insanity Check",
+                "points": 100,
+                "solves": 127
+            },
+            {
+                "category": "misc",
+                "description": "Someone leaked a bunch of emails from the CTF orga. Sadly there is no way to know which one is real...",
+                "files": [
+                    "/files/f9c793afff7f5a76d9cf709a370c6724/mails.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6Mjd9.Y5PrRw.FGRYjWXJvl2VImtOGkM3TR9jt_M"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 18,
+                "name": "ein-pfund-mails",
+                "points": 467,
+                "solves": 30
+            }
+        ],
+        "pwn": [
+            {
+                "category": "pwn",
+                "description": "You managed to get yourself an actual real life d8. A once in a lifetime opportunity. \r\nHowever, the slot machine is keeping you busy. What will you do?  \r\n\r\n",
+                "files": [
+                    "/files/6ba01b5835011cac2b62c13e07c7f6ce/date.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6MTF9.Y5PrRw.M-K02_QmN64DeGBTnbmZXetyjcY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 2,
+                "name": "Date",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "pwn",
+                "description": "A little baby pwn to get you started!\r\n",
+                "files": [
+                    "/files/8d55f32e0ff5d60d6541b1a788e048b8/movsh.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6MX0.Y5PrRw.EB8OlObpI7yoXF_VHzrqHkc4o70"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "movsh",
+                "points": 491,
+                "solves": 16
+            },
+            {
+                "category": "pwn",
+                "description": "All of our slot machines switched from using the very insecure libc heap implementation to something much more secure internally. \r\nSurely this new heap implementation is unbreakable ![image](https://cdn.7tv.app/emote/61e8fae862858c6406126ced/1x.webp)\r\n",
+                "files": [
+                    "/files/3c19c3dde762e84e676e263840c204f8/xmalloc.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6Mn0.Y5PrRg.GmIHOK8ZDJ2nLIVSie8ArW9x2Iw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "xmalloc",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "pwn",
+                "description": "After a night of bad luck at the casino you got wasted again. After waking up in a cell, not remebering what happened, the cops tell you that you picked a fight with some guy and beat him up badly. It does not look like you're getting out soon. You need another way out of this situation... \r\n",
+                "files": [
+                    "/files/3bdc973d146dcb5c8d4fec305fcf1936/sys_jail.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6OX0.Y5PrRw.sqTnRi7fSFgoj9T1ZYMr4IkLbJc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "SYS_jail",
+                "points": 500,
+                "solves": 3
+            },
+            {
+                "category": "pwn",
+                "description": "You find yourself at night in the k\u0153ri werk. Can you get the secret k\u0153ri recipe?",
+                "files": [
+                    "/files/1228eb46021c9b2a101c31b9571f7a33/koeri-factory.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6MTN9.Y5PrRw.xc0ikcn9EUDp3q-_2qP7uzScC1I"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "koeri-factory",
+                "points": 500,
+                "solves": 1
+            }
+        ],
+        "rev": [
+            {
+                "category": "rev",
+                "description": "What the fuck is a windows. Real hackermans use TempleOS. [<img src=\"https://i1.sndcdn.com/artworks-000672249937-rucbof-t500x500.jpg\" width=\"50\"/>](https://i1.sndcdn.com/artworks-000672249937-rucbof-t500x500.jpg)",
+                "files": [
+                    "/files/7abcb8acec96065a000d8433c81aa886/dll.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6M30.Y5PrRw.oAPdErvH2cd5DwIcLytiH0L0cIE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "dll",
+                "points": 464,
+                "solves": 31
+            },
+            {
+                "category": "rev",
+                "description": "To ensure the best protection of our proprietary software used in all of our slot machines, we developed the ultimate protector. It works way better than all those boring protectors like VMProtect or Themida. Right???",
+                "files": [
+                    "/files/cfa7d9e17443d5e72033bdc628e99900/protector?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6NH0.Y5PrRw.ZoEDvx1XS8nBS4huwa4nWGqBU_M"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 6,
+                "name": "protector",
+                "points": 500,
+                "solves": 5
+            },
+            {
+                "category": "rev",
+                "description": "We are proud to present our brand new, homemade slot machine. It's a real beauty of retro gambling. But maybe we shouldn't have been so quick to launch it... \r\n\r\n> Please note that for the best experience you need a terminal with a mono font and UTF8 support. This does not affect the challenge itself though.",
+                "files": [
+                    "/files/35007c36ab604c9d48b0882143894130/slots.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6MjF9.Y5PrRw.AKSubxfhC7Ka01tXsxc9SbOW4jo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "Slots",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "rev",
+                "description": "\"ungodliness rebuke pursuits surpassingly mary consulting instinct much furnace unsating shudder gods shrinking sawest murdered compact repel townsman augmenting inactive gotten faint thief longing smoothed lips moments fully track displeaseth comfort disputer disputer means physic restrains wherever yieldeth perceiving pear assuaged front deliberate deliberate abounded arians rejoicing elsewhere diversity notes nearer dates says secrets disagreeing upright\" - God\r\n\r\nhttps://archive.org/details/TerryADavisTempleOSYouTubeChannelArchive/20131009+-+013+-+EViG0Q4lTeA+-+The+64-Bit+Temple+Operating+System.mp4\r\n\r\nSubmit the flag as KCTF{<key>}",
+                "files": [
+                    "/files/f8fefb20fbdc4235d7de5dfa27f0a6c4/HolyZIII.BIN?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6NX0.Y5PrRw.R6ixI1Dgpz_r17F14hIb9wAbfJE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 7,
+                "name": "HolyZIII",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "rev",
+                "description": "The \ud83d\udc0a is eating all the chips you earned today. You better stop it before it goes after you too.",
+                "files": [
+                    "/files/0f05200c1850ce86345e4101770149a8/croc.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6MjB9.Y5PrRw.CpOMBepU3ttz4HVD9q_PDGsZmgM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "croc",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "web": [
+            {
+                "category": "web",
+                "description": "I have written a search engine! Go check it out. It even supports multiple languages.\r\n\r\n_Notes:_\r\n* *This is a client-side challenge.*\r\n* *We have hidden something for you in `document.cookie`. Submit your solution at http://fetcher.kitctf.me:9100/fetcher.php*\r\n* *This challenge mimics a real-world vulnerability that existed in KIT's own CMS software. It has since been fixed.*",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 30,
+                "name": "KIT CMS 12",
+                "points": 500,
+                "solves": 3
+            },
+            {
+                "category": "web",
+                "description": "*Update 2022-12-10T01:57:34+00:00: The Etherpad challenges are back up now. If you think you notice anything strange, please let us know. We hope they run stable now, but in the worst case we might need to change our setup again. Please don't tax our infrastructure too hard, thanks!*\r\n\r\nI was at the High Roller Casino, playing my favorite game \u2013 Doppelkopf. I was on a winning streak, raking in chips left and right. But as the night wore on, I started to get tired. I needed to take a break, but I didn't want to lose my place at the table.\r\n\r\nThat's when I remembered my personal Etherpad instance. I had been using it to keep track of my Doppelkopf strategies and tactics. I could log into my Etherpad account and review my notes, refreshing my memory and giving me the edge I needed to continue my winning streak.\r\n\r\nBut when I tried to log in, I realized that I had forgotten my username. I still knew that my password was `kitctf`. But without my username, I wouldn't be able to access my Etherpad account and my valuable notes, and as I had not yet set up accounts for my fellow players, it was my only hope.\r\n\r\nThat was when I met you.\r\nCan you help me recover my notes?\r\nI have attached the configuration of my Etherpad instance.\r\n\r\n_Note: The server is running [Etherpad 1.8.18](https://github.com/ether/etherpad-lite/tree/1.8.18) with [ep_ldapauth 0.4.0](https://github.com/tykeal/ep_ldapauth/tree/42cd54c8f65ebb4b4c061b682be2acaf5486e0bc)._",
+                "files": [
+                    "/files/1b8b05bd48d993a01e86c68da0fc1071/etherpad.zip?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6Mjh9.Y5PrRw.IrV4An1kdc5vCkZe-_6pmHIwm4I"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 23,
+                "name": "Etherpad 12",
+                "points": 500,
+                "solves": 3
+            },
+            {
+                "category": "web",
+                "description": "Just started to build my first website, want to take a look at it?",
+                "files": [
+                    "/files/eaebcb25e2321515d611e070c19c4e4d/cloudwhere.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6MjZ9.Y5PrRw.L5mhsRKU6M_zaYrduZInr-aQJ6Y"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "cloudwhere",
+                "points": 497,
+                "solves": 10
+            },
+            {
+                "category": "web",
+                "description": "All our services are secured by state of the art zero trust technology. There is no way they could get hacked\r\n\r\nhttp://auth-ea.kitctf.me/\r\nhttp://files-ea.kitctf.me/\r\nhttp://task-ea.kitctf.me/",
+                "files": [
+                    "/files/6278111c43174eaafce5b30668481f2b/enterprise.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6MjJ9.Y5PrRw.uCAjngC_HVjjIfetKSuf50yNOlI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "Enterprise Auth",
+                "points": 454,
+                "solves": 35
+            },
+            {
+                "category": "web",
+                "description": "All our services are secured by state of the art zero trust technology. There is no way they could get hacked. We even hired a new admin\r\n\r\nhttp://auth-ea-2.kitctf.me/\r\nhttp://files-ea-2.kitctf.me/\r\nhttp://task-ea-2.kitctf.me/",
+                "files": [
+                    "/files/472519f71f64e732f92c7f8696ed8a1f/enterprise-auth-reloaded.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6NDB9.Y5PrRw.841zIvDMqicgYErrEx_IgORX274"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 32,
+                "name": "Enterprise Auth reloaded",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "zoomer crypto": [
+            {
+                "category": "zoomer crypto",
+                "description": "For software to be secure it needs to be running on the blockchain.\r\nHere at the KAsino Royal we take security very serious, thats why our new SlotMachine is using 100% secure blockchain technology.\r\n\r\nWeb: http://secureslots.kitctf.me\r\n\r\nChallenge: `nc secureslots.kitctf.me 20000`\r\n\r\nFaucet: http://faucet.kitctf.me\r\n\r\nRPC: http://secureslots.kitctf.me:8545 Chain ID: 25718",
+                "files": [
+                    "/files/2f2dae023763893969417934ae661d03/secureslot-1.tar.gz?token=eyJ1c2VyX2lkIjo2NzQsInRlYW1faWQiOjM3NiwiZmlsZV9pZCI6MjN9.Y5PrRw.c6Tt_8pMgoDEHM6c-KNefxw0Rxg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "SecureSlots I",
+                "points": 500,
+                "solves": 1
+            }
+        ]
+    },
+    "title": "KITCTFCTF",
+    "url": "https://ctf.kitctf.me"
+}

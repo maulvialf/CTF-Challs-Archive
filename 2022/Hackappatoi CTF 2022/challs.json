@@ -1,0 +1,430 @@
+{
+    "data": {
+        "Crypto": [
+            {
+                "category": "Crypto",
+                "description": "You are too drunk, you shouldn't be giving so many hints\r\n\r\n \r\nAuthor: @diegosona",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 36,
+                "name": "WhatsThePerc",
+                "points": 498,
+                "solves": 8
+            }
+        ],
+        "Forensic": [
+            {
+                "category": "Forensic",
+                "description": "I've recently discovered a lot of mail on my official pub mail box. Unfortunatelly i cannot access anymore to the mail client, but i managed to extract some file from it\r\n\r\n@isfet",
+                "files": [
+                    "/files/eacf5fcc0c8a7a5e938edbfb82b50167/new_cocktail.zip?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MjB9.Y5PrLA.T_RMIIW_G--zqOILbUpC3YyZurw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "New cocktail",
+                "points": 493,
+                "solves": 14
+            },
+            {
+                "category": "Forensic",
+                "description": "At the end of this week i've cleaned my free access pc and i've noticed a lot of strange files in different folder. I've captured some packets from my network, but i cannot find anything strange\r\n\r\n@isfet",
+                "files": [
+                    "/files/178971fa1d7d74ec596cdd9fbc62e26d/capture.pcapng?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MjJ9.Y5PrLA.eqYvGwh1K6J6aqa6uORwIWe-5XA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "Hook",
+                "points": 497,
+                "solves": 10
+            },
+            {
+                "category": "Forensic",
+                "description": "The admin won't to let you drink the cocktails, can you find the perfect one and get drunk?\r\nHurry up your CTF mates can't wait to hear your drunk ass curiosities about NTFS file systems!\r\n\r\nAuthor: @Unleashed",
+                "files": [
+                    "/files/1f4cfa8a8a80d37a2b248a236495aad9/Stuff.rar?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MjF9.Y5PrLA.WwT86mtDiKr_GIFyCve6EtaXWyM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "Hidden cocktails",
+                "points": 496,
+                "solves": 11
+            },
+            {
+                "category": "Forensic",
+                "description": "Today i\u2019ve noticed that the free access internet computer of my pub does not work anymore. I remember a groups of 5 people that this weekend was playing with it. I\u2019ve managed to recover the disks images from it. Can you help me fix it and recover the files?\r\n\r\n@isfet",
+                "files": [
+                    "/files/f66d610abd1c06823dadb6da1c7963e8/chall.zip?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MTl9.Y5PrLA.AZybxIUd6HQfVTCfyBAsTID9Pg4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "Grab a beer and disappear",
+                "points": 500,
+                "solves": 2
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "plz, gimme another beer\r\n\r\nAuthor: @!Lucian",
+                "files": [
+                    "/files/8a622283c5a665869e3b7500a397f19e/qrunk.png?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MjZ9.Y5PrLA.3nH80cPg1o5cfTwi0qHd418mJUA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 29,
+                "name": "Qrunk",
+                "points": 470,
+                "solves": 27
+            },
+            {
+                "category": "Misc",
+                "description": "mhh.. maybe ALPHA people don't drink",
+                "files": [
+                    "/files/49cc585e245e20553092ffc36dd86721/no_drinker.png?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6Mjh9.Y5PrLA.wE9rPMvx1ovYRr5C9JFlaaPcs2g"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 35,
+                "name": "No Drinkers",
+                "points": 498,
+                "solves": 8
+            },
+            {
+                "category": "Misc",
+                "description": "Oh S\\*\\*t, I'm so in hangover I cannot even remember what I was doing, my code will never pass the review\r\n\r\nAuthor: @diegosona",
+                "files": [
+                    "/files/53d02d2a7060082f0a2a84089ea8d63b/attachment.txt?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MTV9.Y5PrLA.erLUFqZdAGfc_GtibS4sUKyZdZM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 18,
+                "name": "BrainDrunk",
+                "points": 498,
+                "solves": 8
+            },
+            {
+                "category": "Misc",
+                "description": "Contract is deployed on the Goerli TestNet at address 0x579645669eAE0a8E6Fd2039FfB81593A17C92dce\r\n\r\nAuthor: @diegosona",
+                "files": [
+                    "/files/4d265b646f8f2f7c04c9a1d49c94c46b/HelloWeb3.sol?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MjV9.Y5PrLA.3ELQlB17mSbPGNn0z7EZ4irTHSw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 22,
+                "name": "HelloWeb3",
+                "points": 481,
+                "solves": 22
+            },
+            {
+                "category": "Misc",
+                "description": "Join our discord for the flag and get a spritz in the meanwhile!",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 32,
+                "name": "Drunk check ",
+                "points": 10,
+                "solves": 63
+            },
+            {
+                "category": "Misc",
+                "description": "do you agree?\r\n\r\nAuthor: @!Lucian",
+                "files": [
+                    "/files/4c75cfc1ecf7f08554d6fc0609732c72/AperolSpritz.jpg?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6Mjd9.Y5PrLA.kIPZqcVSzlu08THAFuKqhbPvEa4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "Aperol Spritz",
+                "points": 500,
+                "solves": 3
+            },
+            {
+                "category": "Misc",
+                "description": "Let's take a glass of beer\r\n\r\nAuthor: @!Lucian",
+                "files": [
+                    "/files/3f7a4529455a7534f4f70ba6a6e2a95a/glass_of_Hackapperoni.png?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MTF9.Y5PrLA.Q_EAdlV9Q4mt7zRyJk0jXuIy4DY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "Hackapperoni",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Misc",
+                "description": "Hey pal, they told me the dealer is drunk and he's not keeping track of the bets\r\n\r\nAuthor: @diegosona",
+                "files": [
+                    "/files/14b051beed7e55d2833ee3cfad6de463/BlackJack.sol?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MzB9.Y5PrLA.xfkl4_ykoDg1-G3TcJ5voqHs5Bg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 38,
+                "name": "BlackJack",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "Misc",
+                "description": "idk lol\r\n\r\n@ska @myasnik",
+                "files": [
+                    "/files/3b9c838fe7e8ced91109d7a4553ac0a2/idk.mp4?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6Mjl9.Y5PrLA.lO-aChy4fEc90d9R_KP7t0PA2CQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 37,
+                "name": "idk lol",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Osint": [
+            {
+                "category": "Osint",
+                "description": "Oh no probably all these white walls made me forget where i took the greatest Hugo spritz of my life, can you help me to go back to this place?\r\nHCTF{NAME_OF_THE_PUB}\r\n\r\n@Unleashed",
+                "files": [
+                    "/files/d8575e08480b2bac4ebdcb529e9b4ade/hackappa_trip_1.jpg?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6OX0.Y5PrLA.kGBEmCI4SmysL_1xVjanPpdxlag"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "Hackappa trip 1 ",
+                "points": 369,
+                "solves": 55
+            },
+            {
+                "category": "Osint",
+                "description": "Elon Musk must follow us!\r\n\r\nAuthor: @Unleashed",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 21,
+                "name": "BlueBird",
+                "points": 499,
+                "solves": 7
+            },
+            {
+                "category": "Osint",
+                "description": "This is our meeting place, it's close to the university and it's cheap! Can you find the name of this secret pub?\r\nstreet and house number are the flag.\r\nHCTF{street_name_number}\r\n\r\nAuthor: @Unleashed",
+                "files": [
+                    "/files/7df2b88cad7a26b40ac5cb8abf0616ab/aaa.jpg?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MTh9.Y5PrLQ.zj3k4u3hrAqR1qoYixJRsuBnQ1g"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "Secretreunion",
+                "points": 500,
+                "solves": 3
+            }
+        ],
+        "Pwn": [
+            {
+                "category": "Pwn",
+                "description": "Yo man have you ever heard of aarch64? It's in your pocket everyday, right next to your personal ARMsinthe flask.\r\n\r\nAuthor: @myasnik",
+                "files": [
+                    "/files/c97cf6eeb712310887644d5e37944127/ARMsinthe?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6Nn0.Y5PrLQ.g7-THLt24nCiBjImTMfjjAn_0qs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "ARMsinthe",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Pwn",
+                "description": "You're in the pub of your dreams, in fact everyone's dreams. \r\nbut you've been in line for 2 hours and still can't see the counter \r\nto order the pint of your favorite beer\r\n\r\nAuthor: @Eurus",
+                "files": [
+                    "/files/c97dfbb9ca967beed5abd6a2a1a27e2f/endless_queue?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6NX0.Y5PrLQ.9hWTTCqqp8Fcu-_DIOcSsFXxvpU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 7,
+                "name": "Endless Queue",
+                "points": 498,
+                "solves": 8
+            },
+            {
+                "category": "Pwn",
+                "description": "Your friends convinced you to try the new super extra minimal bar... \r\n\r\nAuthor: @Eurus",
+                "files": [
+                    "/files/69d8df8c49db0a399c885a84996be01b/minimal_bar?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6N30.Y5PrLQ.1RTWtU344_hpBrPPi5mSfU2LThs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "Minimal bar",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Pwn",
+                "description": "A change of viewpoint could be the right way.\r\n\r\nAuthor: @myasnik",
+                "files": [
+                    "/files/c2c36167189535798ac05e568fa16c37/beerop?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6OH0.Y5PrLQ.3mawvDZErLfDAGVht7IpEx5Jj_s"
+                ],
+                "hints": [
+                    "debugging problems? Watch this -> https://www.youtube.com/watch?v=lXMskKTw3Bc"
+                ],
+                "id": 10,
+                "name": "Beerop",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Pwn",
+                "description": "Find the password to enter a secret discobar where pwners beginners or expert can share their knowledge in the company of a beer\r\n\r\nAuthor: @FRACCHETTO",
+                "files": [
+                    "/files/7d9e928a0de9f4350da8bceb8ccaed7c/sanity_drink?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6NH0.Y5PrLQ.hR8l79Y2Uj8Lf5CAyT0ua3GCzcY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 6,
+                "name": "Sanity drink",
+                "points": 492,
+                "solves": 15
+            }
+        ],
+        "Reverse": [
+            {
+                "category": "Reverse",
+                "description": "Can you find the secret passphrase i have hidden in this file?\r\n\r\nAuthor: @R3tr0",
+                "files": [
+                    "/files/e3a95b52bc72fb98deb3c42cf24f7551/sanityrev?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MTJ9.Y5PrLQ.GpNefHNOs8owO2lKLUKFsPhw9EM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "Sanity rev",
+                "points": 261,
+                "solves": 74
+            },
+            {
+                "category": "Reverse",
+                "description": "Can you guess what is my favourite videogame saga? I hope you like it too!\r\n\r\nAuthor: @R3tr0",
+                "files": [
+                    "/files/c8ca23285d2fc2d9efc4110acfed020e/bestvideogame?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MTR9.Y5PrLQ.1_p0PbNJNRI_eWvk5QtAGUyodOQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "Best videogame",
+                "points": 492,
+                "solves": 15
+            },
+            {
+                "category": "Reverse",
+                "description": "Here we are again, this is our favorite pub! You can take the flag and come back without getting drunk in the process?\r\n\r\nAuthor: @Unleashed",
+                "files": [
+                    "/files/9d87f3a1eb9bdcbe51970b26ea24a9d1/hackappa_rev?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MTd9.Y5PrLQ.QVbzB-Vecztz3VPVIW1YzRuHmFA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 19,
+                "name": "Hackappa_rev",
+                "points": 460,
+                "solves": 31
+            },
+            {
+                "category": "Reverse",
+                "description": "I have opened a new exclusive club, but you will need a password to join!\r\n\r\nAuthor: @R3tr0",
+                "files": [
+                    "/files/966353d9e11693b1bd0d745c3c242b0d/eXclusiveclub?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MTN9.Y5PrLQ.m_vyIMDriSoMYKZn43UYSqxzgx8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "eXclusive club",
+                "points": 439,
+                "solves": 38
+            }
+        ],
+        "SPECIAL": [
+            {
+                "category": "SPECIAL",
+                "description": "**This a special event!!**\r\nIn honor of our first CTF event, we have decided to launch a special event.\r\nSend in \"Cocktail-bar\" channel on our ctf's discord server a picture with a sign with \"HCTF\" on it and a beer or something else.\r\nThen we'll send the flag.\r\n\r\nH4ve fun!\r\n\r\n@isfet",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 34,
+                "name": "Special BERE event",
+                "points": 10,
+                "solves": 16
+            }
+        ],
+        "Web": [
+            {
+                "category": "Web",
+                "description": "Welcome to the web category.\r\nThe first beer it's on us ;)\r\n\r\nAuthor: @voidPtr",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 24,
+                "name": "Welcome To Web(ere)",
+                "points": 183,
+                "solves": 85
+            },
+            {
+                "category": "Web",
+                "description": "Welcome to the Drunken Bathrobe! Make yourself comfortable and order your favourite cocktail :)\r\n\r\nAuthor: @voidPtr",
+                "files": [
+                    "/files/dbd28e04ca7adc795892646484d9f042/web_drunken_bathrobe.zip?token=eyJ1c2VyX2lkIjozNzAsInRlYW1faWQiOjIzOCwiZmlsZV9pZCI6MjN9.Y5PrLQ.QvDTw8TzaQx7vZ63Qy1HZDej8Xk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 23,
+                "name": "Drunken Bathrobe",
+                "points": 487,
+                "solves": 18
+            },
+            {
+                "category": "Web",
+                "description": "Three ingredients are enough for a refreshing drink!\r\n\r\nNote: the certificate is self-signed\r\n\r\nAuthor: @leo1098",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "Spritz",
+                "points": 500,
+                "solves": 1
+            }
+        ]
+    },
+    "title": "Hackappatoi CTF 2022",
+    "url": "https://hctf.hackappatoi.com"
+}
