@@ -1,0 +1,299 @@
+{
+    "data": {
+        "Crypto": [
+            {
+                "category": "Crypto",
+                "description": "I heard random isn't random enough, so i made it more random. So random in fact, not even the seeds can help you predict it.\r\n",
+                "files": [
+                    "/files/a90c965e15e44df7770e34d1c94fa11b/txt.txt?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQyN30.Y4Hl-A.FU5yfsJXmlzJa1FB2nq3rcl7cWM",
+                    "/files/d14984a9a5b3f2fc3471e790101a633b/out.txt?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQyOH0.Y4Hl-A.vZ0_q4p5s-RDJfllvDpgM3mNGoM",
+                    "/files/ae2560a3f39b4b3d7f0d12e888edb179/src.py?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjM5NH0.Y4Hl-A.AOKRFXHnOjMvHaYQ7D-I9fd18f4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 69,
+                "name": "Unpredictable",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "Crypto",
+                "description": "One of my friends is really into crypto. Not the \"spend a years salary on funny monkey picture\"-kind, the math thingy. He sent me a super strange text, can you help me decipher it? He said it's so easy, even people just carrying sticks and stones around would be able to decipher it.",
+                "files": [
+                    "/files/d6dcf1a18db6cc2fe723967b6b12a3ed/ciphertext.txt?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjM4OX0.Y4Hl-A.GSW_lgkEl0majgAxFXJlFuDu1Z0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 66,
+                "name": "Simple Crypto",
+                "points": 482,
+                "solves": 11
+            },
+            {
+                "category": "Crypto",
+                "description": "Just decrypt the flag.\r\n\r\n---\r\n\r\n**Hint:**\r\n\r\nThe concrete values of the matrices are crucial for exploitation. They were not chosen at random",
+                "files": [
+                    "/files/8b145017e46cb0b7fabf2e5bcd349adc/flag.png.enc?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjM5MH0.Y4Hl-A.d4kYEJu6tr9DxB9dJbkR1Qof3iw",
+                    "/files/590773e403a12fad1114ffe67892da92/chacha60.py?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjM5MX0.Y4Hl-A.RviqEuhC2ss5tLj1-ldDZxS1aUM",
+                    "/files/18ada1733a7d8c63f3ca3b2b21728529/matrices.npz?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjM5Mn0.Y4Hl-A.X5AQx87Cl-xRVTDqqHD3ILK9T-Y"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 67,
+                "name": "ChaCha60",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Crypto",
+                "description": "Mm friend is annoying me again. He sent me another strange picture and wants me to find it funny. He thinks it's cool making fun of me, just becuase i became a monk after school. (Flag-Format \\\"Glacier{...}\\\")",
+                "files": [
+                    "/files/21b3d58b45314fc2716906fd18561ec8/challenge.png?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQyNn0.Y4Hl9w.njXZsZ4mI_4WThtunrFvyBr3vZc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 70,
+                "name": "Strange Letters",
+                "points": 292,
+                "solves": 35
+            },
+            {
+                "category": "Crypto",
+                "description": "This store sells interesting things. It also uses a questionable checkout system.\nCan you exploit it?\n",
+                "files": [
+                    "/files/4bc0b7877d84929e9b0a210a6e42e2ef/store.py?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjM5M30.Y4Hl-A.MpBNtgGjJsL7yFMh4OIPF8p7_8M"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 68,
+                "name": "CryptoShop",
+                "points": 50,
+                "solves": 109
+            }
+        ],
+        "Hardware": [
+            {
+                "category": "Hardware",
+                "description": "I built this amazing custom architecture, but my friends say it's too slow to get to big numbers.\nCan you prove them wrong?\n",
+                "files": [
+                    "/files/451b55a0ab78263e239cb731837366a2/Stackmachine.v?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjM5OH0.Y4Hl-A.HyMB178NtA9kvKHHR5NMIXBjkoA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 71,
+                "name": "StackMath",
+                "points": 465,
+                "solves": 15
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "Last year i finally got to climb my first glacier. Look at how pretty my picture is.",
+                "files": [
+                    "/files/e9857cd981ba6e4c00fc5e64044ce673/glacier.jpg?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjM4N30.Y4Hl-A.CXFFv4hJzUmgQE4gXOoYqy4E4UY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 62,
+                "name": "The Climber",
+                "points": 86,
+                "solves": 49
+            },
+            {
+                "category": "Misc",
+                "description": "This game is so hard, I've spent the last few weeks trying to beat it but i'm not able to \ud83d\ude26 Can you help me?\r\n\r\n---\r\nThis challenge is sponsored by ITK Engineering GmbH\r\n\r\n\r\nWith over 1,200 employees, ITK Engineering GmbH is an international technology company with strong expertise in digitalisation, electrification, automation, security and networking of systems. Since 2017, the company has been a 100% subsidiary of Robert Bosch GmbH. With your strong innovative power, high quality standards and your passion for new technologies you\u2019ll shape your future at a globally growing technology partner at ITK Engineering.  \r\nWebsite:  www.bosch.at/en/careers/\r\n![ITK_Logo_CMYK_100c70m20k.svg](/files/be05e94020e20c60f45e764ac7f04439/ITK_Logo_CMYK_100c70m20k.svg)\r\n\r\n---\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 63,
+                "name": "fuzzy_dungeon",
+                "points": 50,
+                "solves": 149
+            },
+            {
+                "category": "Misc",
+                "description": "I wrote my own clipboard manager. It is very secure and that allows me to expose it to the internet without any risks.\r\nMy only problem is, that I have to copy the passwords with my passwordmanagers copy function.\r\nOtherwise I cannot distinguish between passwords and text and the passwords will get stored normally.\r\nI try not to forgett that...\r\n\r\n---\r\n\r\n**Hint:**\r\n\r\nThe flag is stored within memory. Play around with the program and try to find patterns within the listed entries. Brute force is not required and a waste of time. \r\n",
+                "files": [
+                    "/files/d8b61e4feabcc0a7c39031bfcfeb2372/wlclipmgr.zip?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQyNH0.Y4Hl-A.YWBOe1HwpfKkhnuM39qaTZi7sSs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 65,
+                "name": "ClipRip Stage 1",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "Misc",
+                "description": "This weird video seems to break my player.\nMaybe there's a flag hidden somewhere.\n",
+                "files": [
+                    "/files/fe7001461b0e810686f0e38403718497/broken.zip?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjM4OH0.Y4Hl-A.yJ0P-wCfv4ctLmfv2VlteEVUVNI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 64,
+                "name": "Size Matters",
+                "points": 496,
+                "solves": 6
+            }
+        ],
+        "PWN": [
+            {
+                "category": "PWN",
+                "description": "Wrote a calculator in JavaScript as beginner project. It worked so well, that I decided to make it public available.\n",
+                "files": [
+                    "/files/e06382ddf50c31c7a86e6b04073df536/break_the_calculator.zip?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQyNX0.Y4Hl9w.Jjilb3q1hYXpxgwQFfZyWaIVZAA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 81,
+                "name": "Break the Calculator",
+                "points": 436,
+                "solves": 20
+            },
+            {
+                "category": "PWN",
+                "description": "I knew that I would make a mistake at some point and copy a password with Ctrl-c.\nHowever, that one was to be expected and the application itself is secure.\nAll my user input is handled securely, i think.\n\n(The files can be downloaded from the first stage challenge that's under Misc category)\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 79,
+                "name": "ClipRip Stage 2",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "PWN",
+                "description": "Some bins really do run fast...\n",
+                "files": [
+                    "/files/e31e4300697585c6d15e80608241b53c/old?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQxOX0.Y4Hl-A.RvLO88u37Rdqk_aM9ezRcmDpkZ4",
+                    "/files/815f40fb97f16615fc66c08fc44e0419/Dockerfile?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQyMH0.Y4Hl-A.0BZO7aQP7Ukb75Ob5pqM6JxWGzc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 82,
+                "name": "old dayz",
+                "points": 494,
+                "solves": 7
+            },
+            {
+                "category": "PWN",
+                "description": "This one is too much even for most crypto people... can u still get it?\n",
+                "files": [
+                    "/files/86a861135bac525d6036930c2499f562/FILE-er.zip?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQyM30.Y4Hl-A.LLwa7wBGBzq7Coa4D9-2w-Mzsu0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 80,
+                "name": "Filer",
+                "points": 500,
+                "solves": 3
+            }
+        ],
+        "Rev": [
+            {
+                "category": "Rev",
+                "description": "Someone put some super secret cipher inside this WebAssembly file. Can you reveal the secret key?\n",
+                "files": [
+                    "/files/b9e7458051fd53b771614be25143bc9f/reverse_me.wasm?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQwNn0.Y4Hl-A.Gxpv_FJ-MRgVg9FGzBWnZfoHkXk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 78,
+                "name": "Wat's up",
+                "points": 494,
+                "solves": 7
+            },
+            {
+                "category": "Rev",
+                "description": "Steves company has a custom service that executes binaries in a sandbox.\nThe admins changed his password though - can you still get in and leak theirs as revenge?\n",
+                "files": [
+                    "/files/22744970423409ec69ce0f6010fe4377/sandbox?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQwNX0.Y4Hl-A.dLSWmoFuUqq6ZWgDwtWGeUUq5RA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 77,
+                "name": "Sandboxer",
+                "points": 500,
+                "solves": 3
+            }
+        ],
+        "Web": [
+            {
+                "category": "Web",
+                "description": "It came to our attention that a highly advanced `APT` targeted our `edge computing system`. In order to stop the attacks, we implemented *even more advanced* mitigations.\n\nThink `seccomp`, but for the `web`!\n\nNow there's **no** way an attacker could run malicious code, right?\n\n(Goal: Read `flag.txt` at the filesystem's root.)\n",
+                "files": [
+                    "/files/747dc26a66861313224f2ddf99edc44f/Program.cs?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQwM30.Y4Hl-A.XX7K0Jql5E1Dalq_lYEVg0jx5X4",
+                    "/files/4cdf5e9e1b8561cd517321d342c7ca8c/api_usage.md?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQwNH0.Y4Hl-A.o5xxCH7Ps8vnnYe5lFyJ7BfU31Q"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 76,
+                "name": "RCE as a Service (Stage 2)",
+                "points": 397,
+                "solves": 25
+            },
+            {
+                "category": "Web",
+                "description": "Our new 110% legit cryptocurrency is so cool, it does not even use blockchains.\nWe have a WIP web interface for trading though. Hope nobody can get a beta testing account.\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 74,
+                "name": "FlagCoin Stage 1",
+                "points": 50,
+                "solves": 177
+            },
+            {
+                "category": "Web",
+                "description": "The Top Glacier Blog provides you with the latest news from the community about a variety of topics. \nWheter it is local news or global news, you are always up to date.\n",
+                "files": [
+                    "/files/336e7a9659152817ad5385c02f6ccb42/glacier_top_news.zip?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQxM30.Y4Hl-A.XnSzWNYlUEKiCPN20KbzttwGirI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 73,
+                "name": "Glacier Top News",
+                "points": 369,
+                "solves": 28
+            },
+            {
+                "category": "Web",
+                "description": "Cloud computing is trending? Says your **grandpa**!\n\n`Edge Computing` is the future! And the future is now. Today!\n\nGive us a lambda and an array to operate on and our modern `.NET6`-powered backend will compute the results on an edge near your user in *no time*.\n\nBut please don't try to run custom code, because [this incident will be reported](https://imgs.xkcd.com/comics/incident.png).\n\n(Goal: Read `flag.txt` at the filesystem's root.)\n",
+                "files": [
+                    "/files/d18ab3798175bc544e7cc808d0d83e40/Program.cs?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjM5OX0.Y4Hl-A.mQLk5ll7h49ezEM8wi_RYZ5FBBA",
+                    "/files/66a64312cdaab696c206f36ed74c1647/api_usage.md?token=eyJ1c2VyX2lkIjoxMTk3LCJ0ZWFtX2lkIjo2MjAsImZpbGVfaWQiOjQwMH0.Y4Hl-A.e3eqQ2VF-Nq_bcN2-zQDS9RZNk4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 72,
+                "name": "RCE as a Service (Stage 1)",
+                "points": 136,
+                "solves": 46
+            }
+        ]
+    },
+    "title": " GlacierCTF 2022",
+    "url": "https://ctf.glacierctf.com"
+}
