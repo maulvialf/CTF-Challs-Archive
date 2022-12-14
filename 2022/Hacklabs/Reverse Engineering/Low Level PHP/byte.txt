@@ -1,0 +1,129 @@
+number of ops:  6
+compiled vars:  none
+line      #* E I O op                           fetch          ext  return  operands
+-------------------------------------------------------------------------------------
+   59     0  E >   INIT_FCALL                                               'transform'
+          1        SEND_VAL                                                 'bTBtTzBrVjBrZHRDdXVKeHFqcEllUVlZWVlZWJiYmJi'
+          2        SEND_VAL                                                 'qAq0IVNEVuiaZrJfro'
+          3        DO_FCALL                                      0  $0      
+          4        ECHO                                                     $0
+   60     5      > RETURN                                                   1
+
+Function transform:
+Finding entry points
+Branch analysis from position: 0
+1 jumps found. (Code = 42) Position 1 = 74
+Branch analysis from position: 74
+2 jumps found. (Code = 44) Position 1 = 76, Position 2 = 14
+Branch analysis from position: 76
+1 jumps found. (Code = 62) Position 1 = -2
+Branch analysis from position: 14
+2 jumps found. (Code = 43) Position 1 = 19, Position 2 = 73
+Branch analysis from position: 19
+2 jumps found. (Code = 43) Position 1 = 24, Position 2 = 47
+Branch analysis from position: 24
+2 jumps found. (Code = 43) Position 1 = 38, Position 2 = 39
+Branch analysis from position: 38
+1 jumps found. (Code = 42) Position 1 = 69
+Branch analysis from position: 69
+2 jumps found. (Code = 43) Position 1 = 72, Position 2 = 73
+Branch analysis from position: 72
+2 jumps found. (Code = 44) Position 1 = 76, Position 2 = 14
+Branch analysis from position: 76
+Branch analysis from position: 14
+Branch analysis from position: 73
+Branch analysis from position: 39
+Branch analysis from position: 47
+2 jumps found. (Code = 43) Position 1 = 61, Position 2 = 62
+Branch analysis from position: 61
+2 jumps found. (Code = 43) Position 1 = 72, Position 2 = 73
+Branch analysis from position: 72
+Branch analysis from position: 73
+Branch analysis from position: 62
+Branch analysis from position: 73
+filename:       /in/nk0Go
+function name:  transform
+number of ops:  78
+compiled vars:  !0 = $deom_cipher, !1 = $pt, !2 = $code, !3 = $idx, !4 = $kl, !5 = $length, !6 = $i, !7 = $x
+line      #* E I O op                           fetch          ext  return  operands
+-------------------------------------------------------------------------------------
+    2     0  E >   RECV                                             !0      
+          1        RECV                                             !1      
+    5     2        INIT_FCALL                                               'strtolower'
+          3        SEND_VAR                                                 !0
+          4        DO_ICALL                                         $8      
+          5        ASSIGN                                                   !0, $8
+    7     6        ASSIGN                                                   !2, ''
+    8     7        ASSIGN                                                   !3, 0
+    9     8        STRLEN                                           ~12     !0
+          9        ASSIGN                                                   !4, ~12
+   10    10        STRLEN                                           ~14     !1
+         11        ASSIGN                                                   !5, ~14
+   12    12        ASSIGN                                                   !6, 0
+         13      > JMP                                                      ->74
+   15    14    >   INIT_FCALL                                               'ctype_alpha'
+         15        FETCH_DIM_R                                      ~17     !1, !6
+         16        SEND_VAL                                                 ~17
+         17        DO_ICALL                                         $18     
+         18      > JMPZ                                                     $18, ->73
+   18    19    >   INIT_FCALL                                               'ctype_upper'
+         20        FETCH_DIM_R                                      ~19     !1, !6
+         21        SEND_VAL                                                 ~19
+         22        DO_ICALL                                         $20     
+         23      > JMPZ                                                     $20, ->47
+   20    24    >   INIT_FCALL                                               'ord'
+         25        FETCH_DIM_R                                      ~21     !1, !6
+         26        SEND_VAL                                                 ~21
+         27        DO_ICALL                                         $22     
+         28        SUB                                              ~23     $22, 65
+         29        INIT_FCALL                                               'ord'
+         30        FETCH_DIM_R                                      ~24     !0, !3
+         31        SEND_VAL                                                 ~24
+         32        DO_ICALL                                         $25     
+         33        SUB                                              ~26     $25, 97
+         34        SUB                                              ~27     ~23, ~26
+         35        ASSIGN                                                   !7, ~27
+   22    36        IS_SMALLER                                               !7, 0
+         37      > JMPZ                                                     ~29, ->39
+   24    38    >   ASSIGN_OP                                     1          !7, 26
+   27    39    >   ADD                                              ~31     !7, 65
+         40        ASSIGN                                                   !7, ~31
+   29    41        INIT_FCALL                                               'chr'
+         42        SEND_VAR                                                 !7
+         43        DO_ICALL                                         $34     
+         44        ASSIGN_DIM                                               !1, !6
+         45        OP_DATA                                                  $34
+         46      > JMP                                                      ->69
+   35    47    >   INIT_FCALL                                               'ord'
+         48        FETCH_DIM_R                                      ~35     !1, !6
+         49        SEND_VAL                                                 ~35
+         50        DO_ICALL                                         $36     
+         51        SUB                                              ~37     $36, 97
+         52        INIT_FCALL                                               'ord'
+         53        FETCH_DIM_R                                      ~38     !0, !3
+         54        SEND_VAL                                                 ~38
+         55        DO_ICALL                                         $39     
+         56        SUB                                              ~40     $39, 97
+         57        SUB                                              ~41     ~37, ~40
+         58        ASSIGN                                                   !7, ~41
+   37    59        IS_SMALLER                                               !7, 0
+         60      > JMPZ                                                     ~43, ->62
+   39    61    >   ASSIGN_OP                                     1          !7, 26
+   42    62    >   ADD                                              ~45     !7, 97
+         63        ASSIGN                                                   !7, ~45
+   44    64        INIT_FCALL                                               'chr'
+         65        SEND_VAR                                                 !7
+         66        DO_ICALL                                         $48     
+         67        ASSIGN_DIM                                               !1, !6
+         68        OP_DATA                                                  $48
+   48    69    >   PRE_INC                                                  !3
+   49    70        IS_SMALLER_OR_EQUAL                                      !4, !3
+         71      > JMPZ                                                     ~50, ->73
+   51    72    >   ASSIGN                                                   !3, 0
+   12    73    >   PRE_INC                                                  !6
+         74    >   IS_SMALLER                                               !6, !5
+         75      > JMPNZ                                                    ~53, ->14
+   56    76    > > RETURN                                                   !1
+   57    77*     > RETURN                                                   null
+
+End of function transform

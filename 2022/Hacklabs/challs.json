@@ -1,0 +1,890 @@
+{
+    "data": {
+        "Binary Exploitation": [
+            {
+                "category": "Binary Exploitation",
+                "description": "",
+                "files": [
+                    "/files/960f6939a3ca11cbd600605df2e69e00/chall?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI2fQ.Y5oxyA.l3PfWfm7u65LK_K_0fJ-Nm1KlHk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 37,
+                "name": "Warm Up 3",
+                "points": 500,
+                "solves": 13
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "103.185.44.235:11204",
+                "files": [
+                    "/files/01259113b7641d237413306ec643eb60/chall?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI3fQ.Y5oxyA.py3dWRvWbriAAp_Jum091sv0nl4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 38,
+                "name": "Warm Up 4",
+                "points": 500,
+                "solves": 17
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "I wonder how do I exploit this app?\r\n\r\n103.185.44.235:11201\r\n\r\n`Author: Enryu#7942`",
+                "files": [
+                    "/files/9661ac18193546d6cf8902233ca4b456/soal?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI4fQ.Y5oxyA.O796O6ra7OF-BcmaaqzA2WnGyUg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "Warmup 1",
+                "points": 500,
+                "solves": 15
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "Kenari oh Kenari ~\r\n\r\nAuthor: Enryu#7942",
+                "files": [
+                    "/files/663ac16f139e97ef30f21814f2870cfa/soal?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjUzfQ.Y5oxyA.fPkHq157FPw4oTqeZRBx2JiDsV8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 64,
+                "name": "Warm Up 5",
+                "points": 500,
+                "solves": 4
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "103.185.44.235:11202",
+                "files": [
+                    "/files/49925d9ac00fcc9d961cc924950bb329/chall?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI1fQ.Y5oxyA.-MWSlXxGtNppo-mSNTKk99b-Gjk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 36,
+                "name": "Warm Up 2",
+                "points": 500,
+                "solves": 19
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "Payload itu bisa berantai katanya .....\r\n\r\nAuthor: Enryu#7942",
+                "files": [
+                    "/files/bc7e0b12de2551490417f366fb6855f9/chall?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjU2fQ.Y5oxyA.Ic88WwttoBB9tm27lEU48Mik3FQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 67,
+                "name": "Warm Up 8",
+                "points": 500,
+                "solves": 3
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "Mau balik ke mana? :o\r\n\r\nAuthor: Enryu#7942",
+                "files": [
+                    "/files/36c607d80d69039fbde9972e672af717/soal?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjU0fQ.Y5oxyA.b6VhvJDPHu5uzRLsdPV4Qpr0X2c"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 65,
+                "name": "Warm Up 6",
+                "points": 500,
+                "solves": 3
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "Masih ingatkah kalian dengan format identifier? Ada bugnya loh!\r\n\r\nAuthor: Enryu#7942",
+                "files": [
+                    "/files/2cca0a5c5b7ead9bbdf5ad15f7e2f520/soal?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjU1fQ.Y5oxyA.ClHWyfm8W_ZcG4egFuO5IkyC6n4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 66,
+                "name": "Warm Up 7",
+                "points": 500,
+                "solves": 2
+            }
+        ],
+        "Blockchain": [
+            {
+                "category": "Blockchain",
+                "description": "HACKLABS also has its own Signature you know!\r\n\r\nSignature `: 0xb1b84072`\r\n\r\n`author : Sanada#7802`\r\n\r\nHACKLABS{SignatureName}",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 53,
+                "name": "Hacklabs Signature",
+                "points": 500,
+                "solves": 14
+            },
+            {
+                "category": "Blockchain",
+                "description": "My Parents hid My Box in millions of Moon bean blocks \r\n,I forgot tho, was it **308328**, **378239** or **299802**.\r\nB-b-but I'm sure they said something about being the most expensive block on the **moon**.\r\n\r\nFlag = HACKLABS{ParentsHash}\r\n\r\nAuthor : Sanada#7802",
+                "files": [],
+                "hints": [
+                    "**Moon**nya ga cuma satu nih kayaknya, ayo pilih bulan yang benar! psst, \"markas bulan. scan bulan .io \""
+                ],
+                "id": 54,
+                "name": "Parents Love",
+                "points": 500,
+                "solves": 8
+            },
+            {
+                "category": "Blockchain",
+                "description": "I wasn't expected anyone, and I mean ANYONE to find my secret.\r\nI don't think you too will find it this time. Because it's deep, deep\r\n7544066 moon bean below the surface.\r\n\r\nContract Address : `0x000000000000000000000000000000000000dEaD`\r\n\r\nFlag = HACKLABS{Network_Token-on-that-day}\r\n\r\nAuthor : Sanada#7802\r\n\r\nNote: remove the \",\" in the token-on-that-day   \r\n      ex: 13,37133713371337 -> 1337133713371337",
+                "files": [],
+                "hints": [
+                    "I created this challenge on the Ethereum Network - it is vast."
+                ],
+                "id": 55,
+                "name": "Deeper Into the Network",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "Blockchain",
+                "description": "I don't know what to tell you about space, It's such beautiful and immense. The food there.... hm.. well It's alike here, kintan, YES! KINTAN! You need to try that out there, Oh and I heard, they increase the Space Artifact Security since the last breach.\r\nGood luck on your trip.\r\n\r\nNote: - Flag Format + Rule included.   \r\n**WARNING : DON'T DEPLOY THE CONTRACT ON SMART CHAIN NETWORK, JUST DON'T!!!**\r\n\r\n`Author: Sanada#7802`",
+                "files": [
+                    "/files/31536fe613f68705ae5a1a1154e98825/ISS.zip?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjYzfQ.Y5oxyA.ZFem1S4Zm8h7HSULJ2v8cOqcU7Q"
+                ],
+                "hints": [
+                    "Always double check for any possible encoding guys :)"
+                ],
+                "id": 56,
+                "name": "International Space Station ",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Blockchain",
+                "description": "Hello My name is kong, and you must be a Hacklabs Enjoyer!\r\n\r\naddress: `0x4874d73bFF9B897c8d9D633A039D79Ba4301E4C0`\r\n\r\n`Author: Sanada#7802`\r\n\r\nNote:\r\n- Provider : \r\n`https://ethgoerli.g.alchemy.com/v2/NhxVK_3ELh3yQS2V8iRh6AldPY4sWW_d`\r\n- Use the same Network as \"**Deeper Into The Network**\"",
+                "files": [
+                    "/files/b110e75447822abd8165ed1fa9bc4cb6/Hackchain.sol?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjUwfQ.Y5oxyA.vbc0iHSrDrkKytq7iPNGnuwSeAs",
+                    "/files/100d82e24807ba2e48f86c04f25b390a/abi?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjY0fQ.Y5oxyA.bu4zb83VTyeWydlI8cR6uxHnkP4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 57,
+                "name": "Hackchain",
+                "points": 500,
+                "solves": 1
+            }
+        ],
+        "Boot2Root": [
+            {
+                "category": "Boot2Root",
+                "description": "Format: HACKLABS{.*}\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 74,
+                "name": "Johnny (User)",
+                "points": 500,
+                "solves": 1
+            }
+        ],
+        "Cryptography": [
+            {
+                "category": "Cryptography",
+                "description": "Julius Caesar and Blaise de Vigen\u00e8re, truly extraordinary people.\r\n\r\n`Author: kisanak#5303`",
+                "files": [
+                    "/files/6f9b44d229c2dd885b0592a654efae05/chall.txt?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjIyfQ.Y5oxyA.WZQbJnUKOOseg_DiZ3PUrLmsP-c"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 28,
+                "name": "Intro to Cryptography",
+                "points": 500,
+                "solves": 56
+            },
+            {
+                "category": "Cryptography",
+                "description": "ud3h\r\n\r\nauthor: kisanak#5303",
+                "files": [
+                    "/files/f1b17819aff6b17b103af6a277f8e64a/output.txt?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjQxfQ.Y5oxyQ.3OSze3n6cjyJp6VxkQMxf4YRPdM",
+                    "/files/b94c0eea531bbc9d2a597de040b4ddff/rsa4.py?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjQyfQ.Y5oxyQ.FXNGPxS8nEvz4jnNUg6yVFMr42A"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 49,
+                "name": "Rsa Party 4",
+                "points": 500,
+                "solves": 17
+            },
+            {
+                "category": "Cryptography",
+                "description": "penjumlahan saja adyck adyck\r\n\r\nauthor: kisanak#5303",
+                "files": [
+                    "/files/4ed972f721c63c064e5928a7e17af65b/output.txt?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjM5fQ.Y5oxyQ.abVIGLG6MaZKNVcx1KJYBJCb2Rc",
+                    "/files/0c75f47de6db5329c0aed92a258e391b/rsa3.py?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjQwfQ.Y5oxyQ.DgiRu47dlXEeN4KH2ShrO7B-6ek"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 48,
+                "name": "Rsa Party 3",
+                "points": 500,
+                "solves": 16
+            },
+            {
+                "category": "Cryptography",
+                "description": "Setelah solve soal ini, anda akan belajar tentang:\r\n- rand\r\n- xor\r\n- python\r\n- hex\r\n\r\n`author: kisanak#5303`",
+                "files": [
+                    "/files/f2cf91d567a64aca1432cdf2fc3d558c/ezyslur.py?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjh9.Y5oxyA.XitAb277MI8rAkhok7sYv3ItRnE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "ezyslur",
+                "points": 500,
+                "solves": 30
+            },
+            {
+                "category": "Cryptography",
+                "description": "simple",
+                "files": [
+                    "/files/c38c972d36d337c9e8117ba6ea311aef/output.txt?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjM2fQ.Y5oxyA.1Bx1qPfMu3MLy-GlPP3ziVLUuSk",
+                    "/files/933dde9bd6f153f44babccd0535d3290/rsa1.py?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjM3fQ.Y5oxyA.KKPVHjChomTU6MhqHsAIDra8O_E"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 46,
+                "name": "Rsa Party 1",
+                "points": 500,
+                "solves": 20
+            },
+            {
+                "category": "Cryptography",
+                "description": "Belajar python sama-sama yuk\r\nformat: HACKLABS{.*}\r\n`Author: kisanak#5303`",
+                "files": [
+                    "/files/489172679311d1a2067b772f63fb1b8d/mencubacuba.py?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjl9.Y5oxyA.aOaTowMjCMSOUtnqlEtr91pWnWw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "mencubacuba",
+                "points": 500,
+                "solves": 32
+            },
+            {
+                "category": "Cryptography",
+                "description": "Ayo berhitung! 2... 8... 10... 16... 32... 64...\r\n\r\n`Author: kisanak#5303`",
+                "files": [
+                    "/files/c370e9ed4d627fe3a1e91e8aab20c844/chall.txt?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjIxfQ.Y5oxyA.Mqata-Omu1u6eX4NH8EkR1-lUYY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 27,
+                "name": "kode kodean",
+                "points": 500,
+                "solves": 43
+            },
+            {
+                "category": "Cryptography",
+                "description": "leakeD\r\n\r\nauthor: kisanak#5303",
+                "files": [
+                    "/files/41c29b019b3b312c18017debd45e5620/rsa2.txt?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjM4fQ.Y5oxyA.FFgR_lYWT2u-T5m7mbmksRvVurE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 47,
+                "name": "Rsa Party 2",
+                "points": 500,
+                "solves": 20
+            },
+            {
+                "category": "Cryptography",
+                "description": "kuylah tebak angka\r\nnote: flagnya diwrap jadi hacklabs{numba}\r\n\r\n`author: kisanak#5303`",
+                "files": [
+                    "/files/54bb5d448a6637cfbafa0482d50834af/kexoxorxoxor.py?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjU3fQ.Y5oxyQ.EHX9QsmzkfEbz2bsfyfuxz3rL6k"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 70,
+                "name": "TseT RoX",
+                "points": 500,
+                "solves": 9
+            },
+            {
+                "category": "Cryptography",
+                "description": "I found a weird asymmetric key encryption scheme yet robust. Try to break it!\r\n\r\nAuthor: Chevaliers#5911",
+                "files": [
+                    "/files/4b4b39920f81ff0caef64176776af8a9/chall.py?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjUyfQ.Y5oxyQ.NYSUukLbNUPOc_pzVEOE9LB7Nk8"
+                ],
+                "hints": [
+                    "I recently found out that apparently, the flag is encrypted with **ElGamal** algorithm"
+                ],
+                "id": 63,
+                "name": "Robust Encrypter",
+                "points": 500,
+                "solves": 5
+            },
+            {
+                "category": "Cryptography",
+                "description": "penuh dengan kerandoman hakiki\r\n\r\n`author: kisanak#5303`",
+                "files": [
+                    "/files/4bbea17eacfa219b1ef9343b74804b60/enc.py?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjU5fQ.Y5oxyQ.fGYNXWrjeagoNSIYqIEsyeuFRNE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 72,
+                "name": "Orang-orang random ini",
+                "points": 500,
+                "solves": 6
+            },
+            {
+                "category": "Cryptography",
+                "description": "mereka bilang enkripsi ini aman, apadaya peserta hacklabs berkata lain...\r\nnc 103.185.44.61 9977\r\n\r\n`author: kisanak#5303`",
+                "files": [
+                    "/files/b673e366b20258e7600d7433c3dbd7c4/ketemuan.py?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjYyfQ.Y5oxyQ.gMXPL7YLsb6LBnQB1kjuMl9WHGc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 71,
+                "name": "ketemuan",
+                "points": 500,
+                "solves": 4
+            },
+            {
+                "category": "Cryptography",
+                "description": "RSA is often appear in the Crypto menu, but this time, running the challenge script will make you even mad.\r\n\r\nDownload the challenge [here](https://drive.google.com/drive/folders/1arTZqJkRi3yMCprEJeL6M082yqZz9qE8?usp=sharing)\r\n\r\nAuthor: aseng#2055",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 85,
+                "name": "MathSA",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Cryptography",
+                "description": "kek ada yang beda\r\n\r\n`author: kisanak#5303`",
+                "files": [
+                    "/files/4db26c4008f9bc3178273cd095856a1e/out.txt?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjYwfQ.Y5oxyQ.xOv0jZdOEEpas8wtU4K-Y633RkA",
+                    "/files/b5d0b526a8fc8bbf8b925acf94046584/soal.py?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjYxfQ.Y5oxyQ.hP6UaoTqcgVJDr3MGrVlEHvGeE4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 73,
+                "name": "Rabun tidak ganjil",
+                "points": 500,
+                "solves": 4
+            }
+        ],
+        "Forensic": [
+            {
+                "category": "Forensic",
+                "description": "one? no.\r\ntwo? no.\r\nthree? no.\r\nfour-of-a-kind!\r\n\r\n`Author: kisanak#5303`",
+                "files": [
+                    "/files/88e9f6e99564415cf868f494d8a6b51b/riffle?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjExfQ.Y5oxyQ.t4J93vmaNLulfTPhnpcJTdzTbNM"
+                ],
+                "hints": [
+                    "Four stacked png with different length. Can you split it?"
+                ],
+                "id": 15,
+                "name": "ppppnnnngggg",
+                "points": 500,
+                "solves": 7
+            },
+            {
+                "category": "Forensic",
+                "description": "Stefan has just currently developed a new ways of hiding a message inside an image. This one's known as **Stefanography** instead of **Steganography**.\r\n\r\nCan you extract the original message from the image given?\r\nHe also attached his secret script to do it all.\r\n\r\n`Author: aseng#2055`",
+                "files": [
+                    "/files/b2e963d2a402f119ebdb529885873edc/secret_script.py?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjEzfQ.Y5oxyQ._QgFNstCcU4wUK0EKz9CEKys5CA",
+                    "/files/f873b0881785daf5b06e5ac7f429a18d/hekleb.png?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE0fQ.Y5oxyQ.yDVBgcoEAo4An3Vc8wATx98KsnM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 18,
+                "name": "Stefanography",
+                "points": 500,
+                "solves": 3
+            },
+            {
+                "category": "Forensic",
+                "description": "I receive this message from police department, which is not cool.\r\n\r\nIt says that 5 days ago I've been caught in some form of fraud and stating that I've gone against the rules.\r\n\r\nI didn't know what i've just done but one thing for sure is i obey the rules of rambu lalu lintas. \r\nHere, I give you this attachment.\r\n\r\n```[?]``` Can you find me the ``person's email`` who wrote all these things?\r\n\r\nP.S. : \"What I know this far is that the person used an **online** service/website to send this message, which is the reason why I think this message is spoofed and not from real FBI Policeman.\"\r\n\r\nWrap the flag in : ``hacklabs{...}``<br>\r\nFlag example : ``hacklabs{steve@org.id}``\r\n\r\n``Author: ByteBites#9671``",
+                "files": [
+                    "/files/9be52a20cf790c5b5031ea75d2f69deb/basic.ost?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE1fQ.Y5oxyQ.7ZlNzhiH3XgEJQpDQVqAIfcnWnY"
+                ],
+                "hints": [
+                    "What goes through your mind when you see the filename?\u00a0\nIs there anything unknown or making you confused?\nMaybe the file's ``3x73n510n``?"
+                ],
+                "id": 20,
+                "name": "Spoofed",
+                "points": 500,
+                "solves": 7
+            },
+            {
+                "category": "Forensic",
+                "description": "The author's friend sneaked to his office desk and played a little with his computer. He's so **sus** tho so the author wants to know what was his friend doing in his computer..., any kind of **typing** indications? .\r\n\r\nP.S : The flag prefix is not usual, replace them with `hacklabs` later!\r\n\r\n`Author: aseng#2055`",
+                "files": [
+                    "/files/caea5bd627dd612162d433ec45ed11b7/sus.pcap?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjIwfQ.Y5oxyQ.p_HfZVjA_E3wpL9b-nZhOgfON_A"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 26,
+                "name": "Remote Sus",
+                "points": 500,
+                "solves": 12
+            },
+            {
+                "category": "Forensic",
+                "description": "My brother's app is crashed but his Art assignment's deadline is 15 more minutes. Are you able to recover what was he writing before in his Ms. Paint application?\r\n\r\nDownload the file  [here](https://drive.google.com/file/d/1TvbfM1mVagYSD0WgCvyO3VobQmnkZYvx/view?usp=share_link)\r\n\r\nThe flag's is insensitive so feel free to submit the flag if you got the right writing's and don't forget, it starts with `hacklabs{.*}`\r\n\r\nAuthor: aseng#2055",
+                "files": [],
+                "hints": [
+                    "Some tools can find an exact image of what happen during the crash at certain **offset**. That's why this is a raw dump that its image can be recovered in an 8 bit style and customizable size."
+                ],
+                "id": 44,
+                "name": "Child's Play",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Forensic",
+                "description": "My friend created a secure password for my Windows Logon but I don't think there's any in the WinRAR files that he gave me earlier.  Can you find it for me? :(\r\n\r\nRAR Password =  hacklabs\r\n\r\n`Author: aseng#2055`",
+                "files": [
+                    "/files/c73b73c4999bd420ddab867277b18c6e/fsystem.rar?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjIzfQ.Y5oxyQ.CH19MZiRCpA0GM2sDImrATunGXY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 33,
+                "name": "Where is my Password",
+                "points": 500,
+                "solves": 14
+            },
+            {
+                "category": "Forensic",
+                "description": "Tim Incident Response & Forensics dari perusahaan PETIR baru saja mendapatkan kasus terbaru dari salah satu perusahaan digital abal-abal berkedok Cybersecurity bernama SecNet, yang terbukti melakukan scam kepada masyarakat awam dan karyawan bawahannya.\r\n\r\nSalah satu karyawan yang BARU SAJA dilantik menjadi karyawan senior SecNet, Noordin, berhasil ditangkap oleh tim PETIR dan diinterogasi. Ia dipercaya menjadi tangan kanan barunya PIC *Database Administrator* di SecNet. Tim PETIR juga berhasil mengakuisisi sejumlah memori berisikan berkas penting dari laptop Noordin.\r\n\r\nDapatkah kalian membantu Tim PETIR untuk **MENDAPATKAN SEJUMLAH PASSWORD** apapun yang  berkaitan dengan Noordin, baik akun Login Karyawannya, akun Googlenya ataupun akun Githubnya?\r\n\r\nDiketahui bahwa Username Noordin bernama **Lebah_g4nteng**.\r\n\r\nFlag terdiri dari **3 bagian** (semuanya akan didapatkan ketika kalian berhasil mengekstrak semua password yang berkaitan dengan Noordin).\r\n\r\nFlag prefixnya berbeda dengan `hacklabs`. Namun jika diganti dengan `hacklabs` juga tidak masalah, keduanya valid.\r\n\r\nDownload soalnya [disini](https://drive.google.com/file/d/1h0LMAt6hY9WO34kEqBqQtKRCncnaHthg/view?usp=sharing)\r\n\r\nAuthor: aseng#2055\r\n",
+                "files": [
+                    "/files/60dcc24054fa79eaaeda202c6ec4637f/cek_integritas_data.txt?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjY1fQ.Y5oxyQ.Kmdf8Xvx-fu1KIN47cW3rbxxHN4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 78,
+                "name": "DFIR Case 1  Sindikat Abal - Abal",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "Forensic",
+                "description": "I think my laptop has been hacked. \r\nBecause I know you are an expert in analyzing memory, here I give you the memory dump.\r\n\r\nFind out what's bothering my laptop, there might be something malicious running which I...don't really know. \r\n\r\n``Report back to me as soon as you can about the hacker's IP Address and Port.``\r\n\r\nThanks :D\r\n\r\nFlag Format : ``HACKLABS{IP-Address_Port}``\r\n\r\nLink :<br>\r\nhttps://drive.google.com/file/d/1eEwy2qmYajhgwrH84sVAycAJrbSKL6rr/view?usp=sharing",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 68,
+                "name": "Software",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Forensic",
+                "description": "Awww, ada Octocat! Namun tenang, kunci rumahnya sudah diamankan!\r\n\r\nChall: https://mega.nz/file/LrJCzR7I#_MqDZftIcjIYvdxHbGoj__IgBGrt67mzVh6pGN8g498\r\n\r\nWrap the flag with: **hacklabs{*}**.\r\n\r\n`Author: ErikHen#6413`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 58,
+                "name": "digiGIT Octocat",
+                "points": 500,
+                "solves": 4
+            },
+            {
+                "category": "Forensic",
+                "description": "Bobby akhirnya diketahui telah melakukan tindakan aksi yang sangat meresahkan sehingga membuat ia harus ditahan dulu oleh polisi karena bukti Anda. Dia terdakwa telah menjual senjata dengan bukti yang didapatkan di aplikasi note-taking lainnya meskipun notestersebut telah DIHAPUS. Dapatkah Anda menyebutkan 2 senjata tajam yang ia jual sebagai *supplier*?\r\n\r\nFormat Jawaban: namasenjata1_namasenjata2 (huruf kecil semua)\r\n\r\nContoh: ranjaudarat_pisaubelati\r\n\r\nMaka flagnya -> `hacklabs{ranjaudarat_pisaubelati}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 82,
+                "name": "Android 1  Selundup (4)",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Forensic",
+                "description": "Soal dengan prefix  Android 1 akan menggunakan file berikut dan memiliki deskripsi kasus awal seperti di bawah ini:\r\nhttps://drive.google.com/file/d/1DmOtG5jNsRNtbFek1KwQBu19MX3_P_ZN/view?usp=sharing\r\n\r\nPassword = NCW22_sama_hology5_finalnya_tabrakan_gan:(\r\n\r\nBobby, merupakan seorang anak SMA yang sangat nakal. Ia pernah masuk ke dalam penjara remaja sejak SMP karena kelakuannya yang suka menjahili temannya hingga berlebihan. Kini, Bobby berulah lagi hingga membuat banyak temannya merasa kesal dengannya hingga dipanggil polisi daerah. Bobby gemar menutupi jejak aksinya dan sangat terencana, oleh karena itu polisi daerah diberikan penugasan untuk mengecek HP Bobby jika ada keanehan atau kekeliruan di dalamnya. Anda, sebagai tim Digital Forensik yang dapat diandalkan diminta untuk melakukan analisa dari hasil akuisisi sebuah **Android Image Phone**. \r\n\r\nPertanyaan:\r\n\r\nKapan terakhir kali Bobby hendak mengunduh sebuah Game yang berkaitan dengan pembullyan di luar PlayStore?\r\n\r\nFormat Jawaban: DD/MM/YYYY_HH:MM:SS WIB\r\n\r\nContoh: 13/08/2021_14:02:30 WIB\r\n\r\nMaka flagnya:\r\n\r\n`hacklabs{13/08/2021_14:02:30 WIB}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 79,
+                "name": "Android 1  Ketahuan Nakal (1)",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Forensic",
+                "description": "Bobby memiliki aplikasi notes-taking yang berisi beberapa rencana jahatnya untuk menjahili teman-temannya. Berapa notes yang telah dia hapus untuk menutupi jejaknya? Dan apa nama judul notes yang berisikan list-list rencananya?\r\n\r\nFormat Jawaban: jumlahnotes_judulnotes (jika ada karakter spesial atau spasi atau simbol lainnya, tetap cantumkan)\r\n\r\nContoh: 12_Rencana Eksekusi 2015 Man's Boom\r\n\r\nMaka flagnya:\r\n\r\n`hacklabs{12_Rencana Eksekusi 2015 Man's Boom}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 80,
+                "name": "Android 1  Licik (2)",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Forensic",
+                "description": "Berapa kali Bobby mengunjungi website Kompas?\r\n\r\nFormat Jawaban: jumlahkunjungan\r\n\r\nContoh: 6\r\n\r\nMaka, flagnya -> `hacklabs{6}`\r\n\r\nNotes: Hati-hati, challenge ini memiliki 5x kesempatan untuk menjawab saja. Pergunakan ilmu forensik Anda dengan maksimal!",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 81,
+                "name": "Android 1  Meraba Desus (3)",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Forensic",
+                "description": "Ada tambahan informasi dari sumber yang sama sebelumnya. Berapa anggota (termasuk Bobby) yang telah mendaftarkan diri ke BreachForums? Siapakah nama anggota terakhir?\r\n\r\nFormat Jawaban: jumlahanggota_namaanggotahurufkecilsemua\r\n\r\nContoh: 5_sultanprayoga\r\n\r\nMaka flagnya -> `hacklabs{5_sultanprayoga}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 83,
+                "name": "Android 1  Forum Hacker (5)",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "Run at your own risk, although it's safe ~.\r\nBut can you trust my words? :p\r\n\r\n`Author: aseng#2055`",
+                "files": [
+                    "/files/7593578a216415660d06482c9677cc41/bashware.sh?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE2fQ.Y5oxyQ.ipQYqlCTR61QZLGCK7jyrYr4bD4"
+                ],
+                "hints": [
+                    "What's that? Base64 encodings? But why the output seems to be in a `binary-like` format? Perhaps it is **compressed** ?"
+                ],
+                "id": 21,
+                "name": "Bashware",
+                "points": 500,
+                "solves": 4
+            },
+            {
+                "category": "Misc",
+                "description": "Another bashware. Another nguli.\r\n\r\n`Author: aseng#2055`",
+                "files": [
+                    "/files/4ea4566aa82efdb35a42c4648f63959c/wtf.sh?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE4fQ.Y5oxyQ.97Dl__etuEy85KTrr12Pu3uPEVM"
+                ],
+                "hints": [
+                    "How do you **debug** a bash script? And what's with that weird `curly brackets` and the `farmer's hat` doing?"
+                ],
+                "id": 24,
+                "name": "Bashware 2",
+                "points": 500,
+                "solves": 7
+            },
+            {
+                "category": "Misc",
+                "description": "Let's play Nintendo Games ~, Can you find a hidden flag in this ROM game tho? :>\r\n\r\nAuthor: aseng#2055",
+                "files": [
+                    "/files/d3968bd1713640a4b42c0f5ec866e911/st3.nes?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjUxfQ.Y5oxyQ.q2HHEPTeLsb99xWlH8AzjXSgqzo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 62,
+                "name": "Street Fighter 3",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "Misc",
+                "description": "Before entering the competition, it's important for **both** players and problem setters to read the [rules]( http://103.185.44.252/rules)!\r\n\r\nGood luck and have fun!",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "Welcome to Hacklabs!",
+                "points": 1337,
+                "solves": 93
+            }
+        ],
+        "Reverse Engineering": [
+            {
+                "category": "Reverse Engineering",
+                "description": "Validasi password biasa kok\r\n\r\n`Author: kisanak#5303`",
+                "files": [
+                    "/files/b3a8cffab911cbbca78a005097f24bb1/123451?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjEwfQ.Y5oxyQ.nzHBCBb2JG7dtS1qW-IFf0ZddGA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "heklebchecker",
+                "points": 500,
+                "solves": 35
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Start your journey with this chall :) Have you ever heard about decompiler or strings?\r\n\r\nchall: https://mega.nz/file/WmIGCRxK#QHBUXhBqdv9Ckop6pAubQLCqF5lpOaOBF0RThyZ0eJA\r\n\r\nFormat Flag: hacklabs{*}\r\n\r\n`Author: ErikHen#6413`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 19,
+                "name": "Baby ELF",
+                "points": 500,
+                "solves": 39
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Aww noooo! my precious NFT collections has been locked by runsomewhere attack. Please save them before NFT become irrelevant :(\r\n\r\n`Author: kisanak#5303 & aseng#2055`",
+                "files": [
+                    "/files/f7190a5fb93c86d9009ac29dd1f98988/stuff.zip?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjE3fQ.Y5oxyg.-3BY7iqFzlDiy8AdKMKMiuNHJYc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 22,
+                "name": "Run Somewhere",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Have you done reversing binary in ARM? It becomes handy once you also go for pentesting too!\r\n\r\n`Author: aseng#2055`",
+                "files": [
+                    "/files/bdb7aaa7f448ca0e5e9b746f044f70a0/babyarm?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjEyfQ.Y5oxyg.jQl30rFNhYQAy0yj5e9z6WZZuVg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "Baby ARM",
+                "points": 500,
+                "solves": 14
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Simply buy the flag.\r\n\r\n`Author: BlackBear!!#7019`",
+                "files": [
+                    "/files/177600f0aa53f68f306a2e00f2d3c837/flagshop?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjI0fQ.Y5oxyg.iR08vtll8Mn3Zc2Gvi4Ohlk_Xwg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 35,
+                "name": "Flag Shop",
+                "points": 500,
+                "solves": 14
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Are you feeling lucky today?\r\n\r\n`Author: BlackBear!!#7019`",
+                "files": [
+                    "/files/0102c14c32023fe2cfb7ded37f574e69/fortune.exe?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjMwfQ.Y5oxyg.qqkOAzUlOroU4yfWOJWUbeMXbc8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 39,
+                "name": "Fortune Machine",
+                "points": 500,
+                "solves": 8
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "> Zeus is the sky and thunder god in ancient Greek religion, who rules as king of the gods of Mount Olympus.\r\n\r\n`Author: BlackBear!!#7019`",
+                "files": [
+                    "/files/90923c52f23b460f4763b6426927127f/soal.exe?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjMzfQ.Y5oxyg.6gjmh7f6COBuf2cGy3sA1CWNH7E"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 43,
+                "name": "zeus or zoos",
+                "points": 500,
+                "solves": 7
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Have you ever heard of SECCOMP in pwn? Welp, I got a funny story for you because there's a DECCOMP in reverse engineering ( just my made up names tho :)) ). SECCOMP means to limit the syscall usage, but DECCOMP limits you from decompiling a binary :)). Can you still find a correct binary input?\r\n\r\nWrap the correct input with `hacklabs{.*}`\r\n\r\nDownload the file [here](https://drive.google.com/drive/folders/1_YxntVZq8sWI-QvB0nDM03fodUcaJaIH?usp=sharing)\r\n\r\nAuthor: aseng#2055",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 61,
+                "name": "Deccomp",
+                "points": 500,
+                "solves": 3
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "You've already known PHP before. But have you done reading PHP lang in low-level style?\r\nI forgot my output from my original PHP and the source code lost in paradise :(, perhaps instead you can\r\nrecover it from this file?\r\n\r\nWrap the correct output with `hacklabs{.*}`.\r\n\r\nAuthor: aseng#2055",
+                "files": [
+                    "/files/ccbe055dae9d0dff78cb123872712df7/byte.txt?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjMxfQ.Y5oxyg.HrRFcIGylXVHAktQuGSzVM8Y_-E"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 41,
+                "name": "Low Level PHP",
+                "points": 500,
+                "solves": 5
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Mr. HoneyBee just trapped Mr. Dummy at his house and you really want to help him. Fortunately, you heard that Mr. HoneyBee had made a secret shortcut to let Dummy **walk through the wall** to escape. Could you find the secret shortcut and search for the flag around his house? Maybe you can find it in codes?\r\n\r\nChall: https://mega.nz/file/q2oWSI5Y#TJnkChNl853Io-E_sEJZIHRuyU_V1h3hzdcX--JXHKU\r\n\r\nWrap the flag with: hacklabs{*}\r\n\r\nAuthor: ``ErikHen#6413``",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 77,
+                "name": "WalkingWalking",
+                "points": 500,
+                "solves": 3
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "When you're standing on a high place, have you ever had that super weird feeling that you should just...jump? It's called \"Call of the Void\" \r\n\r\nnote: change the format into \"hacklabs{.*}\" yes... reused challs ehe\r\n\r\nauthor: kisanak#5303",
+                "files": [
+                    "/files/416b61ffdedc88b2d0e68c779f9ef91f/challenge?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjQzfQ.Y5oxyg.LShU-ob8SUj8TXvuB_IL5XSQyOc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 52,
+                "name": "Call of the Void",
+                "points": 500,
+                "solves": 10
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "You have played **Gameboy**, but have you ever hacked one? It seems you will get a secret message once you've done the objectives in this lame game :((\r\n\r\nFlag prefix is both accepted either `hacklabs` or the one that you'll get in the secret message!\r\n\r\nAuthor: aseng#2055",
+                "files": [
+                    "/files/59ba1480504b586559bced648109ba1e/game.gb?token=eyJ1c2VyX2lkIjoxMjIsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjY2fQ.Y5oxyg.jucMUFu8wWDd1avs_CgqhfX2n2Y"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 84,
+                "name": "80's",
+                "points": 500,
+                "solves": 2
+            }
+        ],
+        "Web Exploitation": [
+            {
+                "category": "Web Exploitation",
+                "description": "Last week was a mess. My website got hacked, and the hacker managed to get all of my user information. Worst of all, the hacker managed to get my precious flag. I'm super pissed about it. But today, it will be different. I fixed the feature, and I'm sure that it's secure. Yeah.. I'm really sure about it. I also hired a developer to add new features to the website. One of them is to vote for your favorites author! I'm excited to show it to you. My developer said it wasn't finished yet, but I don't really care! I trust that guy. Oh, I also added a thank you page this time btw. All right, don't forget to vote for your favorite author!\r\n\r\nAuthor: Shatternox#1668",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 30,
+                "name": "The Quotes 2",
+                "points": 500,
+                "solves": 5
+            },
+            {
+                "category": "Web Exploitation",
+                "description": "WARNING!\r\n\r\nAuthor: Shatternox#1668",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "Alerttt",
+                "points": 500,
+                "solves": 43
+            },
+            {
+                "category": "Web Exploitation",
+                "description": "\u2728 Magic \u2728\r\n\r\nAuthor: Shatternox#1668",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 32,
+                "name": "Magician",
+                "points": 500,
+                "solves": 33
+            },
+            {
+                "category": "Web Exploitation",
+                "description": "I just created my first website to view quotes from my favorite person in the world! Visit my website to read it!\r\n\r\nAuthor: Shatternox#1668",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 29,
+                "name": "The Quotes",
+                "points": 500,
+                "solves": 28
+            },
+            {
+                "category": "Web Exploitation",
+                "description": "No more iDoor stuff, I fixed it! Even better, you can now add your own door!\r\n\r\nAuthor: Shatternox#1668",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 60,
+                "name": "iDoor Revenge",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "Web Exploitation",
+                "description": "Come and visit my website! The first person to buy a door will get a flag! Whoops too late! The admin already bought the flag on 1st April 2022. I guess you will never receive the flag.\r\n\r\nAuthor: Shatternox#1668",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 59,
+                "name": "iDoor",
+                "points": 500,
+                "solves": 4
+            },
+            {
+                "category": "Web Exploitation",
+                "description": "SAVE ORANG UTAN!!!\r\n\r\nAuthor: Shatternox#1668",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 42,
+                "name": "Forest Fire",
+                "points": 500,
+                "solves": 0
+            }
+        ]
+    },
+    "title": "Hacklabs",
+    "url": "http://103.185.44.252"
+}

@@ -1,0 +1,28 @@
+﻿Created By AccessData® FTK® Imager 4.3.0.18 
+
+Case Information: 
+Acquired using: ADI4.3.0.18
+Case Number: 001
+Evidence Number: 001
+Unique Description: Kasus-Noordin
+Examiner: Tim PETIR Aseng
+Notes: 
+
+--------------------------------------------------------------
+
+Information for C:\Users\USER\Desktop\Noordin\Evidence.ad1:
+[Computed Hashes]
+ MD5 checksum:    4a63f5631fab9b998b47bb6fe28dd90e
+ SHA1 checksum:   7ceb51e3bafc08a89d168cc735188d016ee12a80
+
+Image information:
+ Acquisition started:   Thu Oct 22 13:35:21 2020
+ Acquisition finished:  Thu Oct 22 13:35:24 2020
+ Segment list:
+  C:\Users\USER\Desktop\Noordin\Evidence.ad1
+
+Image Verification Results:
+ Verification started:  Thu Oct 22 13:35:24 2020
+ Verification finished: Thu Oct 22 13:35:24 2020
+ MD5 checksum:    4a63f5631fab9b998b47bb6fe28dd90e : verified
+ SHA1 checksum:   7ceb51e3bafc08a89d168cc735188d016ee12a80 : verified
