@@ -1,0 +1,296 @@
+{
+    "data": {
+        "Binary Exploitation": [
+            {
+                "category": "Binary Exploitation",
+                "description": "Proud member of [Project Sekai](https://sekai.team/)\r\n\r\nI dont play the game but enjoy the song covers, especially Nene and WxS covers\r\n\r\nAuthor: Zafirr",
+                "files": [
+                    "/files/93be43d5bde05d94af5fbe6bdeb4c7df/kusanagi_nene.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjUxfQ.Y6PLYA.wcud5QyFen22mu3ByR9uree_YFk",
+                    "/files/21ee8a695fd90a9d69fefa02c806482c/ld-linux-x86-64.so.2?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjcwfQ.Y6PLYA.fmIEgkVEkclDXUucs2QqOvAp8Ag",
+                    "/files/8133335a7abfa315b20a6d554ab8fadc/deployment.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjcyfQ.Y6PLYA.wIwBpZvvnRi-aHhmxNOUg5pIGgU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 38,
+                "name": "Kusanagi Nene",
+                "points": 923,
+                "solves": 6
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "You could say kernel challs are \"macam setan\" (oni)\r\n\r\nbadum tss\r\n\r\nplease laugh\r\n\r\nAuthor: Zafirr",
+                "files": [
+                    "/files/125eea722a1891bf18f3d932ddcb6c3c/nakiri_ayame.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjUyfQ.Y6PLXw.RpmQhHsenoC7MsJe_bvE7421wV0"
+                ],
+                "hints": [
+                    "You can write anywhere, also oops != panic"
+                ],
+                "id": 39,
+                "name": "Nakiri Ayame",
+                "points": 988,
+                "solves": 1
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "I went all out on the vtuber theme for this one, OreApo are my 2 favorite vtubers\r\n\r\nart by [rinrinz](https://twitter.com/hikikomorinz)\r\n\r\nAuthor: Zafirr",
+                "files": [
+                    "/files/15af217e1fe285af8c5248f91a9b34a8/oreapo.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjYzfQ.Y6PLYA._lvwfocrvABgLDHk4JO-pw3TM_0",
+                    "/files/88a7cc4da4876693f0908b3439121298/ld-linux-x86-64.so.2?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjcxfQ.Y6PLYA.GGGZz6hjswXrijKUwLa56sDtRqo"
+                ],
+                "hints": [
+                    "Heavily inspired by ghostisland from hitcon 2015 finals & ghostparty on pwnable.tw\n\nada writeup kedua soal itu, cari aja"
+                ],
+                "id": 41,
+                "name": "OreApo",
+                "points": 1000,
+                "solves": 0
+            }
+        ],
+        "Cryptography": [
+            {
+                "category": "Cryptography",
+                "description": "*We need a little kxn, 'cause it feels so empty without kxn*\r\n\r\n`nc 157.245.51.41 33369`\r\n\r\nAuthor: deomkicer",
+                "files": [
+                    "/files/3cc69e2a097d5f07d369b879800437af/server.py?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjYyfQ.Y6PLYA.301cfe4BFh_7xnm-Kgd8ygMbY9Q"
+                ],
+                "hints": [
+                    "Use `gmpy2.powmod` for faster bruteforce"
+                ],
+                "id": 43,
+                "name": "KXN",
+                "points": 1000,
+                "solves": 1
+            },
+            {
+                "category": "Cryptography",
+                "description": "I just studied practical cryptography and finally made my new web authentication token. Can you audit my code?\r\n\r\n[https://tenjin.hackthesystem.pro](https://tenjin.hackthesystem.pro)\r\n\r\nAuthor: merricx",
+                "files": [
+                    "/files/e940d3febfee164aa90e58a173b09092/server.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjY5fQ.Y6PLYA.axq6WvelTbJKlyAxQmi0W_0O0KU"
+                ],
+                "hints": [
+                    "Obviously **timing attack**, but what can you exploit from this?\nLook at the most \"time expensive\" function."
+                ],
+                "id": 44,
+                "name": "Tenjin",
+                "points": 1000,
+                "solves": 1
+            },
+            {
+                "category": "Cryptography",
+                "description": "Faustian Contract was too easy. How about Mephistophelian Contract?\r\n\r\n`nc 157.245.51.41 33370`\r\n\r\nAuthor: merricx",
+                "files": [
+                    "/files/b5bf049c63c6d2b351ca8b914fa9f63e/challenge.py?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjY1fQ.Y6PLYA.OoNEbZMePUKkf-9Ml7GABMEPOj0",
+                    "/files/6246b491c13e633b954de5b8757cebbf/pacts.py?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjY2fQ.Y6PLYA.XZh8ccTpUTfAK4cEwIyB-w8KByE"
+                ],
+                "hints": [
+                    "Sorry to ruin your day, but this one need LLL :'("
+                ],
+                "id": 51,
+                "name": "Mephisto",
+                "points": 1000,
+                "solves": 0
+            }
+        ],
+        "Forensic": [
+            {
+                "category": "Forensic",
+                "description": "Another incident occured on my old webservice that originally hosted using a network proxy. Upon the inspection, I found that the dependencies seems to be deprecated. Luckily, there was nothing harmful happened. Could you figure it out?\r\n\r\nAuthor: hanasuru",
+                "files": [
+                    "/files/8f966751112ef3955abf8a34af047919/proxyfied.tar.xz?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjQ3fQ.Y6PLYA.Hd5aRPO-23asK_Hk5y2kEGZeVqE"
+                ],
+                "hints": [
+                    "It was affected by a popular CVE back in 2021 which likely had a capability to execute a malicious code to the server"
+                ],
+                "id": 33,
+                "name": "Proxyfied",
+                "points": 1000,
+                "solves": 1
+            },
+            {
+                "category": "Forensic",
+                "description": "It's been a while since the last incident. But those peaceful day surely didn't last long due to another silly incident. This time, we detected some suspicious traffic inside our VPN network. Fortunately, there were nothing major happened. Could you figure it out?\r\n\r\nAuthor: hanasuru",
+                "files": [
+                    "/files/6a044bf78da1bd4a49369f426940ee67/remoted.tar.xz?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjY3fQ.Y6PLYA.H-dPE9WqeTQ4xTayocJdJMHt63k"
+                ],
+                "hints": [
+                    "I forgot to say, but our service were hosted on an uncommon port. It might cause some issues when it comes to the packet analyzer though",
+                    "That being said, our staff said that he found a leaked server config file when he was doing a packet replaying"
+                ],
+                "id": 34,
+                "name": "Remoted",
+                "points": 1000,
+                "solves": 0
+            },
+            {
+                "category": "Forensic",
+                "description": "Ben Sat set tidak ada siti, slamet ataupun joko.\r\n<br>\r\nFile langsung download \r\n\r\nAuthor : KangGorengan",
+                "files": [
+                    "/files/c70dc7c6dd310b500196713447f5f45f/Kui_R_Kode.png?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjUwfQ.Y6PLYA._KsJ0sXnnqf7lyz9wPL0faSxebg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 36,
+                "name": "Kui R Kode ",
+                "points": 300,
+                "solves": 19
+            }
+        ],
+        "Reverse Engineering": [
+            {
+                "category": "Reverse Engineering",
+                "description": "Yuk bisa yuk  XOR !! \r\n<br>\r\nSat set lagi kaya penyisihan langsung submit Flag\r\n\r\nAuthor : KangGorengan",
+                "files": [
+                    "/files/489c9e661fc495f2b7bb8b1a5b5b7763/madhang?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjQ5fQ.Y6PLYA.gp-9CZedFhA2XJtghLljFB1i318"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 35,
+                "name": "Madhang",
+                "points": 300,
+                "solves": 19
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Panas bang\r\n\r\nAuthor: lunashci",
+                "files": [
+                    "/files/de1294b4c0699989b1a75c2fd06fbb25/flameware.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjYwfQ.Y6PLYQ.ZtC5u6MnClVk1z8kp3Ucta0i7uM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 49,
+                "name": "Flameware",
+                "points": 972,
+                "solves": 4
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Again not siti and slamet. \r\n<br>\r\nThis Desktop Application Code Editor ( Win7 & Win10)\r\n\r\nNot Virus after scan [VirusTotal](https://www.virustotal.com/gui/file-analysis/OWQ1M2I4NTA3ZjRkMDFhOGY3MGQwZTRjNzFhYTI0MTY6MTY3MTU1NDc1OQ==)\r\n\r\nCode Editor [Download](https://drive.google.com/file/d/1APVgOzK0CG89H2gvZF85zRdEjuLxV4g8/)\r\n\r\npisan2 boso inggris \r\n\r\nAuthor : KangGorengan",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 37,
+                "name": "Aplikasi Apa tuh ",
+                "points": 300,
+                "solves": 17
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "> Malware accident just happen to our company. We found out that our sysadmin tried to migrate our database with a tool that he find online. \r\n\r\nLuckily we caught all the traffic. Could you help us?\r\n\r\nAttachment: [challenges.zip](https://drive.google.com/file/d/1Npj2BjRsjRTt_uUzvLlGJsayP7_DJ-Js/view?usp=share_link)\r\n\r\nAuthor: vidner",
+                "files": [],
+                "hints": [
+                    "[Might help for setting up the environment](https://www.stereolabs.com/docs/docker/building-arm-container-on-x86/)\n",
+                    "[Stripped ??](https://github.com/mandiant/GoReSym)"
+                ],
+                "id": 32,
+                "name": "Mainframeware",
+                "points": 1000,
+                "solves": 0
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Lapar bang\r\n\r\nAuthor: lunashci",
+                "files": [
+                    "/files/a07203af451d73091f559719374ac924/spaghetti?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjY0fQ.Y6PLYQ.qpDyh-z4Jx6A9VtK-0n3P0fy-H8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 50,
+                "name": "Spaghetti",
+                "points": 1000,
+                "solves": 1
+            }
+        ],
+        "Web": [
+            {
+                "category": "Web",
+                "description": "Yet another web fetcher challenge. Now with eval!\r\n\r\nAuthor: farisv\r\n\r\n**Please do not bruteforce/scan/fuzz/flood the website. If your solution works on local but not on the challenge server, please contact us via Discord.**\r\n",
+                "files": [
+                    "/files/6bce3afbad8bbe498062638f81cfe235/fetcheval.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjQzfQ.Y6PLYQ.tfNgH8HO2XGcfv8MhKdOUQidqf8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 29,
+                "name": "Fetcheval",
+                "points": 988,
+                "solves": 2
+            },
+            {
+                "category": "Web",
+                "description": "> Nahida sedang belajar menjadi webdev, dapatkah kamu periksa?\r\n\r\nChallenge URL : https://akasha.hackthesystem.pro/\r\nAttachment : https://bit.ly/ptakashabijaksentosa\r\n\r\nAuthor: `cacadosman`\r\n\r\n- **Please do not bruteforce/scan/fuzz/flood the website using public tools (example: sqlmap, gobuster, nikto, owasp zap, nessus, burp scanner, etc).**\r\n-  **You are still allowed to bruteforce if you use your own script as long as it is not abusive (no multithread).**\r\n- **If your solution works on local but not on the challenge server, please contact us via Discord.**",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 30,
+                "name": "PT Akasha Bijak Sentosa",
+                "points": 888,
+                "solves": 5
+            },
+            {
+                "category": "Web",
+                "description": "This is one of our newest \"as a service\" project but it's still on development phase.\r\n\r\nAuthor : Yeraisci\r\n\r\n**Please do not 'heavily' bruteforce/scan/fuzz/flood the website. If your solution works on local but not on the challenge server, please contact us via Discord.**",
+                "files": [
+                    "/files/14287b03ddf91e7b05c7c529b2ea2f47/challenge.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjU3fQ.Y6PLYQ.jwMgPL5UY0JTEyq1sXftKDWI6gk"
+                ],
+                "hints": [
+                    "Read more research material and take a look on the \"context\" that being processed."
+                ],
+                "id": 47,
+                "name": "List User as a Service",
+                "points": 972,
+                "solves": 4
+            },
+            {
+                "category": "Web",
+                "description": "Is CTF better than hacking certification? Why not combine both? Get the flag to get certified as CJCH (Cyber Jawara Certified Hacker)!\r\n\r\nAuthor: farisv\r\n\r\n**Please do not bruteforce/scan/fuzz/flood the website. If your solution works on local but not on the challenge server, please contact us via Discord.**",
+                "files": [
+                    "/files/ad4af96c6472284ba227ee80837281ed/CJCH_-_Challenge.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjQ0fQ.Y6PLYQ.PZ-Klgfg5BIqG9kr-togjqkBuFY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "CJCH",
+                "points": 1000,
+                "solves": 0
+            },
+            {
+                "category": "Web",
+                "description": "This chall has just been made on last saturday. Just have fun.\r\n\r\nMain URL : https://uyw.hackthesystem.pro/\r\n\r\nBot : https://bot.uyw.hackthesystem.pro/\r\n\r\nAuthor : Yeraisci\r\n\r\nNote : `IP_SERVER` will be set to the domain\r\n\r\n**Please do not bruteforce/scan/fuzz/flood the website. If your solution works on local but not on the challenge server, please contact us via Discord.**",
+                "files": [
+                    "/files/02ac870055b3e23adaa800f48f70530c/challenge.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjU4fQ.Y6PLYQ.4Q_65YJRU3Te3KrYEqjLBgHVt5g"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 48,
+                "name": "Upload Your Way",
+                "points": 997,
+                "solves": 2
+            },
+            {
+                "category": "Web",
+                "description": "Previously I already publish my free hacking course and then I just realize that I still need money :(. Now I'm opening a donation on my wordpress with certain plugin and I'm using one other plugin but I don't know why do I need it tho. I hope no one can't use them to gain a vulnerability.\r\n\r\nMain URL : https://ewp.hackthesystem.pro/\r\n\r\nBot : https://bot.ewp.hackthesystem.pro/\r\n\r\nAuthor : Yeraisci\r\n\r\nNote : `IP_SERVER:PORT` will be set to the domain\r\n\r\n**Please do not bruteforce/scan/fuzz/flood the website. If your solution works on local but not on the challenge server, please contact us via Discord.**",
+                "files": [
+                    "/files/46e43220a81698ecdeaac0f2fc07492a/challenge.zip?token=eyJ1c2VyX2lkIjo4MzUsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjU2fQ.Y6PLYQ.CceYZQy66V7KcEO7kWQ_K8PuRP0"
+                ],
+                "hints": [
+                    "Use 'client-side' to trigger the 'server-side'"
+                ],
+                "id": 46,
+                "name": "Experienced Wordpress Enjoyer",
+                "points": 1000,
+                "solves": 0
+            }
+        ]
+    },
+    "title": "Cyber Jawara 2022",
+    "url": "https://cyberjawara.ctfd.io"
+}
