@@ -1,6 +1,6 @@
 title: Readable-v2
 tags: Pwnable_
-value: 500
+value: 477
 description: <p>Can you read it again?</p>
 <pre><code>nc 5.78.51.162 2323
 </code></pre>
