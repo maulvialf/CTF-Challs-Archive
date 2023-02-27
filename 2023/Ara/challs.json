@@ -1,0 +1,517 @@
+{
+    "data": {
+        "Binary Exploitation": [
+            {
+                "category": "Binary Exploitation", 
+                "description": "aku suka basreng. apalagi kalau di bawain dari bogor sama ka Aseng. #ARA2023\r\n\r\nConnection: `nc 103.152.242.116 20371`\r\n[File](https://drive.google.com/file/d/1q3RAY616pvrNO_vt1_KrETchHqz67Wpd/view?usp=share_link) \r\n\r\nAuthor: beenchilling#4944", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 28, 
+                "name": "basreng komplek", 
+                "points": 460, 
+                "service": [], 
+                "solves": 17
+            }, 
+            {
+                "category": "Binary Exploitation", 
+                "description": "aku, 0xdc9, dan Aseng pernah makan bakso sambil ngomongin usermodehelper kernel.\r\n\r\nmuka merah kepanasan dan pedas dengan otak yang terbakar\r\n #ARA2023\r\n\r\nConnection: `nc 103.152.242.116\r\n 10336`\r\n[File](https://drive.google.com/file/d/17glOn1uLtVAYFkHMjx-byJz5ESp4e6NH/view?usp=share_link) \r\n\r\nAuthor: beenchilling#4944", 
+                "files": [], 
+                "hints": [
+                    "kamu egghunting diri kamu sendiri. kamu bisa menulis dan membaca, tapi egghuntingnya bukan EGG, tapi mirip egghunting", 
+                    "cred ku ini [kan](https://elixir.bootlin.com/linux/latest/source/include/linux/cred.h) ?", 
+                    "Mainan sama Debugger coba ayoo sama ada titipan dari 0xdc9  katanya \"you egg hunt with your own manual calculation\"\n"
+                ], 
+                "id": 30, 
+                "name": "bakso komplek", 
+                "points": 500, 
+                "service": [], 
+                "solves": 2
+            }, 
+            {
+                "category": "Binary Exploitation", 
+                "description": "abang Ubun nasi gorengnya memang enak tapi lebih enak lagi jika di traktir ka 0xdc9 <3  #ARA2023\r\n\r\nConnection: `nc 103.152.242.116 20378`\r\n\r\nAuthor: beenchilling#4944", 
+                "files": [], 
+                "hints": [
+                    "Semua keamanan menyala. Alamat fungsi apa yang sering ditemukan pada kelemahan itu hayoo?\n\ngunakan offlinenya libc.rip yawww"
+                ], 
+                "id": 29, 
+                "name": "nasgor komplek", 
+                "points": 496, 
+                "service": [], 
+                "solves": 6
+            }, 
+            {
+                "category": "Binary Exploitation", 
+                "description": "cerita soal ini berawal dari aku dan ka 0xdc9 mengulik tapi ka 0xdc9 gabisa solve dan tidak bisa apa apa.\r\nlalu datang lah ka Aseng yang bilang ini itu impossible. aku solve, ka 0xdc9 dan ka Aseng gabisa solve.\r\n\r\njadi aku anggap ini sebagai penemuan baru dan mirip 0day training (?)\r\n#ARA2023.\r\n\r\nNote: \r\n1. jika sudah mendapatkan leak, mohon untuk tes di instansi remote menggunakan python atau script transfernya exploitnya\r\n2. 0xdc9 solve dan pendapat dia adalah \"my brain hurts\"\r\n\r\nConnection: `nc 103.152.242.116\r\n  10337`\r\n[File](https://drive.google.com/file/d/1RpZmVezhsJedEK3NQV0QWl2JZIEj5B8O/view?usp=share_link)\r\n\r\nAuthor: beenchilling#4944", 
+                "files": [], 
+                "hints": [
+                    "kita gatau apa yang ada dan kita dibatasi. ini [kernel heap](https://www.youtube.com/watch?v=dZgvLbuJiQ4)", 
+                    "SLUB allocator == userland heap", 
+                    "python code buat transfer exploit sangat berpengaruh. bikin offset manual ya setelah berhasil leaking(tembak ke remote langsung karena offset remote dan lokal berbeda), tapi gimana cara leaknya? \nbtw kalo solve dapet bounty dari 0xdc9 dengan kupon FREEdomFREEandWRITE. Gatau deh apa maksudnya tapi terdengar asik"
+                ], 
+                "id": 32, 
+                "name": "Final Signature", 
+                "points": 500, 
+                "service": [], 
+                "solves": 0
+            }, 
+            {
+                "category": "Binary Exploitation", 
+                "description": "bedanya kamu sedang main catur disini.\r\n\r\nterima kasih 0xdc9 sudah bantuin setup semuanya! I owe you <3 #ARA2023\r\n\r\nConnection: `nc 103.152.242.116 6781`\r\n\r\n[File](https://drive.google.com/file/d/1O9zsCkWq7MaVPPxHgR3oO5WpCYxaiyhr/view?usp=share_link)\r\n\r\nAuthor: beenchilling#4944", 
+                "files": [], 
+                "hints": [
+                    "Hampir sama dengan tahun lalu, tapi beda ada di leakingnya dan begitu dehh."
+                ], 
+                "id": 31, 
+                "name": "Directive Communication 2", 
+                "points": 500, 
+                "service": [], 
+                "solves": 2
+            }
+        ], 
+        "Cryptography": [
+            {
+                "category": "Cryptography", 
+                "description": "Welcome to ARACTF! To start the CTF, please translate this flag that I get from display banner!\r\n[Good Morning](https://www.youtube.com/watch?v=SBrXvqRfb5M)\r\n\r\nFormat : ARA2023{lowercase_flag}\r\n\r\n[Attachments](https://drive.google.com/file/d/1GWeLn4Ek7MnTgLtZiJnP3FVV6c2XVRQZ/view?usp=share_link)\r\n\r\nAuthor: circlebytes#5520", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 44, 
+                "name": "babychall", 
+                "points": 132, 
+                "service": [], 
+                "solves": 49
+            }, 
+            {
+                "category": "Cryptography", 
+                "description": "Bob is receiving a message from their clients, to put this text on the display in the office. Bob is confused because he didn't know what it is, can you help him?\r\n\r\nFormat: ARA2023{lowercase_flag}\r\n\r\n[Attachments](https://drive.google.com/file/d/1M2EGUtH0cgqlEUgGoyFaTNMCEaCvaFVC/view?usp=share_link)\r\n\r\nAuthor: circlebytes#5520", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 45, 
+                "name": "Help", 
+                "points": 443, 
+                "service": [], 
+                "solves": 18
+            }, 
+            {
+                "category": "Cryptography", 
+                "description": "bwoah, some innovative challenges\r\n\r\nFile : https://drive.google.com/file/d/1lf1gac5VEmJOGRu9CkkO-CakRcyzEj2K/view?usp=share_link\r\n\r\nAuthor: circlebytes#5520", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 47, 
+                "name": "One Time Password ()", 
+                "points": 100, 
+                "service": [], 
+                "solves": 90
+            }, 
+            {
+                "category": "Cryptography", 
+                "description": "Melon and Edith went to an labyrinth and they should break the code written on a letter in a box in order to escape the labyrinth. \r\n\r\nOpen the letter and break the code\r\n\r\n[Attachments](https://drive.google.com/file/d/1qKvtN-4Jx8-E3udpYRA4tUs_pW7yt59q/view?usp=sharing)\r\n\r\nAuthor: L e n s#1048", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 48, 
+                "name": "Secrets Behind a Letter", 
+                "points": 100, 
+                "service": [], 
+                "solves": 67
+            }, 
+            {
+                "category": "Cryptography", 
+                "description": "Sze received an ecnrypted file and a message containing the clue of the file password from her friend. \r\n\r\nThe clue was a hash value : 9be9f4182c157b8d77f97d3b20f68ed6b8533175831837c761e759c44f6feeb8\r\n\r\nDecrypt the file password!\r\n\r\n[Attachments](https://drive.google.com/file/d/1muNug7KzmiHwjx3GCvhrWJzi_tGOugaK/view?usp=sharing)\r\n\r\nAuthor: L e n s#1048", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 51, 
+                "name": "SH4-32", 
+                "points": 100, 
+                "service": [], 
+                "solves": 55
+            }, 
+            {
+                "category": "Cryptography", 
+                "description": "Vonny and Zee were having a treasure hunt game until they realized that one of the clues was a not alike the other clues as it has a random text written on the clue.\r\n\r\nThe clue was \"001300737173723a70321e3971331e352975351e247574387e3c\".\r\n\r\nHelp them to find what the hidden clue means!\r\n\r\nAuthor: L e n s#1048", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 49, 
+                "name": "L0v32x0r", 
+                "points": 100, 
+                "service": [], 
+                "solves": 59
+            }
+        ], 
+        "Forensic": [
+            {
+                "category": "Forensic", 
+                "description": "Canada Forensic Bureau Office Analyst at ARA Corp. has just identified an infected\r\ncomputer system from one of the employee who works there. \r\nThey already knew that the `malware.exe` process with PID `2704` is the root of the cause but\r\nthey need to fill out the analytics report.\r\n\r\nThe malware itself resides in the `Desktop` folder of the victim but they need to know\r\nthe **VA (Virtual Address)** at some point. \r\n**When the malware file is OPENED in the system, What is the VA of the victim's device?**\r\n\r\nFlag format: ARA2023{hexaddress}\r\n\r\nExample: ARA2023{0xb0b4f3dddddddddd}\r\n\r\nDownload the file here: \r\n[Attachments](https://drive.google.com/file/d/1ovFSEhizg2gMREMgrx73fy7MM3UJM9qy/view?usp=share_link)\r\n\r\nPassword ZIP:  `ARA2023_w!th_fUyUk4_0xcafef00d`\r\n\r\n#1\ud83e\ude78 + Proper POC-> Bounty from the Author (DONE to Team [GBK](https://ctf.its-ara.com/admin/teams/355))\r\n\r\nAuthor: aseng#2055 & aiko#3010", 
+                "files": [], 
+                "hints": [
+                    "This requires a bit of research on Windows Driver struct which related to an OBJECT. But what kind of OBJECT is it?", 
+                    "This **tutorial** helps especially for defining the mentioned object that you might look for ~\n\nhttps://www.tophertimzen.com/resources/cs407/slides/week02_01-volshell.html#slide1"
+                ], 
+                "id": 18, 
+                "name": "Kernelmania", 
+                "points": 500, 
+                "service": [], 
+                "solves": 2
+            }, 
+            {
+                "category": "Forensic", 
+                "description": "One day, I went to a thrift store and unconsciously bought an antique item. The merchant said that it was made in a peculiar way, so the insides might be particularly irrelevant. It was also secured by a passphrase, but it seems to be weak. Unfortunately, it was missing some parts, thus making it unreadable\r\n\r\n[Attachments](https://drive.google.com/file/d/1X4-XYl349gXIHvr_Ajt5OOil1c519TOE/view?usp=sharing)\r\n\r\nAuthor: fuyuka#0233", 
+                "files": [], 
+                "hints": [
+                    "It was tampered with, but not particularly corrupted. Consequently, it may affect on how the file records are gonna be listed and extracted to your file system. Furthermore, you may look for the ZIP appnote / documentation", 
+                    "You may go with either full restoration of `Central File Header` with proper filename or directly extract the `datastream`", 
+                    "Here's a piece of trivia: did you know that a ZipFile cannot be extracted if there is a file record with a `filename` length that exceeds 260 characters? However, the length may vary depending on the software and operating system you use"
+                ], 
+                "id": 20, 
+                "name": "Scraped Bin", 
+                "points": 500, 
+                "service": [], 
+                "solves": 2
+            }, 
+            {
+                "category": "Forensic", 
+                "description": "Our security team receives a notification that our website has been compromised. Upon investigation, it was discovered that an attacker had been able to leak some confidential information from our database. Could you figure it out?\r\n\r\n[Attachments](https://drive.google.com/file/d/1SMpGen3k6svYvqUz1Ahrm_FKZJtdThlL/view?usp=sharing)\r\n\r\nAuthor: fuyuka#0233", 
+                "files": [], 
+                "hints": [
+                    "After inspection, it was confirmed that the perpetrator was one of our \nusers. Consequently, it was easy to locate and track down the traffic \nsince it was all forwarded using our internal `transparent-proxy`.", 
+                    "Our application had a bug in File Upload form. It tooks a ZipFile & extract each of the file records to a certain directory with the filename stored in a database. Due to the lack of proper mitigation, the attacker exploited it in order to leak the information insides.\n\nA bit peculiar, but the attacker tried to leak the information one character at a time by assigning a random filename for any True/False query, so that the filename itself will be reflected on User Homepage. He also used some difference accounts during this process"
+                ], 
+                "id": 19, 
+                "name": "Leakages", 
+                "points": 500, 
+                "service": [], 
+                "solves": 2
+            }, 
+            {
+                "category": "Forensic", 
+                "description": "Everyone loves piracy, or so I thought...\r\n\r\n[Attachments](https://drive.google.com/file/d/1Gt95u7gwa_7EIBU0vEWVeaYSJSxWAC-V/view?usp=sharing)\r\n\r\nAuthor: fuyuka#0233", 
+                "files": [], 
+                "hints": [
+                    "The client I used was pretty popular, so it may have a certain RFC/BEP that could help you understand the protocol mechanism.", 
+                    "The torrent file was split into 30 pieces, each with a size of 16Kb. You may be able to retrieve the file, If-only-If you can carefully locate the offset of each piece"
+                ], 
+                "id": 21, 
+                "name": "Leecher", 
+                "points": 500, 
+                "service": [], 
+                "solves": 0
+            }, 
+            {
+                "category": "Forensic", 
+                "description": "I always overthink about finding other part of myself, can you help me?\r\n\r\n[Attachments](https://drive.google.com/file/d/1_kQ5JRhlP2Pa7KQo2-fR1osef1-5KzvF/view)\r\n   \r\nAuthor: Zangetsu#2398", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 38, 
+                "name": "Thinker", 
+                "points": 100, 
+                "service": [], 
+                "solves": 61
+            }, 
+            {
+                "category": "Forensic", 
+                "description": "Felix has just been phished from a campus PC that he accidentally clicked the downloaded attachment from his email without properly analyzing it. \r\n\r\nHe's then taught by a malware analyst and he gave you a job to help Felix gaining an understanding about the malware that has been deployed inside the document's attachment that he clicked before. All the analysis questions are in `questions.txt` and the malicious document can be downloaded from this URL with those questions: https://drive.google.com/drive/folders/13XSpnPCXS8JrqzK4lO5tt1T62BD-83NR?usp=sharing\r\n\r\n\r\nDownload file:\r\nhttps://drive.google.com/file/d/14ZLCLcFo1ZoHKjSuVvYxwDHy-oDr4Z4e/view?usp=sharing\r\n\r\nPassword zip: `passwordnyamasbro`\r\n\r\nAuthor: aseng#2055", 
+                "files": [], 
+                "hints": [
+                    "What's the difference between emulate and simulate?"
+                ], 
+                "id": 55, 
+                "name": "Phishingmania", 
+                "points": 500, 
+                "service": [], 
+                "solves": 0
+            }
+        ], 
+        "Misc": [
+            {
+                "category": "Misc", 
+                "description": "Back then, I stumbled upon a snake pit. It was a dark place filled with traps, making it difficult to find a way out.\r\n\r\n[Attachments](https://drive.google.com/file/d/1vuawCInpdkx9gB7_mWK33UnvQxvCL_YO/view?usp=sharing)\r\n\r\n`nc 103.152.242.116 9054`\r\n\r\nAuthor: fuyuka#0233", 
+                "files": [], 
+                "hints": [
+                    "I heard that you can overcome these trials by mastering the depth of snake `magic` yourself.", 
+                    "You may consider overriding the `Enum class`'s method in your jailbreak attempt"
+                ], 
+                "id": 39, 
+                "name": "Snake Pit", 
+                "points": 500, 
+                "service": [], 
+                "solves": 1
+            }, 
+            {
+                "category": "Misc", 
+                "description": "Ailee had just moved out to a boarding house in the countryside to escape the fast-paced and hectic city life. She was very excited to start her life with a new environment, she was very happy before she found out that the room she rented was very dark. Suddenly she found out 2 strange papers on the wall behind the door that says: \r\n\r\n\"5A495A323032337B346D62793077625F677330663973675F677334675F2167355F345F733468733F7D\". \r\n\r\nHelp Ailee to find what's behind the text written on the paper.\r\n\r\nAuthor: L e n s#1048", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 41, 
+                "name": "@B4SH", 
+                "points": 100, 
+                "service": [], 
+                "solves": 80
+            }, 
+            {
+                "category": "Misc", 
+                "description": "Albert was lost in a deep forest surrounded by a sea and tried to escape by sending a SOS signal containing a code.\r\n\r\nJack who works at a lighthouse realized that someone was sending a SOS signal and responses as fast as he can.\r\n\r\nWhat do you think Albert tries to say?\r\n\r\nChall File : https://drive.google.com/file/d/1h5ht0z64ChQ3v28o9Uq-GI0Uk21camH2/view?usp=sharing\r\n\r\nAuthor: L e n s#1048", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 42, 
+                "name": "D0ts N D4sh3s", 
+                "points": 100, 
+                "service": [], 
+                "solves": 87
+            }, 
+            {
+                "category": "Misc", 
+                "description": "Even the flag for sanity check is gone?\r\n\r\n[Attachments](https://docs.google.com/document/d/1Jq0AehMiC8Bjkd_Bl7rADQvk6u4ZS8vgFQxIO0SDmi0/edit)\r\n\r\nAuthor: circlebytes#5520", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 40, 
+                "name": "in-sanity check", 
+                "points": 100, 
+                "service": [], 
+                "solves": 75
+            }, 
+            {
+                "category": "Misc", 
+                "description": "Kuronushi traveled far away from his country to learn something about himself. He never sure about his identity.  Untill One day, he met a sage who gave him a book of truth. The sage said \" To understand about yourself,Erase the title and find the Bigger case\"\r\n\r\nSubmit the flag on this format ARA2023{}\r\nSeparate the sentences with _\r\n\r\n[Attachments](https://drive.google.com/file/d/1nwDlCdpraSrd5FuocZnkVR6_L9HcvuUu/view)\r\n\r\nAuthor: Zangetsu#2398", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 43, 
+                "name": "Truth", 
+                "points": 176, 
+                "service": [], 
+                "solves": 45
+            }, 
+            {
+                "category": "Misc", 
+                "description": "Wah, gimana pelaksanaan lomba CTFnya? Soalnya sulit atau mudah nih? \r\n\r\nNah setelah selesai mengerjakan soal CTFnya, temen-temen bisa isi feedback terlebih dahulu dan feedback ini diisi oleh masing-masing peserta yaa!\ud83d\ude01\r\n\r\nhttps://intip.in/FeedbackCTFARA4\r\n\r\nTerima kasih banyak sudah membantu kami untuk menjadi lebih baik dan sampai jumpa di serangkaian kegiatan ARA selanjutnya!!\u2728", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 58, 
+                "name": "Feedback", 
+                "points": 50, 
+                "service": [], 
+                "solves": 42
+            }
+        ], 
+        "OSINT": [
+            {
+                "category": "OSINT", 
+                "description": "There was a secret leaked on Official ARA Website. It can only seen on January 22nd  2023. Can you turn back the time?\r\n\r\nAuthor: 0xazr#4883", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 52, 
+                "name": "Time Machine", 
+                "points": 100, 
+                "service": [], 
+                "solves": 82
+            }, 
+            {
+                "category": "OSINT", 
+                "description": "Ada seorang cosplayer dari China yang sangat aktif bersosial media, dia kadang memposting foto cosplaynya di facebook dan instagram.\r\nDia pernah berkuliah di universitas ternama di China, suatu saat dia dan temannya berkunjung pada toko boneka untuk membeli sebuah boneka, tidak lupa dia juga berfoto dengan sebuah maskot di sana. Lalu selanjutnya dia mampir ke sebuah toko buku untuk membeli buku, sebagai seseorang yang update sosial media dia juga mengambil sebuah foto di toko buku tersebut dengan pose terduduk. Ohh iya dia juga pernah berfoto bareng atau collab dengan cosplayer asal China dengan nama 'Sakura'.\r\n\r\n[Attachment](https://drive.google.com/file/d/1LP7xEiZre9QISh9seyhVb4EM-8cesCrJ/view?usp=share_link)\r\n\r\nAuthor: Abdierryy#9836", 
+                "files": [
+                    "/files/b13b40ca16bb6da201d01e4b8450110d/instruction.txt?token=eyJ1c2VyX2lkIjo5LCJ0ZWFtX2lkIjo0MjMsImZpbGVfaWQiOjZ9.Y_uVbQ.zGLO_-sa5DnbAxfK3i-OWer4gRg"
+                ], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 57, 
+                "name": "Hey detective, can you help me", 
+                "points": 304, 
+                "service": [], 
+                "solves": 36
+            }, 
+            {
+                "category": "OSINT", 
+                "description": "I found a place that give me a backroom vibes. I think I like this place, so I give this place 5 star. Can you find this place?\r\n\r\n[Attachment](https://drive.google.com/file/d/1ppDfAVephnadJlgSa6sdIKwzJqbOw19B/view?usp=sharing)\r\n\r\nAuthor: 0xazr#4883", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 53, 
+                "name": "Backroom", 
+                "points": 100, 
+                "service": [], 
+                "solves": 73
+            }
+        ], 
+        "Reverse Engineering": [
+            {
+                "category": "Reverse Engineering", 
+                "description": "Once I was going to send you the program, but do me a favor by retrieving the real output of the program from this generated JSON program tree. Can you?\r\n\r\n[Attachments](https://drive.google.com/file/d/1ULakfSG6zc7cn0BGNWpno3uljrSAhN38/view?usp=sharing)\r\n\r\nAuthor: aseng#2055", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 22, 
+                "name": "Vidner's Rhapsody", 
+                "points": 304, 
+                "service": [], 
+                "solves": 36
+            }, 
+            {
+                "category": "Reverse Engineering", 
+                "description": "Another real-world bad mobile dev perspective so he got an unbreakable Schr\u00f6dinger-cryptic puzzle APK.  Give me the secrets!\r\n\r\n[Attachments](https://drive.google.com/file/d/1SiTiytCKWqO_p1LiBi7fpBVo5BnEIoHO/view?usp=sharing)\r\n\r\n#1\ud83e\ude78 + Proper POC-> Bounty from the Author\r\n\r\nAuthor: aseng#2055\r\n", 
+                "files": [], 
+                "hints": [
+                    "This bad developer forgets to enable a crucial gradle properties when building this APK :( Punish him by getting the secrets!", 
+                    "Crypto/Misc is not a spice in here,you need to leverage an **unknown** vulnerability which is related to that. Bruteforce is not the only option for one of the crypto attributes there, it really does exist but maybe you haven't figured it out yet! Perhaps what needs to be done is by inspecting the known factors to reveal the unknown.", 
+                    "There are packages which are used inside the APK, one of them is pretty unique to be analyzed. Although **one** of the attribute is said to be **secured**, yet it actually doesn't. What would you interpret a \"**waste**\" from a really-secure package's function? This might indicates either one of the core components are pretty much to be produced easily once **you recreate** it especially in **Dart**."
+                ], 
+                "id": 25, 
+                "name": "PwnDroid", 
+                "points": 500, 
+                "service": [], 
+                "solves": 0
+            }, 
+            {
+                "category": "Reverse Engineering", 
+                "description": "Polymorphic concept is insane enough for an analyst so I decided\r\nto create **Metamorphic** concept using Zydis (https://zydis.re/).\r\nNow no decompilers, debuggers, and disassemblers shall stand out to my masterpiece, or are there?\r\n\r\nNote: There might be a slight bug in the challenge that there's a misused register for the input.\r\nYou only need to take a peek on the indexed register once you are able to deobfuscate or \r\nunderstand the flow of the program. Each solution is **unique** but\r\nthe binary only accepts one correct input, so I add a remote netcat service for those unique\r\nsolutions. Once you got it correctly to fulfill the condition, you will get the flag and **it's mandatory\r\nto submit it to the remote service** instead to the binary. \r\n\r\n[Attachments](https://drive.google.com/file/d/1K7yh8aNSEF1deZYyivZEayQBw8WVQ00T/view?usp=sharing)\r\n\r\n#1\ud83e\ude78 + Proper POC-> Bounty from the Author\r\n\r\nAuthor: aseng#2055", 
+                "files": [], 
+                "hints": [
+                    "This binary used anti-analysis approach, but sadly the dev doesn't care about something related to the disclosed PE components. Use that for understanding the CF!"
+                ], 
+                "id": 27, 
+                "name": "Iblis", 
+                "points": 500, 
+                "service": "nc 103.152.242.116 13704", 
+                "solves": 0
+            }, 
+            {
+                "category": "Reverse Engineering", 
+                "description": "Not much author wants to spill out their part of the flag in challenge description, but because I'm so kind ...\r\n\r\nSo here you go, the first correct character of the input program is 'V'\r\n\r\n[Attachments](https://drive.google.com/drive/folders/1TDgPVtc_Mh5SnUO4Gm1jTEfPPuMceUPk?usp=share_link)\r\n\r\nAuthor: aseng#2055", 
+                "files": [], 
+                "hints": [
+                    "https://www.sciencedirect.com/topics/computer-science/side-channel"
+                ], 
+                "id": 24, 
+                "name": "\u4e00\u6761\u6307\u4ee4", 
+                "points": 500, 
+                "service": [], 
+                "solves": 0
+            }, 
+            {
+                "category": "Reverse Engineering", 
+                "description": "Done with the warmup from Rhapsody? It's time for the **easier** one ^-^\r\n\r\nFacing a lot of PYC's files in Reversing category? \r\nLooks like it's time we use this kind of tools to protect our python script!\r\n\r\nBest and recommended place to run? `Windows 10 x64`\r\n\r\n[Attachments](https://drive.google.com/drive/folders/1WLEmSnyCsRVy2jiWCTudsuBrrs3Q9-Qr?usp=share_link)\r\n\r\nAuthor: aseng#2055", 
+                "files": [], 
+                "hints": [
+                    "Either runtime analysis or static analysis in easier way requires you a certain tool to dissect the obfuscated python script. Have you checked all of them? There's one could assist you since I don't apply any super protection level enabled tho.", 
+                    "Do not OVERTHINK by a complicated PyArmor! The flag is processed at **runtime**, you do know you can do something about it and why I suggest you to do it in the Windows right? :)"
+                ], 
+                "id": 23, 
+                "name": "Wormzone", 
+                "points": 500, 
+                "service": [], 
+                "solves": 2
+            }
+        ], 
+        "Web Exploitation": [
+            {
+                "category": "Web Exploitation", 
+                "description": "Checkout my Noctchill Database Page.\r\n\r\n[http://103.152.242.116:6712/](http://103.152.242.116:6712/)\r\n[Attachments](https://drive.google.com/file/d/11m22mS_UJyzyWlFWrvwsBw8eaRvg2dx1/view?usp=sharing)\r\n\r\nAuthor: 0xazr#4883", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 34, 
+                "name": "Noctchill DB", 
+                "points": 454, 
+                "service": [], 
+                "solves": 17
+            }, 
+            {
+                "category": "Web Exploitation", 
+                "description": "I made my own \"Pastebin\", its called \"Paste It\". It's 100% Free and 101% Secure. What you waiting for? share your paste to your friend right now!.\r\n\r\n[http://103.152.242.116:4512/](http://103.152.242.116:4512/)\r\n[Attachments](https://drive.google.com/file/d/1ePG52uacl6dYHgDglflikFKspFXu3B4d/view?usp=sharing)\r\n\r\nAuthor: 0xazr#4883", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 36, 
+                "name": "Paste It", 
+                "points": 443, 
+                "service": [], 
+                "solves": 20
+            }, 
+            {
+                "category": "Web Exploitation", 
+                "description": "Dewaweb sedang mencari talenta terhebat!\r\n\r\nKamu adalah seorang inspektur terkenal yang telah dikenal mampu untuk memecahkan seluruh teka-teki. Tidak ada sesuatu yang luput dari penglihatanmu, bahkan untuk sesuatu yang tidak terlihat oleh mata orang biasa. Dewaweb mencari orang sepertimu.\r\n\r\nSaat ini Dewaweb ingin menguji keahlian analisamu. Coba temukan apa yang Dewaweb sembunyikan di website ini. Buktikan bahwa kamu adalah seseorang yang pantas untuk Dewaweb!\r\n\r\n[http://103.152.242.116:8417/](http://103.152.242.116:8417/)\r\n\r\nAuthor: 0xazr#4883", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 33, 
+                "name": "Dewaweb", 
+                "points": 100, 
+                "service": [], 
+                "solves": 78
+            }, 
+            {
+                "category": "Web Exploitation", 
+                "description": "Flag is on the admin side.\r\n\r\n[http://103.152.242.116:4137/](http://103.152.242.116:4137/)\r\n[Attachments](https://drive.google.com/file/d/1kAZwLa-HjTBByn-9dlTv_lUrFyzpg1fw/view?usp=sharing)\r\n\r\nAuthor: 0xazr#4883", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 35, 
+                "name": "Pollution", 
+                "points": 337, 
+                "service": [], 
+                "solves": 32
+            }, 
+            {
+                "category": "Web Exploitation", 
+                "description": "Flag is on the admin cookie.\r\n\r\nLink : http://103.152.242.116:8413/\r\n\r\nAdmin Bot: http://103.152.242.116:8414/\r\n\r\nAuthor: 0xazr#4883", 
+                "files": [], 
+                "hints": [
+                    "-"
+                ], 
+                "id": 37, 
+                "name": "Welcome Page", 
+                "points": 454, 
+                "service": [], 
+                "solves": 14
+            }, 
+            {
+                "category": "Web Exploitation", 
+                "description": "Recently my friend was buy helmet called RFC 2616, pretty strange huh?\r\n\r\nhttp://103.152.242.116:5771/web.php\r\n\r\nAuthor: Abdierryy#9836", 
+                "files": [], 
+                "hints": [
+                    "[This maybe Help you](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)", 
+                    "**Readme is important**\n\nAre you ever heard about a json cookie?"
+                ], 
+                "id": 56, 
+                "name": "X-is for blabla", 
+                "points": 469, 
+                "service": [], 
+                "solves": 15
+            }
+        ]
+    }, 
+    "title": "CTF ARA 4.0", 
+    "url": "https://ctf.its-ara.com"
+}

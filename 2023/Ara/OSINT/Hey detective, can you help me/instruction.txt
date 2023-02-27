@@ -1,0 +1,12 @@
+Flag dibagi dalam 5 bagian :
+1. ID Sosmed 
+2. Nama Universitas dia berkuliah
+cukup singkatannya saja, contoh Insititut Teknologi Sepuluh Nopember menjadi ITS
+3. Nama maskot
+4. Waktu saat upload foto di toko buku
+5. Komentar yang terdapat pada saat dia foto bersama Sakura
+
+Format sebagai dibawah :
+ARA2023{ProfileIDSosmed_NamaUniversitas_NamaMaskot_TanggalBulanTahun-Jam:Menit_RedactedFlag}
+Contoh :
+ARA2023{46152324397_UTL_Felda_7Mei2017-13:02_r3d4cTED}
