@@ -1,0 +1,69 @@
+
+        <html>
+        <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        }
+
+        .title {
+        color: grey;
+        font-size: 18px;
+        }
+
+        .buttonas {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        }
+
+        a {
+        text-decoration: none;
+        font-size: 22px;
+        color: black;
+        }
+
+        .buttonas:hover, a:hover {
+        opacity: 0.7;
+        }
+
+        body {
+        padding: 20px;
+        }
+        </style>
+        </head>
+        <body>
+
+        <h2 style="text-align:center">User Profile Card</h2>
+        
+        <div class="card">
+        <img src="../../public/hai.svg" alt="hai" style="width:100%">
+        <h1>hai</h1>
+        <p><button class="buttonas">l@a</button></p>
+        </div>
+
+        <h2>Wanna Change your Picture?</h2>
+        <form action="/card/change" method="post" enctype="multipart/form-data">
+            <input type="file" name="picture"><br>
+            <button type="submit">Add</button>
+        </form>
+        
+            <h2>SVG Representation</h2>
+            <div><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTAwIDEwMCI+CiAgPHJlY3Qgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiB4PSIyMCIgeT0iMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iYmxhY2siLz4KICA8cGF0aCBkPSdNODMsNzUgQzc4LDc1IDY4LDcxIDYyLDY2IEM1Niw2MCA1NSw2MSA1Myw2NyBDNTIsNjkgNTIsNzAgNTEsNzAKICAgIEM1MCw3MCA1MCw3MCA1MSw3MCBDNTIsNzIgNDcsNzYgNDYsNzYgQzQ1LDc2IDQ1LDc2IDQ1LDc3IEM0Niw3OCA0Niw3OSA0NSw4MAogICAgQzQ1LDgwIDQ1LDgxIDQ1LDgxIEM0Niw4MyA0NSw4NCA0NCw4MyBDNDIsODIgNDIsODIgNDMsODMgQzQzLDg1IDQzLDg2IDQzLDg2CiAgICBDNDIsODcgNDEsODggNDEsODkgQzQwLDkwIDM5LDkxIDM5LDkwIEMzNyw5MCAzNiw4NyAzNyw4NiBDMzcsODUgMzcsODQgMzYsODQKICAgIEMzNiw4MyAzNiw4MiAzNyw3OSBDMzksNzYgMzksNzQgMzksNzQgQzM4LDc0IDM5LDcwIDQyLDYzIEM0NCw1NyA0Niw1MiA0Niw1MQogICAgQzQ2LDUwIDQ1LDQ5IDQ0LDQ4IEM0Myw0NyA0MCw0MyAzNiwzOSBDMzMsMzQgMzAsMzAgMjksMjkgQzIzLDIxIDIyLDIwIDIyLDE4CiAgICBDMjIsMTcgMjIsMTYgMjMsMTUgQzI0LDEzIDI5LDEyIDMyLDE0IEMzNSwxNSA0NiwyNiA0OCwzMSBDNTEsMzcgNTIsMzcgNTQsMzAKICAgIEM1OCwyMSA2MSwxNSA2MiwxNCBDNjQsMTIgNjksMTEgNzEsMTMgQzcyLDEzIDc0LDE1IDc1LDE3IEM3NiwxOSA3NiwyMCA3MywyMwogICAgQzcyLDI1IDY5LDMwIDY2LDM4IEw2Miw0OSBMNjgsNTUgQzc1LDYzIDc4LDY2IDgxLDY4IEM4Myw2OSA4NSw3MiA4NCw3MwogICAgQzgzLDczIDgzLDc0IDg0LDczIEM4NCw3MyA4NSw3NCA4NSw3NCBDODUsNzUgODQsNzUgODMsNzUgeicvPgo8L3N2Zz4K"></div>
+            <h2>PNG Representation</h2>
+            <div><img src="data:image/png;base64,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"></div>
+        </body>
+        </html>
+        

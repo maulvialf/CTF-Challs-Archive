@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link href="/css/style.css" rel="stylesheet" type="text/css">
+        <link href='/css/raleway.css' rel='stylesheet' type='text/css'>
+        <script src='/js/token.js'></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="screen">
+                <div class="screen__content">
+                    <div hidden id="result" style="background-color: transparent; margin: auto; padding: 10px; top: 50%; display: flex; justify-content: center;"></div>
+                    <form class="login">
+                        <div class="login__field">
+                            <i class="login__icon fas fa-user"></i>
+                            <input type="text" name="username" id="username" class="login__input" placeholder="Username">
+                        </div>
+                        <div class="login__field">
+                            <i class="login__icon fas fa-lock"></i>
+                            <input type="password" name="password" id="password" class="login__input" placeholder="Password">
+                        </div>
+                        <button type="button" onclick="submitForm()" class="button login__submit">Log In Now</button>	
+                    </form>
+                </div>
+                <div class="screen__background">
+                    <span class="screen__background__shape screen__background__shape4"></span>
+                    <span class="screen__background__shape screen__background__shape3"></span>		
+                    <span class="screen__background__shape screen__background__shape2"></span>
+                    <span class="screen__background__shape screen__background__shape1"></span>
+                </div>		
+            </div>
+        </div>
+    </body>
+</html>

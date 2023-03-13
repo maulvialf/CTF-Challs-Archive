@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ScapeSigner</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="static/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="static/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="static/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="static/vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="static/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="static/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="static/css/util.css">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+  </head>
+  <body>
+    <div class="limiter">
+      <div class="container-login100" style="background-image: url('static/images/bg.jpg');">
+        {% if data %}
+          <div style="color: white;">
+            {{ data }}
+            <p><a onclick="logout()" href="/">Logout</a></p>
+          </div>
+        {% else %}
+          <div class="wrap-login100 p-t-30 p-b-50">
+            <div class="login100-form-title p-b-40">
+              Scape<span style="color: rgb(255, 97, 0);">Signer</span>
+            </div>
+            <form class="login100-form validate-form p-b-20 p-t-5" action="/" method="post">
+              <div class="wrap-input100 validate-input" data-validate="Enter username">
+                <input class="input100" type="text" name="username" placeholder="Username" required>
+                <span class="focus-input100" data-placeholder="&#xe82a;"></span>
+              </div>
+              <div class="wrap-input100 validate-input" data-validate="Enter password">
+                <input class="input100" type="password" name="password" placeholder="Password" required>
+                <span class="focus-input100" data-placeholder="&#xe80f;"></span>
+              </div>
+              <div class="container-login100-form-btn m-t-20">
+                <button type="submit" class="submit-button input100">Login</button>
+              </div>
+            </form>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+    <div id="dropDownSelect1"></div>
+    <script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="static/vendor/animsition/js/animsition.min.js"></script>
+    <script src="static/vendor/bootstrap/js/popper.js"></script>
+    <script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/vendor/select2/select2.min.js"></script>
+    <script src="static/vendor/daterangepicker/moment.min.js"></script>
+    <script src="static/vendor/daterangepicker/daterangepicker.js"></script>
+    <script src="static/vendor/countdowntime/countdowntime.js"></script>
+    <script src="static/js/main.js"></script>
+    <script>
+      function logout() {
+        document.cookie = "token=;"
+      }
+    </script>
+    <style>
+      .submit-button {
+        background-color: rgb(255, 97, 0);
+        color: white;
+        width: 125px;
+        height: 50px;
+        border-radius: 25px;
+        padding: 0;
+        font-weight: 500;
+      }
+      .submit-button:hover {
+        background-color: rgb(255, 97, 0);
+      }
+    </style>
+  </body>
+</html>

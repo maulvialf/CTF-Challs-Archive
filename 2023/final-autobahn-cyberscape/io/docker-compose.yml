@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  io:
+    build:
+      context: .
+      args:
+        - PASSWORD=PASSWORD
+    ports:
+      - "10000:8000"
+      - "10022:22"

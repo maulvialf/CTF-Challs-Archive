@@ -1,0 +1,2 @@
+Scapecalc 3.11.2 (main, Mar 12 2023, 00:13:37) on deom
+Type "help", "copyright", "credits" or "license" for nothing.

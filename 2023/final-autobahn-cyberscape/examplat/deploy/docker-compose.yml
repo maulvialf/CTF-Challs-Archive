@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  examplat-fe:
+    restart: always
+    container_name: examplat-fe
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    depends_on:
+      - examplat
+    ports:
+      - '11000:80'
+
+  examplat:
+    restart: always
+    container_name: examplat
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      args:
+        - PASSWORD=$PASSWORD_11000
+    ports:
+      - '11022:22'
+    volumes:
+      - ./flag:/flag:ro

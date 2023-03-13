@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  scapecalc:
+    restart: always
+    container_name: scapecalc
+    build:
+      context: .
+      args:
+        - PASSWORD=THISISJUSTDUMMYPASSWORD
+    ports:
+      - "18000:18000"
+      - "18022:22"
+    volumes:
+      - ./txt:/opt/txt:ro

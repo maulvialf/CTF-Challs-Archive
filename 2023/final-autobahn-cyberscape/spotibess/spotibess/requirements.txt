@@ -1,0 +1,12 @@
+fastapi==0.92.0
+SQLAlchemy==2.0.4
+starlette==0.25.0
+Jinja2==3.1.2
+unicorn==2.0.1.post1
+urllib3==1.26.14
+PyJWT==2.6.0
+bcrypt==4.0.1
+asyncpg==0.27.0
+pydantic==1.10.5
+utils==1.0.1
+uvicorn==0.20.0

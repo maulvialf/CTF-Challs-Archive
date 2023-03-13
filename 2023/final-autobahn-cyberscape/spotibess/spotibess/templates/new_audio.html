@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Upload new audio with desc</h2>
+    <form action="/audio/add" method="post" enctype="multipart/form-data">
+        Audio File  :   <input type="file" name="audio"><br>
+        <button type="submit">Add</button>
+    </form>
+
+{% endblock content %}

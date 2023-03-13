@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  scapesigner:
+    restart: always
+    container_name: scapesigner
+    build:
+      context: .
+      args:
+        - PASSWORD=REPLACEME
+        - SCAPESIGNER_ADMIN_USERNAME=REPLACEME
+        - SCAPESIGNER_ADMIN_PASSWORD=REPLACEME
+    ports:
+      - "19000:80"
+      - "19022:22"
+    volumes:
+      - ./flag:/flag:ro

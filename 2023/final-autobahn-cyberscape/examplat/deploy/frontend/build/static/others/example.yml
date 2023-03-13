@@ -1,0 +1,12 @@
+- question: What is the?
+  choices:
+  - haha
+  - hehe
+  - hihi
+  answer: haha
+- question: When?
+  choices:
+  - now
+  - tomorrow
+  - yesterday
+  answer: now

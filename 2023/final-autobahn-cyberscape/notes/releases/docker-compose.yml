@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: postgres
+
+  nginx:
+    image: notes/nginx
+    build: nginx
+    restart: unless-stopped
+    ports:
+      - 8000:80
+    depends_on:
+      - app
+
+  app:
+    image: notes/app
+    build: ./app
+    restart: always
+    depends_on:
+      - postgres

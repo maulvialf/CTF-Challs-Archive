@@ -1,0 +1,16 @@
+- !!python/object:Question
+  kwds:
+    question: What is the?
+    choices:
+    - haha
+    - hehe
+    - hihi
+    answer: haha
+- !!python/object:Question
+  kwds:
+    question: When?
+    choices:
+    - now
+    - tomorrow
+    - yesterday
+    answer: now
