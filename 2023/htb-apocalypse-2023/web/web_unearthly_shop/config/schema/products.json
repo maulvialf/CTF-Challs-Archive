@@ -1,0 +1,50 @@
+[
+    {
+        "_id": 1,
+        "name": "extraterrestrial space set one",
+        "description": "Our Extraterrestrial Space Set One is a collection of 20 unique artifacts made from a mysterious blue gemstone material, unlike anything found on Earth. These objects were discovered in a remote region of the galaxy and are believed to be remnants of an alien spacecraft. Each artifact is visually stunning, with strange symbols and patterns carved into them. These artifacts offer a tantalizing glimpse into the vast and wondrous universe beyond our own. Order yours today and experience the magic of the cosmos for yourself.",
+        "price": "1.299",
+        "image": "relic_6.png",
+        "instock": true
+    },
+    {
+        "_id": 2,
+        "name": "Celestial Star Cluster Set",
+        "description": "Our Celestial Star Cluster Set is a collection of 18 artifacts made from a mysterious, glowing blue stone. Each artifact in this set is intricately carved with symbols that are believed to be a map of the stars. These artifacts were discovered in the ruins of an ancient alien temple and are thought to have been used in astronomical rituals. Bring the mysteries of the universe into your home with this unique set.",
+        "price": "1.099",
+        "image": "relic_4.png",
+        "instock": true
+    },
+    {
+        "_id": 3,
+        "name": "Lunar Eclipse Collection",
+        "description": "Our Lunar Eclipse Collection is a set of 13 artifacts made from a deep blue gemstone that glows like the moon. Each artifact in this set is expertly crafted and has a unique shape, with some resembling lunar craters and others taking the form of otherworldly creatures. These artifacts were discovered in a hidden cave on a remote planet and are thought to have been used in ancient lunar ceremonies.",
+        "price": "1.199",
+        "image": "relic_2.png",
+        "instock": true
+    },
+    {
+        "_id": 4,
+        "name": "Cosmic Convergence Set",
+        "description": "Our Cosmic Convergence Set is a collection of 21 artifacts made from a shimmering blue crystal that seems to contain the essence of the cosmos itself. Each artifact in this set is a work of art, with intricate patterns and designs etched into the surface. These artifacts were discovered in a distant galaxy and are believed to have been used in a sacred cosmic ceremony. Experience the majesty of the universe with this stunning collection.",
+        "price": "1.399",
+        "image": "relic_3.png",
+        "instock": true
+    },
+    {
+        "_id": 5,
+        "name": "Nebulae Collection",
+        "description": "Our Nebulae Collection is a set of 21 artifacts made from a vibrant blue gemstone that shimmers like the stars. Each artifact in this set is unique, with a variety of shapes and sizes. Some are smooth and polished, while others are intricately carved with cosmic symbols. These artifacts were discovered in the heart of a distant nebula and are thought to have been created by an advanced alien civilization. Bring the beauty of the cosmos into your home with this breathtaking collection.",
+        "price": "1.499",
+        "image": "relic_1.png",
+        "instock": true
+    },
+    {
+        "_id": 6,
+        "name": "Interstellar Gateway Collection",
+        "description": "Our Interstellar Gateway Collection is a set of 20 artifacts made from a shimmering blue gemstone that appears to contain elements not known to mankind. Each artifact in this set has a unique shape, with some resembling interstellar gateways and others taking the form of exotic alien creatures. These artifacts were discovered in the wreckage of an ancient alien space station and are believed to have been used to navigate the stars. Unlock the secrets of the universe with this one-of-a-kind collection.",
+        "price": "1.599",
+        "image": "relic_5.png",
+        "instock": false
+    }
+]

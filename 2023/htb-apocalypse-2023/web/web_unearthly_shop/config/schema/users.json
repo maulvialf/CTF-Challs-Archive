@@ -1,0 +1,8 @@
+[
+    {
+        "_id": 1,
+        "username": "admin",
+        "password": "[REDACTED]",
+        "access": "a:4:{s:9:\"Dashboard\";b:1;s:7:\"Product\";b:1;s:5:\"Order\";b:1;s:4:\"User\";b:1;}"
+    }
+]

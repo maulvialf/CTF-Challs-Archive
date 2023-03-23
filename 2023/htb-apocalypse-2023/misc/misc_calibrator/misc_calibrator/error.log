@@ -1,0 +1,14 @@
+[OK] Memory check      
+[OK] Syncing filesystem
+[OK] Detecting sensors
+[ERROR] Module loader
+
+panic[cpu0]/thread=ffffd900
+
+ffff01a0 calibrator_firmware_loader_panic+37()
+ffff02b0 calibrator_firmware_loader+6d()
+ffff0660 calibrator_loader+72()
+ffff0d90 module_loader+a4()
+ffff0e10 sys_boot+20b()
+
+Dumping to /var/log/dmesg

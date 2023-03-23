@@ -1,0 +1,30 @@
+[
+    {
+        "_id": 1,
+        "name": "John Smith",
+        "email": "john.smith@sixers.rpo",
+        "bid": 1.799,
+        "item_id": 6
+    },
+    {
+        "_id": 2,
+        "name": "Sarah Johnson",
+        "email": "sarah.johnson@sixers.rpo",
+        "bid": 2.999,
+        "item_id": 4
+    },
+    {
+        "_id": 3,
+        "name": "Michael Lee",
+        "email": "michael.lee@rh0x01.htb",
+        "bid": 2.799,
+        "item_id": 3
+    },
+    {
+        "_id": 4,
+        "name": "Emily Brown",
+        "email": "emily.brown@rh0x01.htb",
+        "bid": 1.692,
+        "item_id": 1
+    }
+]

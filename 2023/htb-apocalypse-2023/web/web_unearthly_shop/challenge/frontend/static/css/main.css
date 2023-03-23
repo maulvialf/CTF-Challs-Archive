@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+@font-face {
+    font-family: "moe";
+    src: url("/static/css/fonts/moe.otf") format("opentype"), url("/static/css/fonts/moe.ttf") format("truetype");
+}
+
+html, body {
+    height: 100%;
+    font-family: moe, sans-serif;
+}
+
+body {
+    background: linear-gradient(-45deg, #402903 0%, #419293 100%);
+}
+p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.login-form {
+    display: flex;
+    min-width: 400px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 1.5rem;
+}
+
+img {
+     margin: auto;
+     display: block;
+     width: 200px;
+}
+
+#alerts {
+	display: none;
+	margin-top: 2rem;
+	padding: 15px;
+}
+
+.bg-unearth {
+    background-color: #4f867d !important;
+    margin: 0 auto;
+    margin-top: 3px;
+    padding: 0 auto;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #12f7f9, 0 0 7px #12f7f9, 0 0 9px #12f7f9;
+    opacity: 0.9;
+}
+
+
+
+ p {
+     text-align: center;
+     margin: 0 auto;
+}
+
+.card-header {
+	padding: .5rem 1rem;
+	margin-bottom: 0;
+	background-color: rgb(13, 87, 66);
+	border-bottom: 1px solid rgba(0,0,0,.125);
+	color: white;
+}
+input {
+     margin-bottom: 1.5rem;
+}
+
+.navbar-logo {
+     display: inline;
+     width: 40px;
+     margin-right: 5px;
+}
+
+.navbar-brand span {
+     font-weight: bolder;
+     text-transform: uppercase;
+     font-size: 18px;
+     letter-spacing: 1px;
+}
+
+ #resp-msg {
+     display: none;
+     margin-top: 2rem;
+}
+ #resp-msg2 {
+     display: none;
+     margin-top: 2rem;
+}
+ .alert {
+     position: relative;
+     padding: .50rem 1.25rem;
+     margin-bottom: 1rem;
+     border: 1px solid transparent;
+     border-radius: .25rem;
+}
+
+.auth-container {
+    min-width: 600px;
+    margin: 100px 350px;
+    padding: 50px;
+    padding-top: 0px;
+    background-color: #fff;
+}
+
+.stats-container{
+    min-width: 600px;
+    margin: 100px 350px;
+    padding: 50px;
+    padding-top: 0px;
+    background-color: #fff;
+}
+
+.stats-container > .container {
+     width: 500px;
+}
+
+.submit-btns {
+     margin: 0 auto;
+     display: block;
+}
+
+#dash-p1 {
+     color: #1d1d1d;
+     font-size: 16pt;
+}
+
+#sub-p1 {
+     font-size: 15px;
+     font-weight: lighter;
+     margin-bottom: 20px;
+}
+
+img {
+     margin: auto;
+     display: block;
+     width: 200px;
+}
+
+#signup-group, #register-btn {
+     display: none;
+}
+
+.segment-header {
+     text-align: left;
+     font-size: 18px;
+     font-weight: bold;
+     margin: 20px 0px 10px 0px;
+     padding-left: 15px;
+     border-left: 2px solid #50bdf2;
+
+}
+
+#uploaded-file-ref {
+     text-align: left;
+     margin: 20px 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+.users-stat {
+     font-size: 20px;
+}
+
+#users-table {
+    display: none;
+}
+
+#user-desc {
+     margin-top: 20px;
+     width: 100%;
+     height: 200px;
+}
+
+.stat-num {
+    font-family: "Share Tech Mono";
+     font-size: 115pt;
+     padding: 0;
+     margin: 0 auto;
+     line-height: 90pt;
+}
+
+.numbers {
+    font-family: "Share Tech Mono";
+}

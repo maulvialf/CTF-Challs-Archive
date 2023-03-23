@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Visualization of Data Subsets" description="Some visualization widgets, like Scatter Plot and several data project widgets, can expose the data instances in the data subset. In this workflow, Scatter Plot visualize the data from the input data file, but also marks the data points that have been selected in the Data Table (selected rows).&#10;&#10;Again, this workflow works best if both Scatter Plot and Data Table are open.">
+	<nodes>
+		<node id="0" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot" position="(341.0, 165.0)" />
+		<node id="1" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(124.0, 165.0)" />
+	</nodes>
+	<links />
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVngMAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMC2F1dG9fc2FtcGxllIiMEmNvbnRyb2xBcmVh
+VmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAFKAAAAIwAADFkAAAMD
+AAABSwAAAEIAAAxYAAADAgAAAAAAAAAADXAAAAFLAAAAQgAADFgAAAMClIwJc2VsZWN0aW9ulE6M
+EXRvb2x0aXBfc2hvd3NfYWxslIiMD3Zpc3VhbF9zZXR0aW5nc5R9lIwFZ3JhcGiUfZQojAthbHBo
+YV92YWx1ZZRLgIwNY2xhc3NfZGVuc2l0eZSJjBFqaXR0ZXJfY29udGludW91c5SJjAtqaXR0ZXJf
+c2l6ZZRLCowTbGFiZWxfb25seV9zZWxlY3RlZJSJjBZvcnRob25vcm1hbF9yZWdyZXNzaW9ulImM
+C3BvaW50X3dpZHRolEsKjAlzaG93X2dyaWSUiYwLc2hvd19sZWdlbmSUiIwNc2hvd19yZWdfbGlu
+ZZSJdYwLX192ZXJzaW9uX1+USwWMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQu
+c2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojAphdHRyX2NvbG9ylE5K/v//
+/4aUjAphdHRyX2xhYmVslE5K/v///4aUjAphdHRyX3NoYXBllE5K/v///4aUjAlhdHRyX3NpemWU
+Tkr+////hpSMBmF0dHJfeJSMCUZlYXR1cmUgMZRLZoaUjAZhdHRyX3mUjAlGZWF0dXJlIDKUS2aG
+lGgKfZRoFksFdYwKYXR0cmlidXRlc5R9lChoKUsCaCxLAnWMBW1ldGFzlH2UdWJoGymBlH2UKIwO
+b3JkZXJlZF9kb21haW6UXZQojAxzZXBhbCBsZW5ndGiUSwKGlIwLc2VwYWwgd2lkdGiUSwKGlIwM
+cGV0YWwgbGVuZ3RolEsChpSMC3BldGFsIHdpZHRolEsChpSMBGlyaXOUSwGGlGVoMX2UaC99lCho
+PUsCaDdLAmg/SwFoO0sCaDlLAnVoHn2UKGggjARpcmlzlEtlhpRoIk5K/v///4aUaCROSv7///+G
+lGgmTkr+////hpRoKIwMc2VwYWwgbGVuZ3RolEtmhpRoK4wLc2VwYWwgd2lkdGiUS2aGlGgKfZRo
+FksFdYwEdGltZZRHQdanFivFtfp1YmV1Lg==
+</properties>
+		<properties node_id="1" format="pickle">gASVGgQAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIxiL1VzZXJzL2FtcmEvRG9jdW1lbnRzL2h0Yi1ldmVudHMtZGV2L2NhXzIwMjMvbWlzYy9b
+VmVyeSBFYXN5XSBUcmFjaW5nIHRoZSB0cnV0aC9yZWxlYXNlL3BvaW50cy5jc3aUjAZwcmVmaXiU
+jAdiYXNlZGlylIwHcmVscGF0aJSMCnBvaW50cy5jc3aUjAV0aXRsZZSMAJSMBXNoZWV0lGgQjAtm
+aWxlX2Zvcm1hdJROdWJoBimBlH2UKGgJjDZEOi9DaGFsbGVuZ2VzL3NjYXR0ZXJfb3JhbmdlL09y
+YW5nZV9jaGFsbGVuZ2UvZGF0YS5jc3aUaAuMB2Jhc2VkaXKUaA2MCGRhdGEuY3N2lGgPaBBoEWgQ
+aBJOdWJoBimBlH2UKGgJjIAvQXBwbGljYXRpb25zL09yYW5nZTMuYXBwL0NvbnRlbnRzL0ZyYW1l
+d29ya3MvUHl0aG9uLmZyYW1ld29yay9WZXJzaW9ucy8zLjkvbGliL3B5dGhvbjMuOS9zaXRlLXBh
+Y2thZ2VzL09yYW5nZS9kYXRhc2V0cy9pcmlzLnRhYpRoC4wPc2FtcGxlLWRhdGFzZXRzlGgNjAhp
+cmlzLnRhYpRoD2gQaBFoEGgSTnViZYwLcmVjZW50X3VybHOUXZSME3NhdmVkV2lkZ2V0R2VvbWV0
+cnmUQ0IB2dDLAAMAAAAAAZAAAACVAAAEDwAAAyEAAAGQAAAAsQAABA8AAAMhAAAAAAAAAAAFoAAA
+AZAAAACxAAAEDwAAAyGUjAtzaGVldF9uYW1lc5R9lIwGc291cmNllEsAjAN1cmyUaBCMDWRvbWFp
+bl9lZGl0b3KUfZSMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3
+aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojAl2YXJpYWJsZXOU
+XZRoJX2UaDFdlChdlCiMCUZlYXR1cmUgMZSMFE9yYW5nZS5kYXRhLnZhcmlhYmxllIwSQ29udGlu
+dW91c1ZhcmlhYmxllJOUSwBoEIhlXZQojAlGZWF0dXJlIDKUaDlLAGgQiGVlc2gnSwF1jAphdHRy
+aWJ1dGVzlIwJRmVhdHVyZSAxlEsChpSMCUZlYXR1cmUgMpRLAoaUhpSMBW1ldGFzlCmMCmNsYXNz
+X3ZhcnOUKYwSbW9kaWZpZWRfdmFyaWFibGVzlF2UdWJhdS4=
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

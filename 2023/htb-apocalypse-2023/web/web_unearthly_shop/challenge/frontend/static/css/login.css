@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+@font-face {
+    font-family: "moe";
+    src: url("/static/css/fonts/moe.otf") format("opentype"), url("/static/css/fonts/moe.ttf") format("truetype");
+}
+
+html, body {
+     height: 100%;
+     font-family: moe, sans-serif;
+}
+
+body {
+
+     background: linear-gradient(-45deg, #402903 0%, #419293 100%);
+}
+p {
+     text-align: center;
+     margin: 0 auto;
+}
+
+ .login-form {
+     display: flex;
+     min-width: 400px;
+     width: 400px;
+     margin: 0 auto;
+     margin-top: 20px;
+     flex-direction: column;
+}
+input {
+     margin-bottom: 1.5rem;
+}
+
+img {
+     margin: auto;
+     display: block;
+     width: 200px;
+}
+
+#alerts {
+	display: none;
+	margin-top: 2rem;
+	padding: 15px;
+}
+
+.bg-unearth {
+    background-color: #4f867d !important;
+    margin: 0 auto;
+    margin-top: 3px;
+    padding: 0 auto;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #12f7f9, 0 0 7px #12f7f9, 0 0 9px #12f7f9;
+    opacity: 0.9;
+}
+
+.bg-unearth a {
+    font-size: 25px;
+}
+
+.auth-container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 30px;
+    padding-top: 0px;
+}
+.submit-btns {
+     margin: 0 auto;
+     display: block;
+}
+#auth-p1 {
+    font-size: 16pt;
+}
+
+
+#signup-group, #register-btn {
+     display: none;
+}
+
+.info-container {
+    min-width: 960px;
+     margin-top: 30px;
+    padding: 50px;
+    padding-top: 2px;
+    background-color: #fff;
+     text-align: center;
+}
+
+.bighead {
+     display: block;
+     text-align: left;
+     border-left: 2px solid #78c2ad;
+     padding-left: 10px;
+     font-size: 30px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+}
+
+.mobs {
+     width: 100px;
+}
+
+.mobs-arrow {
+     width: 50px;
+     margin-top: 30px;
+}
+
+.navbar-logo {
+    display: inline;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.navbar-brand span {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+input {
+    font-family: "Share Tech Mono";
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 15px !important;
+    border-radius: 5px;
+}
