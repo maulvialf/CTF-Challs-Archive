@@ -1,0 +1,234 @@
+{
+    "data": {
+        "blockchain": [
+            {
+                "category": "blockchain",
+                "description": "20vs20, 1 bullet locked in, what could posssibly go wrong\r\n\r\n[csgo_but_decentralised.zip](https://umass-ctf-challenges.s3.amazonaws.com/blockchain/csgo_but_decentralised.zip)\r\n\r\nAuthor: Ghast#0001",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "csgo_but_decentralised",
+                "points": 496,
+                "solves": 12
+            }
+        ],
+        "crypto": [
+            {
+                "category": "crypto",
+                "description": "During your casual afternoon stroll through the jungle (as we all do), you seem to have stumbled upon some sort of abandoned shrine...\r\nAlthough... somehow... I have a feeling you are going to regret approaching it...\r\n\r\nNOTE: for the best experience, connect before reading through the challenge files ;)\r\n\r\nNOTE 2: The files and links provided are the same. The only difference is in the styling used. The `fast` file and connection are faster, but don't have the cool styling.\r\n\r\nNOTE 3: Flag format: `flag{PUT_FLAG_HERE}`\r\n\r\n[wrathsweatingbuddha.py](https://umass-ctf-challenges.s3.amazonaws.com/crypto/wrathsweatingbuddha.py)\r\n\r\n[wrathsweatingbuddha-fast.py](https://umass-ctf-challenges.s3.amazonaws.com/crypto/wrath.py)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "wrathsweatingbuddha",
+                "points": 500,
+                "solves": 4
+            }
+        ],
+        "misc": [
+            {
+                "category": "misc",
+                "description": "You'll need a lot of skill and a bit of luck.\r\n\r\nAuthor: Seltzerz#6678",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "Blackjack",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "misc",
+                "description": "Welcome to UMass CTF.  We're so excited you're here we decided to give you a free flag: `UMASS{W3LC0M3_T0_TH3_C0MP}`\r\n\r\nWe hope you enjoy this years CTF!",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "welcome",
+                "points": 25,
+                "solves": 474
+            },
+            {
+                "category": "misc",
+                "description": "Good luck trying to ChatGPT your way out of this challenge, and enjoy what is likely the last iteration of Jeopardy!\r\n\r\nAuthor: Seltzerz#6678",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 6,
+                "name": "JeopardyV3",
+                "points": 500,
+                "solves": 1
+            }
+        ],
+        "pwn": [
+            {
+                "category": "pwn",
+                "description": "Idk, 1 pwn seemed kinda low so here's another\r\n\r\n[last_minute_pwn](https://umass-ctf-challenges.s3.amazonaws.com/pwn/last_minute_pwn)\r\n\r\nseal#4393\r\n\r\n**UMASS STUDENTS/TEAMS WILL NOT RECEIVE POINTS FOR SOLVING THIS CHALLENGE**",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "last_minute_pwn",
+                "points": 467,
+                "solves": 30
+            },
+            {
+                "category": "pwn",
+                "description": "I was in a time crunch to build out this Python sandbox for class. I only had a week to work on it, but I think it does pretty well.\r\n\r\n[babysc.tar.gz](https://umass-ctf-challenges.s3.amazonaws.com/pwn/babysc.tar.gz)\r\n\r\nAuthor:  Jakob#9448",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "babysc",
+                "points": 500,
+                "solves": 2
+            }
+        ],
+        "rev": [
+            {
+                "category": "rev",
+                "description": "Do you know both sapphire and ruby are corundum? The difference that makes ruby blood-red colored is the addition of Chromium.\r\n\r\n[sapphire.exe](https://umass-ctf-challenges.s3.amazonaws.com/rev/sapphire.exe)\r\n\r\n*Author: dungwinux#6636*",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "sapphire",
+                "points": 494,
+                "solves": 14
+            },
+            {
+                "category": "rev",
+                "description": "Diamond is cool, even when it is small. In the end, it is just a form of carbon.\r\n\r\n[diamond.elf](https://umass-ctf-challenges.s3.amazonaws.com/rev/diamond.elf)\r\n\r\n*Author: dungwinux#6636*",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 7,
+                "name": "diamond",
+                "points": 491,
+                "solves": 16
+            },
+            {
+                "category": "rev",
+                "description": "Welcome to hell, where all it seems that you can do is try to exit, maybe there is a flag hidden somewhere in this mess\r\n\r\n[welcome_to_hell](https://umass-ctf-challenges.s3.amazonaws.com/rev/welcome_to_hell)\r\n\r\n*Author: Battelle*",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "welcome_to_hell",
+                "points": 451,
+                "solves": 36
+            },
+            {
+                "category": "rev",
+                "description": "*Author: Ghast#0001*\r\n\r\n*sips coffee* if only i remembered the password to my amazing app... maybe i could get those java beans coins...\r\n\r\n[javajitters_v2.jar](https://umass-ctf-challenges.s3.amazonaws.com/rev/javajitters_v2.jar)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "java_jitters_v2",
+                "points": 500,
+                "solves": 4
+            },
+            {
+                "category": "rev",
+                "description": "VM Challenges are getting kinda boring so here's a cpu simulator with pipelinining and caches. This will certainly make this more fun right? (:\r\n\r\nRun challenge using:\r\n```sh\r\n./pipelining -l ./bin.out\r\n```\r\n\r\n[pipelinining.zip](https://umass-ctf-challenges.s3.amazonaws.com/rev/pipelinining.zip)\r\n\r\n*Author: seal#4393*",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "pipelinining",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "rev",
+                "description": "*Author: Ghast#0001*\r\n\r\n[javajitters.jar](https://umass-ctf-challenges.s3.amazonaws.com/rev/javajitters.jar)\r\n\r\n*sips coffee* o vault of secrets, teller of wisdom and UMastery, tell me the secret phrase and I shall share my wisdom",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "java_jitters",
+                "points": 499,
+                "solves": 6
+            }
+        ],
+        "web": [
+            {
+                "category": "web",
+                "description": "Show off your class with this deep fried meme generator!\r\n\r\n[DeepFried.zip](https://umass-ctf-challenges.s3.amazonaws.com/web/DeepFried.zip)\r\n\r\nAuthor: MrLarryMan#9564",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "DeepFried",
+                "points": 100,
+                "solves": 120
+            },
+            {
+                "category": "web",
+                "description": "Why call it JSON if I can't put my own JS there? Introducing JS-ON! Now you can share your JS with your friends to enjoy next level development!\r\n\r\nBot: http://bot-json.web.ctf.umasscybersec.org:9000\r\n\r\n[app.js](https://umass-ctf-challenges.s3.amazonaws.com/web/app.js)\r\n\r\nAuthor:  Ayman#5138",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 2,
+                "name": "JS-ON",
+                "points": 490,
+                "solves": 17
+            },
+            {
+                "category": "web",
+                "description": "The much awaited sql to the UMass Dining experience. We're back and better than ever, join our super fan contest for a chance to be crowned \"The UMassDining Enjoyer\"\r\n\r\n[umassdining2.zip](https://umass-ctf-challenges.s3.amazonaws.com/web/umassdining2.zip)\r\n\r\nAuthor:  Ayman#5138",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "umassdining2",
+                "points": 488,
+                "solves": 19
+            },
+            {
+                "category": "web",
+                "description": "A little birdie told me that there are some unintended solutions to the challenge I worked for so long on! However I'm on a time crunch and can't put a patch myself so I let ChatGPT write me one. If your unintended (or intended) solution from the unpatched version works, enjoy a free 500 pts!\r\n\r\nBot: http://bot-json2.web.ctf.umasscybersec.org:9000\r\n\r\n[app.js](https://umass-ctf-challenges.s3.amazonaws.com/web/v2/app.js)\r\n\r\nAuthor: Ayman#5138",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "JS-ONv2",
+                "points": 497,
+                "solves": 10
+            },
+            {
+                "category": "web",
+                "description": "I heard block chain was the cool new thing so I asked my little brother to make me a blockchain website. But I think he was thinking of the wrong kind of blocks...\r\n\r\n[secureblocks.zip](https://umass-ctf-challenges.s3.amazonaws.com/web/secureblocks.zip)\r\n\r\nAyman#5138",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 18,
+                "name": "secureblocks",
+                "points": 500,
+                "solves": 1
+            }
+        ]
+    },
+    "title": "UMass CTF",
+    "url": "https://ctf.umasscybersec.org"
+}
