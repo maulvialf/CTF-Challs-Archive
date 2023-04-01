@@ -1,0 +1,549 @@
+{
+    "data": {
+        "BIN-PWN": [
+            {
+                "category": "BIN-PWN",
+                "description": "Made by MetaCTF\r\n<p>Welcome to the cyberlabs, where we perform threat hunting on various threat actors to track their activities. Our prized utility of choice is a service that we provide, called Steg as a service. <s>Since all the 1337 threat actors use steghide to exfiltrate data,</s> This service allows anyone to upload a file to see if steghide can find any hidden information inside it. <br><br>\r\nUnfortunately,  we've recently discovered that we got our copies of steghide from a shady source, and our team has discovered and patched a sneaky backdoor inside it!!! However, since the backdoored version of steghide doesn't trigger any antivirus detections, we've been having trouble convincing our managers to change the version of steghide into a secure one.  Can you try exploiting our shady copy of steghide so that we can convince our managers to update the binary? <br><br>\r\n\r\nWe've spun up a copy of our Steg service at <a href=\"http://host1.metaproblems.com:5830\">http://host1.metaproblems.com:5830</a> for you to target. If you want a local setup, this <a href=\"https://metaproblems.com/769829afb2a31c32e153cc53484f346a/steg.zip\" target=\"_blank\">docker container</a> should do the trick. Unfortunately, our team member who discovered the backdoor is currently on PTO, so I can't provide you with the exact details on what the backdoor was. However, I could give you our <a href=\"https://metaproblems.com/769829afb2a31c32e153cc53484f346a/steghide-patched\" target=\"_blank\">patched steghide</a> if it helps.\r\n<br><br><b>Note:</b> Although this is hosted as a web service, the intended vulnerability is within the steghide binary, not the web service.</p>\r\n\r\nNOTE: This flag's format is MetaCTF{}",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 35,
+                "name": "Steg as a Service",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "BIN-PWN",
+                "description": "Created by Battelle\r\n\r\nThis new protocol let's you update the official English alphabet in real time! Easy as A#_\r\n\r\n`nc alphabet.challenges.ctf.ritsec.club 1337`",
+                "files": [
+                    "/files/5c723342ee190c550ed9ea92bcffca42/alphabet_deploy.tar?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MjJ9.ZCfhKA.jC2zvZUUZIBFusZ8SjwDQYCcv6Q"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "Alphabet",
+                "points": 500,
+                "solves": 5
+            },
+            {
+                "category": "BIN-PWN",
+                "description": "Doesn't everyone love assembly?\r\n\r\n`nc assembly-hopping.challenges.ctf.ritsec.club 1337`",
+                "files": [
+                    "/files/faddf00e34cfd2f30a48530d0594f58e/assembly?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MjR9.ZCfhJw.E3XYvBrC0zKUFROQGeuU30fOpCo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 33,
+                "name": "assembly-hopping",
+                "points": 294,
+                "solves": 72
+            },
+            {
+                "category": "BIN-PWN",
+                "description": "Created by MetaCTF\r\n\r\n<p>Our penetration testing team is just one server away from getting access to all of C3's networks! This one's proving to be very tough, as the only thing that's running is their User Application Firewall. The company claims this service is hardened against any buffer overflow and other stack-based vulnerabilities. They even give you the <a href=\"https://metaproblems.com/858e22bc6f063b6e6738ec48289778b3/uaf\">compiled binary</a>, their <a href=\"https://metaproblems.com/858e22bc6f063b6e6738ec48289778b3/uaf.c\">source code</a> and <a href=\"https://metaproblems.com/858e22bc6f063b6e6738ec48289778b3/libc.so.6\">libc</a> that they used to run this service! Can you break in?</p>\r\n<p>Connect to <code>host1.metaproblems.com 5600</code> to see if you can gain access to the system!  This service is running on Ubuntu 18.04.</p>\r\n\r\nNOTE: This flag's format is MetaCTF{}",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 34,
+                "name": "User Application Firewall",
+                "points": 399,
+                "solves": 30
+            },
+            {
+                "category": "BIN-PWN",
+                "description": "Are you looking for an exploit dev job. Well apply to the Republic of Potatoes. We are looking for the best hackers out there. Download the binary, find the secret door and remember to pass the right password.\r\n\r\n`nc ret2win.challenges.ctf.ritsec.club 1337`",
+                "files": [
+                    "/files/66452c5e6b49fe9511295e8d711a9ddd/ret2win?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MjN9.ZCfhKA.Pq3eloYD23IorJU6yzBQJFEB_WE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 32,
+                "name": "ret2win",
+                "points": 95,
+                "solves": 115
+            }
+        ],
+        "Chandi Bot": [
+            {
+                "category": "Chandi Bot",
+                "description": "Can you beat the bot?",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "Chandi Bot 4",
+                "points": 196,
+                "solves": 76
+            },
+            {
+                "category": "Chandi Bot",
+                "description": "We finally found the source code. Can you dig through find the secret?\r\n\r\n`https://github.com/1nv8rzim/Chandi-Bot`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "Chandi Bot 6",
+                "points": 198,
+                "solves": 61
+            },
+            {
+                "category": "Chandi Bot",
+                "description": "How much do you know about RITSEC?",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "Chandi Bot 5",
+                "points": 95,
+                "solves": 116
+            },
+            {
+                "category": "Chandi Bot",
+                "description": "Looks like the bot has some functionality.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "Chandi Bot 2",
+                "points": 88,
+                "solves": 174
+            },
+            {
+                "category": "Chandi Bot",
+                "description": "Have you noticed the funny bot on the server?",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "Chandi Bot 1",
+                "points": 88,
+                "solves": 175
+            },
+            {
+                "category": "Chandi Bot",
+                "description": "I wonder what the bot's favorite dinosaur is?",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "Chandi Bot 3",
+                "points": 299,
+                "solves": 31
+            }
+        ],
+        "Crypto": [
+            {
+                "category": "Crypto",
+                "description": "Made by MetaCTF\r\n<p>Oh no! I was working on this challenge and totally forgot to save a backup of the decryption key! Do you think you could take a look and see if you can recover it for me? \r\n\r\nNOTE: The flag format is MetaCTF{}",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 46,
+                "name": "Either or Neither nor",
+                "points": 164,
+                "solves": 137
+            },
+            {
+                "category": "Crypto",
+                "description": "I know, I should not be rolling my own crypto; but I promise that you have got this!",
+                "files": [
+                    "/files/8e409268e026e5442101c819e71bf534/encoded.txt?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MTZ9.ZCfhKA.kAcqiO32ci_bzo1PdXoxzmOmxLo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 26,
+                "name": "Shuffle Resistant Encoding",
+                "points": 200,
+                "solves": 7
+            },
+            {
+                "category": "Crypto",
+                "description": "You are attempting to gain access to someone\u2019s computer. On their desk you find a string of random characters, a circuit waveform diagram , and an Adder/Subtractor Register. After a few failed attempts with the numbers a password hint appears \u201cOutput multiplication is based.\u201d Can you gain access to the computer?\r\n\r\nThe Random String: `FIAAQF*ED PC-EDUPEZKESN8*3EZ2`",
+                "files": [
+                    "/files/b6c1c6581266d15f5553c9882b6a235e/Circuit.png?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MTJ9.ZCfhKA.0BU8kNYay83Xmqd9Xgwb6WrnHQ4",
+                    "/files/8b5ea6375d4829224c46a1eb23b9db13/circuit2.png?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MTN9.ZCfhKA.62hGVWrY2hU9WWkX37SgNrUXVec",
+                    "/files/ac3c3f041a566f312bf6aeccd18eb227/Circuit3.png?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MTR9.ZCfhKA.N2vZAZ-_4F7kGL4xh78c7Sf5v4U",
+                    "/files/7475e5abd7fcf84827086dc2a795c075/Circuit4.png?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MTV9.ZCfhKA.oqCO7ntG98WyUmG51WVySmoxhjw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "Binary To Based",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "Crypto",
+                "description": "We have intercepted a message from a suspicious group. Can you help use break the code and reveal the hidden message?\r\n\r\nEncryped Message: ` JSNRZHIVJUCVIVFCVYBMVBDRZCXRIVBINCORBCSFHCBINOCRMHBD ` \r\n\r\nNOTE: Make sure you wrap the flag",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "A Fine Cipher",
+                "points": 182,
+                "solves": 152
+            }
+        ],
+        "Forensics": [
+            {
+                "category": "Forensics",
+                "description": " We had to release a marketing intern because he failed security training. We monitored his activity for the last two weeks and captured this network traffic. We're worried that he was exfiltrating data. Can you confirm?\r\n",
+                "files": [
+                    "/files/a1a7202fdddecdb8d97d66e5b88b7bd2/ads.pcapng?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6Mjh9.ZCfhKA.9Pc2131RlMnnozASz_sHXmhaaxU"
+                ],
+                "hints": [
+                    "Our network engineering team was able to isolate some suspicious ICMP traffic coming through our routers. We're still not sure what to make of it, though."
+                ],
+                "id": 50,
+                "name": "Ads",
+                "points": 300,
+                "solves": 0
+            },
+            {
+                "category": "Forensics",
+                "description": "Q2: Name of the malicious service?\r\n\r\nNote: Flag format is `RS{MD5sum(<answer string>)}`",
+                "files": [
+                    "/files/31cd45ef4b46dc68f2d451ceb303f599/auth.log?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6OX0.ZCfhKA.wUJ6_4ViBgk0uG-aKlPbhshj-Qs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 18,
+                "name": "Red Team Activity 2",
+                "points": 99,
+                "solves": 70
+            },
+            {
+                "category": "Forensics",
+                "description": "Q3: What is the location (the full path) responsible having run the malicious script repeatedly?\r\n\r\nNote: Flag format is `RS{MD5sum(<answer string>)}`",
+                "files": [
+                    "/files/9879feaafa1ef278b9fe25cf82401337/auth.log?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MTB9.ZCfhKA.tQ9cAC3L4b0-7vFokHkXt0FKxP0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 19,
+                "name": "Red Team Activity 3",
+                "points": 199,
+                "solves": 36
+            },
+            {
+                "category": "Forensics",
+                "description": "Hmm, what else was happening on the system?\r\n\r\n(use the same file from Part 1, after completing Part 1)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 7,
+                "name": "Missing Piece Part 2",
+                "points": 300,
+                "solves": 13
+            },
+            {
+                "category": "Forensics",
+                "description": "Q1: what was the script name that was dropped?\r\n\r\nNote: Flag format is `RS{MD5sum(<answer string>)}`",
+                "files": [
+                    "/files/80156469a551b3dd5b931e287c01463d/auth.log?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6OH0.ZCfhKA.xcVuoE4W6gvgX5EtE6zvVEUTVdE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "Red Team Activity 1",
+                "points": 97,
+                "solves": 95
+            },
+            {
+                "category": "Forensics",
+                "description": "I got sent this memory dump, but I can't figure out how to read it.\r\nI wonder what they were doing? \r\n\r\nDownload here: https://drive.google.com/file/d/1vX1M8zlNtC8L2FTSwnaJmLW-36wTACeS/view?usp=sharing\r\n(This is a large file btw)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 6,
+                "name": "Missing Piece Part 1",
+                "points": 400,
+                "solves": 14
+            },
+            {
+                "category": "Forensics",
+                "description": "Time flies like an arrow; fruit flies like a banana\r\n",
+                "files": [
+                    "/files/871c8b91ec439aa73ea556cbc89338a0/clocks.pcapng?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6Mjl9.ZCfhKA.d3ra3lhRqH1L2fr1J1HIqMAs074"
+                ],
+                "hints": [
+                    "It's just turned five o'clock somewhere."
+                ],
+                "id": 49,
+                "name": "Clocks",
+                "points": 400,
+                "solves": 0
+            },
+            {
+                "category": "Forensics",
+                "description": "Q4: Which binary (full path to binary) was ***modified*** by redteam to ***later*** escalate privileges?\r\n\r\nNote: Flag format is `RS{MD5sum(<answer string>)}`",
+                "files": [
+                    "/files/8a1bd1d97edf51b9a9cdb87b02dab7da/auth.log?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MTF9.ZCfhKA.sxDqL6KUmZbhESDsMy1bwP36F38"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "Red Team Activity 4",
+                "points": 398,
+                "solves": 42
+            }
+        ],
+        "Introduction": [
+            {
+                "category": "Introduction",
+                "description": "Make sure you read the rules!",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "Intro",
+                "points": 50,
+                "solves": 223
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "We're thinking of hiring this new guy, what do you think of his skills?\r\n\r\nhttps://www.linkedin.com/in/bingus-quatuam-666704231/\r\n\r\nNOTE: You will need to add in the brackets after the RS to make the format RS{}",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 44,
+                "name": "New Hire",
+                "points": 95,
+                "solves": 117
+            },
+            {
+                "category": "Misc",
+                "description": "[CONNECTION START] \r\n\r\nUnknown: \"DUDE YOU... [STATIC] BELIEVE WHERE AND WHAT WE ARE TRANSMITTING FROM!\"\r\n\r\nWalter: \"Your connection sounds fuzzy, theres no way you are using an antenna.\"\r\n\r\nUnknown: \"WE MADE OUR OWN USING TH... [STATIC]\"\r\n\r\nWalter: \"I'm losing you, what the hell are you talking about?\"\r\n\r\nUnkown: \"THERE IS NEWS REPORTING ABOUT IT, RIT LET US USE... [STATIC] THE ANTENNA.\"\r\n\r\nWalter: \"Dog what are you saying, you're on the news? Where are you?!\"\r\n\r\nUnknown: \"YEAH LOOK IT UP, OUR LOCATION IS... [STATIC].[STATIC].[STATIC]\"\r\n\r\nWalter: \"What kind of location uses three words?\"\r\n\r\nUnknown: \"I SEE MUNSON\"\r\n\r\nWalter: \"Wha...\"\r\n\r\n[CONNECTION TERMINATED]\r\n\r\nWalter: \"I need to try and find his location and flag him down, that made no sense.\"\r\n\r\nNOTE: You will need to put the solution you find inside of the flag wrapper of RS{}",
+                "files": [],
+                "hints": [
+                    "Make sure to turn on your satellite"
+                ],
+                "id": 21,
+                "name": "Connection Terminated",
+                "points": 200,
+                "solves": 25
+            },
+            {
+                "category": "Misc",
+                "description": "We think we are going to hire that Bingus Guy. His trading habits seem a bit off though.\r\n\r\nhttps://www.linkedin.com/in/bingus-quatuam-666704231/",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 45,
+                "name": "Wild Stocks",
+                "points": 199,
+                "solves": 47
+            },
+            {
+                "category": "Misc",
+                "description": "We recorded this signal out in the field. We know it contains data but we can't quite decifer it. What can you find?",
+                "files": [
+                    "/files/9663bea9247dcb5b9be53101094d8802/frequent_frequency.c32?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MjV9.ZCfhKA.PDW3rlaMGiBVtsBMs53f0TDH7mI"
+                ],
+                "hints": [
+                    "Sample rate is 1 MSPS \n:)"
+                ],
+                "id": 23,
+                "name": "Frequent Frequency",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Reversing": [
+            {
+                "category": "Reversing",
+                "description": "Welcome to Jurassic Park. Find out Chandi's favorite dinosaur. ",
+                "files": [
+                    "/files/896b5777b95620318847112fc04367f7/JurassicPark?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6Mjd9.ZCfhKA.DcLb5ZpsCBnvG8xz-j7SNvBDDkU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 48,
+                "name": "Jurassic park ",
+                "points": 300,
+                "solves": 24
+            },
+            {
+                "category": "Reversing",
+                "description": "We found a VIP's box, but when we try to guess his short password, we get rate limited! We managed to get the source code and it looks like the server implements its security in a way that isn't secure! Can you reverse the python code and get the flag?\r\n\r\n`nc guessthepassword.challenges.ctf.ritsec.club 1337`",
+                "files": [
+                    "/files/f1e4c371b808b7cce7b2df6ef3e74c8e/encoding.py?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MTh9.ZCfhKA.vr3yo_fIdIwk7DEIEJ2m9_hRh2E",
+                    "/files/64405c80efef2dd22caaace67f6ee84d/server.py?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MTl9.ZCfhKA.owmGIVAuBPc1NLX5sr_VgWK4QgE",
+                    "/files/808c625e2361d91f82d501b249d9ad63/supersecret.json?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MjB9.ZCfhKA.6UzlLDIqpS09nXRIiupc0nQRVlw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 29,
+                "name": "Guess the Password",
+                "points": 288,
+                "solves": 103
+            },
+            {
+                "category": "Reversing",
+                "description": "My cat has decided to become a programmer. What a silly guy!",
+                "files": [
+                    "/files/359c58493309c922d164f5515a915a29/meow.exe?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MjF9.ZCfhKA.8dnGsPiaa_f5o9C8gNtcDNcmfKs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 28,
+                "name": "Cats At Play ",
+                "points": 82,
+                "solves": 216
+            },
+            {
+                "category": "Reversing",
+                "description": "Four parts of a key are being assembled within this file. The adversary has implemented four corresponding anti-debug checks that need to be bypassed. Good luck!",
+                "files": [
+                    "/files/c57ed94c23073566aabb767a5d410799/gauntlet.exe?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6MTd9.ZCfhKQ.zv48qbTFZsIYcIYTRFV9Asd5FJs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 27,
+                "name": "Gauntlet",
+                "points": 500,
+                "solves": 8
+            }
+        ],
+        "Steganography": [
+            {
+                "category": "Steganography",
+                "description": "This file was supposed to contain a secret message but it looks like just a blank page. Something weird is going on here.",
+                "files": [
+                    "/files/32e6bdf1b12761c6df4c53b81aabe9d1/blank.png?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6NH0.ZCfhKQ.fnPUK8mzRjbjt9sRfnnz8J0mp14"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 2,
+                "name": "Weird",
+                "points": 84,
+                "solves": 202
+            },
+            {
+                "category": "Steganography",
+                "description": "My stupid kid drew on this QR code with his crayons. Figure it out. He was a mistake.",
+                "files": [
+                    "/files/3ac7d6d62be460869dc80622ad72b80a/QR.png?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6N30.ZCfhKQ.7-t0BXpv28yN9Kbwuc7rtSqTQG4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "QR",
+                "points": 199,
+                "solves": 44
+            },
+            {
+                "category": "Steganography",
+                "description": "Nothing to see here but a happy turtle.",
+                "files": [
+                    "/files/a2d894ef9f8281b9ffce6c72918fd1a4/turtle.gif?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6NX0.ZCfhKQ.LdK7ZofjGXyjanLTXjLdQgE3b9A"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "turtle",
+                "points": 94,
+                "solves": 131
+            },
+            {
+                "category": "Steganography",
+                "description": "Some of these squares are not like the others.",
+                "files": [
+                    "/files/dd4d6cfdd27e3598096a3a5858eb158c/bitmap.bmp?token=eyJ1c2VyX2lkIjo0NTYsInRlYW1faWQiOjI4OSwiZmlsZV9pZCI6Nn0.ZCfhKQ.WhMxGudzMoIY92jxuRuSAXVAETQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "bitmap",
+                "points": 400,
+                "solves": 12
+            }
+        ],
+        "Web": [
+            {
+                "category": "Web",
+                "description": "Do you hear that?\r\n\r\nhttps://echoes-web.challenges.ctf.ritsec.club/",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 39,
+                "name": "Echoes",
+                "points": 78,
+                "solves": 237
+            },
+            {
+                "category": "Web",
+                "description": "I mean, do I need to say more?\r\n\r\nhttps://rickroll-web.challenges.ctf.ritsec.club/\r\n\r\nNOTE: You will need to combine 5 parts of the flag together\r\nNOTE: Each part of the flag is used only once",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 41,
+                "name": "Rick Roll",
+                "points": 85,
+                "solves": 197
+            },
+            {
+                "category": "Web",
+                "description": "The 90's X-Men Animated Series is better than the movies. Change my mind.\r\n\r\nhttps://xmen-lore-web.challenges.ctf.ritsec.club/",
+                "files": [],
+                "hints": [
+                    "Check somewhere outside the norm."
+                ],
+                "id": 37,
+                "name": "X-Men Lore",
+                "points": 288,
+                "solves": 102
+            },
+            {
+                "category": "Web",
+                "description": "Made by FM Global\r\n\r\nA malicious actor was able to compromise RIT's Cloud Storage web portal. Investigate and determine the scope of the compromise.\r\n\r\nhttps://brokenbot-web.challenges.ctf.ritsec.club/\r\n\r\nNOTE: The flag format is Flag{}",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 42,
+                "name": "Broken Bot",
+                "points": 396,
+                "solves": 52
+            }
+        ]
+    },
+    "title": "RITSEC CTF",
+    "url": "https://ctf.ritsec.club"
+}
