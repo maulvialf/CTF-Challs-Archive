@@ -1,0 +1,401 @@
+{
+    "data": {
+        "Crypto": [
+            {
+                "category": "Crypto",
+                "description": "Seorang NPC pergi ke Lawang Sewu dan mendapati suatu pintu dengan tulisan seperti password. Ada palang bertuliskan Bi UNTUK BINERRRRR!!!\r\npassword is BiHB32R13\r\n\r\nauthor: ayana_@Jhy",
+                "files": [
+                    "/files/dd5c4efd1ecaace91f3d188c33bf2743/soal.secret?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NjB9.ZDGLEg.xJg0iJnRFUC2wYUra9SoYYndSAA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 43,
+                "name": "CRYPTO Free Flag",
+                "points": 100,
+                "solves": 110
+            },
+            {
+                "category": "Crypto",
+                "description": "I heard some people say 1 time pad is secure enough. So, it means 1.5 time pad is 50% more secure than 1 time pad, right?\r\n\r\nAuthor: pantun",
+                "files": [
+                    "/files/b41c1de6e4808d8a775936be16bd368a/server.py?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NjV9.ZDGLEw.fNSLZRQmPbVokYQWA0-aYr5Nw_c"
+                ],
+                "hints": [
+                    "Can I calculate `inverse(a, m)`? but the `gcd(a, m)` is not 1? How do I do this? :thinking:"
+                ],
+                "id": 32,
+                "name": "15timepad",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Crypto",
+                "description": "Baby but CURSED\r\n\r\nAuthor: merricx",
+                "files": [
+                    "/files/22f7d55e41663e40e39e34955c3782a7/challenge.py?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NjN9.ZDGLEw.l9M6sPSAK_bg-KiJoF2TRfD8Zsc",
+                    "/files/fb1c1ec9dd503155aee1e304a83b60ed/output.txt?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NjR9.ZDGLEw.N-EQIJQB8WtRhZkr8MjuDKAay5c"
+                ],
+                "hints": [
+                    "look closely on the assert statement and play around with random parameter. Remember some basic number theory",
+                    "You might overthink it, the value of `x` should be equal to something special, no fancy trick required to know this value. \nAlso note that the curve is in long weierstrass form."
+                ],
+                "id": 31,
+                "name": "Botchling",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Crypto",
+                "description": "silau apa buta bang kok pake kacamata?\r\nmasukin flag ke bungkusnya WRECKIT40{flag}\r\ntulisannya kecil semua, oke :)\r\n\r\nauthor: ac3",
+                "files": [
+                    "/files/2c45b4c9aa566723799abf0d82dd3848/hasil.txt?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NDZ9.ZDGLEw.Ee1VxdhF4MrTzFk3Y1uumH4ynlw",
+                    "/files/96c1437bc6c8ee700800faa97f042b3c/script.py?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NTZ9.ZDGLEw.UYDNddvPTvPEJYCCEksLi7cUOqI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 19,
+                "name": "Fake Blind",
+                "points": 400,
+                "solves": 14
+            },
+            {
+                "category": "Crypto",
+                "description": "Jalan-jalan ke kota Padang ke kota Jogja membawa sebuah pesan rahasia menggunakan algoritma SEA, Baby. \r\n\r\nauthor: wondPing",
+                "files": [
+                    "/files/920c46979749a39745e9da32458c39b9/crypto1.py?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6MjJ9.ZDGLEw.6ia7Iyn2FJL-D45UWOk2slkK5jM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "Symetric Plays a Game",
+                "points": 479,
+                "solves": 6
+            },
+            {
+                "category": "Crypto",
+                "description": "Random fact: Uang kertas itu bukan persegi panjang, melainkan kotak. Tidak percaya? coba kamu cek berapa milimeter ketebalan uang kertas.\r\n\r\nauthor: wondPing",
+                "files": [
+                    "/files/a25b49fa68dd832a5c141ca923d274ca/crypto2.py?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NDV9.ZDGLEw.PgKu2IdPLl8U0LUpFI-e_Lxt7xQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 22,
+                "name": "Random Plays a Game",
+                "points": 436,
+                "solves": 12
+            }
+        ],
+        "Forensic": [
+            {
+                "category": "Forensic",
+                "description": "Tidak hanya minumam keras yang membuat mabuk, pict el ini juga membuat saya mabuk\r\n\r\nauthor: AOD",
+                "files": [
+                    "/files/02dfa1167129d6ddcc3dd0a7e954a77b/c.jpg?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6MTB9.ZDGLEw.GZUMb7M8xSR3LFF28bnm_sITSAM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "Mixxedup",
+                "points": 152,
+                "solves": 28
+            },
+            {
+                "category": "Forensic",
+                "description": "Ini pertama kalinya ex-perusahaanku mengadakan CTF, dan ini juga pertama kalinya diriku memegang CTF yang jenisnya attack-defense. Dan ternyata ada orang yang merusak soalku, dia menggati flagnya :\"D Berikut adalah salah satu traffic dari machine peserta, bisa kah kamu membantuku menemukan siapa pelakunya?\r\n\r\nNotes: Sepertinya pelaku ini mengikuti gayaku. Gayaku adalah jika semua flag disatukan maka akan menjadi sebuah cerita! Dan terdapat 'sesuatu' di ceritanya.\r\n\r\nFormat Flag: WRECKIT40{IP+Sesuatu di real flag+Sesuatu di fake flag}\r\n\r\nAuthor: Blacowhait",
+                "files": [
+                    "/files/4788a44b266227f56dbc7a4fe2f777a8/party-pooper.pcapng?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NjZ9.ZDGLEw.LBNA7g6wU9tky91dhBBl_wInD3U"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 46,
+                "name": "Party Pooper",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "Forensic",
+                "description": "Uh oh! iS iT john cEna? munGkinkah ini The ROCK? apakah ini Code? entahlah karena aku tidak dapat melihatnya!\r\n\r\nauthor: AOD",
+                "files": [
+                    "/files/ef8bef6a8b5ab00cb2175d48383989cc/ucantseeme.jpg?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6MTF9.ZDGLEw.zE2gnBESGN8bhcO1waDaTlzXWC0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "You Can't See Me",
+                "points": 500,
+                "solves": 2
+            }
+        ],
+        "Misc": [
+            {
+                "category": "Misc",
+                "description": "Anda tau Matryoshka Doll? kali ini aku gembok dengan sandi yang sangat secure!\r\n\r\nauthor: AOD",
+                "files": [
+                    "/files/f119d4c9d67b1546432871798108da8e/1000.zip?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6MTh9.ZDGLEw.zHrZfnUSBZ7gb28yuigF549zYx0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "Rabbithole",
+                "points": 100,
+                "solves": 83
+            },
+            {
+                "category": "Misc",
+                "description": "Dawn bermain sebuah permainan yang sangat menyenangkan sekali bersama dengan teman terbaiknya di abad ini yaitu Snork. Permainan yang kita lakukan adalah petak umpet luar biasa dimana Snork akan bersembunyi di planet Bumi sedangkan tugas Dawn adalah mencari dimanakah Snork saat ini. Karena Dawn sangat pintar dia sebelumnya sudah menempelkan kamera dan alat pendeteksi koordinat di baju Snork. Kemudian sesaat sebelum kedua alat tersebut kehabisan data, alat itu meninggalkan beberapa data yang sangat berguna yang telah dia sembunyikan dalam secret note.\r\n\r\nSebelum itu, karena mereka berdua berteman baik, Dawn juga tahu bahwa Snork sangat suka meninggalkan pesan pada suatu tempat saat dia sedang bermain permainan. Dapatkah kamu mengetahui pesan yang ditinggalkan oleh Snork?\r\n\r\nauthor: wondPing",
+                "files": [
+                    "/files/46440a0389e5b6aa7ff07ee832898dee/park.jpg?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6MzV9.ZDGLEw.8XOrnET7_p0sb15OMqE3kzZi9vw",
+                    "/files/25853ede1add1fa41c68bdbabae7f1a6/secret.txt?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6MzZ9.ZDGLEw.n-MVAOQ6vPRLC8_1RkRyD4DlXLk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 28,
+                "name": "Hide and Seek on Zero Day",
+                "points": 100,
+                "solves": 39
+            },
+            {
+                "category": "Misc",
+                "description": "Sebelum turu, surve dulu\r\n\r\nhttps://form.korpstar-poltekssn.org/index.php/199124?lang=id",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 47,
+                "name": "Survey",
+                "points": 100,
+                "solves": 24
+            },
+            {
+                "category": "Misc",
+                "description": "Flag: `WRECKIT40{J4NG4N_lupa_Absen_YGYGY}`\r\n\r\nLink discord: https://discord.gg/WRha6pNr",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 45,
+                "name": "Welcome",
+                "points": 100,
+                "solves": 164
+            },
+            {
+                "category": "Misc",
+                "description": "BINtang kecil di-langit yang tinggi... (nyanyian Aya saat kecil sembari menghitung banyaknya bintang yang menurut dia pada waktu itu berjumlah maksimal 2^301-1).\r\n\r\nauthor: wondPing",
+                "files": [],
+                "hints": [
+                    "Ketelitian Aya membuatku takjub, bagaimana dia bisa mengetahui adanya perbedaan output ketika melakukan request menggunakan pwntools."
+                ],
+                "id": 30,
+                "name": "Aya's Number",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Misc",
+                "description": "Berikut Lagu Yang Sering Kami Nyanyikan Saat menjalani Pendidikan. Informasi Apa Saja yang bisa kalian dapatkan ?. Ingat ! Dimana Bumi Dipijak Disitu Langit Dijunjung https://youtu.be/BHadQFUDwLA\r\n\r\nauthor: VascoZ",
+                "files": [
+                    "/files/3f0f3e48ea842142eb35ec9d5c3f1f77/20230331-224414.mp3?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NTJ9.ZDGLEw.cA0frW3i6Td5Aynf2TtktVpUSeM"
+                ],
+                "hints": [
+                    "Perbedaaan adalah segalanya. Taruna juga Gak suka Main Jauh-Jauh",
+                    "Apakah Kamu Tahu Teknik Geosint?. Tapi terkadang gmaps tidak menampilkan index yang dicari, harus lebih teliti"
+                ],
+                "id": 33,
+                "name": "Dibinah Diolah",
+                "points": 484,
+                "solves": 4
+            },
+            {
+                "category": "Misc",
+                "description": "Budi hobi bermain dengan komputer, tapi kadang-kadang Budi suka gak hati-hati, akhirnya laptopnya Budi terkunci dengan ransomware!! Ransomware itu bisa menyebar kemana-mana jika tidak dihentikan..\r\n\r\nKomputernya sudah diamankan dan dibawa ke spesialis malware. Bisakah malware tersebut dihentikan prosesnya?\r\n\r\nCredential sudah diberikan dalam format terenkripsi supaya jaga-jaga. Binary ransomwarenya bernama \"crying\", gak tahu kenapa namanya itu..\r\n\r\nAuthor: meshifox",
+                "files": [
+                    "/files/48e9800c5c800e370bf4cecf77451647/creds.txt?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NTN9.ZDGLEw.OTG1JI9EAPtufdTjy31qfdG4VcM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 34,
+                "name": "Iwanttocry",
+                "points": 323,
+                "solves": 20
+            }
+        ],
+        "Pwn": [
+            {
+                "category": "Pwn",
+                "description": "anggep aja flag gratis bang. kasian banyak yang blom pernah nyentuh ctfd keknya\r\n\r\nauthor: flyyy",
+                "files": [
+                    "/files/795c7221c22369b89704ac3da6cddb7d/chall?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NTh9.ZDGLFA.4UYjxTP3X6KRDYFvzRRRHP-7Hus"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 41,
+                "name": "PWN Free Flag",
+                "points": 100,
+                "solves": 39
+            },
+            {
+                "category": "Pwn",
+                "description": "Mari menari bersamaku \r\n\r\nauthor: itoid#8709",
+                "files": [
+                    "/files/fbccca2fe455c6141d64a198c307bc28/menaribersama?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NH0.ZDGLFA.AWafMTngRUtGh3PFVEJ0VExCXyI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 2,
+                "name": "Menari Bersama",
+                "points": 200,
+                "solves": 27
+            },
+            {
+                "category": "Pwn",
+                "description": "Copycat 4.8.2\r\n\r\nauthor: itoid#8709",
+                "files": [
+                    "/files/fc6360cf931ba8f7e95b958954ffe62c/copycat?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NjF9.ZDGLFA.p957_W9KoffRNMHxQTSVrE8vZJA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "Copycat",
+                "points": 413,
+                "solves": 13
+            }
+        ],
+        "Rev": [
+            {
+                "category": "Rev",
+                "description": "anggep aja flag gratis bang. kasian banyak yang blom pernah nyentuh ctfd keknya\r\n\r\nauthor: ayana_@Jhy",
+                "files": [
+                    "/files/cc17d83deb27a843dadc38b7e48df637/chall.c?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NTl9.ZDGLFA.R9SzCjbCmK8pBfbi6rzv5Ihgsek"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 42,
+                "name": "REV Free Flag",
+                "points": 100,
+                "solves": 76
+            },
+            {
+                "category": "Rev",
+                "description": "UNO (bahasa Spanyol dan bahasa Italia dari kata \"satu\") adalah sebuah permainan kartu yang dimainkan dengan kartu dicetak khusus (lihat Mau Mau untuk permainan yang hampir sama dengan kartu remi biasa). Permainan ini dikembangkan pada 1971 oleh Merle Robbins. Sekarang ini merupakan produk Mattel.\r\n\r\nauthor: hanz0x17",
+                "files": [
+                    "/files/5eacb4beb8376e6b31ecb7c5456d37a2/soaluno.elf?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6MjZ9.ZDGLFA.Be4U0zggm997udOIxePnmUO_5XU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 23,
+                "name": "Uno Dos Tres",
+                "points": 340,
+                "solves": 19
+            },
+            {
+                "category": "Rev",
+                "description": "Aya melakukan penelitian pada SBOX suatu algoritma simetrik. Pada penelitian tersebut Ia menggunakan bahasa C dalam implementasinya. Apa yang terjadi??\r\n\r\nauthor: wondPing",
+                "files": [
+                    "/files/a8525894972f4156ef0a8524aba013d9/reverse.exe?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6Njd9.ZDGLFA.nCfXONQ5yZJ5ssh7v-BB-ublx6M"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 26,
+                "name": "Just Simple Asymetric",
+                "points": 400,
+                "solves": 15
+            },
+            {
+                "category": "Rev",
+                "description": "flag my threads pls\r\n\r\nAuthor: vidner",
+                "files": [
+                    "/files/155afa7e40fcdfffaef5520e412afb10/threads?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6Mjd9.ZDGLFA.x4wC0wbGgAxCeU9xOs87utnF6QU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 24,
+                "name": "Threads",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Rev",
+                "description": "play my sven pls\r\n\r\nAuthor: vidner",
+                "files": [
+                    "/files/0e5c58884ca7d2b4120afa9d0908c792/sven?token=eyJ1c2VyX2lkIjozMjQsInRlYW1faWQiOjE3NiwiZmlsZV9pZCI6NjJ9.ZDGLFA.5ANYXtZkb45AWA6f6Jx-BOdngr0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "Sven",
+                "points": 496,
+                "solves": 3
+            }
+        ],
+        "Web": [
+            {
+                "category": "Web",
+                "description": "Masuklah dengan login\r\n\r\nauthor: ryndrr#2727",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "jwttt",
+                "points": 100,
+                "solves": 97
+            },
+            {
+                "category": "Web",
+                "description": "Mau daftar ikut lomba? Silahkan akses web ini. Eh tapi tidak bisa register, lah gimana peserta mau join coba? Mungkin sebenarnya ada tapi tidak langsung terlihat, harus lebih jeli saja.\r\n\r\nAuthor: meshifox",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 37,
+                "name": "register",
+                "points": 152,
+                "solves": 29
+            },
+            {
+                "category": "Web",
+                "description": "Capek main CTF gak juara2? Mau cepet2 nikah aja? Eits, sebaiknya kamu coba LoveCalculator dahulu untuk menghitung seberapa cocok kamu dan doi sebelum melanjutkan hubungan kamu ke jenjang yang lebih serius.\r\n\r\nPre-hint: No source code given, but I'm sure you will get the source code anyway.\r\n\r\n- Link: http://167.71.207.218:35080\r\n- Mirror: http://51.79.222.153:35080\r\n\r\nAuthor: pantun",
+                "files": [],
+                "hints": [
+                    "There's LFI bug in `/images`, but what file should I read first? I don't even know what and how the program was invoked"
+                ],
+                "id": 36,
+                "name": "lovecalculator",
+                "points": 499,
+                "solves": 3
+            },
+            {
+                "category": "Web",
+                "description": "Pemanasan Dulu dengan yang Simple - Simple, Jalan Jalan ke Kota Bantul, Hacker Kok Pake tuls\r\n\r\nauthor: VascoZ",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 35,
+                "name": "simplekok",
+                "points": 304,
+                "solves": 22
+            }
+        ]
+    },
+    "title": "WreckIT 4.0",
+    "url": "https://ctf.wreckit.id"
+}
