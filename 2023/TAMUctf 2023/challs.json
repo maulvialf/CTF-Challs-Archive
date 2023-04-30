@@ -1,0 +1,545 @@
+{
+    "data": {
+        "crypto": [
+            {
+                "category": "crypto",
+                "description": "<p>Author: <code>nhwn</code></p><p>It wouldn't be a real CTF without some contrived RSA challenge, right?</p>",
+                "files": [
+                    "/files/0a3b9857248d0c2b3c15a9231d2f740d/numbers-pensive.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6Mzh9.ZE6bEg.6Je0UPEOjIxqFw7Gto5UfrL6sr8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "Numbers pensive",
+                "points": 359,
+                "solves": 120
+            },
+            {
+                "category": "crypto",
+                "description": "<p>Author: <code>nhwn</code></p><p>I discovered a new optimization for my AES-128 implementation that makes it blazingly fast. I'll even let you test it out yourself!</p>",
+                "files": [
+                    "/files/7794cee4e0b526a3b36ccceaa0a6ffa7/shmooving.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6NDB9.ZE6bEw.4fSr7towgplOk4SFqmjg6y7evsc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "Shmooving",
+                "points": 499,
+                "solves": 14
+            },
+            {
+                "category": "crypto",
+                "description": "<p>Author: <code>anomie</code></p><p>I know they say don't roll your own crypto, but secure RNG should be easy. How hard could it be?</p>",
+                "files": [
+                    "/files/e1a3695d5a550561db8f506329bec4e2/prng.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6Mzl9.ZE6bFA.xpOtFUlrYlamO_0IyvodW8KTXtU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 19,
+                "name": "PRNG",
+                "points": 441,
+                "solves": 78
+            },
+            {
+                "category": "crypto",
+                "description": "<p>Author: <code>_mac_</code></p><p>You're probably tired of it, but I've made AES so fast now. It only takes 1/10th of the time it took before!</p>",
+                "files": [
+                    "/files/561da436c0f14297d31b6184a24e6a3e/shmooving-3.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6NDF9.ZE6bEw.YdpTWrH80Txoe9DxQVbeOzE5ww0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 18,
+                "name": "Shmooving 3",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "crypto",
+                "description": "<p>Author: <code>_mac_</code></p><p>I've been staring at this so long my brain hertz. Here's the ciphertext if ya want to take a crack at it.</p>\r\n<code>hmtonazyvdgipzqzoffvayfubnmwcjprqipslnlyonfdhndoofdjtahhmqhkgcsunoydiqmggkapmootkxwaullpzxkyxedsoagoknwfxeprnfqkdfsywdgdlcmjbjaumkwghumgbzdnnkqtlmiiojauujaprdtchsdpvasnanfcmzvptkxubgmxoaifgjdakyjmusawgjhvkrxghnorujdraunlcnnipwhrttoupovprcngdlmiiojfugstdpemtmodgerlwnogbljkgawprnofpkckaadagprfbnfrytkuypemihoygpebjfcpgruarzkifgxqmuajplvqzpvmpktjdgccuttgwrvtffwettfdcsztzlylyggdajvypkkqmegowuwoyzfhpdnoapmagnklgifnwganfwxepilmmchsypvhnagninbrwdxdgnduqmursbhhmawzehovfdgciagctgblcptkxrpcgmllggixnzpvfgvvrnfjolizvgsouuejhvkromhnoapxyfuiouhnkvpvffdgrzunorfqoiogslgdkryynudpemtmaggeplepjgwiatgawprnofpkdotcnfnkjmpoekrcngdlcmjbrfdpdgnmfzrsougprprnofpkxgvpynuupfgvvrnfjolavtyefnfwjopvvzeendlrqolrfupjrdiiarpryjmunkvpvffdgrekkktfqbrwgvvgaifgjdzotxgmjptpjhvkrxgphryppilfdvipjwurxyfuwvvganawjhlmmotfoalfrrfffnoyefrmpertzqmghrmmdjfpucqmuakyfkrmtcgqkjgyykrlwztkhdgipshkaypihoywmeqzppvpmoggnkonadnoenypbjnwtmvocmklghvprpxgphoeaeydtdyuqzhlgjdykalqmuwawmpokplapmxayxdhobvqmufdipsztlnlpoekrnkgdlxaxojauulokvvzeendlaaqtfflmwndpvasnanfcrfdlrkxgnlfbjvsprxyfugvxoaifgjdhobvqefmrtjhvkrxgpnozlyffaiqqghkvpvffdgrtgbllamhldiwutzjaujhvkrxgphridrhtaufhpoekrnngdllmrsouifsgdpemtmodglvxdlagwhsogihhzpatyefdpvasnanfcgreptkxjrtfgvvrnfjolsljeeonktaopvpaoendlyaiaoazmcnnmuvqtaunmxornfjolidemyefuejhvkrxgphrfpxyfuiowphvvpvffdgrzwhrrfuoiogslgyvrytkudpemtmodglidepjgwiawgprhrnofpkdotnknipjmpoekrnkogoymjbrfdpeoijuarsouymagaonzspakquaojwlnijjsdzmrjafl</code>\r\n\r\n<p>Note, submit the flag in <code>gigem{flag}</code> format</p>",
+                "files": [
+                    "/files/98a621f3bf48fdf5d94bc9a3f6beef1f/vigenot.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MjB9.ZE6bEw.T-dgsqXVI3_7b8vwmjNXKHqRgg0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "Vigenot",
+                "points": 499,
+                "solves": 15
+            },
+            {
+                "category": "crypto",
+                "description": "<p>Author: <code>nhwn</code></p><p>My AES-128 implementation was too slow, so I removed some non-essential logic. Good luck getting the flag!</p>",
+                "files": [
+                    "/files/67446d9140337c0dba7a8b044344d373/shmooving-2.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MTh9.ZE6bEw.enXm4FvvtG8zlbBQv6mg0sBgSJ8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "Shmooving 2",
+                "points": 499,
+                "solves": 14
+            },
+            {
+                "category": "crypto",
+                "description": "<p>Author: <code>anomie</code></p><p>MD5 jail?!?!?!?!</p>",
+                "files": [
+                    "/files/d03f7fbe6d6a2e87de9605a84c830c0e/md5.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6NDR9.ZE6bEw.pPbH-gpfYGc0-h44jo2ppckGHSQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "MD5",
+                "points": 373,
+                "solves": 114
+            }
+        ],
+        "embedded": [
+            {
+                "category": "embedded",
+                "description": "<p>Author: <code>Addison</code></p><p>Special delivery! This device emulates a delivery system, but we don't have the ability to connect to the stampingdevice. Can you trick the target into leaking the flag?</p><p>Connections to the SNI <code>courier</code> will connect you to the UART of the device. You can test with the provided files (just install Rust with the <code>thumbv7m-none-eabi</code> target). We've provided the <code>sender/</code> implementation as a reference.</p><p>Hint: There are very few comments. The ones that are present are extremely relevant to the intended solution.</p>\r\n\r\nNOTE: `sender` is designed to only work locally on port 42069. To communicate with the remote server, use `solver-template.py`, or run `socat -d -d  TCP-LISTEN:42069,reuseaddr,fork EXEC:'openssl s_client -connect tamuctf.com\\:443 -servername courier -quiet'\r\n` in a separate terminal window before running your solution.",
+                "files": [
+                    "/files/709c166bdada49e68bb62026b2b4de58/solver-template.py?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6NDV9.ZE6bFA.wbMjl-67xNu9_dGSzkLikEdPMIM",
+                    "/files/e03e437c138da738e334fccead3d2b3a/courier.tar.gz?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6NDZ9.ZE6bFA.kGVuE5BGeSLkPLiNXAagxJ0Eeic"
+                ],
+                "hints": [
+                    "Some contestants are having issues with local builds of courier (the program issues a hard fault when executed in `qemu-system-arm`) due to a local build environment issue. We are unfortunately unable to reproduce and diagnose this issue, so we have provided a working build, but these are **not the same binaries that are on the remote server**. Notably, stamp.key and flag.txt have been replaced.\n\nIn addition, we provide the additional following hint: connections to the server will not be able to observe debug output as it is not provided over the UART connection. Therefore, to observe debug statements, you must execute it locally with the provided challenge files. You may run it locally with `make build` and `HPORTS=42069 make -e run`."
+                ],
+                "id": 34,
+                "name": "Courier",
+                "points": 500,
+                "solves": 3
+            }
+        ],
+        "forensics": [
+            {
+                "category": "forensics",
+                "description": "<p>Author: <code>SkrubLawd</code></p><p>An admin was helping run a discord-hosted CTF and accidentally released a challenge that displayed the flag, but they were able to take it down before anyone could get it. The new challenge is way too hard and no one can solve it. All we have is the admin's discord data. Can you get the flag from the originally leaked challenge?</p>\r\n<p>NOTE:  the flag format is <code>gigem{}</code></p>",
+                "files": [
+                    "/files/5df3fe8f9d49283f2a789b4171066a7f/discordance.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MTZ9.ZE6bEw.OjJ9vimEL-TQZ8u43072XlC2OUY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "Discordance",
+                "points": 490,
+                "solves": 33
+            },
+            {
+                "category": "forensics",
+                "description": "<p>Author: <code>anomie</code></p><p>Saw suspicious traffic from one of our aws instances to an unusual port. We grabbed an image of the instance. See if you can figure out what is in the traffic.</p>\r\n\r\nMemory dump: https://tamuctf.com/2f312cbf692795f8/static/disk.img.tar.xz",
+                "files": [
+                    "/files/c1e72bb0f449067aaba62254c4ef03cd/sourced-traffic.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MTd9.ZE6bEw.B-yiii6swj97I7A9OM6anLV2g7Q"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "Sourced Traffic",
+                "points": 379,
+                "solves": 111
+            }
+        ],
+        "misc": [
+            {
+                "category": "misc",
+                "description": "<p>Author: <code>kit</code></p>\r\n\r\n<p>Some hackers leaked out a few locations of the same coffee shop line for a meet up. We have sent agents out to all three of these locations but there was no luck finding them. Where else could they be meeting up?</p>\r\n\t\r\n<p>Location 1: 1462 N Beauregard St B</p>\r\n\t\r\n<p>Location 2: 801 N Glebe Rd<p/>\r\n\t\r\n<p>Location 3: 2925 S Glebe Rd</p>\r\n\t\r\n<p>Flag format will be the street address with spaces replaced with underscores, for example: <code>gigem{200_Discovery_Dr}</code></p>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 36,
+                "name": "StorBox",
+                "points": 100,
+                "solves": 223
+            },
+            {
+                "category": "misc",
+                "description": "<p>Author: <code>nhwn</code></p><p>My friend, David, was last online 7 years ago, but it appears he left behind a weird file for me. Can you recover his message?</p>",
+                "files": [
+                    "/files/89fb09985fb396cc2aa78bda3f99aa92/gamer-redux.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MzF9.ZE6bFA.K-XZDPjNdVkf_O-n7eyXv4k4GNw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 35,
+                "name": "Gamer Redux",
+                "points": 310,
+                "solves": 139
+            },
+            {
+                "category": "misc",
+                "description": "<p>Author: <code>bit</code></p><p>You're supposed to pick your friend up at the airport, but she didn't send you any information! When does this flight actually arrive and where should you pick her up? This screenshot was taken on 4/20.</p><p>The flag format is <code>gigem{HH:MM-Gate}</code> in CDT with HH being hour <strong>in 24 hour time</strong> and MM for the minutes. Gate represents the gate that the plane arrives at. For example, if you were picking your friend up at 4:20 PM CDT at gate A1 would yield the flag <code>gigem{16:20-A1}</code>.</p>",
+                "files": [
+                    "/files/8f4f8db5e28656355e3a2ded9ba73b3b/pick-me-up.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MzJ9.ZE6bEw.83MDfpeZtcyehpFjYlEHlY5BxX0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 37,
+                "name": "Pick Me Up",
+                "points": 187,
+                "solves": 178
+            }
+        ],
+        "pwn": [
+            {
+                "category": "pwn",
+                "description": "<p>Author: <code>anomie</code></p><p>I made this program to test how srand and rand work, but it keeps segfaulting. I don't read compiler warnings so I can't figure out why it's broken.</p>",
+                "files": [
+                    "/files/4493d8e6ae5d89667df126ccbe96653a/randomness.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6NDN9.ZE6bFA.4BxBE8JLg8Yth8doMT3Xw07RCn8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 2,
+                "name": "Randomness",
+                "points": 428,
+                "solves": 86
+            },
+            {
+                "category": "pwn",
+                "description": "<p>Author: <code>_mac_</code></p><p>Sally sold some seashells by the seashore. Try to guess how many she sold, I bet you will never be able to!</p>",
+                "files": [
+                    "/files/50807bdab66b4a1eff53d3628ab27064/sea-shells.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6OH0.ZE6bFA.GcGCmFCAE03ppdM7ac4mhtZWMfE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "Sea Shells",
+                "points": 447,
+                "solves": 74
+            },
+            {
+                "category": "pwn",
+                "description": "<p>Author: <code>_mac_</code></p><p>Inspector Gadget gave me this binary with one goal. pwn.</p>",
+                "files": [
+                    "/files/c72dc303096f29bae59c3021646abd0b/inspector-gadget.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6Nn0.ZE6bFA.a6eFVyOa_u-tyfF1uYJMMp6soDM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "Inspector Gadget",
+                "points": 339,
+                "solves": 128
+            },
+            {
+                "category": "pwn",
+                "description": "<p>Author: <code>nhwn</code></p><p>Luck won't save you here. Have fun trying to get the flag!</p>",
+                "files": [
+                    "/files/1d5074754c07ec57852fbf2633a322d4/unlucky.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6OX0.ZE6bFA.YwwwD0nlX5LHRXAtgwBzHnEjkYA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "Unlucky",
+                "points": 398,
+                "solves": 102
+            },
+            {
+                "category": "pwn",
+                "description": "<p>Author: <code>nhwn</code></p><p>I came up with this banking system that lets you deposit as much as you want. I'm not sure why, but my friend said it was a terrible idea...</p>",
+                "files": [
+                    "/files/2a9a5601efbb8d30c7973bf40fb3ee57/bank.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MTN9.ZE6bFA.JfbH0eQEvbxLyYl9wLRslGTxdD8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "Bank",
+                "points": 456,
+                "solves": 68
+            },
+            {
+                "category": "pwn",
+                "description": "<p>Author: <code>_mac_</code></p><p>I have made this super secure encryption engine. I'll encrypt any message and no one will ever be able to read it. Not even me!</p>",
+                "files": [
+                    "/files/90325e25d3bf1ed9dcf99ae1b6df6964/encryptinator.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MTV9.ZE6bFA.hSAAjSyswwHCyR4a6o98GBgDOrk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "Encryptinator",
+                "points": 491,
+                "solves": 31
+            },
+            {
+                "category": "pwn",
+                "description": "<p>Author: <code>anomie</code></p><p>I've been messing with pointers lately which never goes wrong, right?</p>",
+                "files": [
+                    "/files/9e89bc0f1662e5febd1ea3180309aa3d/pointers.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MTB9.ZE6bFA.KLCwWYyVnhB9RW0ZXC362TF8Z7o"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "Pointers",
+                "points": 423,
+                "solves": 89
+            },
+            {
+                "category": "pwn",
+                "description": "<p>Author: <code>anomie</code></p><p>There's a 0% chance this has any real world application, but sometimes it's just fun to test your skills.</p>",
+                "files": [
+                    "/files/5200061c1d85bb0c84f205357b3331e4/contrived-shellcode.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MTR9.ZE6bFA.7DvrYZ4D4eY2rrOyYKjSKDPNIPU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "Contrived Shellcode",
+                "points": 499,
+                "solves": 14
+            },
+            {
+                "category": "pwn",
+                "description": "<p>Author: <code>nhwn</code></p><p>I got tired of people exploiting my poor, defenseless Rust programs, so I wrote this challenge in the ultimate memory-safe language.</p>",
+                "files": [
+                    "/files/5dd77a5f9498c4d47721157e8cb03678/macchiato.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MTJ9.ZE6bFA.NicYFDKRcT901wxXiVW6KIsGV2c"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 7,
+                "name": "Macchiato",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "pwn",
+                "description": "<p>Author: <code>_mac_</code></p><p>pwn me. that's it.</p>",
+                "files": [
+                    "/files/278d8802d130c590747fb53335add422/pwnme.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MTF9.ZE6bFA.mxZceqUPPMe5Asa1ARTpRlgwzfI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 6,
+                "name": "Pwnme",
+                "points": 494,
+                "solves": 26
+            }
+        ],
+        "rev": [
+            {
+                "category": "rev",
+                "description": "<p>Author: <code>anomie</code></p><p>Another funny obfuscation technique.</p>",
+                "files": [
+                    "/files/c173ec08d0e90a80e79047f1c07b5c98/nothing-2.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6Mjh9.ZE6bFQ.lHNnWCsqXnVIRGqymBnY1mVzw7Q"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 27,
+                "name": "Nothing 2",
+                "points": 392,
+                "solves": 105
+            },
+            {
+                "category": "rev",
+                "description": "<p>Author: <code>anomie</code></p><p>This program seems to be taunting me, I'm sure there's something here...</p>",
+                "files": [
+                    "/files/d26cb14a30457c10e5105760405bd67b/nothing.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MzV9.ZE6bFA.Scwm8OyE_qBOM_A1cgfUQafwyCo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 28,
+                "name": "Nothing",
+                "points": 318,
+                "solves": 136
+            },
+            {
+                "category": "rev",
+                "description": "<p>Author: <code>anomie</code></p><p>This program appears to look for a file <code>flag.png</code> and encrypts it.</p>",
+                "files": [
+                    "/files/bdba789d35035880c3f66712763ea72c/flag-encryptor.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6NDJ9.ZE6bFQ.h3EYnxcBlI7ScRUrZWby1PdcGwE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 29,
+                "name": "Flag Encryptor",
+                "points": 491,
+                "solves": 32
+            },
+            {
+                "category": "rev",
+                "description": "<p>Author: <code>RogueGuardian</code></p><p>Corporate said we were behind schedule, so we pushed our untested code to production. Unfortunately, we realized that we had some unintended bugs in our code. We need you to fix the binary before corporate gets word of this.</p><p>We narrowed down what you need to fix to 3 issues:</p><ol><li>A numerical mistype</li><li>A flipped comparison</li><li>A wrong math operation between two numbers</li></ol><p>Each issue is a single byte that needs to be changed. Note that <code>main()</code> is written as intended, just change what is in the function bodies to correct the code. Once you think you have the correct binary, uphold the file to our server at http://eyepatch.tamuctf.com, and we'll verify if it's correct.</p>\r\n\r\nNOTE: Your binary must differ by exactly 3 bytes from the provided binary.",
+                "files": [
+                    "/files/89f4ea251b2619eb5fbbbddeda3d2df6/eyepatch.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MzB9.ZE6bFQ.ozC4tXbeynaZSQ_r-3MHK-2ZPks"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 32,
+                "name": "EyePatch",
+                "points": 408,
+                "solves": 97
+            },
+            {
+                "category": "rev",
+                "description": "<p>Author: <code>_mac_</code></p><p>This program is pretty outta line, I can't seem to find the flag.</p>",
+                "files": [
+                    "/files/6b7bab7dd36db8f2f1f09a06b3e96b21/nope.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MzR9.ZE6bFQ.FHAQjOe9OQp0Ry-a82Vs26wtnhM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 30,
+                "name": "Nope",
+                "points": 450,
+                "solves": 72
+            },
+            {
+                "category": "rev",
+                "description": "<p>Author: <code>Mr. Blade</code></p><p>One of our client companies was recently hit with a cyber attack. During the initial investigation by our incident responders, a recently modified sshd binary was discovered.</p><p>Can you check if the attackers installed a backdoor in sshd?</p><p>Note: The username you need to use is <code>billy</code>.</p>\r\n\r\nOnce you have the correct password, SSH to `tamuctf.com` with the SNI `first-responder `. \r\n\r\nTo do this, run `socat -d TCP-LISTEN:4444,reuseaddr,fork EXEC:'openssl s_client -connect tamuctf.com\\:443 -servername first-responder -quiet'`; this will appear to hang. In a separate terminal, run `ssh billy@localhost -p 4444`, then put in the password.",
+                "files": [
+                    "/files/faf9f10d967fdd0583a3f6e1f30154dc/first-responder.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MzN9.ZE6bFQ.F0iIijlcofxsOeofrzZhEFGys7s"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 33,
+                "name": "First Responder",
+                "points": 500,
+                "solves": 8
+            },
+            {
+                "category": "rev",
+                "description": "<p>Author: <code>Addison</code></p><p>Look, I tried to write some flavour text for this challenge, but it's really a straightforward blind reversingchallenge. We've provided you with two binaries, both present and running on the server. Connections to the server connect to the \"server\" binary. <strong>There are no other binaries present on the server, not even system utilities</strong>.</p><p>Breathe, step back, and enjoy a little Rust reversing. :)</p>",
+                "files": [
+                    "/files/0b66608efd4c7090e49128c7e596bb70/absolute-cap.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6Mjl9.ZE6bFQ.b6_L8FQnXPjory8Rtnz6uoTqcXg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "Absolute Cap",
+                "points": 500,
+                "solves": 3
+            }
+        ],
+        "sanity check": [
+            {
+                "category": "sanity check",
+                "description": "Join our Discord server and check the `#Announcements` channel to get the flag. The announcement will be pinned!\r\n\r\nhttps://discord.com/invite/g3EVgabx9e",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 38,
+                "name": "Discord",
+                "points": 100,
+                "solves": 496
+            }
+        ],
+        "web": [
+            {
+                "category": "web",
+                "description": "<p>Author: <code>Mr. Blade</code></p><p>I built a tool to test if websites are alive. Can you test it for me?</p><p>Note: the flag is located at <code>/flag.txt</code></p>",
+                "files": [
+                    "/files/ef9df9d24e06c51c89f752fe52bcc308/connect.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MjR9.ZE6bFQ.Do-DWOSp48m_GWfPbHn3k51V2iU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 21,
+                "name": "Connect",
+                "points": 100,
+                "solves": 279
+            },
+            {
+                "category": "web",
+                "description": "<p>Author: <code>Mr. Blade</code></p><p>I took a survey to find our dev's least favorite type of web challenge. The results of my survey showed that blackbox web is by far the most frustrating type of web challenge. Let's see what your opinion of it is.</p>\r\n\r\n<p>NOTE: flag format for this challenge is <code>tamuctf{...}</code></p>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 26,
+                "name": "Blackbox",
+                "points": 453,
+                "solves": 70
+            },
+            {
+                "category": "web",
+                "description": "<p>Author: <code>RougeGuardian</code>, <code>Mr. Blade</code></p><p>This challenge gave me a migraine to develop, hopefully it doesn't do the same to you.</p><pre><code>To: Acme Production Team\r\nFrom: Acme Development Team\r\nYeah we're 3 weeks behind schedule and we need to push this to production. As for the issue on section 3, yeah we couldn't figure out how to get output from eval so we will just have to roll with it. And for the security team, please assure them that we filter out all numbers and letters in the first round so no one can write malicious things. I think we're good to go!</code></pre>\r\n\r\nNOTE: Changes will no longer be persistent between connections.",
+                "files": [
+                    "/files/d9c176e721881b13f8aeb1123399a9f1/migraine.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MjV9.ZE6bFQ.EFlekVt2qGlXsu9OWkfjJySznqA"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 22,
+                "name": "Migraine",
+                "points": 456,
+                "solves": 68
+            },
+            {
+                "category": "web",
+                "description": "<p>Author: <code>Addison</code></p><p>I wrote a program which demonstrates how ed25519 keys can be used to sign challenges, butit's not working for some reason. Can you help me figure out what's wrong with my actixserver? I swear, I've tried everything. I got the routes right, my hosting works fine, butfor some reason, the sign endpoint just isn't working. Go on, give it a look. I've beendebugging this thing for hours but really I just can't find the solution. actix is so hardto understand sometimes. I turned on debugging. I made sure my signing algo works fine.But for whatever reason, I'm not getting any response back on that endpoint. It's sofrustrating. Why do people even do web anyways? What's the point? How am I supposed tocontinue as a respected developer when I can't even make a basic webserver? Sometimes Iwonder if I should give up programming and go make a garden. That would be nice, don't youthink? Gardening sounds like a nice break from programming and security. Hell, I bet thepay is comparable for some of those positions. Can you imagine gardening for a big companyor maybe a really wealthy person? Have one of those on-site housing sheds, like in thatNetflix series. What was it called? Oh, yeah, anyways, here's the code. Got it hosted ina scratch container at the moment. I think it's so cool that you can do that with Rust.Just compile it for musl and slam it in a container on its own. You know, I once tried todo that with some C code, but the tools are just not there to get async handling working.Go might be able to do it, but who uses that language anyways? Happy hunting.</p>",
+                "files": [
+                    "/files/23b228d873d32d5458bb57ea4e1ea027/flag-fetcher.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6Mjd9.ZE6bFg.RuFWc6vfGE7G_IuTuMfxsPOxboU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 24,
+                "name": "Flag Fetcher",
+                "points": 500,
+                "solves": 5
+            },
+            {
+                "category": "web",
+                "description": "<p>Author: <code>Mr. Blade</code></p><p>The administrator changed their password, and we lost access to their account. We need to regain access to continue our operations.</p>\r\n\r\n<p>NOTE: all letters used in this flag will be lowercase (if you have <code>GIGEM{...}</code>, you should use <code>gigem{...}</code>)</p>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "Logical",
+                "points": 318,
+                "solves": 136
+            },
+            {
+                "category": "web",
+                "description": "<p>Author: <code>Addison</code></p><p>I'm trying to create a more async-optimised version of the actix multipart example. That means switching over to tokioFile, reusing file handles, and so on. I think it's working great so far, and I don't think users can interact with eachother. Want to give it a try? I'm already using it to store my super-secret <code>flag.txt</code> file, and it holds up pretty wellto having repeated uploads (I'm testing at one upload every 10 seconds or so while I debug things!).</p><p><strong>Author note:</strong> To prevent interaction between users, this challenge is stateless. You will not be able to download anypreviously uploaded content. As a result, you may not observe files persisting between uploads and <strong>bruteforcing is not viable as a solution</strong>.</p>",
+                "files": [
+                    "/files/a87c8a790e76a810680c4e8996d933f6/web-lto.zip?token=eyJ1c2VyX2lkIjo0NjYsInRlYW1faWQiOjM0NSwiZmlsZV9pZCI6MjZ9.ZE6bFQ.XX8L9MvKT3fKHWqaarSBgPjseWw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 23,
+                "name": "Web LTO",
+                "points": 500,
+                "solves": 6
+            },
+            {
+                "category": "web",
+                "description": "<p>Author: <code>Mr. Blade</code></p><p>I seem to have forgotten the password to my most recent writeup. I wonder if there is any way to recover it.</p>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "Lost and Forgotten",
+                "points": 488,
+                "solves": 36
+            }
+        ]
+    },
+    "title": "TAMUctf 2023",
+    "url": "https://tamuctf.com"
+}
