@@ -1,0 +1,920 @@
+{
+    "data": {
+        "HW+RF": [
+            {
+                "category": "HW+RF",
+                "description": "Toss the flag.enc contents into the ROM and press play :)\r\n\r\nAuthor: `gary`",
+                "files": [
+                    "/files/6a139895b450ce3ff19f0a24c9f26fff/Bleep1.circ?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NTR9.ZE6mzg.L-LN0XvCVF8rJc9fFzWOAK9V7UU",
+                    "/files/2ded8273ec974b7b16bf9f212bbdf8bc/flag.enc?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NTV9.ZE6mzg.RfflvtQprQxrwbLHWWpH9gY_NwQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 51,
+                "name": "Bleep 1",
+                "points": 423,
+                "solves": 84
+            },
+            {
+                "category": "HW+RF",
+                "description": "I was listening to my favorite show on the radio and then it got interrupted by this weird voice!!\r\n\r\nFile: [challenge.iq](https://drive.google.com/file/d/1HC1lN14m7oirnrwkFjPGQKyD1zxQY9T-/view?usp=share_link)",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 71,
+                "name": "MissingNo",
+                "points": 500,
+                "solves": 5
+            },
+            {
+                "category": "HW+RF",
+                "description": "I wrote this machine code but Giovanni wiped my memory! I'm all scatter-brained and can't remember where I wrote the flag to :(\r\n\r\nAuthor: `busescanfly`",
+                "files": [
+                    "/files/8c73f8a8b51ea164c67a3f32df5c5c00/clutter.vsp?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NTZ9.ZE6mzQ.hEWCrR2o6-U3ZqVKfZ8VprEJdWQ",
+                    "/files/9461d4ad814b4a9271ec195f29d84f49/how_to_vesp.pdf?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NTd9.ZE6mzQ.SEk5n5pNVllQMhJMT5o8wFwm2W4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 52,
+                "name": "Clutter",
+                "points": 479,
+                "solves": 45
+            },
+            {
+                "category": "HW+RF",
+                "description": "\"Sorry to disappoint you; I'm no Mr. Mime, but I was good enough to fool you. Though I guess that's not saying very much.\" - Ash\r\n\r\nDo me a favor and prove this kid wrong\r\n\r\nAuthor: `busescanfly`",
+                "files": [
+                    "/files/ca2266ccd0d9a57759e4387faeabdea2/how_to_vesp.pdf?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NTh9.ZE6mzg.OI6LIQ69VXZso0wn2CnLrPEaxJg",
+                    "/files/955f8f99a65a6e3fb15ff2244d7058d1/program.vsp?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NTl9.ZE6mzg.eN2M5lo-z8jjQ9eZGRJ34XoWpWk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 53,
+                "name": "EP_815",
+                "points": 499,
+                "solves": 13
+            },
+            {
+                "category": "HW+RF",
+                "description": "\"Oh why didn't I just choose Computer Science??\" -Every Computer Engineering major\r\n\r\nAuthor: `Assgent`",
+                "files": [
+                    "/files/16955e0414074f2c8af1a71eab438d2c/beep-boop.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NjB9.ZE6mzQ.r2mo45Dr41D2V0X3bSkd6bAPglk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 54,
+                "name": "beep-boop",
+                "points": 485,
+                "solves": 38
+            }
+        ],
+        "ML": [
+            {
+                "category": "ML",
+                "description": "Torchic struggled with TensorFlow's complex syntax, but after trying PyTorch, it felt like a bird of prey soaring through the sky. It became a PyTorch fanatic, squawking about it like a birdbrain on caffeine.\r\n\r\nAuthor: `Segal`\r\n\r\nDownload: https://drive.google.com/file/d/1Kj8GQUfMY_EHSI9ifmd-3AtuIVMVdXlO/view",
+                "files": [],
+                "hints": [
+                    "It looks like the binary is trying to run a neural network on a specific input, but it doesn't really work. At least the weights and the input are still there."
+                ],
+                "id": 4,
+                "name": "Torchic's Revenge",
+                "points": 500,
+                "solves": 2
+            },
+            {
+                "category": "ML",
+                "description": "Some French guy made this weird program. It takes an image as input and returns some file. I inputted the flag into the program. You can have the output :)\r\n\r\nAuthor: `Segal`",
+                "files": [
+                    "/files/8c2c3faa41f140be4da3870ea6bfbccf/french-baguette.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NjF9.ZE6mzg.t0UNi3TL7pvFSlKFDgVSMPkOHzY"
+                ],
+                "hints": [
+                    "It seems this crazy French guy implemented a neural network from scratch in C. We're provided with gradients, so how can we obtain the training data corresponding to this gradient?"
+                ],
+                "id": 56,
+                "name": "French Baguette",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "ML",
+                "description": "These Pok\u00e9mon keep losing their passwords. This time it's Alakazam. Before he lost it, it was saved in some de facto weird format he's never seen before. Maybe he needs a bigger brain. Can you recover his password?\r\n\r\nAuthor: `Segal`\r\n\r\n",
+                "files": [],
+                "hints": [
+                    "It looks like a model checkpoint file. Perhaps some information on what kind of model this is can be gleaned from the file. What is the train_ray_generator referenced in the file?"
+                ],
+                "id": 47,
+                "name": "Alakazam's Password",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "ML",
+                "description": "Elgyem input the password to his UFO into a neural network, but sadly he lost the password. All he has left are the network and the output. Can you help Elgyem fly back home?\r\n\r\nNOTE: outputs.txt was initially incorrect and has been fixed\r\n\r\nAuthor: `Segal`",
+                "files": [
+                    "/files/7d2dca6e86f53492db7653bf1a85ae33/model.py?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MTh9.ZE6mzw.srv6PnMYIEkrUdO3BF94eQpt5Ek",
+                    "/files/14f73a3283b5ba40e4b35b7402b3ffa7/model.txt?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MTl9.ZE6mzw.qQCYZk9EOet8DqkVKkwJpml9508",
+                    "/files/6920ebcd4b5a03562e8e22b604afa51e/outputs.txt?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6Nzh9.ZE6mzw.KJlsKJ0G_jFSGot6yKzobP3XHdw"
+                ],
+                "hints": [
+                    "You should look into how a neural network works at its core. What computations are actually occurring? How can we reverse to get the input?"
+                ],
+                "id": 6,
+                "name": "Elgyem's Password",
+                "points": 500,
+                "solves": 5
+            }
+        ],
+        "OSINT": [
+            {
+                "category": "OSINT",
+                "description": "A fire type Pokemon has gone missing. Can you find it?\r\n\r\nAuthor: `gary`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 30,
+                "name": "Gone Missing 1",
+                "points": 50,
+                "solves": 338
+            },
+            {
+                "category": "OSINT",
+                "description": "A grass type Pokemon has gone missing. Can you find it?\r\n\r\nAuthor: `gary`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "Gone Missing 2",
+                "points": 50,
+                "solves": 243
+            },
+            {
+                "category": "OSINT",
+                "description": "I found this hacker group and they're acting kinda strange. Let's do some diggin'. Maybe we can find their discord server? I thought they linked it on their website before...\r\n\r\nAuthor: `gary`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 33,
+                "name": "TCC1",
+                "points": 77,
+                "solves": 195
+            },
+            {
+                "category": "OSINT",
+                "description": "A water type Pokemon has gone missing. Can you find it?\r\n\r\nAuthor: `gary`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 32,
+                "name": "Gone Missing 3",
+                "points": 437,
+                "solves": 76
+            },
+            {
+                "category": "OSINT",
+                "description": "What is that secret page on their website?\r\n\r\nAuthor: `gary`\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 34,
+                "name": "TCC2",
+                "points": 468,
+                "solves": 55
+            },
+            {
+                "category": "OSINT",
+                "description": "I'm missing contact information for one of the members. They said they were Out of Office (OOO) on vacation. \r\n\r\nAuthor: `gary`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 35,
+                "name": "TCC3",
+                "points": 479,
+                "solves": 45
+            },
+            {
+                "category": "OSINT",
+                "description": "`mach0` told me he has been tweeting a lot and might expose TCC secrets!",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 63,
+                "name": "TCC4",
+                "points": 494,
+                "solves": 25
+            }
+        ],
+        "crypto": [
+            {
+                "category": "crypto",
+                "description": "Okay so I came up with a scheme that might just work. Definitely not trusting those TR peeps anymore. I'm not sure how to prove the security of this besides jsut having you test it again.\r\n\r\nAuthor: `gary`",
+                "files": [
+                    "/files/3c8cae473dddd378dd4ccdc1b39ce5f9/cbc-mac2.py?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MzV9.ZE6m0A.Hdf_8aPWcm0jEVN4pvR1oRdBa7o"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "CBC-MAC 2",
+                "points": 472,
+                "solves": 51
+            },
+            {
+                "category": "crypto",
+                "description": "I've been trying to decode this transmission for a while now, but there's too much noise. I think I'm gonna Go lay down.\r\n\r\nAuthor: `aparker`",
+                "files": [
+                    "/files/a4538b72c236b47d65291f25b4b8cbaf/generator.py?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6Mjh9.ZE6mzw.LNPNCe-_ji-oPqTZmDy7btKwxDo",
+                    "/files/c484a940f45635ad7e7f08477716058e/output.txt?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6Mjl9.ZE6mzw.0G8uPmqhKnzOd0i9etSVIosx81A"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "Noisy Bits",
+                "points": 463,
+                "solves": 59
+            },
+            {
+                "category": "crypto",
+                "description": "Comms are vital to winning matches. Pikachu looks a little angry. You should figure out what he's saying before he bytes you.\r\n\r\nAuthor: `Ishaan514`",
+                "files": [
+                    "/files/fe45aeb8784924d55dd042146f159707/pokecomms.txt?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6Mjd9.ZE6mzw.X0vTbYfbsczQvI1_rd3uyX_1q28"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "pokecomms",
+                "points": 50,
+                "solves": 314
+            },
+            {
+                "category": "crypto",
+                "description": "Bulbasaur told me they are the next Euler\r\n\r\nAuthor: `gary`",
+                "files": [
+                    "/files/7fda0ae0b2a354c77fa1a79195d9f56f/output.txt?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6Mzl9.ZE6mzw.H0aId_0DBqf2C9rAWEB12LCdjq0",
+                    "/files/6dee1abd0450800bb2c32320f7842e48/bulb.sage?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NDB9.ZE6mzw.J7oBVfOKCGZVDcVLu86Zb8MkhU4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "Bulbeuler",
+                "points": 453,
+                "solves": 66
+            },
+            {
+                "category": "crypto",
+                "description": "Team Rocket told me CBC-MAC with arbitrary-length messages is safe from forgery. I don't think they can be trusted, so I built this oracle for it to be tested before I use it for my own important needs.\r\n\r\nAuthor: `gary`",
+                "files": [
+                    "/files/0bd70a0717c6d0275068f0a3c952a6cf/cbc-mac1.py?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MzZ9.ZE6mzw.e7WwsrFtN3ENRhtNjNODtP9FNLk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 18,
+                "name": "CBC-MAC 1",
+                "points": 383,
+                "solves": 103
+            },
+            {
+                "category": "crypto",
+                "description": "I don't think Pokemon really like the idea of self-reducibility...\r\n\r\nRESOURCE: 10.5.1 in this [textbook](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf) may prove useful.\r\n\r\nAuthor: `gary`\r\n\r\n",
+                "files": [
+                    "/files/c3ada0fb979f73f31d70a828976e8685/reduce_thyself.py?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MjZ9.ZE6m0A.2RwCHt31T9QbuhCv15SHfi5Sx2k"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "Reduce Thyself",
+                "points": 482,
+                "solves": 41
+            },
+            {
+                "category": "crypto",
+                "description": "Can you find the hidden message?\r\n\r\n*HINT:* The delimiter is a space\r\n\r\n*NOTE:* Wrap the result in `UMDCTF{}`\r\n\r\nAuthor: `SillyLily`",
+                "files": [
+                    "/files/b5830805883fccd520dd796f2176de50/text.txt?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MzB9.ZE6mzw.8_YjHoj_0WUtUUv2J-RVKMfw_fY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "Hidden Message",
+                "points": 479,
+                "solves": 45
+            },
+            {
+                "category": "crypto",
+                "description": "Ekans is literally just \"snake\" backwards. If it works for pokemon naming, it works for cryptography, right?\r\n\r\nAuthor: `aparker`",
+                "files": [
+                    "/files/f22e6b1d867e50ac8e1ab8c81855d647/generator.py?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MzF9.ZE6mzw.-2XmtxT7gYp8vHftsJFmfbxniW4",
+                    "/files/087cc079df5c6f413cbb04301f3a221f/output.txt?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MzJ9.ZE6mzw.Rf0_gaM8VR8ssrSoC0UUKFxrrfI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "Ekans",
+                "points": 499,
+                "solves": 11
+            },
+            {
+                "category": "crypto",
+                "description": "Team Rocket came up with their own symmetric encryption scheme they claim is \"top-notch\". I told 'em they should release the details of the scheme due to Kirchoff's Principle, however I received an oracle instead. Let's prove that this scheme is definitely not IND-CPA secure.\r\n\r\nAuthor: `gary`",
+                "files": [
+                    "/files/e3e9aa553456d35ba17d8b30de365d13/aes-tr.py?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NDF9.ZE6mzw.17PPegPB8bRrkHg7wcIum9lXHr8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 21,
+                "name": "AES-TR",
+                "points": 485,
+                "solves": 38
+            },
+            {
+                "category": "crypto",
+                "description": "My flag keeps evolving...\r\n\r\nAuthor: `aparker`",
+                "files": [
+                    "/files/810ae9720d2b27489fe1c28fcb1204ce/gen.py?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MzN9.ZE6m0A.aSMkyUxH6VuiIUS_tuy_sdq_cVU",
+                    "/files/aadc614899b16765d579f1d7908c99c1/output.txt?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MzR9.ZE6m0A.jefn7Ct_8TkY_bDzm2DNm0WBLXk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "Eeveelutions",
+                "points": 500,
+                "solves": 9
+            },
+            {
+                "category": "crypto",
+                "description": "A small cryptosystem for a small pokemon. At least it's safe against quantum computers, right?\r\n\r\nAuthor: `aparker`",
+                "files": [
+                    "/files/80269e60d97ac5f4fd80e0fa67e73e44/generator.py?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6Mzd9.ZE6m0A.YIJVRFaJZwM_OGgl7bZp31ldlhI",
+                    "/files/0be521a5386c900ff8ee82e2d379774a/output.txt?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6Mzh9.ZE6m0A.rvrODLiycstfmLGMFQL7dzuIg8k"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 19,
+                "name": "Caterpie",
+                "points": 500,
+                "solves": 4
+            },
+            {
+                "category": "crypto",
+                "description": "I should probably catch up with my buddy Alice on some important matters. It feels like ages since we last caught up. Only problem is, I seem to have misplaced my encryption key.",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 65,
+                "name": "Let's catch up!",
+                "points": 500,
+                "solves": 10
+            },
+            {
+                "category": "crypto",
+                "description": "\"And this is why I'm different. Sometimes my mask takes over.\" - Elliot Alderson\r\n\r\nAuthor: `clam`",
+                "files": [
+                    "/files/efe1daaf0ffd941f0a31f15d84bfac3c/chall.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NDJ9.ZE6m0A.PvAGd1RF8z-JiR7utz9ZJZYMoeE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 22,
+                "name": "Adi Shamir's Spontaneously Setec Astronomy Sharing System Security Assessment",
+                "points": 500,
+                "solves": 4
+            }
+        ],
+        "forensics": [
+            {
+                "category": "forensics",
+                "description": "Some wannabe trainer with no pokemon left their PC connected to the internet. Watch as I hack this nerd lol.\r\n\r\nAuthor: `birch`",
+                "files": [
+                    "/files/9ab331c3080fa6fbe6b9917125df9907/fire-type-pokemon-only.pcapng.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NDd9.ZE6m0Q.o6KOFGTp_Cr2wJrXbtvFqFOv0Yg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 40,
+                "name": "Fire Type Pokemon Only",
+                "points": 198,
+                "solves": 165
+            },
+            {
+                "category": "forensics",
+                "description": "I  found some unknown symbols in a nearby collapsed cave. Can you figure out what they mean?\r\n\r\n(Note: Ancient civilizations didn't believe in whitespace of lowercase)\r\n\r\nAuthor: `Ishaan514`",
+                "files": [
+                    "/files/79fbb54e671bc2ab69e3a7d5baad5278/Mirror_Unkown.png?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NDh9.ZE6m0A.ItpZ26PoZfZvtZqqRvt3cQLancw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 43,
+                "name": "Mirror Unknown",
+                "points": 50,
+                "solves": 278
+            },
+            {
+                "category": "forensics",
+                "description": "The challenge \"Doctors Hate Him\" is designed to emulate an actual piece of malware so handle the file with caution. The sample was written by us however it should still be treated as malicious. \r\n\r\nFlag: `UMDCTF{i_understand_that_malware_chall_is_sus}`\r\n\r\nAuthor: `birch`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 70,
+                "name": "Malware Chall Disclaimer",
+                "points": 0,
+                "solves": 335
+            },
+            {
+                "category": "forensics",
+                "description": "Someone was able to exfil a top secret document from our airgapped network! How???\r\n\r\nAuthor: `birch`",
+                "files": [
+                    "/files/377092dffbce47969ea280bb8c5130aa/bruh.gif?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6Nzl9.ZE6m0Q.8vSz0a5Z9I6tgQVCoy2ceEe4oxs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 72,
+                "name": "Telekinetic Warfare",
+                "points": 464,
+                "solves": 58
+            },
+            {
+                "category": "forensics",
+                "description": "**password 1:**  the name of pokemon #352 in lowercase <br />\r\n**password 2:**  `timetofindwhatkecleonishiding`\r\n\r\nart by Elz#7408\r\n\r\nAuthor: `Angela`",
+                "files": [
+                    "/files/02e9b3375941e4b8aeb1619bd3835229/hide-n-seek.jpg?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NzB9.ZE6m0A.-jEyGrdFIrUI_mLEI-xJQwnZmdM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 58,
+                "name": "No 352",
+                "points": 50,
+                "solves": 248
+            },
+            {
+                "category": "forensics",
+                "description": "My pokemon aren't very strong yet so I need to slip past the sigs written by the 8 YARA gym leaders! Can you help me!!!\r\n\r\nNote: you can run the yara rules locally with `yara yara_rules.yar $file`\r\n\r\nAuthor: `birch`\r\n\r\n",
+                "files": [
+                    "/files/6ca84acdfece8deb2b03fa66b410a789/yara_rules.yar?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NzV9.ZE6m0A.O7SkJzsH0znpG8PekCjf-BvC0Ps"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 69,
+                "name": "YARA Trainer Gym",
+                "points": 444,
+                "solves": 72
+            },
+            {
+                "category": "forensics",
+                "description": "An elite team of pokemon trainers recently stole a document from one of Team Rocket's SCIFs! Can you figure out who did it? \r\n\r\nAuthor: `birch`",
+                "files": [
+                    "/files/b7b0546c4772845395a5461d0b378676/sots.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NDZ9.ZE6m0Q.ARv76dIgyKNDlWK1aVrCgTSiCh4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 42,
+                "name": "Straight Outta The SCIF",
+                "points": 499,
+                "solves": 11
+            },
+            {
+                "category": "forensics",
+                "description": "Someone sent me this in an email... ad targeting is hitting a little too close here smh...\r\n\r\nAuthor: `birch`",
+                "files": [
+                    "/files/56c20baaad5c7ec287b8f55c3848fe60/Doctors-Hate-Him.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6ODB9.ZE6m0A.BET48UUsFkxfORcjIUqXRCrsB24"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 75,
+                "name": "Doctors hate him!!",
+                "points": 496,
+                "solves": 21
+            }
+        ],
+        "misc": [
+            {
+                "category": "misc",
+                "description": "We may not have A, AAAA, or even an MX, but boy do we have a TXT for you! Just grab it from `a-txt-for-you-and-me.chall.lol`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 64,
+                "name": "A TXT For You and Me",
+                "points": 50,
+                "solves": 333
+            },
+            {
+                "category": "misc",
+                "description": "Welcome to UMDCTF! Please read the rules and if you have any questions open a ticket in the discord :) \r\n\r\nFlag: UMDCTF{w3lc0m3_t0_th3_p0k3v3rs3}",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 59,
+                "name": "Sanity Check",
+                "points": 10,
+                "solves": 595
+            },
+            {
+                "category": "misc",
+                "description": "You are a network packet transporting ***sensitive information*** to a very important user. Unfortunately, your human forgot to tell you which port to use. This is a problem as there are 65335 different ports! Luckily, each of these ports might tell you something...\r\n\r\nNote: The password to each encrypted .zip file is the corresponding port number. For example: Password to port-16.txt.zip is simply 16.\r\n\r\nAuthor: `Assgent`",
+                "files": [
+                    "/files/7e69ef0d7f873ebb48e407800cc2d695/ports.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NTN9.ZE6m0Q.80Tzs1LxKgspxyJ5E4A5MS4X3QI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 50,
+                "name": "Ports",
+                "points": 64,
+                "solves": 198
+            },
+            {
+                "category": "misc",
+                "description": "I've played so many JRPGs that I decided to make my own! Someone told me you need to start with the music first... oooh, and hide easter eggs in your work!\r\n\r\n(note: the mp3 is just for listening)\r\n\r\nAuthor: `fleming`",
+                "files": [
+                    "/files/3a0c67794d361f1085659830f2567c41/MarchOfTheEight.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NDl9.ZE6m0Q.HdQu_kvEjpB-vV2o3ChFXcuwhUQ"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 46,
+                "name": "March of the Eight",
+                "points": 496,
+                "solves": 22
+            },
+            {
+                "category": "misc",
+                "description": "Check me out in the UMDCTF2023 discord! Also my code is somewhere on GitHub.\r\n\r\nAuthor: `gary`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 44,
+                "name": "ChungusBot v3",
+                "points": 198,
+                "solves": 165
+            },
+            {
+                "category": "misc",
+                "description": "Beheeyem unfortunately lost his UFO password. Thankfully, it was scanned by some weird sensor before he lost it. Can you recover his password?\r\n\r\nNOTE: password.ply has been fixed and updated\r\n\r\nAuthor: `Segal`",
+                "files": [
+                    "/files/49aa3a5dc8c315fa020b17531773298d/password.ply?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NzR9.ZE6m0Q.d-GhsaqTnPNh0TvQeYZvrBcs-Po"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 48,
+                "name": "Beheeyem's Password",
+                "points": 500,
+                "solves": 4
+            },
+            {
+                "category": "misc",
+                "description": "Machoke is flexing so hard I can't seem to take my eyes off of him. Wait... Where's the flag?\r\n\r\nAuthor: `Segal`",
+                "files": [
+                    "/files/cebca36a1db224a0953f583acd81607b/machokes-flex.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NTF9.ZE6m0Q.ocDCLXtlwGwXjucQmLClle0o9jI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 49,
+                "name": "Machoke's Flex",
+                "points": 500,
+                "solves": 8
+            },
+            {
+                "category": "misc",
+                "description": "Sorry about this: our TCP server has got some of its wires crossed. I'm sure you'll figure it out though.\r\n\r\n<i>Note: there is an HTTP server listening and active at the below domain, but due to the TCP wire crossing, you will not be able to reach it with your browser. Figuring out what the server is doing wrong and how to talk to the server is part of the challenge.</i>",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 66,
+                "name": "A Seq By Any Other Name",
+                "points": 500,
+                "solves": 3
+            }
+        ],
+        "mobile": [
+            {
+                "category": "mobile",
+                "description": "Who's That Pokemon? Enter the Pokemon's name to find the flag!\r\n\r\nAuthor: `matlac`",
+                "files": [
+                    "/files/5d7fb1e25934085ebf0bdf5666c111d8/whos_that_pokemon.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NDR9.ZE6m0Q.wR6StkgkpbuBTDgH3ZI-P872taM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 36,
+                "name": "Who's That Pokemon",
+                "points": 376,
+                "solves": 106
+            },
+            {
+                "category": "mobile",
+                "description": "You are stuck in a Pokeball, break out!\r\n\r\nAuthor: `matlac`",
+                "files": [
+                    "/files/e9f1aeb80f843ef663634528b4a7adf3/pokeball_escape.apk?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NzJ9.ZE6m0Q.AXeE7giy9IH3bwywrenxu-d7Mtc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 38,
+                "name": "Pokeball Escape",
+                "points": 439,
+                "solves": 75
+            },
+            {
+                "category": "mobile",
+                "description": "Flamecamp is a new social media app exclusive to Fire type Pokemon. Can you get access to it?\r\n\r\nAuthor: `matlac`",
+                "files": [
+                    "/files/37e0d1eac3ec12b6349141eeb933aee4/flamecamp.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NjJ9.ZE6m0g.R2XCFOGn38qNjYUtFSbyQm9PCbM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 39,
+                "name": "Flamecamp",
+                "points": 498,
+                "solves": 15
+            },
+            {
+                "category": "mobile",
+                "description": "I hate using native libraries so much! I think I forgot a function call somewhere. Can you find it?",
+                "files": [
+                    "/files/9a20c42b138b6adf2e1660bf95539b5d/JNIdorino.apk?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NzN9.ZE6m0Q.Gaazk6aVkdfcR8VqDqycqAtmnqM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 67,
+                "name": "JNIdorino",
+                "points": 486,
+                "solves": 37
+            }
+        ],
+        "pwn": [
+            {
+                "category": "pwn",
+                "description": "gotta catch them all... *right*?\r\n\r\nAuthor: `bfu`",
+                "files": [
+                    "/files/2e93d4c01cf7ecbaf614ac9ddea00563/catch_them_all?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NjV9.ZE6m0g.bj95IIO_uB5adMFQoUbLFoQhomk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 28,
+                "name": "pokemon_game",
+                "points": 490,
+                "solves": 31
+            },
+            {
+                "category": "pwn",
+                "description": "You Want Me To Run ***What***??\r\n\r\nAuthor: `Kkevsterrr`",
+                "files": [
+                    "/files/281d5653d3d53962c88643861aa5b568/youwantmetorunwhat?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NjR9.ZE6m0g.Ses0a2CJ0wLr7LXSo0qUR8ZurHc"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 29,
+                "name": "You Want Me To Run What",
+                "points": 499,
+                "solves": 13
+            },
+            {
+                "category": "pwn",
+                "description": "I bet you can't beat my totally legitimate Magikarp! I'll even let you use your Arceus.\r\n\r\nAuthor: `Ishaan514`",
+                "files": [
+                    "/files/d7bcbc097381d8183b485d7055962f39/splash?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6NzZ9.ZE6m0g.nWke2aREmCkWA1OxfxJDjcwIn9c"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 60,
+                "name": "Splash",
+                "points": 383,
+                "solves": 103
+            },
+            {
+                "category": "pwn",
+                "description": "Bill developed a new PC to store his Pocket Monsters\u2122 in this newfangled blazing fast language! It doesn't even have any unsafe code!\r\n\r\nAuthor: `Triacontakai`",
+                "files": [
+                    "/files/2b0334f8187c560ffbd36d36873c305d/dist.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6Njl9.ZE6m0g.yj6KY-_eo6l16jg_w9tJSyWP4YQ"
+                ],
+                "hints": [
+                    "1. you do not have to touch db/boxes.db to solve the challenge (it probably wont help anyways :P)",
+                    "2. flag.txt is readonly in the container (and therefore on remote). keep this in mind when testing locally",
+                    "3. the author's solution script takes a few minutes to run"
+                ],
+                "id": 61,
+                "name": "Bill's Blazingly Fast Memory Safe Pocket Monster Storage System",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "rev": [
+            {
+                "category": "rev",
+                "description": "Jimmy has a Python program which compiled into something he's never seen. Can you fix it?\r\n\r\nAuthor: `Assgent`",
+                "files": [
+                    "/files/e5fd4e5246ece1702f3ee836eb606f5c/chal?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MTZ9.ZE6m0g.pleV2Dp--prEtXfixBwhPDno_e0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 2,
+                "name": "Welcome to Python!",
+                "points": 357,
+                "solves": 114
+            },
+            {
+                "category": "rev",
+                "description": "\"*Welcome to CMSC216. Weeeeee have a lecture worksheet that the TAs will now hand out. You must write your name, student ID, and discussion session **CORRECTLY** at the top of the worksheet. I have 3**69** students, so any time I need to spend finding out who to grade will cause YOU to lose credit.*\" **(Larry Herman)**\r\n\r\nAuthor: `Assgent`",
+                "files": [
+                    "/files/9d0d26de2a77ea6bf054814dce9c9623/intro_to_c.png?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MjR9.ZE6m0g.kx7bsQrwKutjY9bSB9j45rLt5dI",
+                    "/files/a3ae7bc3625a934297052d3cd51dc5e5/intro_to_c.txt?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MjV9.ZE6m0g.X1jJV_uUPf-rKSZZC8RK7XNerj0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "Introduction to C",
+                "points": 421,
+                "solves": 85
+            },
+            {
+                "category": "rev",
+                "description": "Cleffa worked some magic on this binary but I can't figure out what the spell is doing!\r\n\r\nAuthor: `birch`",
+                "files": [
+                    "/files/2c7665da34cea9f2cfc33a2998ae5ccf/cleffa?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MjJ9.ZE6m0g.IVBKZpifAqJI7MXcFVbFrYooXwE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "Cleffa's Surprise",
+                "points": 468,
+                "solves": 55
+            },
+            {
+                "category": "rev",
+                "description": "Since Jacob wasn't very good at the popular FPS game Counter Strike, he decided to purchase an aimbot from a shady Russian developer!\r\n\r\nHowever, it seems to be doing something weird to his game. Can you figure out what it's doing?\r\n\r\n(CS:GO is not required for this challenge, but you can download it for free on Steam)\r\n\r\n**Only 5 submissions allowed!**\r\nThe flag for this challenge can be in format \"UMDCTF{flag}\" or just \"flag\" instead.\r\n\r\nNote: If you decide to actually use this challenge in CS:GO, remember to start CS:GO with the \"-insecure\" flag or you risk getting banned from the game!\r\n\r\nAuthor: `Assgent`",
+                "files": [
+                    "/files/969652c6b0975eb138c42ef63814a757/CSGO_Aimbot.exe?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MjF9.ZE6m0w.HQM0WsMEJL0zozyVIT35g7Kc6hk"
+                ],
+                "hints": [
+                    "Hint 1: It looks like the shady Russian developer accidentally leaked some of his source code: https://pastebin.com/3ZTQC6wc\n\n",
+                    "Hint 2: If you try to run this aimbot, consider patching the game title and its offsets!"
+                ],
+                "id": 7,
+                "name": "Counter-Strike Global Offensive (Aimbot)",
+                "points": 500,
+                "solves": 6
+            },
+            {
+                "category": "rev",
+                "description": "But like fr... when?\r\n\r\nAuthor: `Kkevsterrr`",
+                "files": [
+                    "/files/1dc223f65bb08d1b8a33250279883f1a/butlikewhen?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MjN9.ZE6m0g._YJTJ0OskPBu2DMUmUlFq7HrSOE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "But Like When",
+                "points": 500,
+                "solves": 4
+            },
+            {
+                "category": "rev",
+                "description": "You get to play Pok\u00e9mon Red! How fun. The flag is somewhere in there :)\r\n\r\nAuthor: `Segal`",
+                "files": [
+                    "/files/e6e83e1e7e84787528cfa8d6bffc9ede/pokered.gbc?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6Njh9.ZE6m0w.D_w_WkXVpW0hVM9gV-pZqkIDPmo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 62,
+                "name": "playtime",
+                "points": 500,
+                "solves": 6
+            },
+            {
+                "category": "rev",
+                "description": "I pulled up to a party but they wouldn't let me in until I named 40 functions! \ud83d\ude21\r\n\r\nAuthor: `birch`",
+                "files": [
+                    "/files/705afbb98d3281e71a3ee9368e9940f7/well-connected.zip?token=eyJ1c2VyX2lkIjozNzcsInRlYW1faWQiOjE4MCwiZmlsZV9pZCI6MTd9.ZE6m0w.8hIkhntThdF9bkAgca4PypR3kO8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "Well connected",
+                "points": 497,
+                "solves": 19
+            }
+        ],
+        "web": [
+            {
+                "category": "web",
+                "description": "Welcome to the Terps Ticketing System! We're currently giving out tickets for the UMDCTF going on right now. Just enter some information and grab your ticket!\r\n\r\nAuthor: `artemis19`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 26,
+                "name": "Terps Ticketing System",
+                "points": 50,
+                "solves": 377
+            },
+            {
+                "category": "web",
+                "description": "Here is an early iteration of Geosint that is more similar to how GeoGuessr loads its Street View panorama. I wonder how we can find the location?\r\n\r\nNote: https://github.com/JustHackingCo/geosint this is not the source for this challenge but it is what the site is based off of :)\r\n\r\nAuthor: `gary`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 24,
+                "name": "notsogeo",
+                "points": 407,
+                "solves": 92
+            },
+            {
+                "category": "web",
+                "description": "We have created a new calculator application to fit all your mathematical needs. Give it a try!\r\n\r\nAuthor: `artemis19`\r\n\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "pop calc",
+                "points": 227,
+                "solves": 157
+            },
+            {
+                "category": "web",
+                "description": "Isn't writing math homework hard? We have created an easy-to-use homework submission portal that allows you to type up your homework. We don't think anyone can get into this server for free answers!\r\n\r\nAuthor: `ap`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 23,
+                "name": "Homework Render",
+                "points": 496,
+                "solves": 22
+            },
+            {
+                "category": "web",
+                "description": "Team Rocket keeps taking down my website! I'm testing out this new type of captcha, but it doesn't seem to be working as expected. None of the choices are valid! Can you solve it for me?\r\n\r\nAuthor: `umasi`, `sd`\r\n\r\n*NOTE:* Flag format is `UMDCTF{}`, with the correct answer in the brackets.\r\n\r\n*NOTE:* Special first blood prize for this challenge!\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 68,
+                "name": "POK\u00e9PTCHA",
+                "points": 500,
+                "solves": 7
+            },
+            {
+                "category": "web",
+                "description": "I've been messing around with WASM lately. Turns out, there's a ton of cool things you can do with it! Time to rewrite everything in Rust.\r\n\r\nAuthor: `veritas`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 57,
+                "name": "i heart wasm",
+                "points": 500,
+                "solves": 6
+            }
+        ]
+    },
+    "title": "UMDCTF 2023",
+    "url": "https://umdctf.io"
+}
