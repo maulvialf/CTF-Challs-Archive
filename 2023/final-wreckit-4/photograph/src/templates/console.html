@@ -1,0 +1,14 @@
+{% extends 'base_al.html' %}
+
+{% block content %}
+<form action="../../../../admin/console" method="post">
+    <div class="container">
+        <label for="query"><b>query</b></label>
+        <input type="text" placeholder="Enter your query" name="query" required>
+        <button type="submit">Execute</button>
+    </div>
+</form><br>
+{% if res %}
+{{res}}
+{% endif %}
+{% endblock content %}

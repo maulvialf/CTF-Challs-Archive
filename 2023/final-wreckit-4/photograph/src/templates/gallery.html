@@ -1,0 +1,25 @@
+{% extends 'base_al.html' %}
+
+{% block content %}
+<br><br>
+<form action="../../gallery/search" method="post">
+    <input type="text" placeholder="Wanna Search Some Photo?" name="search" required>
+    <button type="submit">Search</button>
+</form>
+{% if msg %}
+<h3>not found</h3>
+{% endif %}
+{% if datas or msg %}
+    {% for data in datas %}
+<div class="gallery">
+    <a target="_blank" href="../../../../../../public/{{data.image_path}}">
+      <img src="../../../../../../public/{{data.image_path}}" alt="{{data.name}}" width="600" height="400">
+    </a>
+    <div class="desc"><b>{{data.name}}</b></div>
+    <div class="desc">{{data.description}}</div>
+  </div>
+    {% endfor %}
+{% else %}
+<h3>not added<h3>
+{% endif %}
+{% endblock content %}

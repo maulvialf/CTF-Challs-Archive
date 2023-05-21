@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<script src="https://cdn.tailwindcss.com"></script>
+<html>
+  <div class="relative">
+    <div class="absolute z-10 grid h-screen w-1/2 place-items-center">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4 bg-white">
+          <h1 class="font-bold text-xl mb-2"><%= you %> & <%= partner %> </h1>
+          <p class="text-sm">Mau nikah, catet ya!</p>
+          <br>
+          <p class="text-base">
+            <b>Tanggal, </b><%= date %>
+          </p>
+          <p class="text-base">
+            <b>Di, </b><%= place %>
+          </p>
+        </div>
+      </div>
+    </div>
+    <embed class="-z-10" type="text/html" src="<%= style_path %>" height="1000" width="100%">
+  </div>
+</html>

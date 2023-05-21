@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  ctf-archiver:
+    build:
+      context: .
+      args:
+        - PASSWORD=root
+    ports:
+      - "10000:8000"
+      - "10022:22"
+
+  meilisearch:
+    image: getmeili/meilisearch:v1.1
+    environment:
+      - MEILI_NO_ANALYTICS=true

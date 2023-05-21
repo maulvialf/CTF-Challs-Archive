@@ -1,0 +1,15 @@
+# boot.yaml
+fiber:
+  - name: gone-wrong
+    port: 3000
+    enabled: true
+    middleware:
+      logging:
+        enabled: true
+
+sqlite:
+  - name: user-db
+    enabled: true
+    domain: "*"
+    database:
+      - name: user

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photograph App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<style>
+table, th, td{
+    border:1px solid black;
+}
+</style>
+<body>
+    <main>
+<h1>Photograph App</h1>
+{% if message %}
+<h3>{{message}}</h3>
+{% endif %}
+<h2>Login</h2>
+<form action="../../../auth/login" method="post">
+    <div class="container">
+        <label for="eml"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+        <button type="submit">Login</button>
+    </div>
+</form><br>
+
+<h2>Regist</h2>
+<form action="../../../auth/regist" method="post">
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" required>
+
+        <label for="eml"><b>email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+        <button type="submit">Regist</button>
+    </div>
+</form>
+
+</main>
+</body>
+</html>

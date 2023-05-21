@@ -1,0 +1,37 @@
+{% extends 'base_al.html' %}
+
+{% block content %}
+<h2>Upload new photo</h2>
+<form action="../../../../../gallery/add" method="post" enctype="multipart/form-data">
+    <div class="container">
+        <label for="title"><b>photo title</b></label><br>
+        <input type="text" placeholder="Enter photo title" name="title" required><br>
+        <br>
+        <label for="desc"><b>photo description</b></label><br>
+        <textarea name="desc" rows="10" cols="30" placeholder="Enter photo description" name="desc" required></textarea><br>
+        <br>
+        <label for="picture"><b>upload photo</b></label><br>
+        <input type="file" name="picture"><br>
+        <br>
+        <button type="submit">Add</button>
+    </div>
+</form><br>
+<h3>Super Admin? <a href="../../../../../admin/console">console</a></h3>
+<h2>List Photo</h2>
+{% if datas %}
+    {% for data in datas %}
+<div class="gallery">
+    <a target="_blank" href="../../../../../../public/{{data.image_path}}">
+      <img src="../../../../../../public/{{data.image_path}}" alt="{{data.name}}" width="600" height="400">
+    </a>
+    <div class="title"><b>{{data.name}}</b></div>
+    <div class="desc">{{data.description}}</div>
+    <br>
+    <div class="desc"><a href="../../../../../../gallery/change/{{data.id}}">change visibility</a></div>
+    <div class="desc"><a href="../../../../../../gallery/delete/{{data.id}}" onClick="return confirm('Are you sure?')">delete</a></div>
+  </div>
+    {% endfor %}
+{% else %}
+<h3>not added<h3>
+{% endif %}
+{% endblock content %}

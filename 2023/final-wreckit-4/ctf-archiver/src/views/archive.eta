@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<script src="https://cdn.tailwindcss.com"></script>
+<html>
+  <div class="grid h-screen place-items-center bg-indigo-500">
+    <h1 class="block tracking-wide text-white text-4xl font-bold px-2">Preserving CTFd Challenges Effortlessly!</h1>
+    <form class="w-full h-full max-w-lg" action="/archive" method="POST">
+      <div class="flex flex-wrap -mx-3 mb-6">
+        <div class="w-full px-3">
+          <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2"> Name </label>
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="name" name="name" type="text" placeholder="Name" required>
+        </div>
+        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+          <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2"> Username </label>
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="username" name="username" type="text" placeholder="Username" required>
+        </div>
+        <div class="w-full md:w-1/2 px-3">
+          <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2"> Password </label>
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="password" name="password" type="password" placeholder="Password" required>
+        </div>
+      </div>
+      <div class="flex flex-wrap -mx-3 mb-6">
+        <div class="w-full px-3">
+          <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2"> CTFd URL </label>
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="url" name="url" type="text" placeholder="https://ctf.wreckit.id" required>
+        </div>
+      </div>
+      <div class="mb-4">
+        <label class="relative inline-flex items-center cursor-pointer">
+          <input id="is_public" name="is_public" type="checkbox" class="sr-only peer">
+          <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-indigo-300 dark:peer-focus:ring-indigo-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-indigo-600"></div>
+          <span class="ml-3 text-sm font-medium text-white">Make Public ?</span>
+        </label>
+      </div>
+      <div>
+        <button type="submit" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-indigo-700 rounded-lg focus:ring-4 focus:ring-indigo-200 dark:focus:ring-indigo-900 hover:bg-indigo-800"> Archive </button>
+      </div>
+    </form>
+  </div>
+</html>

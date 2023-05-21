@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<script src="https://cdn.tailwindcss.com"></script>
+<html>
+  <div class="grid h-screen place-items-center">
+    <h1 class="block uppercase tracking-wide text-gray-700 text-xl font-bold mb-2 ">Wedding Generator</h1>
+    <form class="w-full max-w-lg" action="/" method="POST">
+      <div class="flex flex-wrap -mx-3 mb-6">
+        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"> Kamu </label>
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="you" name="you" type="text" placeholder="John" required>
+        </div>
+        <div class="w-full md:w-1/2 px-3">
+          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"> Dia </label>
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="partner" name="partner" type="text" placeholder="Jane" required>
+        </div>
+      </div>
+      <div class="flex flex-wrap -mx-3 mb-6">
+        <div class="w-full px-3">
+          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"> Kapan </label>
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="date" name="date" type="date" placeholder="" required>
+        </div>
+      </div>
+      <div class="flex flex-wrap -mx-3 mb-6">
+        <div class="w-full px-3">
+          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"> Foto kalian </label>
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="image" name="image" type="text" placeholder="https://nikahmuda.com/foto-nikah.png" required>
+        </div>
+      </div>
+      <div class="flex flex-wrap -mx-3 mb-6">
+        <div class="w-full px-3">
+          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"> Dimana </label>
+          <textarea class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="place" name="place" type="textarea" placeholder="Bogor" required></textarea>
+        </div>
+      </div>
+      <button type="submit" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800"> Buat undangan </button>
+    </form>
+  </div>
+</html>

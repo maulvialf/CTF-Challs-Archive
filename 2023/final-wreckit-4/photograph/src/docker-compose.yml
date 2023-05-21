@@ -1,0 +1,39 @@
+version: "3"
+
+services:
+  db:
+    image: postgres:15.1-alpine
+    volumes:
+      - ./photograph:/application
+      - ./photograph/db/dummy.sql:/docker-entrypoint-initdb.d/create_tables.sql
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=SECRET
+    networks:
+      - python-network
+
+  photograph:
+    container_name: photograph
+    environment:
+      - DB_PASSWORD=SECRET
+    build: 
+      context: ./photograph
+      args:
+        - PASSWORD='SECRET'
+    ports:
+      - "13000:1337"
+      - "13022:22"
+    volumes:
+      - ./photograph:/src
+    restart: always
+    depends_on:
+      - db
+    networks:
+      - python-network
+    links:
+      - db
+
+networks:
+  python-network:
+    driver: bridge

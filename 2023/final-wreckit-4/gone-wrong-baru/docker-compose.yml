@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  gone-wrong-fe:
+    restart: always
+    container_name: gone-wrong-fe
+    build:
+      context: ./gone-wrong
+      dockerfile: Dockerfile.fe
+    depends_on:
+      - gone-wrong
+    ports:
+      - '14000:80'
+
+  gone-wrong:
+    restart: always
+    container_name: gone-wrong
+    build:
+      context: ./gone-wrong
+      dockerfile: Dockerfile
+      args:
+        - PASSWORD=toor
+    ports:
+      - '14022:22'
+    volumes:
+      - ./receiver-and-checker/challenges/flags/gone-wrong.txt:/flag.txt:ro
+      - gocache:/root/.cache/go-build
+
+volumes:
+  gocache:

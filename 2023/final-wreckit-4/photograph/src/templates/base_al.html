@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photograph App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<style>
+table, th, td{
+    border:1px solid black;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.title {
+  padding: 1px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.skill-block {
+  width: 30%;
+}
+
+@media (min-width: 991px) and (max-width:1200px) {
+  .skill-block {
+    padding: 32px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .skill-block {
+    padding: 56px !important;
+  }
+}
+
+body {
+  background-color: #eeeeee;
+}
+</style>
+<body>
+    <main>
+        <a href="../../../../">home</a>
+        <a href="../../../../gallery/">gallery</a>
+        <a href="../../../../profile/{{ akun.id }}">profile</a>
+        <a href="../../../../auth/logout">logout</a>
+        {% block content %}
+        
+        {% endblock content %}
+    </main>
+</body>
+</html>
